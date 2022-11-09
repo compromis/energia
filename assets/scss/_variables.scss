@@ -9,4 +9,28 @@
   --base-font: neue-montreal, sans-serif;
   --border-width: 3px;
   --marquee-height: 8vh;
+  --daytime-gradient: linear-gradient(
+    180deg,
+    hsl(193deg 51% 87%) 0%,
+    hsl(175deg 27% 86%) 33%,
+    hsl(124deg 17% 87%) 48%,
+    hsl(73deg 26% 84%) 58%,
+    hsl(55deg 36% 82%) 67%,
+    hsl(49deg 51% 80%) 74%,
+    hsl(46deg 64% 78%) 81%,
+    hsl(45deg 75% 76%) 89%,
+    hsl(44deg 84% 73%) 100%
+  );
+  --nighttime-gradient: linear-gradient(
+    180deg,
+    hsla(263deg 22% 20%) 0%,
+    hsla(285deg 24% 24% / 97%) 33%,
+    hsla(308deg 28% 27% / 93%) 48%,
+    hsla(323deg 35% 33% / 90%) 58%,
+    hsla(334deg 41% 38% / 85%) 67%,
+    hsla(343deg 44% 43% / 80%) 74%,
+    hsla(352deg 44% 49% / 75%) 81%,
+    hsla(2deg 51% 53% / 75%) 89%,
+    hsla(12deg 62% 54% / 75%) 100%
+  );
 }
