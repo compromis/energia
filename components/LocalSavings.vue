@@ -16,38 +16,43 @@
         <span class="visually-hidden">Expandir llista</span>
       </button>
     </div>
-    <Transition name="fade">
-      <div v-if="selectedMunicipality" class="details" key="details">
-        <article class="details-card">
-          <div class="details-card-header">
-            <h3 class="details-title">{{ selectedMunicipality.municipality}}</h3>
-            <button @click="selectedMunicipality = null" class="ms-auto">Enrrere</button>
-          </div>
-          <div class="details-card-content">
-            <div class="details-overview">
-              <div class="details-overview-row">
-                Població <span class="spacer"/> <strong>{{ selectedMunicipality.population }}</strong>
+    <Teleport to="body">
+      <Transition name="fade">
+        <div v-if="selectedMunicipality" class="details" key="details">
+          <article class="details-card">
+            <div class="details-card-header">
+              <h3 class="details-title">{{ selectedMunicipality.municipality}}</h3>
+              <button @click="selectedMunicipality = null" class="close-button ms-auto">
+                <IconsClose />
+                <span class="visually-hidden">Tancar</span>
+              </button>
+            </div>
+            <div class="details-card-content">
+              <div class="details-overview">
+                <div class="details-overview-row">
+                  Població <span class="spacer"/> <strong>{{ selectedMunicipality.population }}</strong>
+                </div>
+                <div class="details-overview-row">
+                  Consum per habitatge <span class="spacer"/> <strong>{{ selectedMunicipality.DkWh }} KWh</strong>
+                </div>
+                <div class="details-overview-row">
+                  Potència instal·lable <span class="spacer"/> <strong>{{ selectedMunicipality.PMWp }} MWatt</strong>
+                </div>
               </div>
-              <div class="details-overview-row">
-                Consum per habitatge <span class="spacer"/> <strong>{{ selectedMunicipality.DkWh }} KWh</strong>
+              <div class="details-energy details-big">
+                <strong class="number"><span id="annotatedEnergy">{{ selectedMunicipality.EGWh }} GWh</span></strong>
+                <span class="label">Energia produïble en un any</span>
               </div>
-              <div class="details-overview-row">
-                Potència instal·lable <span class="spacer"/> <strong>{{ selectedMunicipality.PMWp }} MWatt</strong>
+              <div class="details-population details-big">
+                <strong class="number"><span id="annotatedReach">{{ selectedMunicipality.reach }}</span> <span class="pill">{{ selectedMunicipality.factor }}% de la població</span></strong>
+                <span class="label">Persones que podrien ser suministrades</span>
               </div>
             </div>
-            <div class="details-energy details-big">
-              <strong class="number"><span id="annotatedEnergy">{{ selectedMunicipality.EGWh }} GWh</span></strong>
-              <span class="label">Energia produïble en un any</span>
-            </div>
-            <div class="details-population details-big">
-              <strong class="number"><span id="annotatedReach">{{ selectedMunicipality.reach }}</span> <span class="pill">{{ selectedMunicipality.factor }}% de la població</span></strong>
-              <span class="label">Persones que podrien ser suministrades</span>
-            </div>
-          </div>
-        </article>
-        <button @click="selectedMunicipality = null" aria-hidden="true" class="backdrop"></button>
-      </div>
-    </Transition>
+          </article>
+          <button @click="selectedMunicipality = null" aria-hidden="true" class="backdrop"></button>
+        </div>
+      </Transition>
+    </Teleport>
   </ElementsSection>
 </template>
 
@@ -177,21 +182,32 @@ watch(selectedMunicipality, async (newMunicipality) => {
 }
 
 .details {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 100;
+  font-family: var(--base-font);
+
   &-card {
+    position: relative;
     border: 2px var(--black) solid;
     border-radius: 1rem;
     --card-padding: 1.5rem;
     background: var(--white);
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
+    z-index: 110;
 
     &-header {
       display: flex;
+      align-items: center;
       border-bottom: 2px var(--black) solid;
       padding: var(--card-padding);
+      line-height: 1;
+      font-size: clamp(1.25rem, 2vw, 3rem); //md-lg
+
+      .close-button {
+        font-size: 1em;
+      }
     }
 
     &-content {
@@ -208,7 +224,8 @@ watch(selectedMunicipality, async (newMunicipality) => {
   &-title {
     font-family: var(--base-font);
     font-weight: normal;
-    font-size: clamp(1.25rem, 2vw, 3rem); // md-lg
+    font-size: 1em;
+    margin: 0;
   }
 
   &-overview {
@@ -274,16 +291,7 @@ watch(selectedMunicipality, async (newMunicipality) => {
     right: 0;
     bottom: 0;
     z-index: 5;
+    cursor: default;
   }
-}
-
-.v-enter-active,
-.v-leave-active {
-  transition: opacity 0.5s ease;
-}
-
-.v-enter-from,
-.v-leave-to {
-  opacity: 0;
 }
 </style>

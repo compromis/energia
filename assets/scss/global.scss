@@ -1,7 +1,22 @@
 @import 'variables';
 @import 'fonts';
+@import 'transitions';
 
 .base-level {
   position: relative;
   z-index: 1;
+}
+
+.icon {
+  height: 1em;
+  width: 1em;
+}
+
+button {
+  appearance: none;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: inherit;
 }
