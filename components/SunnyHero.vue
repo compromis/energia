@@ -117,7 +117,7 @@ onMounted(() => {
   &-tag {
     display: inline-block;
     font-family: var(--serif-font);
-    font-size: clamp(1rem, 2vw, 2.5rem);
+    font-size: clamp(1rem, 2vw, 2.5rem); // md
     border: var(--border-width) var(--black) solid;
     border-radius: 10rem;
     padding: .6rem 1rem .4rem 1rem;
@@ -125,7 +125,7 @@ onMounted(() => {
 
   &-main {
     display: block;
-    font-size: clamp(6rem, 10vw, 12rem);
+    font-size: clamp(6rem, 10vw, 12rem);  // xxl
     line-height: .9;
     margin-top: .5rem;
   }

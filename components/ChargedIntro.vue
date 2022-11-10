@@ -1,12 +1,9 @@
 <template>
-  <section>
-    Hello
-  </section>
+  <ElementsSection id="intro" class="intro">
+    Text
+  </ElementsSection>
 </template>
 
 <style lang="scss" scoped>
-section {
-  height: 200vh;
-  background: var(--black);
-}
+
 </style>

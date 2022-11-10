@@ -4,6 +4,7 @@
       <SunnyHero />
       <div class="base-level">
         <ChargedIntro />
+        <LocalSavings />
       </div>
     </main>
   </div>

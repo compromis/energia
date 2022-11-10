@@ -21,3 +21,11 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: neue-montreal;
+  src: url('../fonts/neuemontreal-bold.woff2') format('woff2'),
+       url('../fonts/neuemontreal-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
