@@ -1,6 +1,9 @@
 <template>
   <ElementsSection id="local" class="local" color="blue">
-    <h2 class="local-title">Calcula l’energia que es pot<br>generar al sostres del teu muncipi.</h2>
+    <template #title>
+      Calcula l’energia que es pot<br>generar al sostres del teu muncipi.
+    </template>
+
     <div :class="['local-selector', { expanded: expanded || filter }]" key="search">
       <div class="local-search">
         <input type="search" v-model="filter" placeholder="Escriu el teu municipi..." />
@@ -17,7 +20,7 @@
       </button>
     </div>
     <Teleport to="body">
-      <Transition name="fade">
+      <Transition name="pop">
         <div v-if="selectedMunicipality" class="details" key="details">
           <article class="details-card">
             <div class="details-card-header">
@@ -91,14 +94,6 @@ watch(selectedMunicipality, async (newMunicipality) => {
 
 <style lang="scss" scoped>
 .local {
-  &-title {
-    font-family: var(--serif-font);
-    font-weight: bold;
-    letter-spacing: 0;
-    font-size: clamp(2rem, 3vw, 4rem); // lg
-    margin-bottom: 10vh;
-  }
-
   &-selector {
     position: relative;
 
@@ -109,7 +104,7 @@ watch(selectedMunicipality, async (newMunicipality) => {
       bottom: 0;
       left: 0;
       right: 0;
-      background: linear-gradient(to bottom, transparent, var(--blue));
+      background: linear-gradient(to bottom, #{rgba(#cee8ef, 0)}, var(--blue));
       border: 0;
       cursor: pointer;
       height: 100px;

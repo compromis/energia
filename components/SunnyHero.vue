@@ -94,6 +94,7 @@ onMounted(() => {
   background-image: var(--daytime-gradient);
   height: calc(100vh - var(--marquee-height));
   place-items: center;
+  overflow: hidden;
 }
 
 .night-time {

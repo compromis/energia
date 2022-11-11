@@ -1,6 +1,8 @@
 <template>
   <section :id="id" :class="['section', `section-${color}`]">
     <div class="card">
+      <h2 class="card-title"><slot name="title" /></h2>
+
       <slot />
     </div>
   </section>
@@ -38,7 +40,7 @@ onMounted(() => {
 <style lang="scss" scoped>
 .section {
   background: var(--black);
-  padding: 2rem;
+  padding: var(--main-padding);
   font-family: var(--base-font);
 
   &-yellow {
@@ -51,10 +53,19 @@ onMounted(() => {
 }
 
 .card {
+  --card-padding: 2rem;
   background: var(--section-color, var(--yellow));
-  padding: 2rem;
+  padding: var(--card-padding);
   border-radius: 2rem;
   max-width: 2500px;
   margin: 0 auto;
+
+  &-title {
+    font-family: var(--serif-font);
+    font-weight: bold;
+    letter-spacing: 0;
+    font-size: clamp(2rem, 3vw, 4rem); // lg
+    margin-bottom: 10vh;
+  }
 }
 </style>

@@ -4,7 +4,9 @@
       <SunnyHero />
       <div class="base-level">
         <ChargedIntro />
-        <LocalSavings />
+        <RainOnParade />
+        <NewModel />
+        <LocalEnergy />
       </div>
     </main>
   </div>
@@ -21,5 +23,8 @@ useHead({
 <style lang="scss" scoped>
 main {
   color: var(--black);
+  background: var(--black);
+  --main-padding: 2rem;
+  font-family: var(--base-font);
 }
 </style>
