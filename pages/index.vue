@@ -1,24 +1,16 @@
 <template>
-  <div id="smooth-wrapper">
-    <main id="smooth-content">
-      <SunnyHero />
-      <div class="base-level">
-        <ChargedIntro />
-        <RainOnParade />
-        <NewModel />
-        <LocalEnergy />
-      </div>
-    </main>
-  </div>
+  <main>
+    <SunnyHero />
+    <div class="base-level">
+      <ChargedIntro />
+      <RainOnParade />
+      <NewModel />
+      <LocalEnergy />
+      <ShedLight />
+      <MoreInfo />
+    </div>
+  </main>
 </template>
-
-<script setup>
-useHead({
-  script: [
-    { hid: 'gsap', src: 'https://assets.codepen.io/16327/ScrollSmoother.min.js' }
-  ]
-})
-</script>
 
 <style lang="scss" scoped>
 main {

@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@compromis/blobby": "^1.1.8",
-    "gsap": "^3.11.3",
+    "gsap": "npm:@gsap/shockingly",
     "lottie-web": "^5.9.6",
     "rough-notation": "^0.5.1",
     "vue-marquee-text-component": "^2.0.1"

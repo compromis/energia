@@ -4,11 +4,23 @@
   --blue: #cee8ef;
   --yellow: #f3b955;
   --light-yellow: #f4d682;
+
   --serif-font: henrietta, serif;
   --headline-font: henrietta-condensed, serif;
   --base-font: neue-montreal, sans-serif;
+
+  --text-base: clamp(1.25rem, 2.25vw, 2rem);
+  --text-md2: clamp(1rem, 2vw, 2.5rem);
+  --text-md: clamp(1.5rem, 2vw, 3rem);
+  --text-lg: clamp(2rem, 3vw, 4rem);
+  --text-xl: clamp(2rem, 3vw, 4rem);
+  --text-2xl: clamp(3rem, 5vw, 6rem);
+  --text-3xl: clamp(5rem, 8vw, 10rem);
+  --text-4xl: clamp(6rem, 10vw, 12rem);
+
   --border-width: 3px;
   --marquee-height: 8vh;
+
   --daytime-gradient: linear-gradient(
     180deg,
     hsl(193deg 51% 87%) 0%,

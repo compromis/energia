@@ -23,11 +23,21 @@ const route = useRoute()
         </li>
       </template>
     </b-nav>
-    <nuxt-page />
-    <div class="footer-wrapper">
-      <div class="container">
-        <b-footer />
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <nuxt-page />
+        <div class="footer-wrapper">
+          <div class="container">
+            <b-footer variant="light" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.footer-wrapper {
+  background: var(--black);
+}
+</style>

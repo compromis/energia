@@ -9,8 +9,7 @@
 </template>
 
 <script setup>
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+const { $gsap } = useNuxtApp()
 
 const props = defineProps({
   color: {
@@ -25,7 +24,7 @@ const props = defineProps({
 })
 
 onMounted(() => {
-  gsap.from('#' + props.id + ' .card', {
+  $gsap.from('#' + props.id + ' .card', {
     scrollTrigger: {
       trigger: '#' + props.id + ' .card',
       start: "top bottom",
@@ -41,6 +40,7 @@ onMounted(() => {
 .section {
   background: var(--black);
   padding: var(--main-padding);
+  padding-top: 0;
   font-family: var(--base-font);
 
   &-yellow {
@@ -64,7 +64,7 @@ onMounted(() => {
     font-family: var(--serif-font);
     font-weight: bold;
     letter-spacing: 0;
-    font-size: clamp(2rem, 3vw, 4rem); // lg
+    font-size: var(--text-lg); // lg
     margin-bottom: 10vh;
   }
 }

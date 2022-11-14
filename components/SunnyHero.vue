@@ -23,38 +23,32 @@
 </template>
 
 <script setup>
-import { gsap } from 'gsap'
-import { CustomEase } from 'gsap/CustomEase'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
-gsap.registerPlugin(CustomEase, ScrollTrigger)
+const { $gsap, $CustomEase, $ScrollSmoother } = useNuxtApp()
 
 onMounted(() => {
-  gsap.registerPlugin(ScrollSmoother)
-
-  const smoother = ScrollSmoother.create({
+  const smoother = $ScrollSmoother.create({
     smooth: 0.5,
     effects: true
   })
 
-  gsap.to('#sunny-guy', {
+  $gsap.to('#sunny-guy', {
     top: '10vh',
     rotation: 0,
     opacity: 1,
     y: '',
     duration: 2,
     delay: .5,
-    ease: CustomEase.create('custom', 'M0,0 C0,0 0.05,0.228 0.09,0.373 0.12,0.484 0.139,0.547 0.18,0.654 0.211,0.737 0.235,0.785 0.275,0.864 0.291,0.896 0.303,0.915 0.325,0.944 0.344,0.97 0.356,0.989 0.38,1.009 0.413,1.039 0.441,1.058 0.48,1.08 0.496,1.089 0.51,1.091 0.53,1.095 0.552,1.099 0.567,1.101 0.59,1.099 0.623,1.097 0.646,1.094 0.68,1.085 0.768,1.061 0.798,0.998 0.888,0.982 0.964,0.968 1,1 1,1')
+    ease: $CustomEase.create('custom', 'M0,0 C0,0 0.05,0.228 0.09,0.373 0.12,0.484 0.139,0.547 0.18,0.654 0.211,0.737 0.235,0.785 0.275,0.864 0.291,0.896 0.303,0.915 0.325,0.944 0.344,0.97 0.356,0.989 0.38,1.009 0.413,1.039 0.441,1.058 0.48,1.08 0.496,1.089 0.51,1.091 0.53,1.095 0.552,1.099 0.567,1.101 0.59,1.099 0.623,1.097 0.646,1.094 0.68,1.085 0.768,1.061 0.798,0.998 0.888,0.982 0.964,0.968 1,1 1,1')
   })
 
-  gsap.to('#night-time', {
+  $gsap.to('#night-time', {
     opacity: 0,
     duration: 1,
     delay: .75,
     ease: 'none'
   })
 
-  gsap.to('#panel-guy', {
+  $gsap.to('#panel-guy', {
     scrollTrigger: {
       trigger: '.sunny-hero',
       start: "top top",
@@ -64,7 +58,7 @@ onMounted(() => {
     x: '+4vw'
   })
 
-  gsap.to('#sunny-guy', {
+  $gsap.to('#sunny-guy', {
     scrollTrigger: {
       trigger: '.sunny-hero',
       start: 'top top',
@@ -74,7 +68,7 @@ onMounted(() => {
     y: '+40vh'
   })
 
-  gsap.to('#sparkle', {
+  $gsap.to('#sparkle', {
     scrollTrigger: {
       trigger: '.sunny-hero',
       start: 'top top',
@@ -118,7 +112,7 @@ onMounted(() => {
   &-tag {
     display: inline-block;
     font-family: var(--serif-font);
-    font-size: clamp(1rem, 2vw, 2.5rem); // md
+    font-size: var(--text-md2);
     border: var(--border-width) var(--black) solid;
     border-radius: 10rem;
     padding: .6rem 1rem .4rem 1rem;
@@ -126,7 +120,7 @@ onMounted(() => {
 
   &-main {
     display: block;
-    font-size: clamp(6rem, 10vw, 12rem);  // xxl
+    font-size: var(--text-4xl);
     line-height: .9;
     margin-top: .5rem;
   }
@@ -136,7 +130,7 @@ onMounted(() => {
   background: var(--black);
   font-family: var(--base-font);
   color: var(--yellow);
-  font-size: clamp(1.5rem, 2vw, 3rem);
+  font-size: var(--text-md);
   padding: .5rem 0;
   height: var(--marquee-height);
   overflow: hidden;

@@ -18,10 +18,8 @@
 
 <script setup>
 import lottie from 'lottie-web'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-gsap.registerPlugin(ScrollTrigger)
+const { $gsap } = useNuxtApp()
 
 onMounted(() => {
   lottie.loadAnimation({
@@ -48,17 +46,18 @@ onMounted(() => {
     path: 'https://maxst.icons8.com/vue-static/landings/animated-icons/icons/home/home.json'
   })
 
-  gsap.from('.imagine', {
+  $gsap.from('.imagine', {
     scrollTrigger: {
       trigger: '.imagine',
       start: 'top 70%',
       end: '+=400',
       scrub: true,
+      toggleClass: 'visible'
     },
     opacity: 0
   })
 
-  gsap.from('.first', {
+  $gsap.from('.first', {
     scrollTrigger: {
       trigger: '.first',
       start: 'top 85%',
@@ -68,7 +67,7 @@ onMounted(() => {
     opacity: 0
   })
 
-  gsap.from('.second', {
+  $gsap.from('.second', {
     scrollTrigger: {
       trigger: '.second',
       start: 'top 85%',
@@ -78,7 +77,7 @@ onMounted(() => {
     opacity: 0
   })
 
-  gsap.from('.third', {
+  $gsap.from('.third', {
     scrollTrigger: {
       trigger: '.third',
       start: 'top 85%',
@@ -104,7 +103,7 @@ onMounted(() => {
   background: linear-gradient(to right, var(--blue), var(--yellow));
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: clamp(3rem, 5vw, 6rem); // xl
+  font-size: var(--text-2xl);
   letter-spacing: 0;
   line-height: .9;
   text-align: center;
@@ -124,7 +123,7 @@ onMounted(() => {
     border: var(--border-width) var(--white) solid;
     border-radius: 2rem;
     padding: 2rem;
-    font-size: clamp(2rem, 3vw, 4rem); // xl
+    font-size: var(--text-xl);
     line-height: 1;
     width: 33%;
     aspect-ratio: 1/1;
