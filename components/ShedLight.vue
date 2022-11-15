@@ -37,4 +37,15 @@ defineProps({
     margin-top: 15vh;
   }
 }
+
+@include media-breakpoint-down(sm) {
+  .fake-items {
+    flex-direction: column;
+    gap: 0;
+
+    .second {
+      margin-top: 0;
+    }
+  }
+}
 </style>

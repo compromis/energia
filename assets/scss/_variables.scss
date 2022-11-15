@@ -14,12 +14,12 @@
   --text-md: clamp(1.5rem, 2vw, 3rem);
   --text-lg: clamp(2rem, 3vw, 4rem);
   --text-xl: clamp(2rem, 3vw, 4rem);
-  --text-2xl: clamp(3rem, 5vw, 6rem);
-  --text-3xl: clamp(5rem, 8vw, 10rem);
-  --text-4xl: clamp(6rem, 10vw, 12rem);
+  --text-2xl: clamp(2.75rem, 5vw, 6rem);
+  --text-3xl: clamp(3rem, 7.5vw, 10rem);
+  --text-4xl: clamp(4.5rem, 10vw, 12rem);
 
   --border-width: 3px;
-  --marquee-height: 8vh;
+  --marquee-height: calc(var(--text-md) * 2);
 
   --daytime-gradient: linear-gradient(
     180deg,
@@ -45,4 +45,10 @@
     hsla(2deg 51% 53% / 75%) 89%,
     hsla(12deg 62% 54% / 75%) 100%
   );
+}
+
+@include media-breakpoint-down(sm) {
+  :root {
+    --border-width: 2px;
+  }
 }

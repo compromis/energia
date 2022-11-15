@@ -75,8 +75,7 @@ onMounted(() => {
       trigger: '.imagine',
       start: 'bottom center',
       end: '+=400',
-      scrub: true,
-      markers: true
+      scrub: true
     },
     opacity: 1
   })
@@ -170,6 +169,16 @@ onMounted(() => {
       :deep(path) {
         stroke: white;
       }
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .things-to-imagine {
+    flex-direction: column;
+
+    li {
+      width: 100%;
     }
   }
 }

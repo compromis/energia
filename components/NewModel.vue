@@ -126,11 +126,14 @@ onMounted(() => {
     li {
       display: flex;
       align-items: center;
+      line-height: 1;
+      margin-bottom: .5em;
     }
 
     svg {
       height: .5em;
       margin-right: .25em;
+      flex-shrink: 0;
     }
   }
 
@@ -160,6 +163,18 @@ onMounted(() => {
     p {
       width: 50%;
       line-height: 1.25;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .content {
+    .text {
+      flex-direction: column;
+
+      p {
+        width: 100%;
+      }
     }
   }
 }

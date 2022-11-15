@@ -38,7 +38,7 @@ onMounted(() => {
       onToggle: () => {
         if (!hasAnnotated.value) {
           const e = document.querySelector(`#${props.id} h3`)
-          const annotation = annotate(e, { type: 'strike-through', color: '#f4520b', strokeWidth: 3 })
+          const annotation = annotate(e, { type: 'strike-through', multiline: true, color: '#f4520b', strokeWidth: 3 })
           annotation.show()
           hasAnnotated.value = true
         }
@@ -122,6 +122,16 @@ onMounted(() => {
     }
     .drawer-content::before {
       height: 0;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .drawer {
+    &-header {
+      .toggle {
+        flex-shrink: 0;
+      }
     }
   }
 }

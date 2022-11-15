@@ -106,9 +106,26 @@ onMounted(() => {
     z-index: 1000;
     opacity: 0;
     transition: 1s ease;
+    height: 100%;
 
     &.active {
       opacity: 1;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .cloudy-storm {
+      flex-direction: column;
+      width: calc(100% - 30px * 2);
+    }
+
+    .cloudy-quote {
+      text-align: center;
+    }
+
+    .evil-guy {
+      width: 75%;
+      margin-bottom: 2rem;
     }
   }
 </style>
