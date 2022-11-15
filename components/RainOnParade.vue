@@ -3,8 +3,8 @@
     <div class="cloudy-storm" data-speed="0.5" data-lag="0.25">
       <GuysEvilGuy class="evil-guy" data-lag="0.2" />
       <div class="cloudy-quote" data-lag="0.05">
-        <p class="cloudy-quote-text">“Impossible!”</p>
-        <span class="cloudy-quote-author">&mdash; Every Multinacional Energètica</span>
+        <p class="cloudy-quote-text">{{ t.QUOTE }}</p>
+        <span class="cloudy-quote-author">&mdash; {{ t.AUTHOR }}</span>
       </div>
     </div>
   </section>
@@ -18,12 +18,19 @@
 <script setup>
 const { $gsap } = useNuxtApp()
 
+defineProps({
+  t: {
+    type: Object,
+    required: true
+  }
+})
+
 onMounted(() => {
   const tl = $gsap.timeline({
     scrollTrigger: {
       trigger: ".cloudy-storm",
       start: "top 70%",
-      end: "+=1000",
+      end: "+=1500",
       scrub: 1,
       snap: {
         snapTo: "labels",
@@ -35,17 +42,17 @@ onMounted(() => {
   })
 
   tl.addLabel("start")
-    .from(".cloudy-storm", {scale: 1.8, x: "-100vw", autoAlpha: 0})
+    .from(".cloudy-storm", { scale: 1.8, x: "-100vw", autoAlpha: 0, duration: 3 })
     .addLabel("spin")
-    .to(".cloudy-storm", { x:"+=20", yoyo: true, repeat: 5, delay: 3 })
+    .to(".cloudy-storm", { x:"+=20", yoyo: true, repeat: 5, delay: 3, duration: 5 })
     .addLabel("end")
-    .to(".cloudy-storm", { scale: 0.8, autoAlpha: 0, delay: 3 })
+    .to(".cloudy-storm", { scale: 0.8, autoAlpha: 0, delay: 3, duration: 3 })
 
   $gsap.to('.rain', {
     scrollTrigger: {
       trigger: ".cloudy-storm",
       start: "top 70%",
-      end: "+=1000",
+      end: "+=1500",
       scrub: 1,
       toggleClass: { targets: ".rain", className: "active" }
     }
@@ -54,8 +61,8 @@ onMounted(() => {
 </script>
 
 <style lang="scss" scoped>
-  #rain-on-parades {
-    overflow: hidden;
+  #rain-on-parade {
+    margin-bottom: 25vh;
   }
 
   .cloudy-storm {

@@ -15,39 +15,39 @@
 <script setup>
 // Translations
 const sunnyHero = {
-  OVERTITLE: 'Amb l\'energia',
-  TITLE: `Comencem<br>pel sostre`,
-  MARQUEE: 'Un nou model energètic' 
+  OVERTITLE: 'Con la energía',
+  TITLE: `Empezamos<br>por el techo`,
+  MARQUEE: 'Un nuevo model energético' 
 }
 
 const chargedIntro = {
-  TITLE: `Imagina’t<br>una energia...`,
-  BLOCK1: 'Sostenible i democràtica',
-  BLOCK2: 'Amb una factura barata',
-  BLOCK3: 'Aprofitant espais i recursos existents sense destruir el territori'
+  TITLE: `Imagínate<br>una energía...`,
+  BLOCK1: 'Sostenible y democrática',
+  BLOCK2: 'Con una factura barata',
+  BLOCK3: 'Aprovechando espacios y recursos existentes sin destruir el territorio'
 }
 
 const rainOnParade = {
-  QUOTE: '“Impossible!”',
-  AUTHOR: 'Every Multinacional Energètica'
+  QUOTE: '“¡Imposible!”',
+  AUTHOR: 'Every Multinacional Energética'
 }
 
 const newModel = {
-  TITLE: 'Doncs ja estem començant a fer-ho a...',
-  ITEM1: `Sostres d'instituts`,
-  ITEM2: `Cementeris`,
-  ITEM3: `Embassaments`,
-  ITEM4: `Aparcaments`,
+  TITLE: 'Pues ya estamos empezando a hacerlo en...',
+  ITEM1: `Techos de institutos`,
+  ITEM2: `Cementerios`,
+  ITEM3: `Embases`,
+  ITEM4: `Aparcamientos`,
   P1: `
-    La nostra proposta és fer-ho també
-    <span id="new-model-annotate-1">a tots els sostres</span>,
-    de cases, finques i indústries. A tots els municipis.
+    Nuestra propuesta es hacerlo también
+    <span id="new-model-annotate-1">en todos los techos</span>,
+    de casas, fincas e industrias. En todos los municipios.
   `,
   P2: `
-    Utilitzant el <span id="new-model-annotate-2">40%</span> dels sostres
-    ja construits podem aconseguir abastir d’energia a
-    <span id="new-model-annotate-3">tota la població</span>
-    sense dependre de les multinacionals energètiques
+    Utilizando el <span id="new-model-annotate-2">40%</span> de los techos
+    ya construidos podemos conseguir abastecer de energía a
+    <span id="new-model-annotate-3">toda la población</span>
+    sin depender de multinacionales energéticas
   `,
   ALT1: `Plaques solars al sostre d'un institut`,
   ALT2: `Plaques solars al sostre del cementeri de València`,
@@ -59,19 +59,19 @@ const newModel = {
 }
 
 const localEnergy = {
-  TITLE: `Calcula l’energia que es pot<br>generar al sostres del teu muncipi.`,
-  PLACEHOLDER: 'Escriu el teu municipi...',
-  EXPAND: 'Expandir llista',
-  POPULATION: 'Població',
-  CONSUMPTION: 'Consum per habitatge',
-  POWER: 'Potència instal·lable',
-  ENERGY_PRODUCED: 'Energia produïble en un any',
-  PEOPLE_REACHED: 'Persones que podrien ser suministrades',
-  OF_POP: 'de la població'
+  TITLE: `Calcula la energía que se puede <br class="optional" /> generar en los techos de tu muncipio.`,
+  PLACEHOLDER: 'Escribe tu municipio...',
+  EXPAND: 'Expandir lista',
+  POPULATION: 'Población',
+  CONSUMPTION: 'Consumo por vivienda',
+  POWER: 'Potencia instalable',
+  ENERGY_PRODUCED: 'Energía producible en un año',
+  PEOPLE_REACHED: 'Personas que podrían ser suministradas',
+  OF_POP: 'de la población'
 }
 
 const shedLight = {
-  TITLE: `Anem a posar llum sobre algunes cosetes <br class="optional" /> que es diuen per ahí...`,
+  TITLE: `Vamos a poner luz sobre algunas cosas <br class="optional" /> que se dicen por ahí...`,
   COL1: [
     {
       ID: 'Fake1',
@@ -104,7 +104,7 @@ const shedLight = {
 }
 
 const moreInfo = {
-  TITLE: 'Més informació...',
+  TITLE: 'Más información...',
   TODAY: 'Ajudes que pots demanar hui mateix',
   TODAY_ITEMS: [
     {

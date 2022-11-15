@@ -1,34 +1,32 @@
 <template>
   <ElementsSection id="shed-light" class="shed-light" color="yellow">
     <template #title>
-      Anem a posar llum sobre algunes cosetes <br class="optional" />
-      que es diuen per ahí...
+      <span v-html="t.TITLE" />
     </template>
 
     <div class="fake-items">
       <div class="col first" data-lag="0.5">
-        <ElementsDrawer id="Fake1" title="Quan és de nit, no hi ha energia..."> 
-          <p>Fals perque bla bla bla</p>
-        </ElementsDrawer>
-
-        <ElementsDrawer id="Fake2" title="Quan és de nit, no hi ha energia..."> 
-          <p>Fals perque bla bla bla</p>
-        </ElementsDrawer>
-        <ElementsDrawer id="Fake3" title="Quan és de nit, no hi ha energia..."> 
-          <p>Fals perque bla bla bla</p>
+        <ElementsDrawer v-for="item in t.COL1" :key="item.ID" :id="item.ID" :title="item.TITLE"> 
+          <div v-html="item.CONTENT" />
         </ElementsDrawer>
       </div>
       <div class="col second" data-lag="0.25">
-        <ElementsDrawer id="Fake4" title="Quan és de nit, no hi ha energia..."> 
-          <p>Fals perque bla bla bla</p>
-        </ElementsDrawer>
-        <ElementsDrawer id="Fake5" title="Quan és de nit, no hi ha energia..."> 
-          <p>Fals perque bla bla bla</p>
+        <ElementsDrawer v-for="item in t.COL2" :key="item.ID" :id="item.ID" :title="item.TITLE"> 
+          <div v-html="item.CONTENT" />
         </ElementsDrawer>
       </div>
     </div>
   </ElementsSection>
 </template>
+
+<script setup>
+defineProps({
+  t: {
+    type: Object,
+    required: true
+  }
+})
+</script>
 
 <style lang="scss" scoped>
 .fake-items {

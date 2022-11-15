@@ -1,17 +1,23 @@
 <template>
   <section id="intro" class="intro">
-    <h2 class="imagine" data-speed="0.22" data-lag="0.25">Imagina’t<br>una energia...</h2>
+    <h2 class="imagine" data-speed="0.22" data-lag="0.25">
+      <span v-html="t.TITLE" />
+      <span class="hide" />
+    </h2>
 
     <ul class="things-to-imagine">
       <li class="first" data-speed="0.5" data-lag="0.25">
         <div id="energy" class="icon"></div>
-        Sostenible i democràtica</li>
+        {{ t.BLOCK1 }}
+      </li>
       <li class="second" data-speed="0.7" data-lag="0.25">
         <div id="invoice" class="icon"></div>
-        Amb una factura barata</li>
+        {{ t.BLOCK2 }}
+      </li>
       <li class="third" data-speed="0.9" data-lag="0.25">
         <div id="home" class="icon"></div>
-        Aprofitant espais i recursos existents sense destruir el territori</li>
+        {{ t.BLOCK3 }}
+      </li>
     </ul>   
   </section>
 </template>
@@ -20,6 +26,13 @@
 import lottie from 'lottie-web'
 
 const { $gsap } = useNuxtApp()
+
+defineProps({
+  t: {
+    type: Object,
+    required: true
+  }
+})
 
 onMounted(() => {
   lottie.loadAnimation({
@@ -55,6 +68,17 @@ onMounted(() => {
       toggleClass: 'visible'
     },
     opacity: 0
+  })
+
+  $gsap.to('.imagine .hide', {
+    scrollTrigger: {
+      trigger: '.imagine',
+      start: 'bottom center',
+      end: '+=400',
+      scrub: true,
+      markers: true
+    },
+    opacity: 1
   })
 
   $gsap.from('.first', {
@@ -97,6 +121,7 @@ onMounted(() => {
 }
 
 .imagine {
+  position: relative;
   width: fit-content;
   margin: 0 auto;
   font-family: var(--serif-font);
@@ -107,6 +132,14 @@ onMounted(() => {
   letter-spacing: 0;
   line-height: .9;
   text-align: center;
+
+  .hide {
+    display: block;
+    position: absolute;
+    inset: 0;
+    background: var(--black);
+    opacity: 0;
+  }
 }
 
 .things-to-imagine {

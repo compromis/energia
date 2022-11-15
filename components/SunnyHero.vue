@@ -1,22 +1,23 @@
 <template>
   <header class="sunny-hero">
     <h1 class="campaign-title" data-speed="0.5" data-lag="0.5">
-      <span class="campaign-title-tag">Amb l'energia</span>
-      <span class="campaign-title-main">Comencem<br>pel sostre</span>
+      <span class="campaign-title-tag">{{ t.OVERTITLE }}</span>
+      <span class="campaign-title-main" v-html="t.TITLE"></span>
     </h1>
 
-    <div class="night-time" id="night-time" />
-    <GuysSunnyGuy id="sunny-guy" class="floaty sunny-guy" />
-    <GuysPanelGuy id="panel-guy" class="panel-guy" />
-    <GuysSparkle id="sparkle" class="floaty sparkle" />
+    <div class="night-time" id="night-time" aria-hidden="true" />
+    <GuysSunnyGuy id="sunny-guy" class="floaty sunny-guy" aria-hidden="true" />
+    <GuysPanelGuy id="panel-guy" class="panel-guy" aria-hidden="true" />
+    <GuysSparkle id="sparkle" class="floaty sparkle" aria-hidden="true" />
   </header>
-  <div class="campaign-marquee base-level">
+
+  <div class="campaign-marquee base-level" :aria-label="t.MARQUEE">
     <ClientOnly fallback-tag="span" fallback="Carregant...">
       <MarqueeText :repeat="10" :duration="4">
         <svg class="icon-bolt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.04 40.04">
           <path fill="currentColor" d="M24.83,3.49c.46-1.07,.12-2.32-.83-3.01s-2.24-.63-3.12,.14L.86,18.14c-.78,.69-1.06,1.79-.7,2.76,.37,.97,1.31,1.63,2.35,1.63H11.23l-6.01,14.03c-.46,1.07-.12,2.32,.83,3.01,.95,.69,2.24,.63,3.12-.14L29.18,21.91c.78-.69,1.06-1.79,.7-2.76s-1.3-1.62-2.35-1.62h-8.72L24.83,3.49Z"/>
         </svg>
-          Un nou model energètic
+          {{ t.MARQUEE }}
       </MarqueeText>
     </ClientOnly>
   </div>
@@ -24,6 +25,13 @@
 
 <script setup>
 const { $gsap, $CustomEase, $ScrollSmoother } = useNuxtApp()
+
+defineProps({
+  t: {
+    type: Object,
+    required: true
+  }
+})
 
 onMounted(() => {
   const smoother = $ScrollSmoother.create({

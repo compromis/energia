@@ -1,12 +1,12 @@
 <template>
   <ElementsSection id="local" class="local" color="blue">
     <template #title>
-      Calcula l’energia que es pot<br>generar al sostres del teu muncipi.
+      <span v-html="t.TITLE" />
     </template>
 
     <div :class="['local-selector', { expanded: expanded || filter }]" key="search">
       <div class="local-search">
-        <input type="search" v-model="filter" placeholder="Escriu el teu municipi..." />
+        <input type="search" v-model="filter" :placeholder="t.PLACEHOLDER" />
       </div>
       <ul class="local-list">
         <li v-for="municipality in municipalities" :key="municipality.municipality" class="local-list-item">
@@ -16,7 +16,7 @@
         </li>
       </ul>
       <button class="expand" @click="expanded = !expanded">
-        <span class="visually-hidden">Expandir llista</span>
+        <span class="visually-hidden">{{ t.EXPAND }}</span>
       </button>
     </div>
     <Teleport to="body">
@@ -33,22 +33,22 @@
             <div class="details-card-content">
               <div class="details-overview">
                 <div class="details-overview-row">
-                  Població <span class="spacer"/> <strong>{{ selectedMunicipality.population }}</strong>
+                  {{ t.POPULATION }} <span class="spacer"/> <strong>{{ selectedMunicipality.population }}</strong>
                 </div>
                 <div class="details-overview-row">
-                  Consum per habitatge <span class="spacer"/> <strong>{{ selectedMunicipality.DkWh }} KWh</strong>
+                  {{ t.CONSUMPTION }} <span class="spacer"/> <strong>{{ selectedMunicipality.DkWh }} KWh</strong>
                 </div>
                 <div class="details-overview-row">
-                  Potència instal·lable <span class="spacer"/> <strong>{{ selectedMunicipality.PMWp }} MWatt</strong>
+                  {{ t.POWER }} <span class="spacer"/> <strong>{{ selectedMunicipality.PMWp }} MWatt</strong>
                 </div>
               </div>
               <div class="details-energy details-big">
                 <strong class="number"><span id="annotatedEnergy">{{ selectedMunicipality.EGWh }} GWh</span></strong>
-                <span class="label">Energia produïble en un any</span>
+                <span class="label">{{ t.ENERGY_PRODUCED }}</span>
               </div>
               <div class="details-population details-big">
-                <strong class="number"><span id="annotatedReach">{{ selectedMunicipality.reach }}</span> <span class="pill">{{ selectedMunicipality.factor }}% de la població</span></strong>
-                <span class="label">Persones que podrien ser suministrades</span>
+                <strong class="number"><span id="annotatedReach">{{ selectedMunicipality.reach }}</span> <span class="pill">{{ selectedMunicipality.percentage }}% {{ t.OF_POP }}</span></strong>
+                <span class="label">{{ t.PEOPLE_REACHED }}</span>
               </div>
             </div>
           </article>
@@ -60,9 +60,16 @@
 </template>
 
 <script setup>
-import { ref, computed, watch, nextTick } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { annotate } from 'rough-notation'
 import localData from '../content/local'
+
+defineProps({
+  t: {
+    type: Object,
+    required: true
+  }
+})
 
 const selectedMunicipality = ref(null)
 const filter = ref('')

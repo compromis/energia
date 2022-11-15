@@ -1,52 +1,30 @@
 <template>
   <ElementsSection id="new-model" class="new-model">
-    <template #title>Doncs ja estem començant a fer-ho a...</template>
+    <template #title>{{ t.TITLE }}</template>
     
     <div class="content">
       <ul class="list">
-        <li>
-          <IconsArrow />
-          Sostres d'instituts
-        </li>
-        <li>
-          <IconsArrow />
-          Cementeris
-        </li>
-        <li>
-          <IconsArrow />
-          Embasaments
-        </li>
-        <li>
-          <IconsArrow />
-          Aparcaments
-        </li>
+        <li><IconsArrow /> {{ t.ITEM1 }}</li>
+        <li><IconsArrow /> {{ t.ITEM2 }}</li>
+        <li><IconsArrow /> {{ t.ITEM3 }}</li>
+        <li><IconsArrow /> {{ t.ITEM4 }}</li>
       </ul>
 
       <div class="image-scroller">
         <div id="new-model-images" class="images">
-          <img src="../assets/images/solar.jpg" alt="Plaques solars al sostre d'un institut" />
-          <img src="../assets/images/cementeri.jpeg" alt="Plaques solars al sostre del cementeri de València" />
-          <img src="../assets/images/parking.webp" alt="Plaques solars al sostre de les places d'un aparcament a l'aire lliure" />
-          <img src="../assets/images/riu.webp" alt="Plaques solars damunt d'un canal d'aigua" />
-          <img src="../assets/images/paiporta.jpeg" alt="Plaques solars al sostre d'un edifici de Paiporta" />
-          <img src="../assets/images/solar-2.jpg" alt="Més plaques solars al sostre d'un institut" />
-          <img src="../assets/images/riu-2.webp" alt="Plaques solars damunt d'un embasament" />
+          <img src="../assets/images/solar.jpg" :alt="t.ALT1" />
+          <img src="../assets/images/cementeri.jpeg" :alt="t.ALT2" />
+          <img src="../assets/images/parking.webp" :alt="t.ALT3" />
+          <img src="../assets/images/riu.webp" :alt="t.ALT4" />
+          <img src="../assets/images/paiporta.jpeg" :alt="t.ALT5" />
+          <img src="../assets/images/solar-2.jpg" :alt="t.ALT6" />
+          <img src="../assets/images/riu-2.webp" :alt="t.ALT7" />
         </div>
       </div>
 
       <div class="text">
-        <p class="first-p">
-          La nostra proposta és fer-ho també
-          <span id="new-model-annotate-1">a tots els sostres</span>,
-          de cases finques i indústries. A tots els municipis.
-        </p>
-
-        <p>
-          Utilitzant el <span id="new-model-annotate-2">40%</span> dels sostres,
-          ja construits podem aconseguir abastir d’energia a
-          <span id="new-model-annotate-3">tota la població</span>
-          sense dependre de les multinacionals energètiques
-        </p>
+        <p class="first-p" v-html="t.P1" />
+        <p class="second-p" v-html="t.P2" />
       </div>
     </div>
   </ElementsSection>
@@ -56,6 +34,13 @@
 import { annotate } from 'rough-notation'
 
 const { $gsap } = useNuxtApp()
+
+defineProps({
+  t: {
+    type: Object,
+    required: true
+  }
+})
 
 const hasAnimated = reactive([false, false, false])
 

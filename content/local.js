@@ -1,5422 +1,4880 @@
 export default [
   {
-    "municipality": "Orihuela",
-    "region": "Baix Segura",
-    "population": 78505,
-    "DkWh": "1216,26",
-    "EGWh": "451,2",
-    "PMWp": "273357,4",
-    "reach": 370973,
-    "factor": "4,73"
-  },
-  {
-    "municipality": "Albatera",
-    "region": "Baix Segura",
-    "population": 12474,
-    "DkWh": "1216,26",
-    "EGWh": 95,
-    "PMWp": "55722,6",
-    "reach": 78108,
-    "factor": "6,26"
-  },
-  {
-    "municipality": "Callosa de Segura",
-    "region": "Baix Segura",
-    "population": 19127,
-    "DkWh": "1216,26",
-    "EGWh": "93,6",
-    "PMWp": "51272,2",
-    "reach": 76957,
-    "factor": "4,02"
-  },
-  {
-    "municipality": "Pilar de la Horadada",
-    "region": "Baix Segura",
-    "population": 22347,
-    "DkWh": "1216,26",
-    "EGWh": "142,9",
-    "PMWp": "86325,8",
-    "reach": 117491,
-    "factor": "5,26"
-  },
-  {
-    "municipality": "Cox",
-    "region": "Baix Segura",
-    "population": 7386,
-    "DkWh": "1216,26",
-    "EGWh": "65,4",
-    "PMWp": "38524,7",
-    "reach": 53771,
-    "factor": "7,28"
-  },
-  {
-    "municipality": "Almoradí",
-    "region": "Baix Segura",
-    "population": 21208,
-    "DkWh": "1216,26",
-    "EGWh": 77,
-    "PMWp": "43713,4",
-    "reach": 63309,
-    "factor": "2,99"
-  },
-  {
-    "municipality": "Torrevieja",
-    "region": "Baix Segura",
-    "population": 84667,
-    "DkWh": "1216,26",
-    "EGWh": 277,
-    "PMWp": "168892,2",
-    "reach": 227747,
-    "factor": "2,69"
-  },
-  {
-    "municipality": "Catral",
-    "region": "Baix Segura",
-    "population": 8898,
-    "DkWh": "1216,26",
-    "EGWh": "51,4",
-    "PMWp": "31317,5",
-    "reach": 42261,
-    "factor": "4,75"
-  },
-  {
-    "municipality": "Dolores",
-    "region": "Baix Segura",
-    "population": 7531,
-    "DkWh": "1216,26",
-    "EGWh": "50,4",
-    "PMWp": "27880,2",
-    "reach": 41439,
-    "factor": "5,50"
-  },
-  {
-    "municipality": "Guardamar del Segura",
-    "region": "Baix Segura",
-    "population": 15849,
-    "DkWh": "1216,26",
-    "EGWh": "72,3",
-    "PMWp": "43923,5",
-    "reach": 59445,
-    "factor": "3,75"
-  },
-  {
-    "municipality": "Redován",
-    "region": "Baix Segura",
-    "population": 7926,
-    "DkWh": "1216,26",
-    "EGWh": 42,
-    "PMWp": "22508,1",
-    "reach": 34532,
-    "factor": "4,36"
-  },
-  {
-    "municipality": "Rojales",
-    "region": "Baix Segura",
-    "population": 16671,
-    "DkWh": "1216,26",
-    "EGWh": "87,5",
-    "PMWp": "59754,2",
-    "reach": 71942,
-    "factor": "4,32"
-  },
-  {
-    "municipality": "Bigastro",
-    "region": "Baix Segura",
-    "population": 6909,
-    "DkWh": "1216,26",
-    "EGWh": 33,
-    "PMWp": "17589,7",
-    "reach": 27132,
-    "factor": "3,93"
-  },
-  {
-    "municipality": "Los Montesinos",
-    "region": "Baix Segura",
-    "population": 5061,
-    "DkWh": "1216,26",
-    "EGWh": "23,8",
-    "PMWp": "14481,7",
-    "reach": 19568,
-    "factor": "3,87"
-  },
-  {
-    "municipality": "San Isidro",
-    "region": "Baix Segura",
-    "population": 2103,
-    "DkWh": "1216,26",
-    "EGWh": "21,5",
-    "PMWp": 13096,
-    "reach": 17677,
-    "factor": "8,41"
-  },
-  {
-    "municipality": "Benejúzar",
-    "region": "Baix Segura",
-    "population": 5435,
-    "DkWh": "1216,26",
-    "EGWh": "21,9",
-    "PMWp": "13314,6",
-    "reach": 18006,
-    "factor": "3,31"
-  },
-  {
-    "municipality": "Granja de Rocamora",
-    "region": "Baix Segura",
-    "population": 2591,
-    "DkWh": "1216,26",
-    "EGWh": "19,1",
-    "PMWp": "11613,2",
-    "reach": 15704,
-    "factor": "6,06"
-  },
-  {
-    "municipality": "San Fulgencio",
-    "region": "Baix Segura",
-    "population": 8071,
-    "DkWh": "1216,26",
-    "EGWh": "39,9",
-    "PMWp": "23808,6",
-    "reach": 32805,
-    "factor": "4,06"
-  },
-  {
-    "municipality": "Daya Nueva",
-    "region": "Baix Segura",
-    "population": 1733,
-    "DkWh": "1216,26",
-    "EGWh": "11,3",
-    "PMWp": "7506,8",
-    "reach": 9291,
-    "factor": "5,36"
-  },
-  {
-    "municipality": "Formentera del Segura",
-    "region": "Baix Segura",
-    "population": 4268,
-    "DkWh": "1216,26",
-    "EGWh": "18,1",
-    "PMWp": "10873,2",
-    "reach": 14882,
-    "factor": "3,49"
-  },
-  {
-    "municipality": "Algorfa",
-    "region": "Baix Segura",
-    "population": 3125,
-    "DkWh": "1216,26",
-    "EGWh": "12,8",
-    "PMWp": "8994,4",
-    "reach": 10524,
-    "factor": "3,37"
-  },
-  {
-    "municipality": "Jacarilla",
-    "region": "Baix Segura",
-    "population": 1998,
-    "DkWh": "1216,26",
-    "EGWh": 14,
-    "PMWp": "8457,6",
-    "reach": 11511,
-    "factor": "5,76"
-  },
-  {
-    "municipality": "San Miguel de Salinas",
-    "region": "Baix Segura",
-    "population": 6313,
-    "DkWh": "1216,26",
-    "EGWh": "35,1",
-    "PMWp": "21105,4",
-    "reach": 28859,
-    "factor": "4,57"
-  },
-  {
-    "municipality": "Rafal",
-    "region": "Baix Segura",
-    "population": 4553,
-    "DkWh": "1216,26",
-    "EGWh": 15,
-    "PMWp": "7421,1",
-    "reach": 12333,
-    "factor": "2,71"
-  },
-  {
-    "municipality": "Benijófar",
-    "region": "Baix Segura",
-    "population": 3293,
-    "DkWh": "1216,26",
-    "EGWh": "19,3",
-    "PMWp": "11509,6",
-    "reach": 15868,
-    "factor": "4,82"
-  },
-  {
-    "municipality": "Benferri",
-    "region": "Baix Segura",
-    "population": 1965,
-    "DkWh": "1216,26",
-    "EGWh": "10,6",
-    "PMWp": "6344,3",
-    "reach": 8715,
-    "factor": "4,44"
-  },
-  {
-    "municipality": "Daya Vieja",
-    "region": "Baix Segura",
-    "population": 731,
-    "DkWh": "1216,26",
-    "EGWh": "3,2",
-    "PMWp": "1922,6",
-    "reach": 2631,
-    "factor": "3,60"
-  },
-  {
-    "municipality": "Elx / Elche",
-    "region": "Baix Vinalopó",
-    "population": 234765,
-    "DkWh": "1443,09",
-    "EGWh": "769,5",
-    "PMWp": "382131,4",
-    "reach": 533231,
-    "factor": "2,27"
-  },
-  {
-    "municipality": "Crevillent",
-    "region": "Baix Vinalopó",
-    "population": 29536,
-    "DkWh": "1443,09",
-    "EGWh": "211,4",
-    "PMWp": "123464,4",
-    "reach": 146491,
-    "factor": "4,96"
-  },
-  {
-    "municipality": "Santa Pola",
-    "region": "Baix Vinalopó",
-    "population": 33303,
-    "DkWh": "1443,09",
-    "EGWh": "130,8",
-    "PMWp": 79312,
-    "reach": 90639,
-    "factor": "2,72"
-  },
-  {
-    "municipality": "Cortes de Arenoso",
-    "region": "El Alto Mijares",
-    "population": 300,
-    "DkWh": "1986,99",
-    "EGWh": 4,
-    "PMWp": 2758,
-    "reach": 2013,
-    "factor": "6,71"
-  },
-  {
-    "municipality": "Montán",
-    "region": "El Alto Mijares",
-    "population": 368,
-    "DkWh": "1986,99",
-    "EGWh": "2,7",
-    "PMWp": "2078,5",
-    "reach": 1359,
-    "factor": "3,69"
-  },
-  {
-    "municipality": "Puebla de Arenoso",
-    "region": "El Alto Mijares",
-    "population": 152,
-    "DkWh": "1986,99",
-    "EGWh": "2,4",
-    "PMWp": "1788,6",
-    "reach": 1208,
-    "factor": "7,95"
-  },
-  {
-    "municipality": "Fanzara",
-    "region": "El Alto Mijares",
-    "population": 273,
-    "DkWh": "1986,99",
-    "EGWh": "1,7",
-    "PMWp": "1316,6",
-    "reach": 856,
-    "factor": "3,13"
-  },
-  {
-    "municipality": "Cirat",
-    "region": "El Alto Mijares",
-    "population": 206,
-    "DkWh": "1986,99",
-    "EGWh": "1,5",
-    "PMWp": "1235,5",
-    "reach": 755,
-    "factor": "3,66"
-  },
-  {
-    "municipality": "Castillo de Villamalefa",
-    "region": "El Alto Mijares",
-    "population": 101,
-    "DkWh": "1986,99",
-    "EGWh": "0,8",
-    "PMWp": "632,7",
-    "reach": 403,
-    "factor": "3,99"
-  },
-  {
-    "municipality": "Argelita",
-    "region": "El Alto Mijares",
-    "population": 126,
-    "DkWh": "1986,99",
-    "EGWh": "0,7",
-    "PMWp": "574,9",
-    "reach": 352,
-    "factor": "2,80"
-  },
-  {
-    "municipality": "Montanejos",
-    "region": "El Alto Mijares",
-    "population": 564,
-    "DkWh": "1986,99",
-    "EGWh": "2,8",
-    "PMWp": "2061,6",
-    "reach": 1409,
-    "factor": "2,50"
-  },
-  {
-    "municipality": "Villahermosa del Rio",
-    "region": "El Alto Mijares",
-    "population": 484,
-    "DkWh": "1986,99",
-    "EGWh": "1,4",
-    "PMWp": "1113,8",
-    "reach": 705,
-    "factor": "1,46"
-  },
-  {
-    "municipality": "Arañuel",
-    "region": "El Alto Mijares",
-    "population": 151,
-    "DkWh": "1986,99",
-    "EGWh": "1,1",
-    "PMWp": "920,7",
-    "reach": 554,
-    "factor": "3,67"
-  },
-  {
-    "municipality": "Zucaina",
-    "region": "El Alto Mijares",
-    "population": 162,
-    "DkWh": "1986,99",
-    "EGWh": "1,5",
-    "PMWp": "1340,9",
-    "reach": 755,
-    "factor": "4,66"
-  },
-  {
-    "municipality": "Villanueva de Viver",
-    "region": "El Alto Mijares",
-    "population": 60,
-    "DkWh": "1986,99",
-    "EGWh": "0,6",
-    "PMWp": "424,7",
-    "reach": 302,
-    "factor": "5,03"
-  },
-  {
-    "municipality": "Ayódar",
-    "region": "El Alto Mijares",
-    "population": 153,
-    "DkWh": "1986,99",
-    "EGWh": "0,6",
-    "PMWp": "533,1",
-    "reach": 302,
-    "factor": "1,97"
-  },
-  {
-    "municipality": "Fuentes de Ayódar",
-    "region": "El Alto Mijares",
-    "population": 89,
-    "DkWh": "1986,99",
-    "EGWh": "0,4",
-    "PMWp": "320,2",
-    "reach": 201,
-    "factor": "2,26"
-  },
-  {
-    "municipality": "Vallat",
-    "region": "El Alto Mijares",
-    "population": 51,
-    "DkWh": "1986,99",
-    "EGWh": "0,3",
-    "PMWp": 222,
-    "reach": 151,
-    "factor": "2,96"
-  },
-  {
-    "municipality": "Espadilla",
-    "region": "El Alto Mijares",
-    "population": 69,
-    "DkWh": "1986,99",
-    "EGWh": "0,6",
-    "PMWp": "488,4",
-    "reach": 302,
-    "factor": "4,38"
-  },
-  {
-    "municipality": "Fuente la Reina",
-    "region": "El Alto Mijares",
-    "population": 51,
-    "DkWh": "1986,99",
-    "EGWh": "0,6",
-    "PMWp": "478,1",
-    "reach": 302,
-    "factor": "5,92"
-  },
-  {
-    "municipality": "Ludiente",
-    "region": "El Alto Mijares",
-    "population": 149,
-    "DkWh": "1986,99",
-    "EGWh": "1,3",
-    "PMWp": "1084,4",
-    "reach": 654,
-    "factor": "4,39"
-  },
-  {
-    "municipality": "Torralba del Pinar",
-    "region": "El Alto Mijares",
-    "population": 61,
-    "DkWh": "1986,99",
-    "EGWh": "0,3",
-    "PMWp": 242,
-    "reach": 151,
-    "factor": "2,48"
-  },
-  {
-    "municipality": "Torrechiva",
-    "region": "El Alto Mijares",
-    "population": 89,
-    "DkWh": "1986,99",
-    "EGWh": "0,3",
-    "PMWp": 292,
-    "reach": 151,
-    "factor": "1,70"
-  },
-  {
-    "municipality": "Villamalur",
-    "region": "El Alto Mijares",
-    "population": 102,
-    "DkWh": "1986,99",
-    "EGWh": "0,4",
-    "PMWp": 424,
-    "reach": 201,
-    "factor": "1,97"
-  },
-  {
-    "municipality": "Toga",
-    "region": "El Alto Mijares",
-    "population": 96,
-    "DkWh": "1986,99",
-    "EGWh": "0,7",
-    "PMWp": "602,6",
-    "reach": 352,
-    "factor": "3,67"
-  },
-  {
-    "municipality": "Segorbe",
-    "region": "El Alto Palancia",
-    "population": 9097,
-    "DkWh": "2242,28",
-    "EGWh": "72,6",
-    "PMWp": "45641,5",
-    "reach": 32378,
-    "factor": "3,56"
-  },
-  {
-    "municipality": "Altura",
-    "region": "El Alto Palancia",
-    "population": 3601,
-    "DkWh": "2242,28",
-    "EGWh": 13,
-    "PMWp": "9019,6",
-    "reach": 5798,
-    "factor": "1,61"
-  },
-  {
-    "municipality": "Soneja",
-    "region": "El Alto Palancia",
-    "population": 1456,
-    "DkWh": "2242,28",
-    "EGWh": "12,5",
-    "PMWp": "8426,6",
-    "reach": 5575,
-    "factor": "3,83"
-  },
-  {
-    "municipality": "El Toro",
-    "region": "El Alto Palancia",
-    "population": 241,
-    "DkWh": "2242,28",
-    "EGWh": 5,
-    "PMWp": "3392,9",
-    "reach": 2230,
-    "factor": "9,25"
-  },
-  {
-    "municipality": "Caudiel",
-    "region": "El Alto Palancia",
-    "population": 659,
-    "DkWh": "2242,28",
-    "EGWh": "6,9",
-    "PMWp": "4983,3",
-    "reach": 3077,
-    "factor": "4,67"
-  },
-  {
-    "municipality": "Jérica",
-    "region": "El Alto Palancia",
-    "population": 1559,
-    "DkWh": "2242,28",
-    "EGWh": "9,7",
-    "PMWp": "6843,9",
-    "reach": 4326,
-    "factor": "2,77"
-  },
-  {
-    "municipality": "Navajas",
-    "region": "El Alto Palancia",
-    "population": 720,
-    "DkWh": "2242,28",
-    "EGWh": "5,6",
-    "PMWp": "4089,7",
-    "reach": 2497,
-    "factor": "3,47"
-  },
-  {
-    "municipality": "Chóvar",
-    "region": "El Alto Palancia",
-    "population": 288,
-    "DkWh": "2242,28",
-    "EGWh": "3,7",
-    "PMWp": "2582,7",
-    "reach": 1650,
-    "factor": "5,73"
-  },
-  {
-    "municipality": "Castellnovo",
-    "region": "El Alto Palancia",
-    "population": 918,
-    "DkWh": "2242,28",
-    "EGWh": "5,7",
-    "PMWp": "3976,4",
-    "reach": 2542,
-    "factor": "2,77"
-  },
-  {
-    "municipality": "Viver",
-    "region": "El Alto Palancia",
-    "population": 1572,
-    "DkWh": "2242,28",
-    "EGWh": "8,8",
-    "PMWp": "6259,2",
-    "reach": 3925,
-    "factor": "2,50"
-  },
-  {
-    "municipality": "Barracas",
-    "region": "El Alto Palancia",
-    "population": 168,
-    "DkWh": "2242,28",
-    "EGWh": "3,2",
-    "PMWp": "2205,1",
-    "reach": 1427,
-    "factor": "8,49"
-  },
-  {
-    "municipality": "Sot de Ferrer",
-    "region": "El Alto Palancia",
-    "population": 409,
-    "DkWh": "2242,28",
-    "EGWh": "3,8",
-    "PMWp": "2650,4",
-    "reach": 1695,
-    "factor": "4,14"
-  },
-  {
-    "municipality": "Algimia de Almonacid",
-    "region": "El Alto Palancia",
-    "population": 262,
-    "DkWh": "2242,28",
-    "EGWh": "2,2",
-    "PMWp": "1659,2",
-    "reach": 981,
-    "factor": "3,74"
-  },
-  {
-    "municipality": "Teresa",
-    "region": "El Alto Palancia",
-    "population": 247,
-    "DkWh": "2242,28",
-    "EGWh": 2,
-    "PMWp": "1491,8",
-    "reach": 892,
-    "factor": "3,61"
-  },
-  {
-    "municipality": "Almedíjar",
-    "region": "El Alto Palancia",
-    "population": 244,
-    "DkWh": "2242,28",
-    "EGWh": "1,7",
-    "PMWp": "1366,5",
-    "reach": 758,
-    "factor": "3,11"
-  },
-  {
-    "municipality": "Gaibiel",
-    "region": "El Alto Palancia",
-    "population": 181,
-    "DkWh": "2242,28",
-    "EGWh": "1,6",
-    "PMWp": "1254,4",
-    "reach": 714,
-    "factor": "3,94"
-  },
-  {
-    "municipality": "Bejís",
-    "region": "El Alto Palancia",
-    "population": 371,
-    "DkWh": "2242,28",
-    "EGWh": "2,9",
-    "PMWp": "2219,8",
-    "reach": 1293,
-    "factor": "3,49"
-  },
-  {
-    "municipality": "Azuébar",
-    "region": "El Alto Palancia",
-    "population": 310,
-    "DkWh": "2242,28",
-    "EGWh": "1,7",
-    "PMWp": "1386,8",
-    "reach": 758,
-    "factor": "2,45"
-  },
-  {
-    "municipality": "Torás",
-    "region": "El Alto Palancia",
-    "population": 232,
-    "DkWh": "2242,28",
-    "EGWh": "2,3",
-    "PMWp": "1716,4",
-    "reach": 1026,
-    "factor": "4,42"
-  },
-  {
-    "municipality": "Matet",
-    "region": "El Alto Palancia",
-    "population": 83,
-    "DkWh": "2242,28",
-    "EGWh": "1,2",
-    "PMWp": "924,3",
-    "reach": 535,
-    "factor": "6,45"
-  },
-  {
-    "municipality": "Vall de Almonacid",
-    "region": "El Alto Palancia",
-    "population": 263,
-    "DkWh": "2242,28",
-    "EGWh": "1,3",
-    "PMWp": "1160,1",
-    "reach": 580,
-    "factor": "2,20"
-  },
-  {
-    "municipality": "Sacañet",
-    "region": "El Alto Palancia",
-    "population": 62,
-    "DkWh": "2242,28",
-    "EGWh": "0,8",
-    "PMWp": "573,1",
-    "reach": 357,
-    "factor": "5,75"
-  },
-  {
-    "municipality": "Higueras",
-    "region": "El Alto Palancia",
-    "population": 48,
-    "DkWh": "2242,28",
-    "EGWh": "0,4",
-    "PMWp": "296,1",
-    "reach": 178,
-    "factor": "3,72"
-  },
-  {
-    "municipality": "Benafer",
-    "region": "El Alto Palancia",
-    "population": 164,
-    "DkWh": "2242,28",
-    "EGWh": "0,8",
-    "PMWp": "679,7",
-    "reach": 357,
-    "factor": "2,18"
-  },
-  {
-    "municipality": "Geldo",
-    "region": "El Alto Palancia",
-    "population": 633,
-    "DkWh": "2242,28",
-    "EGWh": 1,
-    "PMWp": "819,2",
-    "reach": 446,
-    "factor": "0,70"
-  },
-  {
-    "municipality": "Pina de Montalgrao",
-    "region": "El Alto Palancia",
-    "population": 110,
-    "DkWh": "2242,28",
-    "EGWh": "0,6",
-    "PMWp": "506,4",
-    "reach": 268,
-    "factor": "2,43"
-  },
-  {
-    "municipality": "Pavías",
-    "region": "El Alto Palancia",
-    "population": 68,
-    "DkWh": "2242,28",
-    "EGWh": "0,5",
-    "PMWp": "390,2",
-    "reach": 223,
-    "factor": "3,28"
-  },
-  {
-    "municipality": "Benicarló",
-    "region": "El Baix Maestrat",
-    "population": 27363,
-    "DkWh": "1791,87",
-    "EGWh": "135,1",
-    "PMWp": "78754,8",
-    "reach": 75396,
-    "factor": "2,76"
-  },
-  {
-    "municipality": "Vinaròs",
-    "region": "El Baix Maestrat",
-    "population": 28833,
-    "DkWh": "1791,87",
-    "EGWh": "158,2",
-    "PMWp": "102591,6",
-    "reach": 88288,
-    "factor": "3,06"
-  },
-  {
-    "municipality": "Peníscola / Peñíscola",
-    "region": "El Baix Maestrat",
-    "population": 7683,
-    "DkWh": "1791,87",
-    "EGWh": "67,1",
-    "PMWp": "43308,7",
-    "reach": 37447,
-    "factor": "4,87"
-  },
-  {
-    "municipality": "Alcalà de Xivert",
-    "region": "El Baix Maestrat",
-    "population": 6638,
-    "DkWh": "1791,87",
-    "EGWh": "44,7",
-    "PMWp": "34212,4",
-    "reach": 24946,
-    "factor": "3,76"
-  },
-  {
-    "municipality": "Sant Mateu",
-    "region": "El Baix Maestrat",
-    "population": 1952,
-    "DkWh": "1791,87",
-    "EGWh": "20,8",
-    "PMWp": "13599,4",
-    "reach": 11608,
-    "factor": "5,95"
-  },
-  {
-    "municipality": "Rossell",
-    "region": "El Baix Maestrat",
-    "population": 912,
-    "DkWh": "1791,87",
-    "EGWh": "13,3",
-    "PMWp": "9361,5",
-    "reach": 7422,
-    "factor": "8,14"
-  },
-  {
-    "municipality": "Traiguera",
-    "region": "El Baix Maestrat",
-    "population": 1367,
-    "DkWh": "1791,87",
-    "EGWh": "9,4",
-    "PMWp": "6546,9",
-    "reach": 5246,
-    "factor": "3,84"
-  },
-  {
-    "municipality": "Càlig",
-    "region": "El Baix Maestrat",
-    "population": 1961,
-    "DkWh": "1791,87",
-    "EGWh": "10,6",
-    "PMWp": "7485,2",
-    "reach": 5916,
-    "factor": "3,02"
-  },
-  {
-    "municipality": "Sant Jordi / San Jorge",
-    "region": "El Baix Maestrat",
-    "population": 990,
-    "DkWh": "1791,87",
-    "EGWh": "10,3",
-    "PMWp": "7540,2",
-    "reach": 5748,
-    "factor": "5,81"
-  },
-  {
-    "municipality": "Santa Magdalena de Pulpis",
-    "region": "El Baix Maestrat",
-    "population": 754,
-    "DkWh": "1791,87",
-    "EGWh": "5,5",
-    "PMWp": "4209,1",
-    "reach": 3069,
-    "factor": "4,07"
-  },
-  {
-    "municipality": "Canet lo Roig",
-    "region": "El Baix Maestrat",
-    "population": 676,
-    "DkWh": "1791,87",
-    "EGWh": "4,7",
-    "PMWp": "3680,7",
-    "reach": 2623,
-    "factor": "3,88"
-  },
-  {
-    "municipality": "Xert / Chert",
-    "region": "El Baix Maestrat",
-    "population": 688,
-    "DkWh": "1791,87",
-    "EGWh": "8,6",
-    "PMWp": "5683,6",
-    "reach": 4799,
-    "factor": "6,98"
-  },
-  {
-    "municipality": "La Salzadella",
-    "region": "El Baix Maestrat",
-    "population": 700,
-    "DkWh": "1791,87",
-    "EGWh": "4,4",
-    "PMWp": "3413,3",
-    "reach": 2456,
-    "factor": "3,51"
-  },
-  {
-    "municipality": "San Rafael del Río",
-    "region": "El Baix Maestrat",
-    "population": 466,
-    "DkWh": "1791,87",
-    "EGWh": "4,6",
-    "PMWp": "3324,4",
-    "reach": 2567,
-    "factor": "5,51"
-  },
-  {
-    "municipality": "La Pobla de Benifassà",
-    "region": "El Baix Maestrat",
-    "population": 199,
-    "DkWh": "1791,87",
-    "EGWh": "3,2",
-    "PMWp": "2724,9",
-    "reach": 1786,
-    "factor": "8,97"
-  },
-  {
-    "municipality": "La Jana",
-    "region": "El Baix Maestrat",
-    "population": 676,
-    "DkWh": "1791,87",
-    "EGWh": "2,8",
-    "PMWp": "2066,1",
-    "reach": 1563,
-    "factor": "2,31"
-  },
-  {
-    "municipality": "Cervera del Maestre",
-    "region": "El Baix Maestrat",
-    "population": 557,
-    "DkWh": "1791,87",
-    "EGWh": "2,6",
-    "PMWp": 2273,
-    "reach": 1451,
-    "factor": "2,61"
-  },
-  {
-    "municipality": "Castell de Cabres",
-    "region": "El Baix Maestrat",
-    "population": 22,
-    "DkWh": "1791,87",
-    "EGWh": "0,5",
-    "PMWp": "299,8",
-    "reach": 279,
-    "factor": "12,68"
-  },
-  {
-    "municipality": "Sagunt / Sagunto",
-    "region": "El Camp de Morvedre",
-    "population": "67.173,0",
-    "DkWh": "1456,91",
-    "EGWh": "285,8",
-    "PMWp": "180.276,1",
-    "reach": 196169,
-    "factor": "2,92"
-  },
-  {
-    "municipality": "Quartell",
-    "region": "El Camp de Morvedre",
-    "population": "1.655,0",
-    "DkWh": "1456,91",
-    "EGWh": "23,7",
-    "PMWp": "15.065,4",
-    "reach": 16267,
-    "factor": "9,83"
-  },
-  {
-    "municipality": "Canet d'En Berenguer",
-    "region": "El Camp de Morvedre",
-    "population": "6.765,0",
-    "DkWh": "1456,91",
-    "EGWh": "24,7",
-    "PMWp": "15.570,8",
-    "reach": 16954,
-    "factor": "2,51"
-  },
-  {
-    "municipality": "Algimia de Alfara",
-    "region": "El Camp de Morvedre",
-    "population": "1.019,0",
-    "DkWh": "1456,91",
-    "EGWh": "6,5",
-    "PMWp": "4.101,3",
-    "reach": 4461,
-    "factor": "4,38"
-  },
-  {
-    "municipality": "Alfara de la Baronia",
-    "region": "El Camp de Morvedre",
-    "population": "569,0",
-    "DkWh": "1456,91",
-    "EGWh": "5,2",
-    "PMWp": "3.300,5",
-    "reach": 3569,
-    "factor": "6,27"
-  },
-  {
-    "municipality": "Algar de Palancia",
-    "region": "El Camp de Morvedre",
-    "population": "491,0",
-    "DkWh": "1456,91",
-    "EGWh": "6,2",
-    "PMWp": "3.917,3",
-    "reach": 4256,
-    "factor": "8,67"
-  },
-  {
-    "municipality": "Benifairó de les Valls",
-    "region": "El Camp de Morvedre",
-    "population": "2.213,0",
-    "DkWh": "1456,91",
-    "EGWh": "7,1",
-    "PMWp": "4.480,5",
-    "reach": 4873,
-    "factor": "2,20"
-  },
-  {
-    "municipality": "Estivella",
-    "region": "El Camp de Morvedre",
-    "population": "1.441,0",
-    "DkWh": "1456,91",
-    "EGWh": "9,1",
-    "PMWp": "5.762,6",
-    "reach": 6246,
-    "factor": "4,33"
-  },
-  {
-    "municipality": "Albalat dels Tarongers",
-    "region": "El Camp de Morvedre",
-    "population": "1.208,0",
-    "DkWh": "1456,91",
-    "EGWh": "13,5",
-    "PMWp": "8.457,4",
-    "reach": 9266,
-    "factor": "7,67"
-  },
-  {
-    "municipality": "Faura",
-    "region": "El Camp de Morvedre",
-    "population": "3.553,0",
-    "DkWh": "1456,91",
-    "EGWh": "9,4",
-    "PMWp": "5.914,9",
-    "reach": 6452,
-    "factor": "1,82"
-  },
-  {
-    "municipality": "Benavites",
-    "region": "El Camp de Morvedre",
-    "population": "638,0",
-    "DkWh": "1456,91",
-    "EGWh": "3,7",
-    "PMWp": "2.308,8",
-    "reach": 2540,
-    "factor": "3,98"
-  },
-  {
-    "municipality": "Gilet",
-    "region": "El Camp de Morvedre",
-    "population": "3.404,0",
-    "DkWh": "1456,91",
-    "EGWh": "15,2",
-    "PMWp": "9.578,8",
-    "reach": 10433,
-    "factor": "3,06"
-  },
-  {
-    "municipality": "Petrés",
-    "region": "El Camp de Morvedre",
-    "population": "999,0",
-    "DkWh": "1456,91",
-    "EGWh": "4,0",
-    "PMWp": "2.496,3",
-    "reach": 2746,
-    "factor": "2,75"
-  },
-  {
-    "municipality": "Quart de les Valls",
-    "region": "El Camp de Morvedre",
-    "population": "1.024,0",
-    "DkWh": "1456,91",
-    "EGWh": "3,2",
-    "PMWp": "2.019,0",
-    "reach": 2196,
-    "factor": "2,14"
-  },
-  {
-    "municipality": "Segart",
-    "region": "El Camp de Morvedre",
-    "population": "164,0",
-    "DkWh": "1456,91",
-    "EGWh": "1,5",
-    "PMWp": "956,6",
-    "reach": 1030,
-    "factor": "6,28"
-  },
-  {
-    "municipality": "Torres Torres",
-    "region": "El Camp de Morvedre",
-    "population": "669,0",
-    "DkWh": "1456,91",
-    "EGWh": "7,6",
-    "PMWp": "4.749,2",
-    "reach": 5217,
-    "factor": "7,80"
-  },
-  {
-    "municipality": "Riba-Roja de Túria",
-    "region": "El Camp de Túria",
-    "population": "22.761,0",
-    "DkWh": "1328,86",
-    "EGWh": "359,8",
-    "PMWp": "227.180,9",
-    "reach": 270758,
-    "factor": "11,90"
-  },
-  {
-    "municipality": "Llíria",
-    "region": "El Camp de Túria",
-    "population": "23.482,0",
-    "DkWh": "1328,86",
-    "EGWh": "169,3",
-    "PMWp": "104.902,0",
-    "reach": 127402,
-    "factor": "5,43"
-  },
-  {
-    "municipality": "La Pobla de Vallbona",
-    "region": "El Camp de Túria",
-    "population": "24.858,0",
-    "DkWh": "1328,86",
-    "EGWh": "120,9",
-    "PMWp": "74.935,7",
-    "reach": 90980,
-    "factor": "3,66"
-  },
-  {
-    "municipality": "Nàquera",
-    "region": "El Camp de Túria",
-    "population": "6.897,0",
-    "DkWh": "1328,86",
-    "EGWh": "97,5",
-    "PMWp": "60.994,7",
-    "reach": 73371,
-    "factor": "10,64"
-  },
-  {
-    "municipality": "Bétera",
-    "region": "El Camp de Túria",
-    "population": "24.604,0",
-    "DkWh": "1328,86",
-    "EGWh": "93,2",
-    "PMWp": "57.663,9",
-    "reach": 70135,
-    "factor": "2,85"
-  },
-  {
-    "municipality": "Vilamarxant",
-    "region": "El Camp de Túria",
-    "population": 9891,
-    "DkWh": "1328,86",
-    "EGWh": "61,2",
-    "PMWp": "38212,2",
-    "reach": 46054,
-    "factor": "4,66"
-  },
-  {
-    "municipality": "Benaguasil",
-    "region": "El Camp de Túria",
-    "population": "11.256,0",
-    "DkWh": "1328,86",
-    "EGWh": "52,2",
-    "PMWp": "32.408,5",
-    "reach": 39282,
-    "factor": "3,49"
-  },
-  {
-    "municipality": "San Antonio de Benagéber",
-    "region": "El Camp de Túria",
-    "population": "9.286,0",
-    "DkWh": "1328,86",
-    "EGWh": "44,9",
-    "PMWp": "27.728,7",
-    "reach": 33788,
-    "factor": "3,64"
-  },
-  {
-    "municipality": "Loriguilla",
-    "region": "El Camp de Túria",
-    "population": "2.035,0",
-    "DkWh": "1328,86",
-    "EGWh": "14,3",
-    "PMWp": "9.027,1",
-    "reach": 10761,
-    "factor": "5,29"
-  },
-  {
-    "municipality": "L'Eliana",
-    "region": "El Camp de Túria",
-    "population": "18.362,0",
-    "DkWh": "1328,86",
-    "EGWh": "53,9",
-    "PMWp": "33.100,5",
-    "reach": 40561,
-    "factor": "2,21"
-  },
-  {
-    "municipality": "Benisanó",
-    "region": "El Camp de Túria",
-    "population": "2.291,0",
-    "DkWh": "1328,86",
-    "EGWh": "12,7",
-    "PMWp": "7.884,5",
-    "reach": 9557,
-    "factor": "4,17"
-  },
-  {
-    "municipality": "Casinos",
-    "region": "El Camp de Túria",
-    "population": "2.780,0",
-    "DkWh": "1328,86",
-    "EGWh": "18,4",
-    "PMWp": "11.304,0",
-    "reach": 13846,
-    "factor": "4,98"
-  },
-  {
-    "municipality": "Marines",
-    "region": "El Camp de Túria",
-    "population": "1.848,0",
-    "DkWh": "1328,86",
-    "EGWh": "15,9",
-    "PMWp": "9.855,9",
-    "reach": 11965,
-    "factor": "6,47"
-  },
-  {
-    "municipality": "Serra",
-    "region": "El Camp de Túria",
-    "population": "3.187,0",
-    "DkWh": "1328,86",
-    "EGWh": "22,1",
-    "PMWp": "13.793,5",
-    "reach": 16631,
-    "factor": "5,22"
-  },
-  {
-    "municipality": "Gátova",
-    "region": "El Camp de Túria",
-    "population": "405,0",
-    "DkWh": "1328,86",
-    "EGWh": "3,8",
-    "PMWp": "2.429,9",
-    "reach": 2860,
-    "factor": "7,06"
-  },
-  {
-    "municipality": "Olocau",
-    "region": "El Camp de Túria",
-    "population": "1.828,0",
-    "DkWh": "1328,86",
-    "EGWh": "17,2",
-    "PMWp": "10.632,6",
-    "reach": 12943,
-    "factor": "7,08"
-  },
-  {
-    "municipality": "Cocentaina",
-    "region": "El Comtat",
-    "population": 11520,
-    "DkWh": "1680,08",
-    "EGWh": "120,2",
-    "PMWp": "76850,6",
-    "reach": 71544,
-    "factor": "6,21"
-  },
-  {
-    "municipality": "Muro de Alcoi",
-    "region": "El Comtat",
-    "population": 9315,
-    "DkWh": "1680,08",
-    "EGWh": "76,6",
-    "PMWp": "48837,6",
-    "reach": 45593,
-    "factor": "4,89"
-  },
-  {
-    "municipality": "L'Alqueria d'Asnar",
-    "region": "El Comtat",
-    "population": 493,
-    "DkWh": "1680,08",
-    "EGWh": "11,2",
-    "PMWp": "7159,9",
-    "reach": 6666,
-    "factor": "13,52"
-  },
-  {
-    "municipality": "Gaianes",
-    "region": "El Comtat",
-    "population": 479,
-    "DkWh": "1680,08",
-    "EGWh": "10,2",
-    "PMWp": "6705,5",
-    "reach": 6071,
-    "factor": "12,67"
-  },
-  {
-    "municipality": "Benimarfull",
-    "region": "El Comtat",
-    "population": 396,
-    "DkWh": "1680,08",
-    "EGWh": "8,3",
-    "PMWp": "5472,3",
-    "reach": 4940,
-    "factor": "12,48"
-  },
-  {
-    "municipality": "Alcocer de Planes",
-    "region": "El Comtat",
-    "population": 226,
-    "DkWh": "1680,08",
-    "EGWh": "6,2",
-    "PMWp": "3918,3",
-    "reach": 3690,
-    "factor": "16,33"
-  },
-  {
-    "municipality": "Alfafara",
-    "region": "El Comtat",
-    "population": 406,
-    "DkWh": "1680,08",
-    "EGWh": "6,5",
-    "PMWp": "4438,2",
-    "reach": 3869,
-    "factor": "9,53"
-  },
-  {
-    "municipality": "Benilloba",
-    "region": "El Comtat",
-    "population": 726,
-    "DkWh": "1680,08",
-    "EGWh": "6,4",
-    "PMWp": "4441,2",
-    "reach": 3809,
-    "factor": "5,25"
-  },
-  {
-    "municipality": "Planes",
-    "region": "El Comtat",
-    "population": 682,
-    "DkWh": "1680,08",
-    "EGWh": "6,1",
-    "PMWp": "4439,9",
-    "reach": 3631,
-    "factor": "5,32"
-  },
-  {
-    "municipality": "L'Orxa / Lorcha",
-    "region": "El Comtat",
-    "population": 582,
-    "DkWh": "1680,08",
-    "EGWh": "5,7",
-    "PMWp": "3955,1",
-    "reach": 3393,
-    "factor": "5,83"
-  },
-  {
-    "municipality": "Agres",
-    "region": "El Comtat",
-    "population": 564,
-    "DkWh": "1680,08",
-    "EGWh": "4,7",
-    "PMWp": "3800,9",
-    "reach": 2797,
-    "factor": "4,96"
-  },
-  {
-    "municipality": "Beniarrés",
-    "region": "El Comtat",
-    "population": 1099,
-    "DkWh": "1680,08",
-    "EGWh": "6,6",
-    "PMWp": 4097,
-    "reach": 3928,
-    "factor": "3,57"
-  },
-  {
-    "municipality": "Gorga",
-    "region": "El Comtat",
-    "population": 241,
-    "DkWh": "1680,08",
-    "EGWh": "3,1",
-    "PMWp": "2201,9",
-    "reach": 1845,
-    "factor": "7,66"
-  },
-  {
-    "municipality": "Balones",
-    "region": "El Comtat",
-    "population": 128,
-    "DkWh": "1680,08",
-    "EGWh": "1,4",
-    "PMWp": 1092,
-    "reach": 833,
-    "factor": "6,51"
-  },
-  {
-    "municipality": "Almudaina",
-    "region": "El Comtat",
-    "population": 109,
-    "DkWh": "1680,08",
-    "EGWh": "1,2",
-    "PMWp": "964,5",
-    "reach": 714,
-    "factor": "6,55"
-  },
-  {
-    "municipality": "Benasau",
-    "region": "El Comtat",
-    "population": 156,
-    "DkWh": "1680,08",
-    "EGWh": "1,8",
-    "PMWp": "1335,1",
-    "reach": 1071,
-    "factor": "6,87"
-  },
-  {
-    "municipality": "Quatretondeta",
-    "region": "El Comtat",
-    "population": 118,
-    "DkWh": "1680,08",
-    "EGWh": "1,4",
-    "PMWp": "1086,8",
-    "reach": 833,
-    "factor": "7,06"
-  },
-  {
-    "municipality": "Millena",
-    "region": "El Comtat",
-    "population": 240,
-    "DkWh": "1680,08",
-    "EGWh": "1,2",
-    "PMWp": "876,8",
-    "reach": 714,
-    "factor": "2,98"
-  },
-  {
-    "municipality": "Benimassot",
-    "region": "El Comtat",
-    "population": 103,
-    "DkWh": "1680,08",
-    "EGWh": "0,9",
-    "PMWp": "651,5",
-    "reach": 536,
-    "factor": "5,20"
-  },
-  {
-    "municipality": "Alcoleja",
-    "region": "El Comtat",
-    "population": 177,
-    "DkWh": "1680,08",
-    "EGWh": "0,7",
-    "PMWp": "608,2",
-    "reach": 417,
-    "factor": "2,35"
-  },
-  {
-    "municipality": "Fageca",
-    "region": "El Comtat",
-    "population": 107,
-    "DkWh": "1680,08",
-    "EGWh": "0,8",
-    "PMWp": "651,6",
-    "reach": 476,
-    "factor": "4,45"
-  },
-  {
-    "municipality": "Benillup",
-    "region": "El Comtat",
-    "population": 100,
-    "DkWh": "1680,08",
-    "EGWh": "0,4",
-    "PMWp": "287,7",
-    "reach": 238,
-    "factor": "2,38"
-  },
-  {
-    "municipality": "Famorca",
-    "region": "El Comtat",
-    "population": 45,
-    "DkWh": "1680,08",
-    "EGWh": "0,3",
-    "PMWp": "255,9",
-    "reach": 179,
-    "factor": "3,97"
-  },
-  {
-    "municipality": "Tollos",
-    "region": "El Comtat",
-    "population": 35,
-    "DkWh": "1680,08",
-    "EGWh": "0,3",
-    "PMWp": "273,6",
-    "reach": 179,
-    "factor": "5,10"
-  },
-  {
     "municipality": "Ademuz",
-    "region": "El Rincón de Ademúz",
-    "population": "1.037,0",
-    "DkWh": "1986,99",
-    "EGWh": "10,1",
-    "PMWp": "6.293,1",
-    "reach": 5083,
-    "factor": "4,90"
-  },
-  {
-    "municipality": "Castielfabib",
-    "region": "El Rincón de Ademúz",
-    "population": "308,0",
-    "DkWh": "1986,99",
-    "EGWh": "7,5",
-    "PMWp": "4.665,2",
-    "reach": 3775,
-    "factor": "12,26"
-  },
-  {
-    "municipality": "Torrebaja",
-    "region": "El Rincón de Ademúz",
-    "population": "402,0",
-    "DkWh": "1986,99",
-    "EGWh": "6,3",
-    "PMWp": "3.929,8",
-    "reach": 3171,
-    "factor": "7,89"
-  },
-  {
-    "municipality": "Vallanca",
-    "region": "El Rincón de Ademúz",
-    "population": 133,
-    "DkWh": "1986,99",
-    "EGWh": "2,7",
-    "PMWp": "1693,9",
-    "reach": 1359,
-    "factor": "10,22"
-  },
-  {
-    "municipality": "Casas Bajas",
-    "region": "El Rincón de Ademúz",
-    "population": "163,0",
-    "DkWh": "1986,99",
-    "EGWh": "2,3",
-    "PMWp": "1.424,7",
-    "reach": 1158,
-    "factor": "7,10"
-  },
-  {
-    "municipality": "Casas Altas",
-    "region": "El Rincón de Ademúz",
-    "population": "131,0",
-    "DkWh": "1986,99",
-    "EGWh": "1,3",
-    "PMWp": "796,5",
-    "reach": 654,
-    "factor": "4,99"
-  },
-  {
-    "municipality": "Puebla de San Miguel",
-    "region": "El Rincón de Ademúz",
-    "population": "61,0",
-    "DkWh": "1986,99",
-    "EGWh": "0,7",
-    "PMWp": "473,3",
-    "reach": 352,
-    "factor": "5,78"
-  },
-  {
-    "municipality": "Ayora",
-    "region": "El Valle de Cofrentes-Ayora",
-    "population": "5.283,0",
-    "DkWh": "1650,81",
-    "EGWh": "41,7",
-    "PMWp": "25.805,6",
-    "reach": 25260,
-    "factor": "4,78"
-  },
-  {
-    "municipality": "Cortes de Pallás",
-    "region": "El Valle de Cofrentes-Ayora",
-    "population": "771,0",
-    "DkWh": "1650,81",
-    "EGWh": "10,2",
-    "PMWp": "6.570,2",
-    "reach": 6179,
-    "factor": "8,01"
-  },
-  {
-    "municipality": "Jalance",
-    "region": "El Valle de Cofrentes-Ayora",
-    "population": "834,0",
-    "DkWh": "1650,81",
-    "EGWh": "9,2",
-    "PMWp": "5.824,1",
-    "reach": 5573,
-    "factor": "6,68"
-  },
-  {
-    "municipality": "Jarafuel",
-    "region": "El Valle de Cofrentes-Ayora",
-    "population": "769,0",
-    "DkWh": "1650,81",
-    "EGWh": "7,1",
-    "PMWp": "4.421,1",
-    "reach": 4301,
-    "factor": "5,59"
-  },
-  {
-    "municipality": "Cofrentes",
-    "region": "El Valle de Cofrentes-Ayora",
-    "population": "1.123,0",
-    "DkWh": "1650,81",
-    "EGWh": "6,5",
-    "PMWp": "4.111,5",
-    "reach": 3937,
-    "factor": "3,51"
-  },
-  {
-    "municipality": "Zarra",
-    "region": "El Valle de Cofrentes-Ayora",
-    "population": 346,
-    "DkWh": "1650,81",
-    "EGWh": "3,4",
-    "PMWp": "2141,2",
-    "reach": 2060,
-    "factor": "5,95"
-  },
-  {
-    "municipality": "Teresa de Cofrentes",
-    "region": "El Valle de Cofrentes-Ayora",
-    "population": "619,0",
-    "DkWh": "1650,81",
-    "EGWh": "5,6",
-    "PMWp": "3.461,8",
-    "reach": 3392,
-    "factor": "5,48"
-  },
-  {
-    "municipality": "Novelda",
-    "region": "El Vinalopó Mitjà",
-    "population": 25741,
-    "DkWh": "1600,00",
-    "EGWh": "166,4",
-    "PMWp": "90076,7",
-    "reach": 104000,
-    "factor": "4,04"
-  },
-  {
-    "municipality": "Elda",
-    "region": "El Vinalopó Mitjà",
-    "population": 52813,
-    "DkWh": "1600,00",
-    "EGWh": "136,7",
-    "PMWp": "69821,7",
-    "reach": 85438,
-    "factor": "1,62"
-  },
-  {
-    "municipality": "Aspe",
-    "region": "El Vinalopó Mitjà",
-    "population": 20804,
-    "DkWh": "1600,00",
-    "EGWh": "87,7",
-    "PMWp": 53591,
-    "reach": 54813,
-    "factor": "2,63"
-  },
-  {
-    "municipality": "Petrer",
-    "region": "El Vinalopó Mitjà",
-    "population": 34241,
-    "DkWh": "1600,00",
-    "EGWh": "123,8",
-    "PMWp": "63532,1",
-    "reach": 77375,
-    "factor": "2,26"
-  },
-  {
-    "municipality": "Monòver / Monóvar",
-    "region": "El Vinalopó Mitjà",
-    "population": 12212,
-    "DkWh": "1600,00",
-    "EGWh": "89,3",
-    "PMWp": "47095,7",
-    "reach": 55813,
-    "factor": "4,57"
-  },
-  {
-    "municipality": "Monforte del Cid",
-    "region": "El Vinalopó Mitjà",
-    "population": 8346,
-    "DkWh": "1600,00",
-    "EGWh": "61,3",
-    "PMWp": "35271,1",
-    "reach": 38313,
-    "factor": "4,59"
-  },
-  {
-    "municipality": "El Pinós / Pinoso",
-    "region": "El Vinalopó Mitjà",
-    "population": 8025,
-    "DkWh": "1600,00",
-    "EGWh": "66,1",
-    "PMWp": "39545,6",
-    "reach": 41313,
-    "factor": "5,15"
-  },
-  {
-    "municipality": "La Romana",
-    "region": "El Vinalopó Mitjà",
-    "population": 2492,
-    "DkWh": "1600,00",
-    "EGWh": 23,
-    "PMWp": "15289,8",
-    "reach": 14375,
-    "factor": "5,77"
-  },
-  {
-    "municipality": "Algueña",
-    "region": "El Vinalopó Mitjà",
-    "population": 1326,
-    "DkWh": "1600,00",
-    "EGWh": "19,8",
-    "PMWp": "12647,1",
-    "reach": 12375,
-    "factor": "9,33"
-  },
-  {
-    "municipality": "El Fondó de les Neus / Hondón de las Nieves",
-    "region": "El Vinalopó Mitjà",
-    "population": 2606,
-    "DkWh": "1600,00",
-    "EGWh": "19,2",
-    "PMWp": "13039,5",
-    "reach": 12000,
-    "factor": "4,60"
-  },
-  {
-    "municipality": "Hondón de Los Frailes",
-    "region": "El Vinalopó Mitjà",
-    "population": 1242,
-    "DkWh": "1600,00",
-    "EGWh": "4,6",
-    "PMWp": "3391,7",
-    "reach": 2875,
-    "factor": "2,31"
-  },
-  {
-    "municipality": "Morella",
-    "region": "Els Ports",
-    "population": 2416,
-    "DkWh": "1538,62",
-    "EGWh": "17,2",
-    "PMWp": "12055,1",
-    "reach": 11179,
-    "factor": "4,63"
-  },
-  {
-    "municipality": "Forcall",
-    "region": "Els Ports",
-    "population": 456,
-    "DkWh": "1538,62",
-    "EGWh": "2,8",
-    "PMWp": "2318,9",
-    "reach": 1820,
-    "factor": "3,99"
-  },
-  {
-    "municipality": "Cinctorres",
-    "region": "Els Ports",
-    "population": 400,
-    "DkWh": "1538,62",
-    "EGWh": "2,5",
-    "PMWp": "2170,1",
-    "reach": 1625,
-    "factor": "4,06"
-  },
-  {
-    "municipality": "Portell de Morella",
-    "region": "Els Ports",
-    "population": 188,
-    "DkWh": "1538,62",
-    "EGWh": "1,2",
-    "PMWp": 993,
-    "reach": 780,
-    "factor": "4,15"
-  },
-  {
-    "municipality": "Todolella",
-    "region": "Els Ports",
-    "population": 141,
-    "DkWh": "1538,62",
-    "EGWh": 1,
-    "PMWp": "837,4",
-    "reach": 650,
-    "factor": "4,61"
-  },
-  {
-    "municipality": "Vallibona",
-    "region": "Els Ports",
-    "population": 66,
-    "DkWh": "1538,62",
-    "EGWh": "0,7",
-    "PMWp": "545,5",
-    "reach": 455,
-    "factor": "6,89"
-  },
-  {
-    "municipality": "Herbés",
-    "region": "Els Ports",
-    "population": 44,
-    "DkWh": "1538,62",
-    "EGWh": "0,6",
-    "PMWp": "453,6",
-    "reach": 390,
-    "factor": "8,86"
-  },
-  {
-    "municipality": "Zorita del Maestrazgo",
-    "region": "Els Ports",
-    "population": 111,
-    "DkWh": "1538,62",
-    "EGWh": 1,
-    "PMWp": "869,1",
-    "reach": 650,
-    "factor": "5,86"
-  },
-  {
-    "municipality": "Villores",
-    "region": "Els Ports",
-    "population": 42,
-    "DkWh": "1538,62",
-    "EGWh": "0,8",
-    "PMWp": "605,2",
-    "reach": 520,
-    "factor": "12,38"
-  },
-  {
-    "municipality": "Castellfort",
-    "region": "Els Ports",
-    "population": 179,
-    "DkWh": "1538,62",
-    "EGWh": 1,
-    "PMWp": "931,6",
-    "reach": 650,
-    "factor": "3,63"
-  },
-  {
-    "municipality": "La Mata de Morella",
-    "region": "Els Ports",
-    "population": 160,
-    "DkWh": "1538,62",
-    "EGWh": "0,7",
-    "PMWp": "617,9",
-    "reach": 455,
-    "factor": "2,84"
-  },
-  {
-    "municipality": "Palanques",
-    "region": "Els Ports",
-    "population": 34,
-    "DkWh": "1538,62",
-    "EGWh": "0,3",
-    "PMWp": "227,8",
-    "reach": 195,
-    "factor": "5,73"
-  },
-  {
-    "municipality": "Olocau del Rey",
-    "region": "Els Ports",
-    "population": 120,
-    "DkWh": "1538,62",
-    "EGWh": "0,6",
-    "PMWp": "418,8",
-    "reach": 390,
-    "factor": "3,25"
-  },
-  {
-    "municipality": "Enguera",
-    "region": "La Canal de Navarrés",
-    "population": "4.777,0",
-    "DkWh": "1717,07",
-    "EGWh": "32,0",
-    "PMWp": "20.360,7",
-    "reach": 18636,
-    "factor": "3,90"
-  },
-  {
-    "municipality": "Anna",
-    "region": "La Canal de Navarrés",
-    "population": "2.615,0",
-    "DkWh": "1717,07",
-    "EGWh": "21,0",
-    "PMWp": "13.287,7",
-    "reach": 12230,
-    "factor": "4,68"
-  },
-  {
-    "municipality": "Navarrés",
-    "region": "La Canal de Navarrés",
-    "population": "3.004,0",
-    "DkWh": "1717,07",
-    "EGWh": "25,9",
-    "PMWp": "16.342,0",
-    "reach": 15084,
-    "factor": "5,02"
-  },
-  {
-    "municipality": "Chella",
-    "region": "La Canal de Navarrés",
-    "population": "2.472,0",
-    "DkWh": "1717,07",
-    "EGWh": "12,5",
-    "PMWp": "7.902,9",
-    "reach": 7280,
-    "factor": "2,94"
-  },
-  {
-    "municipality": "Millares",
-    "region": "La Canal de Navarrés",
-    "population": "331,0",
-    "DkWh": "1717,07",
-    "EGWh": "6,0",
-    "PMWp": "3.860,2",
-    "reach": 3494,
-    "factor": "10,56"
-  },
-  {
-    "municipality": "Bolbaite",
-    "region": "La Canal de Navarrés",
-    "population": "1.324,0",
-    "DkWh": "1717,07",
-    "EGWh": "4,8",
-    "PMWp": "3.038,3",
-    "reach": 2795,
-    "factor": "2,11"
-  },
-  {
-    "municipality": "Bicorp",
-    "region": "La Canal de Navarrés",
-    "population": "529,0",
-    "DkWh": "1717,07",
-    "EGWh": "3,6",
-    "PMWp": "2.270,5",
-    "reach": 2097,
-    "factor": "3,96"
-  },
-  {
-    "municipality": "Quesa",
-    "region": "La Canal de Navarrés",
-    "population": "663,0",
-    "DkWh": "1717,07",
-    "EGWh": "4,6",
-    "PMWp": "2.921,5",
-    "reach": 2679,
-    "factor": "4,04"
-  },
-  {
-    "municipality": "Xàtiva",
-    "region": "La Costera",
-    "population": 29623,
-    "DkWh": "1572,36",
-    "EGWh": "121,4",
-    "PMWp": "77365,8",
-    "reach": 77209,
-    "factor": "2,61"
-  },
-  {
-    "municipality": "Canals",
-    "region": "La Costera",
-    "population": "13.516,0",
-    "DkWh": "1572,36",
-    "EGWh": "68,1",
-    "PMWp": "43.174,3",
-    "reach": 43311,
-    "factor": "3,20"
-  },
-  {
-    "municipality": "Moixent / Mogente",
-    "region": "La Costera",
-    "population": "4.307,0",
-    "DkWh": "1572,36",
-    "EGWh": "42,7",
-    "PMWp": "27.241,3",
-    "reach": 27157,
-    "factor": "6,31"
-  },
-  {
-    "municipality": "L'Alcúdia de Crespins",
-    "region": "La Costera",
-    "population": "5.113,0",
-    "DkWh": "1572,36",
-    "EGWh": "36,5",
-    "PMWp": "23.223,8",
-    "reach": 23214,
-    "factor": "4,54"
-  },
-  {
-    "municipality": "Vallada",
-    "region": "La Costera",
-    "population": 3096,
-    "DkWh": "1572,36",
-    "EGWh": "29,5",
-    "PMWp": "18900,1",
-    "reach": 18762,
-    "factor": "6,06"
-  },
-  {
-    "municipality": "La Font de la Figuera",
-    "region": "La Costera",
-    "population": "2.027,0",
-    "DkWh": "1572,36",
-    "EGWh": "26,6",
-    "PMWp": "16.459,8",
-    "reach": 16917,
-    "factor": "8,35"
-  },
-  {
-    "municipality": "La Llosa de Ranes",
-    "region": "La Costera",
-    "population": "3.642,0",
-    "DkWh": "1572,36",
-    "EGWh": "17,4",
-    "PMWp": "11.017,0",
-    "reach": 11066,
-    "factor": "3,04"
-  },
-  {
-    "municipality": "Novetlè / Novelé",
-    "region": "La Costera",
-    "population": "857,0",
-    "DkWh": "1572,36",
-    "EGWh": "9,5",
-    "PMWp": "6.122,6",
-    "reach": 6042,
-    "factor": "7,05"
-  },
-  {
-    "municipality": "Barxeta",
-    "region": "La Costera",
-    "population": "1.586,0",
-    "DkWh": "1572,36",
-    "EGWh": "10,1",
-    "PMWp": "6.459,6",
-    "reach": 6423,
-    "factor": "4,05"
-  },
-  {
-    "municipality": "Llanera de Ranes",
-    "region": "La Costera",
-    "population": "1.047,0",
-    "DkWh": "1572,36",
-    "EGWh": "9,0",
-    "PMWp": "5.690,4",
-    "reach": 5724,
-    "factor": "5,47"
-  },
-  {
-    "municipality": "Rotglà i Corberà",
-    "region": "La Costera",
-    "population": "1.117,0",
-    "DkWh": "1572,36",
-    "EGWh": "10,1",
-    "PMWp": "6.375,5",
-    "reach": 6423,
-    "factor": "5,75"
-  },
-  {
-    "municipality": "El Genovés",
-    "region": "La Costera",
-    "population": "2.778,0",
-    "DkWh": "1572,36",
-    "EGWh": "15,2",
-    "PMWp": "9.660,4",
-    "reach": 9667,
-    "factor": "3,48"
-  },
-  {
-    "municipality": "Montesa",
-    "region": "La Costera",
-    "population": "1.155,0",
-    "DkWh": "1572,36",
-    "EGWh": "10,0",
-    "PMWp": "6.314,6",
-    "reach": 6360,
-    "factor": "5,51"
-  },
-  {
-    "municipality": "Llocnou d'En Fenollet",
-    "region": "La Costera",
-    "population": "916,0",
-    "DkWh": "1572,36",
-    "EGWh": "4,5",
-    "PMWp": "2.854,2",
-    "reach": 2862,
-    "factor": "3,12"
-  },
-  {
-    "municipality": "La Granja de la Costera",
-    "region": "La Costera",
-    "population": "295,0",
-    "DkWh": "1572,36",
-    "EGWh": "1,3",
-    "PMWp": "802,8",
-    "reach": 827,
-    "factor": "2,80"
-  },
-  {
-    "municipality": "Estubeny",
-    "region": "La Costera",
-    "population": "125,0",
-    "DkWh": "1572,36",
-    "EGWh": "1,2",
-    "PMWp": "768,5",
-    "reach": 763,
-    "factor": "6,11"
-  },
-  {
-    "municipality": "Cerdà",
-    "region": "La Costera",
-    "population": "331,0",
-    "DkWh": "1572,36",
-    "EGWh": "1,1",
-    "PMWp": "715,9",
-    "reach": 700,
-    "factor": "2,11"
-  },
-  {
-    "municipality": "Torrella",
-    "region": "La Costera",
-    "population": "145,0",
-    "DkWh": "1572,36",
-    "EGWh": "0,9",
-    "PMWp": "544,2",
-    "reach": 572,
-    "factor": "3,95"
-  },
-  {
-    "municipality": "Vallés",
-    "region": "La Costera",
-    "population": 154,
-    "DkWh": "1572,36",
-    "EGWh": "0,6",
-    "PMWp": "386,9",
-    "reach": 382,
-    "factor": "2,48"
-  },
-  {
-    "municipality": "Cheste",
-    "region": "La Hoya de Buñol",
-    "population": "8.735,0",
-    "DkWh": "1570,33",
-    "EGWh": "119,3",
-    "PMWp": "74.779,8",
-    "reach": 75972,
-    "factor": "8,70"
-  },
-  {
-    "municipality": "Buñol",
-    "region": "La Hoya de Buñol",
-    "population": "9.498,0",
-    "DkWh": "1570,33",
-    "EGWh": "101,6",
-    "PMWp": "64.347,8",
-    "reach": 64700,
-    "factor": "6,81"
-  },
-  {
-    "municipality": "Chiva",
-    "region": "La Hoya de Buñol",
-    "population": "15.414,0",
-    "DkWh": "1570,33",
-    "EGWh": "138,2",
-    "PMWp": "86.845,7",
-    "reach": 88007,
-    "factor": "5,71"
-  },
-  {
-    "municipality": "Godelleta",
-    "region": "La Hoya de Buñol",
-    "population": "3.584,0",
-    "DkWh": "1570,33",
-    "EGWh": "37,9",
-    "PMWp": "23.562,4",
-    "reach": 24135,
-    "factor": "6,73"
-  },
-  {
-    "municipality": "Alborache",
-    "region": "La Hoya de Buñol",
-    "population": "1.229,0",
-    "DkWh": "1570,33",
-    "EGWh": "13,9",
-    "PMWp": "8.734,5",
-    "reach": 8852,
-    "factor": "7,20"
-  },
-  {
-    "municipality": "Siete Aguas",
-    "region": "La Hoya de Buñol",
-    "population": "1.159,0",
-    "DkWh": "1570,33",
-    "EGWh": "11,8",
-    "PMWp": "7.354,5",
-    "reach": 7514,
-    "factor": "6,48"
-  },
-  {
-    "municipality": "Yátova",
-    "region": "La Hoya de Buñol",
-    "population": 2079,
-    "DkWh": "1570,33",
-    "EGWh": "13,8",
-    "PMWp": "8610,5",
-    "reach": 8788,
-    "factor": "4,23"
-  },
-  {
-    "municipality": "Macastre",
-    "region": "La Hoya de Buñol",
-    "population": "1.300,0",
-    "DkWh": "1570,33",
-    "EGWh": "7,8",
-    "PMWp": "4.859,0",
-    "reach": 4967,
-    "factor": "3,82"
-  },
-  {
-    "municipality": "Dos Aguas",
-    "region": "La Hoya de Buñol",
-    "population": "327,0",
-    "DkWh": "1570,33",
-    "EGWh": "2,7",
-    "PMWp": "1.736,6",
-    "reach": 1719,
-    "factor": "5,26"
-  },
-  {
-    "municipality": "Castelló de la Plana / Castellón de la Plana",
-    "region": "La Plana Alta",
-    "population": 174264,
-    "DkWh": "1830,89",
-    "EGWh": "580,3",
-    "PMWp": "366772,3",
-    "reach": 316949,
-    "factor": "1,82"
-  },
-  {
-    "municipality": "Almassora / Almazora",
-    "region": "La Plana Alta",
-    "population": 26742,
-    "DkWh": "1830,89",
-    "EGWh": "255,7",
-    "PMWp": "158734,5",
-    "reach": 139659,
-    "factor": "5,22"
-  },
-  {
-    "municipality": "Sant Joan de Moró",
-    "region": "La Plana Alta",
-    "population": 3232,
-    "DkWh": "1830,89",
-    "EGWh": "106,2",
-    "PMWp": "68260,8",
-    "reach": 58004,
-    "factor": "17,95"
-  },
-  {
-    "municipality": "Vilafamés",
-    "region": "La Plana Alta",
-    "population": 1829,
-    "DkWh": "1830,89",
-    "EGWh": 65,
-    "PMWp": "42257,4",
-    "reach": 35502,
-    "factor": "19,41"
-  },
-  {
-    "municipality": "Cabanes",
-    "region": "La Plana Alta",
-    "population": 2978,
-    "DkWh": "1830,89",
-    "EGWh": "48,3",
-    "PMWp": "31096,3",
-    "reach": 26381,
-    "factor": "8,86"
-  },
-  {
-    "municipality": "Vall d'Alba",
-    "region": "La Plana Alta",
-    "population": 2856,
-    "DkWh": "1830,89",
-    "EGWh": "39,2",
-    "PMWp": "26390,5",
-    "reach": 21410,
-    "factor": "7,50"
-  },
-  {
-    "municipality": "La Pobla Tornesa",
-    "region": "La Plana Alta",
-    "population": 1212,
-    "DkWh": "1830,89",
-    "EGWh": "28,8",
-    "PMWp": "19491,7",
-    "reach": 15730,
-    "factor": "12,98"
-  },
-  {
-    "municipality": "Borriol",
-    "region": "La Plana Alta",
-    "population": 5397,
-    "DkWh": "1830,89",
-    "EGWh": "33,9",
-    "PMWp": "24483,4",
-    "reach": 18516,
-    "factor": "3,43"
-  },
-  {
-    "municipality": "Orpesa / Oropesa del Mar",
-    "region": "La Plana Alta",
-    "population": 9339,
-    "DkWh": "1830,89",
-    "EGWh": 62,
-    "PMWp": "39927,4",
-    "reach": 33863,
-    "factor": "3,63"
-  },
-  {
-    "municipality": "Torreblanca",
-    "region": "La Plana Alta",
-    "population": 5574,
-    "DkWh": "1830,89",
-    "EGWh": "26,4",
-    "PMWp": "16890,6",
-    "reach": 14419,
-    "factor": "2,59"
-  },
-  {
-    "municipality": "Benicàssim / Benicásim",
-    "region": "La Plana Alta",
-    "population": 18364,
-    "DkWh": "1830,89",
-    "EGWh": "63,2",
-    "PMWp": 32997,
-    "reach": 34519,
-    "factor": "1,88"
-  },
-  {
-    "municipality": "Les Coves de Vinromà",
-    "region": "La Plana Alta",
-    "population": 1806,
-    "DkWh": "1830,89",
-    "EGWh": "10,6",
-    "PMWp": 7570,
-    "reach": 5790,
-    "factor": "3,21"
-  },
-  {
-    "municipality": "Vilanova d'Alcolea",
-    "region": "La Plana Alta",
-    "population": 569,
-    "DkWh": "1830,89",
-    "EGWh": "5,5",
-    "PMWp": "4130,3",
-    "reach": 3004,
-    "factor": "5,28"
-  },
-  {
-    "municipality": "Benlloc",
-    "region": "La Plana Alta",
-    "population": 1048,
-    "DkWh": "1830,89",
-    "EGWh": "8,7",
-    "PMWp": "6180,6",
-    "reach": 4752,
-    "factor": "4,53"
-  },
-  {
-    "municipality": "Sierra Engarcerán",
-    "region": "La Plana Alta",
-    "population": 988,
-    "DkWh": "1830,89",
-    "EGWh": "8,2",
-    "PMWp": "5880,1",
-    "reach": 4479,
-    "factor": "4,53"
-  },
-  {
-    "municipality": "La Torre d'en Doménec",
-    "region": "La Plana Alta",
-    "population": 162,
-    "DkWh": "1830,89",
-    "EGWh": "2,3",
-    "PMWp": "1671,2",
-    "reach": 1256,
-    "factor": "7,75"
-  },
-  {
-    "municipality": "La Serratella",
-    "region": "La Plana Alta",
-    "population": 95,
-    "DkWh": "1830,89",
-    "EGWh": "0,9",
-    "PMWp": "736,5",
-    "reach": 492,
-    "factor": "5,17"
-  },
-  {
-    "municipality": "Onda",
-    "region": "La Plana Baixa",
-    "population": 24980,
-    "DkWh": "1892,28",
-    "EGWh": "404,8",
-    "PMWp": "253939,1",
-    "reach": 213922,
-    "factor": "8,56"
-  },
-  {
-    "municipality": "Vila-Real / Villarreal",
-    "region": "La Plana Baixa",
-    "population": 51293,
-    "DkWh": "1892,28",
-    "EGWh": "385,4",
-    "PMWp": "238664,9",
-    "reach": 203670,
-    "factor": "3,97"
-  },
-  {
-    "municipality": "Nules",
-    "region": "La Plana Baixa",
-    "population": 13236,
-    "DkWh": "1892,28",
-    "EGWh": "144,8",
-    "PMWp": "92516,1",
-    "reach": 76522,
-    "factor": "5,78"
-  },
-  {
-    "municipality": "La Vall d'Uixó",
-    "region": "La Plana Baixa",
-    "population": 31681,
-    "DkWh": "1892,28",
-    "EGWh": "156,8",
-    "PMWp": 89676,
-    "reach": 82863,
-    "factor": "2,62"
-  },
-  {
-    "municipality": "Borriana / Burriana",
-    "region": "La Plana Baixa",
-    "population": 35052,
-    "DkWh": "1892,28",
-    "EGWh": "158,9",
-    "PMWp": "89199,1",
-    "reach": 83973,
-    "factor": "2,40"
-  },
-  {
-    "municipality": "Betxí",
-    "region": "La Plana Baixa",
-    "population": 5618,
-    "DkWh": "1892,28",
-    "EGWh": "61,8",
-    "PMWp": "39727,9",
-    "reach": 32659,
-    "factor": "5,81"
-  },
-  {
-    "municipality": "Xilxes / Chilches",
-    "region": "La Plana Baixa",
-    "population": 2714,
-    "DkWh": "1892,28",
-    "EGWh": "41,9",
-    "PMWp": "27941,2",
-    "reach": 22143,
-    "factor": "8,16"
-  },
-  {
-    "municipality": "Moncofa",
-    "region": "La Plana Baixa",
-    "population": 6707,
-    "DkWh": "1892,28",
-    "EGWh": "57,7",
-    "PMWp": "36421,9",
-    "reach": 30492,
-    "factor": "4,55"
-  },
-  {
-    "municipality": "Les Alqueries / Las Alquerías del Niño Perdido",
-    "region": "La Plana Baixa",
-    "population": 4464,
-    "DkWh": "1892,28",
-    "EGWh": "28,5",
-    "PMWp": "19199,9",
-    "reach": 15061,
-    "factor": "3,37"
-  },
-  {
-    "municipality": "Almenara",
-    "region": "La Plana Baixa",
-    "population": 6090,
-    "DkWh": "1892,28",
-    "EGWh": "36,3",
-    "PMWp": "22889,8",
-    "reach": 19183,
-    "factor": "3,15"
-  },
-  {
-    "municipality": "Ribesalbes",
-    "region": "La Plana Baixa",
-    "population": 1163,
-    "DkWh": "1892,28",
-    "EGWh": "13,9",
-    "PMWp": "9046,4",
-    "reach": 7346,
-    "factor": "6,32"
-  },
-  {
-    "municipality": "La Vilavella",
-    "region": "La Plana Baixa",
-    "population": 3125,
-    "DkWh": "1892,28",
-    "EGWh": "16,6",
-    "PMWp": 10728,
-    "reach": 8773,
-    "factor": "2,81"
-  },
-  {
-    "municipality": "La Llosa",
-    "region": "La Plana Baixa",
-    "population": 982,
-    "DkWh": "1892,28",
-    "EGWh": 9,
-    "PMWp": "5668,8",
-    "reach": 4756,
-    "factor": "4,84"
-  },
-  {
-    "municipality": "Artana",
-    "region": "La Plana Baixa",
-    "population": 1955,
-    "DkWh": "1892,28",
-    "EGWh": "8,6",
-    "PMWp": "6231,5",
-    "reach": 4545,
-    "factor": "2,32"
-  },
-  {
-    "municipality": "Eslida",
-    "region": "La Plana Baixa",
-    "population": 725,
-    "DkWh": "1892,28",
-    "EGWh": "4,7",
-    "PMWp": "3497,7",
-    "reach": 2484,
-    "factor": "3,43"
-  },
-  {
-    "municipality": "Suera / Sueras",
-    "region": "La Plana Baixa",
-    "population": 524,
-    "DkWh": "1892,28",
-    "EGWh": "3,1",
-    "PMWp": "2215,1",
-    "reach": 1638,
-    "factor": "3,13"
-  },
-  {
-    "municipality": "Alfondeguilla",
-    "region": "La Plana Baixa",
-    "population": 862,
-    "DkWh": "1892,28",
-    "EGWh": "1,5",
-    "PMWp": "963,8",
-    "reach": 793,
-    "factor": "0,92"
-  },
-  {
-    "municipality": "Alcudia de Veo",
-    "region": "La Plana Baixa",
-    "population": 188,
-    "DkWh": "1892,28",
-    "EGWh": "0,9",
-    "PMWp": "806,4",
-    "reach": 476,
-    "factor": "2,53"
-  },
-  {
-    "municipality": "Tales",
-    "region": "La Plana Baixa",
-    "population": 801,
-    "DkWh": "1892,28",
-    "EGWh": "1,4",
-    "PMWp": "1095,4",
-    "reach": 740,
-    "factor": "0,92"
-  },
-  {
-    "municipality": "Aín",
-    "region": "La Plana Baixa",
-    "population": 123,
-    "DkWh": "1892,28",
-    "EGWh": "0,4",
-    "PMWp": 393,
-    "reach": 211,
-    "factor": "1,72"
-  },
-  {
-    "municipality": "Requena",
-    "region": "La Plana de Utiel-Requena",
-    "population": "20.405,0",
-    "DkWh": "1642,28",
-    "EGWh": "196,1",
-    "PMWp": "120.095,7",
-    "reach": 119407,
-    "factor": "5,85"
-  },
-  {
-    "municipality": "Utiel",
-    "region": "La Plana de Utiel-Requena",
-    "population": 11458,
-    "DkWh": "1642,28",
-    "EGWh": "109,8",
-    "PMWp": "66425,2",
-    "reach": 66858,
-    "factor": "5,84"
-  },
-  {
-    "municipality": "Venta del Moro",
-    "region": "La Plana de Utiel-Requena",
-    "population": 1198,
-    "DkWh": "1642,28",
-    "EGWh": "20,5",
-    "PMWp": "12479,4",
-    "reach": 12483,
-    "factor": "10,42"
-  },
-  {
-    "municipality": "Caudete de Las Fuentes",
-    "region": "La Plana de Utiel-Requena",
-    "population": "711,0",
-    "DkWh": "1642,28",
-    "EGWh": "13,8",
-    "PMWp": "8.351,9",
-    "reach": 8403,
-    "factor": "11,82"
-  },
-  {
-    "municipality": "Villargordo del Cabriel",
-    "region": "La Plana de Utiel-Requena",
-    "population": 582,
-    "DkWh": "1642,28",
-    "EGWh": "11,9",
-    "PMWp": "7387,3",
-    "reach": 7246,
-    "factor": "12,45"
-  },
-  {
-    "municipality": "Camporrobles",
-    "region": "La Plana de Utiel-Requena",
-    "population": "1.198,0",
-    "DkWh": "1642,28",
-    "EGWh": "15,1",
-    "PMWp": "9.132,6",
-    "reach": 9195,
-    "factor": "7,67"
-  },
-  {
-    "municipality": "Sinarcas",
-    "region": "La Plana de Utiel-Requena",
-    "population": "1.105,0",
-    "DkWh": "1642,28",
-    "EGWh": "12,8",
-    "PMWp": "7.900,8",
-    "reach": 7794,
-    "factor": "7,05"
-  },
-  {
-    "municipality": "Fuenterrobles",
-    "region": "La Plana de Utiel-Requena",
-    "population": "694,0",
-    "DkWh": "1642,28",
-    "EGWh": "7,8",
-    "PMWp": "4.677,9",
-    "reach": 4750,
-    "factor": "6,84"
-  },
-  {
-    "municipality": "Chera",
-    "region": "La Plana de Utiel-Requena",
-    "population": "469,0",
-    "DkWh": "1642,28",
-    "EGWh": "4,8",
-    "PMWp": "2.984,5",
-    "reach": 2923,
-    "factor": "6,23"
-  },
-  {
-    "municipality": "Alzira",
-    "region": "La Ribera Alta",
-    "population": "44.938,0",
-    "DkWh": "1605,28",
-    "EGWh": "188,9",
-    "PMWp": "119.544,1",
-    "reach": 117674,
-    "factor": "2,62"
-  },
-  {
-    "municipality": "Algemesí",
-    "region": "La Ribera Alta",
-    "population": "27.430,0",
-    "DkWh": "1605,28",
-    "EGWh": "129,3",
-    "PMWp": "81.776,1",
-    "reach": 80546,
-    "factor": "2,94"
-  },
-  {
-    "municipality": "Carlet",
-    "region": "La Ribera Alta",
-    "population": "15.740,0",
-    "DkWh": "1605,28",
-    "EGWh": "115,2",
-    "PMWp": "72.724,6",
-    "reach": 71763,
-    "factor": "4,56"
-  },
-  {
-    "municipality": "L'Alcúdia",
-    "region": "La Ribera Alta",
-    "population": "12.107,0",
-    "DkWh": "1605,28",
-    "EGWh": "82,9",
-    "PMWp": "52.441,9",
-    "reach": 51642,
-    "factor": "4,27"
-  },
-  {
-    "municipality": "Benifaió",
-    "region": "La Ribera Alta",
-    "population": "11.989,0",
-    "DkWh": "1605,28",
-    "EGWh": "79,4",
-    "PMWp": "49.931,0",
-    "reach": 49462,
-    "factor": "4,13"
-  },
-  {
-    "municipality": "Alginet",
-    "region": "La Ribera Alta",
-    "population": "13.827,0",
-    "DkWh": "1605,28",
-    "EGWh": "98,0",
-    "PMWp": "61.592,6",
-    "reach": 61048,
-    "factor": "4,42"
-  },
-  {
-    "municipality": "Guadassuar",
-    "region": "La Ribera Alta",
-    "population": "5.902,0",
-    "DkWh": "1605,28",
-    "EGWh": "66,1",
-    "PMWp": "41.683,5",
-    "reach": 41177,
-    "factor": "6,98"
-  },
-  {
-    "municipality": "Alberic",
-    "region": "La Ribera Alta",
-    "population": "10.519,0",
-    "DkWh": "1605,28",
-    "EGWh": "76,8",
-    "PMWp": "48.385,3",
-    "reach": 47842,
-    "factor": "4,55"
-  },
-  {
-    "municipality": "Turís",
-    "region": "La Ribera Alta",
-    "population": 6722,
-    "DkWh": "1605,28",
-    "EGWh": "82,7",
-    "PMWp": "51676,8",
-    "reach": 51517,
-    "factor": "7,66"
-  },
-  {
-    "municipality": "Carcaixent",
-    "region": "La Ribera Alta",
-    "population": "20.436,0",
-    "DkWh": "1605,28",
-    "EGWh": "70,4",
-    "PMWp": "44.218,2",
-    "reach": 43855,
-    "factor": "2,15"
-  },
-  {
-    "municipality": "Castelló / Villanueva de Castellón",
-    "region": "La Ribera Alta",
-    "population": 7054,
-    "DkWh": "1605,28",
-    "EGWh": "40,2",
-    "PMWp": "25485,1",
-    "reach": 25042,
-    "factor": "3,55"
-  },
-  {
-    "municipality": "Montserrat",
-    "region": "La Ribera Alta",
-    "population": "8.188,0",
-    "DkWh": "1605,28",
-    "EGWh": "76,2",
-    "PMWp": "47.596,4",
-    "reach": 47468,
-    "factor": "5,80"
-  },
-  {
-    "municipality": "La Pobla Llarga",
-    "region": "La Ribera Alta",
-    "population": "4.452,0",
-    "DkWh": "1605,28",
-    "EGWh": "37,1",
-    "PMWp": "23.428,8",
-    "reach": 23111,
-    "factor": "5,19"
-  },
-  {
-    "municipality": "Massalavés",
-    "region": "La Ribera Alta",
-    "population": "1.610,0",
-    "DkWh": "1605,28",
-    "EGWh": "27,5",
-    "PMWp": "17.459,6",
-    "reach": 17131,
-    "factor": "10,64"
-  },
-  {
-    "municipality": "Alfarp",
-    "region": "La Ribera Alta",
-    "population": "1.571,0",
-    "DkWh": "1605,28",
-    "EGWh": "24,8",
-    "PMWp": "15.696,6",
-    "reach": 15449,
-    "factor": "9,83"
-  },
-  {
-    "municipality": "Benimodo",
-    "region": "La Ribera Alta",
-    "population": "2.272,0",
-    "DkWh": "1605,28",
-    "EGWh": "21,0",
-    "PMWp": "13.253,5",
-    "reach": 13082,
-    "factor": "5,76"
-  },
-  {
-    "municipality": "Catadau",
-    "region": "La Ribera Alta",
-    "population": "2.804,0",
-    "DkWh": "1605,28",
-    "EGWh": "29,2",
-    "PMWp": "18.487,9",
-    "reach": 18190,
-    "factor": "6,49"
-  },
-  {
-    "municipality": "Llombai",
-    "region": "La Ribera Alta",
-    "population": "2.653,0",
-    "DkWh": "1605,28",
-    "EGWh": "23,3",
-    "PMWp": "14.750,6",
-    "reach": 14515,
-    "factor": "5,47"
-  },
-  {
-    "municipality": "Beneixida",
-    "region": "La Ribera Alta",
-    "population": "627,0",
-    "DkWh": "1605,28",
-    "EGWh": "13,6",
-    "PMWp": "8.600,8",
-    "reach": 8472,
-    "factor": "13,51"
-  },
-  {
-    "municipality": "Senyera",
-    "region": "La Ribera Alta",
-    "population": "1.134,0",
-    "DkWh": "1605,28",
-    "EGWh": "11,5",
-    "PMWp": "7.350,5",
-    "reach": 7164,
-    "factor": "6,32"
-  },
-  {
-    "municipality": "Real",
-    "region": "La Ribera Alta",
-    "population": "2.207,0",
-    "DkWh": "1605,28",
-    "EGWh": "15,2",
-    "PMWp": "9.597,5",
-    "reach": 9469,
-    "factor": "4,29"
-  },
-  {
-    "municipality": "Manuel",
-    "region": "La Ribera Alta",
-    "population": "2.436,0",
-    "DkWh": "1605,28",
-    "EGWh": "16,7",
-    "PMWp": "10.566,2",
-    "reach": 10403,
-    "factor": "4,27"
-  },
-  {
-    "municipality": "Càrcer",
-    "region": "La Ribera Alta",
-    "population": "1.827,0",
-    "DkWh": "1605,28",
-    "EGWh": "13,1",
-    "PMWp": "8.274,2",
-    "reach": 8161,
-    "factor": "4,47"
-  },
-  {
-    "municipality": "Sant Joanet",
-    "region": "La Ribera Alta",
-    "population": "507,0",
-    "DkWh": "1605,28",
-    "EGWh": "6,6",
-    "PMWp": "4.212,5",
-    "reach": 4111,
-    "factor": "8,11"
-  },
-  {
-    "municipality": "Alcàntera de Xúquer",
-    "region": "La Ribera Alta",
-    "population": "1.341,0",
-    "DkWh": "1605,28",
-    "EGWh": "9,1",
-    "PMWp": "5.716,6",
-    "reach": 5669,
-    "factor": "4,23"
-  },
-  {
-    "municipality": "Benimuslem",
-    "region": "La Ribera Alta",
-    "population": "667,0",
-    "DkWh": "1605,28",
-    "EGWh": "6,7",
-    "PMWp": "4.237,2",
-    "reach": 4174,
-    "factor": "6,26"
-  },
-  {
-    "municipality": "Rafelguaraf",
-    "region": "La Ribera Alta",
-    "population": "2.355,0",
-    "DkWh": "1605,28",
-    "EGWh": "14,2",
-    "PMWp": "8.930,4",
-    "reach": 8846,
-    "factor": "3,76"
-  },
-  {
-    "municipality": "Montroi / Montroy",
-    "region": "La Ribera Alta",
-    "population": "2.956,0",
-    "DkWh": "1605,28",
-    "EGWh": "25,6",
-    "PMWp": "15.951,4",
-    "reach": 15947,
-    "factor": "5,39"
-  },
-  {
-    "municipality": "Sumacàrcer",
-    "region": "La Ribera Alta",
-    "population": "1.097,0",
-    "DkWh": "1605,28",
-    "EGWh": "7,8",
-    "PMWp": "4.946,1",
-    "reach": 4859,
-    "factor": "4,43"
-  },
-  {
-    "municipality": "Tous",
-    "region": "La Ribera Alta",
-    "population": 1287,
-    "DkWh": "1605,28",
-    "EGWh": "8,8",
-    "PMWp": "5510,5",
-    "reach": 5482,
-    "factor": "4,26"
-  },
-  {
-    "municipality": "Sellent",
-    "region": "La Ribera Alta",
-    "population": "384,0",
-    "DkWh": "1605,28",
-    "EGWh": "3,2",
-    "PMWp": "2.055,5",
-    "reach": 1993,
-    "factor": "5,19"
-  },
-  {
-    "municipality": "Antella",
-    "region": "La Ribera Alta",
-    "population": "1.157,0",
-    "DkWh": "1605,28",
-    "EGWh": "6,2",
-    "PMWp": "3.872,3",
-    "reach": 3862,
-    "factor": "3,34"
-  },
-  {
-    "municipality": "L'Ènova",
-    "region": "La Ribera Alta",
-    "population": "902,0",
-    "DkWh": "1605,28",
-    "EGWh": "5,0",
-    "PMWp": "3.152,1",
-    "reach": 3115,
-    "factor": "3,45"
-  },
-  {
-    "municipality": "Cotes",
-    "region": "La Ribera Alta",
-    "population": "333,0",
-    "DkWh": "1605,28",
-    "EGWh": "2,6",
-    "PMWp": "1.629,7",
-    "reach": 1620,
-    "factor": "4,86"
-  },
-  {
-    "municipality": "Gavarda",
-    "region": "La Ribera Alta",
-    "population": "1.042,0",
-    "DkWh": "1605,28",
-    "EGWh": "3,1",
-    "PMWp": "1.942,1",
-    "reach": 1931,
-    "factor": "1,85"
-  },
-  {
-    "municipality": "Almussafes",
-    "region": "La Ribera Baixa",
-    "population": "8.979,0",
-    "DkWh": "1535,77",
-    "EGWh": "216,6",
-    "PMWp": "137.207,0",
-    "reach": 141037,
-    "factor": "15,71"
-  },
-  {
-    "municipality": "Sueca",
-    "region": "La Ribera Baixa",
-    "population": "27.566,0",
-    "DkWh": "1535,77",
-    "EGWh": "116,6",
-    "PMWp": "73.309,8",
-    "reach": 75923,
-    "factor": "2,75"
-  },
-  {
-    "municipality": "Sollana",
-    "region": "La Ribera Baixa",
-    "population": "4.881,0",
-    "DkWh": "1535,77",
-    "EGWh": "60,3",
-    "PMWp": "38.173,2",
-    "reach": 39264,
-    "factor": "8,04"
-  },
-  {
-    "municipality": "Cullera",
-    "region": "La Ribera Baixa",
-    "population": "22.521,0",
-    "DkWh": "1535,77",
-    "EGWh": "57,3",
-    "PMWp": "36.176,2",
-    "reach": 37310,
-    "factor": "1,66"
-  },
-  {
-    "municipality": "Corbera",
-    "region": "La Ribera Baixa",
-    "population": "3.088,0",
-    "DkWh": "1535,77",
-    "EGWh": "20,9",
-    "PMWp": "13.487,7",
-    "reach": 13609,
-    "factor": "4,41"
-  },
-  {
-    "municipality": "Albalat de la Ribera",
-    "region": "La Ribera Baixa",
-    "population": "3.326,0",
-    "DkWh": "1535,77",
-    "EGWh": "19,5",
-    "PMWp": "12.285,1",
-    "reach": 12697,
-    "factor": "3,82"
-  },
-  {
-    "municipality": "Favara",
-    "region": "La Ribera Baixa",
-    "population": "2.504,0",
-    "DkWh": "1535,77",
-    "EGWh": "13,0",
-    "PMWp": "8.397,4",
-    "reach": 8465,
-    "factor": "3,38"
-  },
-  {
-    "municipality": "Polinyà de Xúquer",
-    "region": "La Ribera Baixa",
-    "population": "2.503,0",
-    "DkWh": "1535,77",
-    "EGWh": "16,1",
-    "PMWp": "10.150,4",
-    "reach": 10483,
-    "factor": "4,19"
-  },
-  {
-    "municipality": "Llaurí",
-    "region": "La Ribera Baixa",
-    "population": "1.130,0",
-    "DkWh": "1535,77",
-    "EGWh": "8,8",
-    "PMWp": "5.713,9",
-    "reach": 5730,
-    "factor": "5,07"
-  },
-  {
-    "municipality": "Benicull de Xúquer",
-    "region": "La Ribera Baixa",
-    "population": "1.048,0",
-    "DkWh": "1535,77",
-    "EGWh": "5,9",
-    "PMWp": "3.726,7",
-    "reach": 3842,
-    "factor": "3,67"
-  },
-  {
-    "municipality": "Riola",
-    "region": "La Ribera Baixa",
-    "population": "1.790,0",
-    "DkWh": "1535,77",
-    "EGWh": "4,7",
-    "PMWp": "2.951,0",
-    "reach": 3060,
-    "factor": "1,71"
-  },
-  {
-    "municipality": "Fortaleny",
-    "region": "La Ribera Baixa",
-    "population": "1.020,0",
-    "DkWh": "1535,77",
-    "EGWh": "4,3",
-    "PMWp": "2.676,4",
-    "reach": 2800,
-    "factor": "2,74"
-  },
-  {
-    "municipality": "Oliva",
-    "region": "La Safor",
-    "population": "25.224,0",
-    "DkWh": "1422,36",
-    "EGWh": "129,0",
-    "PMWp": "82.199,6",
-    "reach": 90694,
-    "factor": "3,60"
-  },
-  {
-    "municipality": "Gandia",
-    "region": "La Safor",
-    "population": "75.798,0",
-    "DkWh": "1422,36",
-    "EGWh": "137,5",
-    "PMWp": "87.247,9",
-    "reach": 96670,
-    "factor": "1,28"
-  },
-  {
-    "municipality": "El Real de Gandia",
-    "region": "La Safor",
-    "population": "2.531,0",
-    "DkWh": "1422,36",
-    "EGWh": "41,0",
-    "PMWp": "26.303,2",
-    "reach": 28825,
-    "factor": "11,39"
-  },
-  {
-    "municipality": "Tavernes de la Valldigna",
-    "region": "La Safor",
-    "population": "17.254,0",
-    "DkWh": "1422,36",
-    "EGWh": "68,3",
-    "PMWp": "43.723,2",
-    "reach": 48019,
-    "factor": "2,78"
-  },
-  {
-    "municipality": "Vilallonga / Villalonga",
-    "region": "La Safor",
-    "population": 4370,
-    "DkWh": "1422,36",
-    "EGWh": "37,6",
-    "PMWp": "24606,3",
-    "reach": 26435,
-    "factor": "6,05"
-  },
-  {
-    "municipality": "Xeresa",
-    "region": "La Safor",
-    "population": 2197,
-    "DkWh": "1422,36",
-    "EGWh": "25,1",
-    "PMWp": "16370,3",
-    "reach": 17647,
-    "factor": "8,03"
-  },
-  {
-    "municipality": "Xeraco",
-    "region": "La Safor",
-    "population": 5720,
-    "DkWh": "1422,36",
-    "EGWh": "34,5",
-    "PMWp": "22175,5",
-    "reach": 24256,
-    "factor": "4,24"
-  },
-  {
-    "municipality": "L'Alqueria de la Comtessa",
-    "region": "La Safor",
-    "population": "1.496,0",
-    "DkWh": "1422,36",
-    "EGWh": "18,6",
-    "PMWp": "11.808,2",
-    "reach": 13077,
-    "factor": "8,74"
-  },
-  {
-    "municipality": "Bellreguard",
-    "region": "La Safor",
-    "population": "4.618,0",
-    "DkWh": "1422,36",
-    "EGWh": "25,3",
-    "PMWp": "15.979,8",
-    "reach": 17787,
-    "factor": "3,85"
-  },
-  {
-    "municipality": "Daimús",
-    "region": "La Safor",
-    "population": "3.196,0",
-    "DkWh": "1422,36",
-    "EGWh": "22,7",
-    "PMWp": "14.461,2",
-    "reach": 15959,
-    "factor": "4,99"
-  },
-  {
-    "municipality": "Palma de Gandía",
-    "region": "La Safor",
-    "population": "1.709,0",
-    "DkWh": "1422,36",
-    "EGWh": "20,6",
-    "PMWp": "13.233,2",
-    "reach": 14483,
-    "factor": "8,47"
-  },
-  {
-    "municipality": "Almoines",
-    "region": "La Safor",
-    "population": "2.477,0",
-    "DkWh": "1422,36",
-    "EGWh": "14,7",
-    "PMWp": "9.341,0",
-    "reach": 10335,
-    "factor": "4,17"
-  },
-  {
-    "municipality": "Miramar",
-    "region": "La Safor",
-    "population": "2.685,0",
-    "DkWh": "1422,36",
-    "EGWh": "14,7",
-    "PMWp": "9.393,1",
-    "reach": 10335,
-    "factor": "3,85"
-  },
-  {
-    "municipality": "Beniflá",
-    "region": "La Safor",
-    "population": "460,0",
-    "DkWh": "1422,36",
-    "EGWh": "10,3",
-    "PMWp": "6.619,5",
-    "reach": 7241,
-    "factor": "15,74"
-  },
-  {
-    "municipality": "Piles",
-    "region": "La Safor",
-    "population": "2.740,0",
-    "DkWh": "1422,36",
-    "EGWh": "18,3",
-    "PMWp": "11.668,6",
-    "reach": 12866,
-    "factor": "4,70"
-  },
-  {
-    "municipality": "Benifairó de la Valldigna",
-    "region": "La Safor",
-    "population": "1.558,0",
-    "DkWh": "1422,36",
-    "EGWh": "14,5",
-    "PMWp": "9.309,0",
-    "reach": 10194,
-    "factor": "6,54"
-  },
-  {
-    "municipality": "Simat de la Valldigna",
-    "region": "La Safor",
-    "population": "3.297,0",
-    "DkWh": "1422,36",
-    "EGWh": "13,5",
-    "PMWp": "8.969,6",
-    "reach": 9491,
-    "factor": "2,88"
-  },
-  {
-    "municipality": "Llocnou de Sant Jeroni",
-    "region": "La Safor",
-    "population": "554,0",
-    "DkWh": "1422,36",
-    "EGWh": "7,5",
-    "PMWp": "4.836,1",
-    "reach": 5273,
-    "factor": "9,52"
-  },
-  {
-    "municipality": "Palmera",
-    "region": "La Safor",
-    "population": "1.018,0",
-    "DkWh": "1422,36",
-    "EGWh": "7,5",
-    "PMWp": "4.753,3",
-    "reach": 5273,
-    "factor": "5,18"
-  },
-  {
-    "municipality": "Beniarjó",
-    "region": "La Safor",
-    "population": "1.767,0",
-    "DkWh": "1422,36",
-    "EGWh": "11,0",
-    "PMWp": "7.023,9",
-    "reach": 7734,
-    "factor": "4,38"
-  },
-  {
-    "municipality": "Rótova",
-    "region": "La Safor",
-    "population": "1.293,0",
-    "DkWh": "1422,36",
-    "EGWh": "10,1",
-    "PMWp": "6.463,2",
-    "reach": 7101,
-    "factor": "5,49"
-  },
-  {
-    "municipality": "Potríes",
-    "region": "La Safor",
-    "population": "1.060,0",
-    "DkWh": "1422,36",
-    "EGWh": "9,1",
-    "PMWp": "5.821,3",
-    "reach": 6398,
-    "factor": "6,04"
+    "population": 1.037,
+    "DkWh": "1.986,99",
+    "EGWh": "10,10",
+    "PMWp": "6.293,10",
+    "reach": 5.083,
+    "percentage": "490%"
   },
   {
     "municipality": "Ador",
-    "region": "La Safor",
-    "population": "1.730,0",
-    "DkWh": "1422,36",
-    "EGWh": "8,2",
-    "PMWp": "5.310,7",
-    "reach": 5765,
-    "factor": "3,33"
-  },
-  {
-    "municipality": "La Font d'En Carròs",
-    "region": "La Safor",
-    "population": "3.778,0",
-    "DkWh": "1422,36",
-    "EGWh": "9,5",
-    "PMWp": "6.034,6",
-    "reach": 6679,
-    "factor": "1,77"
-  },
-  {
-    "municipality": "Rafelcofer",
-    "region": "La Safor",
-    "population": "1.355,0",
-    "DkWh": "1422,36",
-    "EGWh": "7,1",
-    "PMWp": "4.487,1",
-    "reach": 4992,
-    "factor": "3,68"
-  },
-  {
-    "municipality": "Barx",
-    "region": "La Safor",
-    "population": "1.303,0",
-    "DkWh": "1422,36",
-    "EGWh": "9,6",
-    "PMWp": "6.219,6",
-    "reach": 6749,
-    "factor": "5,18"
-  },
-  {
-    "municipality": "Benirredrà",
-    "region": "La Safor",
-    "population": "1.555,0",
-    "DkWh": "1422,36",
-    "EGWh": "3,9",
-    "PMWp": "2.480,0",
-    "reach": 2742,
-    "factor": "1,76"
-  },
-  {
-    "municipality": "Alfauir",
-    "region": "La Safor",
-    "population": "449,0",
-    "DkWh": "1422,36",
-    "EGWh": "2,0",
-    "PMWp": "1.306,7",
-    "reach": 1406,
-    "factor": "3,13"
-  },
-  {
-    "municipality": "Almiserà",
-    "region": "La Safor",
-    "population": "265,0",
-    "DkWh": "1422,36",
-    "EGWh": "1,9",
-    "PMWp": "1.207,5",
-    "reach": 1336,
-    "factor": "5,04"
-  },
-  {
-    "municipality": "Castellonet de la Conquesta",
-    "region": "La Safor",
-    "population": "141,0",
-    "DkWh": "1422,36",
-    "EGWh": "0,7",
-    "PMWp": "442,0",
-    "reach": 492,
-    "factor": "3,49"
-  },
-  {
-    "municipality": "Guardamar de la Safor",
-    "region": "La Safor",
-    "population": "531,0",
-    "DkWh": "1422,36",
-    "EGWh": "2,3",
-    "PMWp": "1.436,8",
-    "reach": 1617,
-    "factor": "3,05"
-  },
-  {
-    "municipality": "Ontinyent",
-    "region": "La Vall d'Albaida",
-    "population": "35.761,0",
-    "DkWh": "1576,42",
-    "EGWh": "186,8",
-    "PMWp": "117.416,2",
-    "reach": 118496,
-    "factor": "3,31"
-  },
-  {
-    "municipality": "L'Olleria",
-    "region": "La Vall d'Albaida",
-    "population": "8.320,0",
-    "DkWh": "1576,42",
-    "EGWh": "104,2",
-    "PMWp": "66.348,0",
-    "reach": 66099,
-    "factor": "7,94"
-  },
-  {
-    "municipality": "Agullent",
-    "region": "La Vall d'Albaida",
-    "population": "2.388,0",
-    "DkWh": "1576,42",
-    "EGWh": "50,6",
-    "PMWp": "32.026,1",
-    "reach": 32098,
-    "factor": "13,44"
-  },
-  {
-    "municipality": "Bocairent",
-    "region": "La Vall d'Albaida",
-    "population": "4.142,0",
-    "DkWh": "1576,42",
-    "EGWh": "49,7",
-    "PMWp": "31.522,1",
-    "reach": 31527,
-    "factor": "7,61"
-  },
-  {
-    "municipality": "Albaida",
-    "region": "La Vall d'Albaida",
-    "population": "5.914,0",
-    "DkWh": "1576,42",
-    "EGWh": "45,7",
-    "PMWp": "29.045,5",
-    "reach": 28990,
-    "factor": "4,90"
-  },
-  {
-    "municipality": "Benigánim",
-    "region": "La Vall d'Albaida",
-    "population": "5.779,0",
-    "DkWh": "1576,42",
-    "EGWh": "49,5",
-    "PMWp": "31.461,3",
-    "reach": 31400,
-    "factor": "5,43"
-  },
-  {
-    "municipality": "Aielo de Malferit",
-    "region": "La Vall d'Albaida",
-    "population": "4.625,0",
-    "DkWh": "1576,42",
-    "EGWh": "46,1",
-    "PMWp": "29.077,0",
-    "reach": 29243,
-    "factor": "6,32"
-  },
-  {
-    "municipality": "Montaverner",
-    "region": "La Vall d'Albaida",
-    "population": "1.635,0",
-    "DkWh": "1576,42",
-    "EGWh": "34,2",
-    "PMWp": "21.504,8",
-    "reach": 21695,
-    "factor": "13,27"
-  },
-  {
-    "municipality": "Atzeneta d'Albaida",
-    "region": "La Vall d'Albaida",
-    "population": "1.162,0",
-    "DkWh": "1576,42",
-    "EGWh": "27,2",
-    "PMWp": "17.348,3",
-    "reach": 17254,
-    "factor": "14,85"
-  },
-  {
-    "municipality": "Castelló de Rugat",
-    "region": "La Vall d'Albaida",
-    "population": "2.298,0",
-    "DkWh": "1576,42",
-    "EGWh": "26,3",
-    "PMWp": "16.532,8",
-    "reach": 16683,
-    "factor": "7,26"
-  },
-  {
-    "municipality": "La Pobla del Duc",
-    "region": "La Vall d'Albaida",
-    "population": "2.515,0",
-    "DkWh": "1576,42",
-    "EGWh": "25,1",
-    "PMWp": "15.716,0",
-    "reach": 15922,
-    "factor": "6,33"
-  },
-  {
-    "municipality": "Alfarrasí",
-    "region": "La Vall d'Albaida",
-    "population": "1.219,0",
-    "DkWh": "1576,42",
-    "EGWh": "20,4",
-    "PMWp": "12.845,9",
-    "reach": 12941,
-    "factor": "10,62"
-  },
-  {
-    "municipality": "Quatretonda",
-    "region": "La Vall d'Albaida",
-    "population": "2.202,0",
-    "DkWh": "1576,42",
-    "EGWh": "20,6",
-    "PMWp": "12.951,2",
-    "reach": 13068,
-    "factor": "5,93"
-  },
-  {
-    "municipality": "Guadasséquies",
-    "region": "La Vall d'Albaida",
-    "population": "456,0",
-    "DkWh": "1576,42",
-    "EGWh": "10,0",
-    "PMWp": "6.343,9",
-    "reach": 6343,
-    "factor": "13,91"
-  },
-  {
-    "municipality": "Llutxent",
-    "region": "La Vall d'Albaida",
-    "population": "2.326,0",
-    "DkWh": "1576,42",
-    "EGWh": "16,6",
-    "PMWp": "10.435,2",
-    "reach": 10530,
-    "factor": "4,53"
-  },
-  {
-    "municipality": "Salem",
-    "region": "La Vall d'Albaida",
-    "population": "418,0",
-    "DkWh": "1576,42",
-    "EGWh": "8,6",
-    "PMWp": "5.531,1",
-    "reach": 5455,
-    "factor": "13,05"
-  },
-  {
-    "municipality": "El Palomar",
-    "region": "La Vall d'Albaida",
-    "population": "567,0",
-    "DkWh": "1576,42",
-    "EGWh": "8,7",
-    "PMWp": "5.466,9",
-    "reach": 5519,
-    "factor": "9,73"
-  },
-  {
-    "municipality": "Terrateig",
-    "region": "La Vall d'Albaida",
-    "population": "256,0",
-    "DkWh": "1576,42",
-    "EGWh": "5,9",
-    "PMWp": "3.804,0",
-    "reach": 3743,
-    "factor": "14,62"
-  },
-  {
-    "municipality": "Benissoda",
-    "region": "La Vall d'Albaida",
-    "population": "432,0",
-    "DkWh": "1576,42",
-    "EGWh": "6,0",
-    "PMWp": "3.827,4",
-    "reach": 3806,
-    "factor": "8,81"
-  },
-  {
-    "municipality": "Fontanars dels Alforins",
-    "region": "La Vall d'Albaida",
-    "population": "959,0",
-    "DkWh": "1576,42",
-    "EGWh": "8,9",
-    "PMWp": "5.526,7",
-    "reach": 5646,
-    "factor": "5,89"
-  },
-  {
-    "municipality": "Benicolet",
-    "region": "La Vall d'Albaida",
-    "population": "574,0",
-    "DkWh": "1576,42",
-    "EGWh": "6,7",
-    "PMWp": "4.194,0",
-    "reach": 4250,
-    "factor": "7,40"
-  },
-  {
-    "municipality": "Bèlgida",
-    "region": "La Vall d'Albaida",
-    "population": "679,0",
-    "DkWh": "1576,42",
-    "EGWh": "7,4",
-    "PMWp": "4.635,6",
-    "reach": 4694,
-    "factor": "6,91"
-  },
-  {
-    "municipality": "Ráfol de Salem",
-    "region": "La Vall d'Albaida",
-    "population": "442,0",
-    "DkWh": "1576,42",
-    "EGWh": "5,0",
-    "PMWp": "3.169,2",
-    "reach": 3172,
-    "factor": "7,18"
-  },
-  {
-    "municipality": "Bufali",
-    "region": "La Vall d'Albaida",
-    "population": "156,0",
-    "DkWh": "1576,42",
-    "EGWh": "3,9",
-    "PMWp": "2.474,1",
-    "reach": 2474,
-    "factor": "15,86"
-  },
-  {
-    "municipality": "Bellús",
-    "region": "La Vall d'Albaida",
-    "population": "299,0",
-    "DkWh": "1576,42",
-    "EGWh": "3,5",
-    "PMWp": "2.215,0",
-    "reach": 2220,
-    "factor": "7,43"
-  },
-  {
-    "municipality": "Otos",
-    "region": "La Vall d'Albaida",
-    "population": "422,0",
-    "DkWh": "1576,42",
-    "EGWh": "3,8",
-    "PMWp": "2.383,8",
-    "reach": 2411,
-    "factor": "5,71"
-  },
-  {
-    "municipality": "Montixelvo / Montichelvo",
-    "region": "La Vall d'Albaida",
-    "population": "585,0",
-    "DkWh": "1576,42",
-    "EGWh": "4,0",
-    "PMWp": "2.521,1",
-    "reach": 2537,
-    "factor": "4,34"
-  },
-  {
-    "municipality": "Beniatjar",
-    "region": "La Vall d'Albaida",
-    "population": "219,0",
-    "DkWh": "1576,42",
-    "EGWh": "2,5",
-    "PMWp": "1.605,0",
-    "reach": 1586,
-    "factor": "7,24"
-  },
-  {
-    "municipality": "Rugat",
-    "region": "La Vall d'Albaida",
-    "population": "174,0",
-    "DkWh": "1576,42",
-    "EGWh": "2,3",
-    "PMWp": "1.450,9",
-    "reach": 1459,
-    "factor": "8,39"
-  },
-  {
-    "municipality": "Benissuera",
-    "region": "La Vall d'Albaida",
-    "population": "185,0",
-    "DkWh": "1576,42",
-    "EGWh": "1,9",
-    "PMWp": "1.195,4",
-    "reach": 1205,
-    "factor": "6,51"
-  },
-  {
-    "municipality": "Sempere",
-    "region": "La Vall d'Albaida",
-    "population": "30,0",
-    "DkWh": "1576,42",
-    "EGWh": "0,7",
-    "PMWp": "464,1",
-    "reach": 444,
-    "factor": "14,80"
-  },
-  {
-    "municipality": "Aielo de Rugat",
-    "region": "La Vall d'Albaida",
-    "population": "160,0",
-    "DkWh": "1576,42",
-    "EGWh": "1,4",
-    "PMWp": "907,2",
-    "reach": 888,
-    "factor": "5,55"
-  },
-  {
-    "municipality": "Pinet",
-    "region": "La Vall d'Albaida",
-    "population": "157,0",
-    "DkWh": "1576,42",
-    "EGWh": "1,1",
-    "PMWp": "686,8",
-    "reach": 698,
-    "factor": "4,44"
-  },
-  {
-    "municipality": "Carrícola",
-    "region": "La Vall d'Albaida",
-    "population": "99,0",
-    "DkWh": "1576,42",
-    "EGWh": "0,8",
-    "PMWp": "533,6",
-    "reach": 507,
-    "factor": "5,13"
-  },
-  {
-    "municipality": "Alacant / Alicante",
-    "region": "L'Alacantí",
-    "population": 337482,
-    "DkWh": "1512,60",
-    "EGWh": "805,9",
-    "PMWp": "412715,5",
-    "reach": 532791,
-    "factor": "1,58"
-  },
-  {
-    "municipality": "Sant Vicent del Raspeig / San Vicente del Raspeig",
-    "region": "L'Alacantí",
-    "population": 58978,
-    "DkWh": "1512,60",
-    "EGWh": "255,3",
-    "PMWp": "133331,4",
-    "reach": 168782,
-    "factor": "2,86"
-  },
-  {
-    "municipality": "Xixona / Jijona",
-    "region": "L'Alacantí",
-    "population": 6879,
-    "DkWh": "1512,60",
-    "EGWh": "66,7",
-    "PMWp": "39333,5",
-    "reach": 44096,
-    "factor": "6,41"
+    "population": 1.73,
+    "DkWh": "1.422,36",
+    "EGWh": "8,20",
+    "PMWp": "5.310,70",
+    "reach": 5.765,
+    "percentage": "333%"
   },
   {
     "municipality": "Agost",
-    "region": "L'Alacantí",
-    "population": 4794,
-    "DkWh": "1512,60",
-    "EGWh": "55,2",
-    "PMWp": "34010,7",
-    "reach": 36493,
-    "factor": "7,61"
+    "population": 4.794,
+    "DkWh": "1.512,60",
+    "EGWh": "55,20",
+    "PMWp": "34.010,70",
+    "reach": 36.493,
+    "percentage": "761%"
   },
   {
-    "municipality": "Mutxamel",
-    "region": "L'Alacantí",
-    "population": 25645,
-    "DkWh": "1512,60",
-    "EGWh": 85,
-    "PMWp": "44117,8",
-    "reach": 56195,
-    "factor": "2,19"
+    "municipality": "Agres",
+    "population": 564,
+    "DkWh": "1.680,08",
+    "EGWh": "4,70",
+    "PMWp": "3.800,90",
+    "reach": 2.797,
+    "percentage": "496%"
   },
   {
-    "municipality": "Sant Joan d'Alacant",
-    "region": "L'Alacantí",
-    "population": 24367,
-    "DkWh": "1512,60",
-    "EGWh": "77,7",
-    "PMWp": "38084,1",
-    "reach": 51368,
-    "factor": "2,11"
+    "municipality": "Agullent",
+    "population": 2.388,
+    "DkWh": "1.576,42",
+    "EGWh": "50,60",
+    "PMWp": "32.026,10",
+    "reach": 32.098,
+    "percentage": "1.344%"
   },
   {
-    "municipality": "El Campello",
-    "region": "L'Alacantí",
-    "population": 28930,
-    "DkWh": "1512,60",
-    "EGWh": "101,9",
-    "PMWp": "49470,1",
-    "reach": 67367,
-    "factor": "2,33"
+    "municipality": "Aielo de Malferit",
+    "population": 4.625,
+    "DkWh": "1.576,42",
+    "EGWh": "46,10",
+    "PMWp": "29.077,00",
+    "reach": 29.243,
+    "percentage": "632%"
   },
   {
-    "municipality": "Busot",
-    "region": "L'Alacantí",
-    "population": 3075,
-    "DkWh": "1512,60",
-    "EGWh": "21,9",
-    "PMWp": "13178,4",
-    "reach": 14478,
-    "factor": "4,71"
+    "municipality": "Aielo de Rugat",
+    "population": 160,
+    "DkWh": "1.576,42",
+    "EGWh": "1,40",
+    "PMWp": "907,20",
+    "reach": 888,
+    "percentage": "555%"
   },
   {
     "municipality": "Aigües",
-    "region": "L'Alacantí",
     "population": 986,
-    "DkWh": "1512,60",
-    "EGWh": "5,1",
-    "PMWp": 3593,
-    "reach": 3372,
-    "factor": "3,42"
+    "DkWh": "1.512,60",
+    "EGWh": "5,10",
+    "PMWp": "3.593,00",
+    "reach": 3.372,
+    "percentage": "342%"
   },
   {
-    "municipality": "La Torre de les Maçanes",
-    "region": "L'Alacantí",
-    "population": 636,
-    "DkWh": "1512,60",
-    "EGWh": "5,5",
-    "PMWp": "4029,7",
-    "reach": 3636,
-    "factor": "5,72"
+    "municipality": "Aín",
+    "population": 123,
+    "DkWh": "1.892,28",
+    "EGWh": "0,40",
+    "PMWp": "393,00",
+    "reach": 211,
+    "percentage": "172%"
   },
   {
-    "municipality": "L'Alcora",
-    "region": "L'Alcalatén",
-    "population": 10417,
-    "DkWh": "1922,36",
-    "EGWh": "288,8",
-    "PMWp": "186283,8",
-    "reach": 150232,
-    "factor": "14,42"
-  },
-  {
-    "municipality": "Llucena / Lucena del Cid",
-    "region": "L'Alcalatén",
-    "population": 1516,
-    "DkWh": "1922,36",
-    "EGWh": "16,3",
-    "PMWp": "11295,2",
-    "reach": 8479,
-    "factor": "5,59"
-  },
-  {
-    "municipality": "Atzeneta del Maestrat",
-    "region": "L'Alcalatén",
-    "population": 1304,
-    "DkWh": "1922,36",
-    "EGWh": 13,
-    "PMWp": "9112,7",
-    "reach": 6763,
-    "factor": "5,19"
-  },
-  {
-    "municipality": "Figueroles",
-    "region": "L'Alcalatén",
-    "population": 523,
-    "DkWh": "1922,36",
-    "EGWh": "8,4",
-    "PMWp": "5842,5",
-    "reach": 4370,
-    "factor": "8,35"
-  },
-  {
-    "municipality": "Les Useres / Useras",
-    "region": "L'Alcalatén",
-    "population": 959,
-    "DkWh": "1922,36",
-    "EGWh": "9,1",
-    "PMWp": "5793,5",
-    "reach": 4734,
-    "factor": "4,94"
-  },
-  {
-    "municipality": "Vistabella del Maestrat",
-    "region": "L'Alcalatén",
-    "population": 333,
-    "DkWh": "1922,36",
-    "EGWh": "3,1",
-    "PMWp": 2474,
-    "reach": 1613,
-    "factor": "4,84"
-  },
-  {
-    "municipality": "Costur",
-    "region": "L'Alcalatén",
-    "population": 518,
-    "DkWh": "1922,36",
-    "EGWh": "1,5",
-    "PMWp": "1156,2",
-    "reach": 780,
-    "factor": "1,51"
-  },
-  {
-    "municipality": "Xodos / Chodos",
-    "region": "L'Alcalatén",
-    "population": 106,
-    "DkWh": "1922,36",
-    "EGWh": "0,8",
-    "PMWp": "738,5",
-    "reach": 416,
-    "factor": "3,93"
-  },
-  {
-    "municipality": "Benafigos",
-    "region": "L'Alcalatén",
-    "population": 138,
-    "DkWh": "1922,36",
-    "EGWh": "0,6",
-    "PMWp": "572,6",
-    "reach": 312,
-    "factor": "2,26"
-  },
-  {
-    "municipality": "Ibi",
-    "region": "L'Alcoià",
-    "population": 23564,
-    "DkWh": "1742,28",
-    "EGWh": "177,8",
-    "PMWp": "107198,2",
-    "reach": 102050,
-    "factor": "4,33"
-  },
-  {
-    "municipality": "Alcoi / Alcoy",
-    "region": "L'Alcoià",
-    "population": 59354,
-    "DkWh": "1742,28",
-    "EGWh": "225,2",
-    "PMWp": "125500,2",
-    "reach": 129256,
-    "factor": "2,18"
-  },
-  {
-    "municipality": "Banyeres de Mariola",
-    "region": "L'Alcoià",
-    "population": 7090,
-    "DkWh": "1742,28",
-    "EGWh": "99,8",
-    "PMWp": "60436,5",
-    "reach": 57281,
-    "factor": "8,08"
-  },
-  {
-    "municipality": "Castalla",
-    "region": "L'Alcoià",
-    "population": 10461,
-    "DkWh": "1742,28",
-    "EGWh": 124,
-    "PMWp": "76684,2",
-    "reach": 71171,
-    "factor": "6,80"
-  },
-  {
-    "municipality": "Onil",
-    "region": "L'Alcoià",
-    "population": 7600,
-    "DkWh": "1742,28",
-    "EGWh": "53,5",
-    "PMWp": "33474,2",
-    "reach": 30707,
-    "factor": "4,04"
-  },
-  {
-    "municipality": "Tibi",
-    "region": "L'Alcoià",
-    "population": 1662,
-    "DkWh": "1742,28",
-    "EGWh": "14,3",
-    "PMWp": "10295,6",
-    "reach": 8208,
-    "factor": "4,94"
-  },
-  {
-    "municipality": "Penàguila",
-    "region": "L'Alcoià",
-    "population": 269,
-    "DkWh": "1742,28",
-    "EGWh": "4,2",
-    "PMWp": "3238,9",
-    "reach": 2411,
-    "factor": "8,96"
-  },
-  {
-    "municipality": "Benifallim",
-    "region": "L'Alcoià",
-    "population": 104,
-    "DkWh": "1742,28",
-    "EGWh": "0,8",
-    "PMWp": "618,6",
-    "reach": 459,
-    "factor": "4,42"
-  },
-  {
-    "municipality": "Vilafranca / Villafranca del Cid",
-    "region": "L'Alt Maestrat",
-    "population": 2197,
-    "DkWh": "2689,84",
-    "EGWh": 26,
-    "PMWp": "17715,4",
-    "reach": 9666,
-    "factor": "4,40"
-  },
-  {
-    "municipality": "Catí",
-    "region": "L'Alt Maestrat",
-    "population": 714,
-    "DkWh": "2689,84",
-    "EGWh": "9,1",
-    "PMWp": "6448,3",
-    "reach": 3383,
-    "factor": "4,74"
-  },
-  {
-    "municipality": "Albocàsser",
-    "region": "L'Alt Maestrat",
-    "population": 1227,
-    "DkWh": "2689,84",
-    "EGWh": 13,
-    "PMWp": "9426,6",
-    "reach": 4833,
-    "factor": "3,94"
-  },
-  {
-    "municipality": "Benassal",
-    "region": "L'Alt Maestrat",
-    "population": 1063,
-    "DkWh": "2689,84",
-    "EGWh": 9,
-    "PMWp": "6452,8",
-    "reach": 3346,
-    "factor": "3,15"
-  },
-  {
-    "municipality": "Tírig",
-    "region": "L'Alt Maestrat",
-    "population": 420,
-    "DkWh": "2689,84",
-    "EGWh": "4,7",
-    "PMWp": "3586,8",
-    "reach": 1747,
-    "factor": "4,16"
-  },
-  {
-    "municipality": "La Torre d'En Besora",
-    "region": "L'Alt Maestrat",
-    "population": 167,
-    "DkWh": "2689,84",
-    "EGWh": 1,
-    "PMWp": "764,1",
-    "reach": 372,
-    "factor": "2,23"
-  },
-  {
-    "municipality": "Vilar de Canes",
-    "region": "L'Alt Maestrat",
-    "population": 169,
-    "DkWh": "2689,84",
-    "EGWh": "0,8",
-    "PMWp": "601,7",
-    "reach": 297,
-    "factor": "1,76"
-  },
-  {
-    "municipality": "Culla",
-    "region": "L'Alt Maestrat",
-    "population": 481,
-    "DkWh": "2689,84",
-    "EGWh": "2,5",
-    "PMWp": "1598,3",
-    "reach": 929,
-    "factor": "1,93"
-  },
-  {
-    "municipality": "Ares del Maestrat",
-    "region": "L'Alt Maestrat",
-    "population": 184,
-    "DkWh": "2689,84",
-    "EGWh": "1,1",
-    "PMWp": "986,5",
-    "reach": 409,
-    "factor": "2,22"
-  },
-  {
-    "municipality": "Villena",
-    "region": "L'Alt Vinalopó",
-    "population": 34155,
-    "DkWh": "1647,15",
-    "EGWh": "184,4",
-    "PMWp": 98731,
-    "reach": 111951,
-    "factor": "3,28"
-  },
-  {
-    "municipality": "Biar",
-    "region": "L'Alt Vinalopó",
-    "population": 3655,
-    "DkWh": "1647,15",
-    "EGWh": "49,1",
-    "PMWp": "30317,6",
-    "reach": 29809,
-    "factor": "8,16"
-  },
-  {
-    "municipality": "Sax",
-    "region": "L'Alt Vinalopó",
-    "population": 9859,
-    "DkWh": "1647,15",
-    "EGWh": "71,4",
-    "PMWp": "43093,2",
-    "reach": 43347,
-    "factor": "4,40"
-  },
-  {
-    "municipality": "Beneixama",
-    "region": "L'Alt Vinalopó",
-    "population": 1690,
-    "DkWh": "1647,15",
-    "EGWh": "29,9",
-    "PMWp": "19383,8",
-    "reach": 18153,
-    "factor": "10,74"
-  },
-  {
-    "municipality": "Salinas",
-    "region": "L'Alt Vinalopó",
-    "population": 1620,
-    "DkWh": "1647,15",
-    "EGWh": "25,7",
-    "PMWp": "16652,2",
-    "reach": 15603,
-    "factor": "9,63"
-  },
-  {
-    "municipality": "Cañada",
-    "region": "L'Alt Vinalopó",
-    "population": 1208,
-    "DkWh": "1647,15",
-    "EGWh": "15,2",
-    "PMWp": "10024,8",
-    "reach": 9228,
-    "factor": "7,64"
-  },
-  {
-    "municipality": "El Camp de Mirra / Campo de Mirra",
-    "region": "L'Alt Vinalopó",
-    "population": 417,
-    "DkWh": "1647,15",
-    "EGWh": "5,5",
-    "PMWp": "3632,7",
-    "reach": 3339,
-    "factor": "8,01"
-  },
-  {
-    "municipality": "Montcada",
-    "region": "L'Horta Nord",
-    "population": "22.021,0",
-    "DkWh": "1452,85",
-    "EGWh": "79,1",
-    "PMWp": "49.402,4",
-    "reach": 54445,
-    "factor": "2,47"
-  },
-  {
-    "municipality": "Museros",
-    "region": "L'Horta Nord",
-    "population": "6.596,0",
-    "DkWh": "1452,85",
-    "EGWh": "60,2",
-    "PMWp": "37.717,9",
-    "reach": 41436,
-    "factor": "6,28"
-  },
-  {
-    "municipality": "Alboraia",
-    "region": "L'Horta Nord",
-    "population": "24.741,0",
-    "DkWh": "1452,85",
-    "EGWh": "66,4",
-    "PMWp": "41.597,5",
-    "reach": 45703,
-    "factor": "1,85"
-  },
-  {
-    "municipality": "Albuixech",
-    "region": "L'Horta Nord",
-    "population": "4.151,0",
-    "DkWh": "1452,85",
-    "EGWh": "53,7",
-    "PMWp": "33.984,4",
-    "reach": 36962,
-    "factor": "8,90"
-  },
-  {
-    "municipality": "Puçol",
-    "region": "L'Horta Nord",
-    "population": "19.737,0",
-    "DkWh": "1452,85",
-    "EGWh": "75,8",
-    "PMWp": "47.466,0",
-    "reach": 52173,
-    "factor": "2,64"
-  },
-  {
-    "municipality": "Rafelbunyol / Rafelbuñol",
-    "region": "L'Horta Nord",
-    "population": "9.149,0",
-    "DkWh": "1452,85",
-    "EGWh": "55,2",
-    "PMWp": "34.500,6",
-    "reach": 37994,
-    "factor": "4,15"
-  },
-  {
-    "municipality": "El Puig de Santa Maria",
-    "region": "L'Horta Nord",
-    "population": "8.718,0",
-    "DkWh": "1452,85",
-    "EGWh": "52,6",
-    "PMWp": "32.926,6",
-    "reach": 36205,
-    "factor": "4,15"
-  },
-  {
-    "municipality": "Massalfassar",
-    "region": "L'Horta Nord",
-    "population": "2.555,0",
-    "DkWh": "1452,85",
-    "EGWh": "32,0",
-    "PMWp": "20.232,9",
-    "reach": 22026,
-    "factor": "8,62"
-  },
-  {
-    "municipality": "Foios",
-    "region": "L'Horta Nord",
-    "population": "7.452,0",
-    "DkWh": "1452,85",
-    "EGWh": "33,4",
-    "PMWp": "20.800,4",
-    "reach": 22989,
-    "factor": "3,08"
-  },
-  {
-    "municipality": "Massamagrell",
-    "region": "L'Horta Nord",
-    "population": "16.163,0",
-    "DkWh": "1452,85",
-    "EGWh": "44,6",
-    "PMWp": "27.684,6",
-    "reach": 30698,
-    "factor": "1,90"
-  },
-  {
-    "municipality": "Meliana",
-    "region": "L'Horta Nord",
-    "population": "10.970,0",
-    "DkWh": "1452,85",
-    "EGWh": "35,7",
-    "PMWp": "22.146,1",
-    "reach": 24572,
-    "factor": "2,24"
-  },
-  {
-    "municipality": "Almàssera",
-    "region": "L'Horta Nord",
-    "population": "7.438,0",
-    "DkWh": "1452,85",
-    "EGWh": "21,4",
-    "PMWp": "13.239,4",
-    "reach": 14730,
-    "factor": "1,98"
-  },
-  {
-    "municipality": "Albalat dels Sorells",
-    "region": "L'Horta Nord",
-    "population": "4.036,0",
-    "DkWh": "1452,85",
-    "EGWh": "16,8",
-    "PMWp": "10.434,1",
-    "reach": 11564,
-    "factor": "2,87"
-  },
-  {
-    "municipality": "La Pobla de Farnals",
-    "region": "L'Horta Nord",
-    "population": "8.128,0",
-    "DkWh": "1452,85",
-    "EGWh": "24,5",
-    "PMWp": "15.187,9",
-    "reach": 16863,
-    "factor": "2,07"
-  },
-  {
-    "municipality": "Bonrepòs i Mirambell",
-    "region": "L'Horta Nord",
-    "population": "3.738,0",
-    "DkWh": "1452,85",
-    "EGWh": "13,5",
-    "PMWp": "8.417,6",
-    "reach": 9292,
-    "factor": "2,49"
-  },
-  {
-    "municipality": "Godella",
-    "region": "L'Horta Nord",
-    "population": "13.131,0",
-    "DkWh": "1452,85",
-    "EGWh": "41,7",
-    "PMWp": "25.698,4",
-    "reach": 28702,
-    "factor": "2,19"
-  },
-  {
-    "municipality": "Tavernes Blanques",
-    "region": "L'Horta Nord",
-    "population": "9.224,0",
-    "DkWh": "1452,85",
-    "EGWh": "15,7",
-    "PMWp": "9.711,2",
-    "reach": 10806,
-    "factor": "1,17"
-  },
-  {
-    "municipality": "Vinalesa",
-    "region": "L'Horta Nord",
-    "population": 3412,
-    "DkWh": "1452,85",
-    "EGWh": "13,4",
-    "PMWp": "8318,3",
-    "reach": 9223,
-    "factor": "2,70"
-  },
-  {
-    "municipality": "Burjassot",
-    "region": "L'Horta Nord",
-    "population": "38.632,0",
-    "DkWh": "1452,85",
-    "EGWh": "36,8",
-    "PMWp": "22.575,7",
-    "reach": 25330,
-    "factor": "0,66"
-  },
-  {
-    "municipality": "Alfara del Patriarca",
-    "region": "L'Horta Nord",
-    "population": "3.282,0",
-    "DkWh": "1452,85",
-    "EGWh": "10,1",
-    "PMWp": "6.208,7",
-    "reach": 6952,
-    "factor": "2,12"
-  },
-  {
-    "municipality": "Rocafort",
-    "region": "L'Horta Nord",
-    "population": "7.314,0",
-    "DkWh": "1452,85",
-    "EGWh": "12,5",
-    "PMWp": "7.692,2",
-    "reach": 8604,
-    "factor": "1,18"
-  },
-  {
-    "municipality": "Emperador",
-    "region": "L'Horta Nord",
-    "population": "688,0",
-    "DkWh": "1452,85",
-    "EGWh": "0,8",
-    "PMWp": "503,3",
-    "reach": 551,
-    "factor": "0,80"
-  },
-  {
-    "municipality": "Paterna",
-    "region": "L'Horta Oest",
-    "population": "71.035,0",
-    "DkWh": "1453,25",
-    "EGWh": "382,7",
-    "PMWp": "238.964,9",
-    "reach": 263340,
-    "factor": "3,71"
-  },
-  {
-    "municipality": "Quart de Poblet",
-    "region": "L'Horta Oest",
-    "population": "25.062,0",
-    "DkWh": "1453,25",
-    "EGWh": "259,4",
-    "PMWp": "163.120,8",
-    "reach": 178496,
-    "factor": "7,12"
-  },
-  {
-    "municipality": "Aldaia",
-    "region": "L'Horta Oest",
-    "population": "32.204,0",
-    "DkWh": "1453,25",
-    "EGWh": "179,6",
-    "PMWp": "112.954,8",
-    "reach": 123585,
-    "factor": "3,84"
-  },
-  {
-    "municipality": "Manises",
-    "region": "L'Horta Oest",
-    "population": "31.240,0",
-    "DkWh": "1453,25",
-    "EGWh": "183,2",
-    "PMWp": "114.673,7",
-    "reach": 126062,
-    "factor": "4,04"
-  },
-  {
-    "municipality": "Torrent",
-    "region": "L'Horta Oest",
-    "population": "83.962,0",
-    "DkWh": "1453,25",
-    "EGWh": "200,9",
-    "PMWp": "125.681,9",
-    "reach": 138242,
-    "factor": "1,65"
+    "municipality": "Alacant / Alicante",
+    "population": 337.482,
+    "DkWh": "1.512,60",
+    "EGWh": "805,90",
+    "PMWp": "412.715,50",
+    "reach": 532.791,
+    "percentage": "158%"
   },
   {
     "municipality": "Alaquàs",
-    "region": "L'Horta Oest",
-    "population": "29.711,0",
-    "DkWh": "1453,25",
-    "EGWh": "124,0",
-    "PMWp": "77.915,7",
-    "reach": 85326,
-    "factor": "2,87"
+    "population": 29.711,
+    "DkWh": "1.453,25",
+    "EGWh": "124,00",
+    "PMWp": "77.915,70",
+    "reach": 85.326,
+    "percentage": "287%"
   },
   {
-    "municipality": "Xirivella",
-    "region": "L'Horta Oest",
-    "population": 30197,
-    "DkWh": "1453,25",
-    "EGWh": "67,4",
-    "PMWp": "42074,2",
-    "reach": 46379,
-    "factor": "1,54"
-  },
-  {
-    "municipality": "Picanya",
-    "region": "L'Horta Oest",
-    "population": "11.606,0",
-    "DkWh": "1453,25",
-    "EGWh": "58,6",
-    "PMWp": "36.753,5",
-    "reach": 40323,
-    "factor": "3,47"
-  },
-  {
-    "municipality": "Mislata",
-    "region": "L'Horta Oest",
-    "population": "44.320,0",
-    "DkWh": "1453,25",
-    "EGWh": "28,7",
-    "PMWp": "17.665,1",
-    "reach": 19749,
-    "factor": "0,45"
-  },
-  {
-    "municipality": "Silla",
-    "region": "L'Horta Sud",
-    "population": "19.078,0",
-    "DkWh": "1514,23",
-    "EGWh": "188,2",
-    "PMWp": "118.633,2",
-    "reach": 124288,
-    "factor": "6,51"
-  },
-  {
-    "municipality": "Beniparrell",
-    "region": "L'Horta Sud",
-    "population": "2.015,0",
-    "DkWh": "1514,23",
-    "EGWh": "123,3",
-    "PMWp": "77.712,2",
-    "reach": 81428,
-    "factor": "40,41"
-  },
-  {
-    "municipality": "Picassent",
-    "region": "L'Horta Sud",
-    "population": "21.263,0",
-    "DkWh": "1514,23",
-    "EGWh": "152,4",
-    "PMWp": "96.097,5",
-    "reach": 100645,
-    "factor": "4,73"
-  },
-  {
-    "municipality": "Catarroja",
-    "region": "L'Horta Sud",
-    "population": "28.608,0",
-    "DkWh": "1514,23",
-    "EGWh": "103,5",
-    "PMWp": "64.853,1",
-    "reach": 68352,
-    "factor": "2,39"
+    "municipality": "Albaida",
+    "population": 5.914,
+    "DkWh": "1.576,42",
+    "EGWh": "45,70",
+    "PMWp": "29.045,50",
+    "reach": 28.99,
+    "percentage": "490%"
   },
   {
     "municipality": "Albal",
-    "region": "L'Horta Sud",
-    "population": "16.577,0",
-    "DkWh": "1514,23",
-    "EGWh": "84,5",
-    "PMWp": "53.101,0",
-    "reach": 55804,
-    "factor": "3,37"
+    "population": 16.577,
+    "DkWh": "1.514,23",
+    "EGWh": "84,50",
+    "PMWp": "53.101,00",
+    "reach": 55.804,
+    "percentage": "337%"
   },
   {
-    "municipality": "Alcàsser",
-    "region": "L'Horta Sud",
-    "population": "10.196,0",
-    "DkWh": "1514,23",
-    "EGWh": "80,4",
-    "PMWp": "50.762,9",
-    "reach": 53096,
-    "factor": "5,21"
+    "municipality": "Albalat de la Ribera",
+    "population": 3.326,
+    "DkWh": "1.535,77",
+    "EGWh": "19,50",
+    "PMWp": "12.285,10",
+    "reach": 12.697,
+    "percentage": "382%"
   },
   {
-    "municipality": "Paiporta",
-    "region": "L'Horta Sud",
-    "population": "26.514,0",
-    "DkWh": "1514,23",
-    "EGWh": "73,3",
-    "PMWp": "45.843,1",
-    "reach": 48408,
-    "factor": "1,83"
+    "municipality": "Albalat dels Sorells",
+    "population": 4.036,
+    "DkWh": "1.452,85",
+    "EGWh": "16,80",
+    "PMWp": "10.434,10",
+    "reach": 11.564,
+    "percentage": "287%"
   },
   {
-    "municipality": "Massanassa",
-    "region": "L'Horta Sud",
-    "population": "9.782,0",
-    "DkWh": "1514,23",
-    "EGWh": "64,8",
-    "PMWp": "40.547,8",
-    "reach": 42794,
-    "factor": "4,37"
+    "municipality": "Albalat dels Tarongers",
+    "population": 1.208,
+    "DkWh": "1.456,91",
+    "EGWh": "13,50",
+    "PMWp": "8.457,40",
+    "reach": 9.266,
+    "percentage": "767%"
   },
   {
-    "municipality": "Alfafar",
-    "region": "L'Horta Sud",
-    "population": "21.395,0",
-    "DkWh": "1514,23",
-    "EGWh": "43,0",
-    "PMWp": "26.681,1",
-    "reach": 28397,
-    "factor": "1,33"
+    "municipality": "Albatera",
+    "population": 12.474,
+    "DkWh": "1.216,26",
+    "EGWh": "95,00",
+    "PMWp": "55.722,60",
+    "reach": 78.108,
+    "percentage": "626%"
   },
   {
-    "municipality": "Sedaví",
-    "region": "L'Horta Sud",
-    "population": "10.391,0",
-    "DkWh": "1514,23",
-    "EGWh": "29,8",
-    "PMWp": "18.542,2",
-    "reach": 19680,
-    "factor": "1,89"
+    "municipality": "Alberic",
+    "population": 10.519,
+    "DkWh": "1.605,28",
+    "EGWh": "76,80",
+    "PMWp": "48.385,30",
+    "reach": 47.842,
+    "percentage": "455%"
   },
   {
-    "municipality": "Benetússer",
-    "region": "L'Horta Sud",
-    "population": "15.000,0",
-    "DkWh": "1514,23",
-    "EGWh": "21,0",
-    "PMWp": "12.985,9",
-    "reach": 13868,
-    "factor": "0,92"
+    "municipality": "Albocàsser",
+    "population": 1.227,
+    "DkWh": "2.689,84",
+    "EGWh": "13,00",
+    "PMWp": "9.426,60",
+    "reach": 4.833,
+    "percentage": "394%"
   },
   {
-    "municipality": "Llocnou de la Corona",
-    "region": "L'Horta Sud",
-    "population": "124,0",
-    "DkWh": "1514,23",
-    "EGWh": "0,5",
-    "PMWp": "291,2",
-    "reach": 330,
-    "factor": "2,66"
+    "municipality": "Alborache",
+    "population": 1.229,
+    "DkWh": "1.570,33",
+    "EGWh": "13,90",
+    "PMWp": "8.734,50",
+    "reach": 8.852,
+    "percentage": "720%"
   },
   {
-    "municipality": "Villar del Arzobispo",
-    "region": "Los Serranos",
-    "population": 3536,
-    "DkWh": "1659,76",
-    "EGWh": "33,5",
-    "PMWp": "20578,8",
-    "reach": 20184,
-    "factor": "5,71"
+    "municipality": "Alboraia",
+    "population": 24.741,
+    "DkWh": "1.452,85",
+    "EGWh": "66,40",
+    "PMWp": "41.597,50",
+    "reach": 45.703,
+    "percentage": "185%"
   },
   {
-    "municipality": "Domeño",
-    "region": "Los Serranos",
-    "population": "673,0",
-    "DkWh": "1659,76",
-    "EGWh": "12,1",
-    "PMWp": "7.527,7",
-    "reach": 7290,
-    "factor": "10,83"
+    "municipality": "Albuixech",
+    "population": 4.151,
+    "DkWh": "1.452,85",
+    "EGWh": "53,70",
+    "PMWp": "33.984,40",
+    "reach": 36.962,
+    "percentage": "890%"
   },
   {
-    "municipality": "Chelva",
-    "region": "Los Serranos",
-    "population": "1.531,0",
-    "DkWh": "1659,76",
-    "EGWh": "13,9",
-    "PMWp": "8.504,8",
-    "reach": 8375,
-    "factor": "5,47"
-  },
-  {
-    "municipality": "Tuéjar",
-    "region": "Los Serranos",
-    "population": 1137,
-    "DkWh": "1659,76",
-    "EGWh": "11,7",
-    "PMWp": "7254,8",
-    "reach": 7049,
-    "factor": "6,20"
-  },
-  {
-    "municipality": "Alcublas",
-    "region": "Los Serranos",
-    "population": "611,0",
-    "DkWh": "1659,76",
-    "EGWh": "7,9",
-    "PMWp": "4.945,4",
-    "reach": 4760,
-    "factor": "7,79"
-  },
-  {
-    "municipality": "Alpuente",
-    "region": "Los Serranos",
-    "population": "635,0",
-    "DkWh": "1659,76",
-    "EGWh": "12,3",
-    "PMWp": "7.528,2",
-    "reach": 7411,
-    "factor": "11,67"
-  },
-  {
-    "municipality": "Calles",
-    "region": "Los Serranos",
-    "population": "355,0",
-    "DkWh": "1659,76",
-    "EGWh": "8,6",
-    "PMWp": "5.313,2",
-    "reach": 5181,
-    "factor": "14,60"
-  },
-  {
-    "municipality": "Bugarra",
-    "region": "Los Serranos",
-    "population": "739,0",
-    "DkWh": "1659,76",
-    "EGWh": "5,9",
-    "PMWp": "3.744,4",
-    "reach": 3555,
-    "factor": "4,81"
-  },
-  {
-    "municipality": "Aras de los Olmos",
-    "region": "Los Serranos",
-    "population": "359,0",
-    "DkWh": "1659,76",
-    "EGWh": "8,0",
-    "PMWp": "4.954,7",
-    "reach": 4820,
-    "factor": "13,43"
-  },
-  {
-    "municipality": "Titaguas",
-    "region": "Los Serranos",
-    "population": "454,0",
-    "DkWh": "1659,76",
-    "EGWh": "5,6",
-    "PMWp": "3.449,1",
-    "reach": 3374,
-    "factor": "7,43"
-  },
-  {
-    "municipality": "Pedralba",
-    "region": "Los Serranos",
-    "population": "2.814,0",
-    "DkWh": "1659,76",
-    "EGWh": "10,1",
-    "PMWp": "6.261,5",
-    "reach": 6085,
-    "factor": "2,16"
-  },
-  {
-    "municipality": "Higueruelas",
-    "region": "Los Serranos",
-    "population": "501,0",
-    "DkWh": "1659,76",
-    "EGWh": "6,9",
-    "PMWp": "4.314,8",
-    "reach": 4157,
-    "factor": "8,30"
-  },
-  {
-    "municipality": "Andilla",
-    "region": "Los Serranos",
-    "population": "308,0",
-    "DkWh": "1659,76",
-    "EGWh": "5,1",
-    "PMWp": "3.243,8",
-    "reach": 3073,
-    "factor": "9,98"
-  },
-  {
-    "municipality": "La Yesa",
-    "region": "Los Serranos",
-    "population": "221,0",
-    "DkWh": "1659,76",
-    "EGWh": "4,3",
-    "PMWp": "2.660,2",
-    "reach": 2591,
-    "factor": "11,72"
-  },
-  {
-    "municipality": "Gestalgar",
-    "region": "Los Serranos",
-    "population": "548,0",
-    "DkWh": "1659,76",
-    "EGWh": "4,6",
-    "PMWp": "2.874,5",
-    "reach": 2771,
-    "factor": "5,06"
-  },
-  {
-    "municipality": "Chulilla",
-    "region": "Los Serranos",
-    "population": "662,0",
-    "DkWh": "1659,76",
-    "EGWh": "5,6",
-    "PMWp": "3.527,3",
-    "reach": 3374,
-    "factor": "5,10"
-  },
-  {
-    "municipality": "Losa del Obispo",
-    "region": "Los Serranos",
-    "population": "505,0",
-    "DkWh": "1659,76",
-    "EGWh": "3,5",
-    "PMWp": "2.156,3",
-    "reach": 2109,
-    "factor": "4,18"
-  },
-  {
-    "municipality": "Sot de Chera",
-    "region": "Los Serranos",
-    "population": "362,0",
-    "DkWh": "1659,76",
-    "EGWh": "1,8",
-    "PMWp": "1.161,5",
-    "reach": 1084,
-    "factor": "3,00"
-  },
-  {
-    "municipality": "Benagéber",
-    "region": "Los Serranos",
-    "population": "180,0",
-    "DkWh": "1659,76",
-    "EGWh": "1,6",
-    "PMWp": "984,5",
-    "reach": 964,
-    "factor": "5,36"
-  },
-  {
-    "municipality": "Dénia",
-    "region": "Marina Alta",
-    "population": 42827,
-    "DkWh": "1396,34",
-    "EGWh": "214,1",
-    "PMWp": "136726,9",
-    "reach": 153329,
-    "factor": "3,58"
-  },
-  {
-    "municipality": "Pedreguer",
-    "region": "Marina Alta",
-    "population": 7881,
-    "DkWh": "1396,34",
-    "EGWh": "32,5",
-    "PMWp": "23203,2",
-    "reach": 23275,
-    "factor": "2,95"
-  },
-  {
-    "municipality": "Pego",
-    "region": "Marina Alta",
-    "population": 10133,
-    "DkWh": "1396,34",
-    "EGWh": "53,3",
-    "PMWp": "34513,7",
-    "reach": 38171,
-    "factor": "3,77"
-  },
-  {
-    "municipality": "Benissa",
-    "region": "Marina Alta",
-    "population": 11288,
-    "DkWh": "1396,34",
-    "EGWh": "101,6",
-    "PMWp": 63816,
-    "reach": 72762,
-    "factor": "6,45"
-  },
-  {
-    "municipality": "Xàbia / Jávea",
-    "region": "Marina Alta",
-    "population": 28016,
-    "DkWh": "1396,34",
-    "EGWh": "199,1",
-    "PMWp": "124846,6",
-    "reach": 142587,
-    "factor": "5,09"
-  },
-  {
-    "municipality": "El Verger",
-    "region": "Marina Alta",
-    "population": 4709,
-    "DkWh": "1396,34",
-    "EGWh": "34,5",
-    "PMWp": "22038,9",
-    "reach": 24707,
-    "factor": "5,25"
-  },
-  {
-    "municipality": "Ondara",
-    "region": "Marina Alta",
-    "population": 7076,
-    "DkWh": "1396,34",
-    "EGWh": "32,8",
-    "PMWp": "17870,2",
-    "reach": 23490,
-    "factor": "3,32"
-  },
-  {
-    "municipality": "Gata de Gorgos",
-    "region": "Marina Alta",
-    "population": 6243,
-    "DkWh": "1396,34",
-    "EGWh": "35,6",
-    "PMWp": "22525,6",
-    "reach": 25495,
-    "factor": "4,08"
-  },
-  {
-    "municipality": "Teulada",
-    "region": "Marina Alta",
-    "population": 11278,
-    "DkWh": "1396,34",
-    "EGWh": "99,6",
-    "PMWp": "62363,7",
-    "reach": 71329,
-    "factor": "6,32"
-  },
-  {
-    "municipality": "Calp",
-    "region": "Marina Alta",
-    "population": 23326,
-    "DkWh": "1396,34",
-    "EGWh": "96,4",
-    "PMWp": "60641,8",
-    "reach": 69038,
-    "factor": "2,96"
-  },
-  {
-    "municipality": "Xaló",
-    "region": "Marina Alta",
-    "population": 2868,
-    "DkWh": "1396,34",
-    "EGWh": "22,2",
-    "PMWp": "14251,6",
-    "reach": 15899,
-    "factor": "5,54"
-  },
-  {
-    "municipality": "Beniarbeig",
-    "region": "Marina Alta",
-    "population": 2159,
-    "DkWh": "1396,34",
-    "EGWh": "10,5",
-    "PMWp": "7363,8",
-    "reach": 7520,
-    "factor": "3,48"
-  },
-  {
-    "municipality": "Orba",
-    "region": "Marina Alta",
-    "population": 2232,
-    "DkWh": "1396,34",
-    "EGWh": "13,3",
-    "PMWp": 10271,
-    "reach": 9525,
-    "factor": "4,27"
-  },
-  {
-    "municipality": "Senija",
-    "region": "Marina Alta",
-    "population": 583,
-    "DkWh": "1396,34",
-    "EGWh": "4,8",
-    "PMWp": "3302,6",
-    "reach": 3438,
-    "factor": "5,90"
-  },
-  {
-    "municipality": "El Poble Nou de Benitatxell",
-    "region": "Marina Alta",
-    "population": 4452,
-    "DkWh": "1396,34",
-    "EGWh": "21,7",
-    "PMWp": "13648,2",
-    "reach": 15541,
-    "factor": "3,49"
-  },
-  {
-    "municipality": "Castell de Castells",
-    "region": "Marina Alta",
-    "population": 437,
-    "DkWh": "1396,34",
-    "EGWh": "2,7",
-    "PMWp": "1982,1",
-    "reach": 1934,
-    "factor": "4,42"
-  },
-  {
-    "municipality": "Els Poblets",
-    "region": "Marina Alta",
-    "population": 2714,
-    "DkWh": "1396,34",
-    "EGWh": "15,9",
-    "PMWp": "11623,6",
-    "reach": 11387,
-    "factor": "4,20"
-  },
-  {
-    "municipality": "La Vall de Gallinera",
-    "region": "Marina Alta",
-    "population": 527,
-    "DkWh": "1396,34",
-    "EGWh": "2,8",
-    "PMWp": "2293,9",
-    "reach": 2005,
-    "factor": "3,81"
-  },
-  {
-    "municipality": "Parcent",
-    "region": "Marina Alta",
-    "population": 967,
-    "DkWh": "1396,34",
-    "EGWh": "4,1",
-    "PMWp": 3537,
-    "reach": 2936,
-    "factor": "3,04"
-  },
-  {
-    "municipality": "Sanet y Negrals",
-    "region": "Marina Alta",
-    "population": 690,
-    "DkWh": "1396,34",
-    "EGWh": "2,9",
-    "PMWp": "2124,4",
-    "reach": 2077,
-    "factor": "3,01"
-  },
-  {
-    "municipality": "Benidoleig",
-    "region": "Marina Alta",
-    "population": 1078,
-    "DkWh": "1396,34",
-    "EGWh": "3,7",
-    "PMWp": "2895,9",
-    "reach": 2650,
-    "factor": "2,46"
-  },
-  {
-    "municipality": "El Ràfol d'Almúnia",
-    "region": "Marina Alta",
-    "population": 648,
-    "DkWh": "1396,34",
-    "EGWh": "6,4",
-    "PMWp": "4105,7",
-    "reach": 4583,
-    "factor": "7,07"
-  },
-  {
-    "municipality": "L'Atzúbia",
-    "region": "Marina Alta",
-    "population": 611,
-    "DkWh": "1396,34",
-    "EGWh": "2,3",
-    "PMWp": "1758,2",
-    "reach": 1647,
-    "factor": "2,70"
-  },
-  {
-    "municipality": "La Vall d'Ebo",
-    "region": "Marina Alta",
-    "population": 218,
-    "DkWh": "1396,34",
-    "EGWh": 2,
-    "PMWp": "1489,9",
-    "reach": 1432,
-    "factor": "6,57"
-  },
-  {
-    "municipality": "Llíber",
-    "region": "Marina Alta",
-    "population": 830,
-    "DkWh": "1396,34",
-    "EGWh": "3,2",
-    "PMWp": "2524,6",
-    "reach": 2292,
-    "factor": "2,76"
-  },
-  {
-    "municipality": "Benimeli",
-    "region": "Marina Alta",
-    "population": 429,
-    "DkWh": "1396,34",
-    "EGWh": "1,4",
-    "PMWp": "1034,4",
-    "reach": 1003,
-    "factor": "2,34"
-  },
-  {
-    "municipality": "Tormos",
-    "region": "Marina Alta",
-    "population": 318,
-    "DkWh": "1396,34",
-    "EGWh": 2,
-    "PMWp": "1444,9",
-    "reach": 1432,
-    "factor": "4,50"
-  },
-  {
-    "municipality": "La Vall d'Alcalà",
-    "region": "Marina Alta",
-    "population": 160,
-    "DkWh": "1396,34",
-    "EGWh": "0,9",
-    "PMWp": "806,7",
-    "reach": 645,
-    "factor": "4,03"
-  },
-  {
-    "municipality": "Murla",
-    "region": "Marina Alta",
-    "population": 507,
-    "DkWh": "1396,34",
-    "EGWh": "1,5",
-    "PMWp": "1434,8",
-    "reach": 1074,
-    "factor": "2,12"
-  },
-  {
-    "municipality": "Sagra",
-    "region": "Marina Alta",
-    "population": 426,
-    "DkWh": "1396,34",
-    "EGWh": "2,4",
-    "PMWp": "1517,4",
-    "reach": 1719,
-    "factor": "4,03"
+    "municipality": "Alcalà de Xivert",
+    "population": 6.638,
+    "DkWh": "1.791,87",
+    "EGWh": "44,70",
+    "PMWp": "34.212,40",
+    "reach": 24.946,
+    "percentage": "376%"
   },
   {
     "municipality": "Alcalalí",
-    "region": "Marina Alta",
-    "population": 1302,
-    "DkWh": "1396,34",
-    "EGWh": "6,3",
-    "PMWp": "5063,6",
-    "reach": 4512,
-    "factor": "3,47"
+    "population": 1.302,
+    "DkWh": "1.396,34",
+    "EGWh": "6,30",
+    "PMWp": "5.063,60",
+    "reach": 4.512,
+    "percentage": "347%"
   },
   {
-    "municipality": "Benigembla",
-    "region": "Marina Alta",
-    "population": 443,
-    "DkWh": "1396,34",
-    "EGWh": "1,3",
-    "PMWp": "1271,5",
-    "reach": 931,
-    "factor": "2,10"
+    "municipality": "Alcàntera de Xúquer",
+    "population": 1.341,
+    "DkWh": "1.605,28",
+    "EGWh": "9,10",
+    "PMWp": "5.716,60",
+    "reach": 5.669,
+    "percentage": "423%"
   },
   {
-    "municipality": "La Vall de Laguar",
-    "region": "Marina Alta",
-    "population": 827,
-    "DkWh": "1396,34",
-    "EGWh": "1,4",
-    "PMWp": "1186,3",
-    "reach": 1003,
-    "factor": "1,21"
+    "municipality": "Alcàsser",
+    "population": 10.196,
+    "DkWh": "1.514,23",
+    "EGWh": "80,40",
+    "PMWp": "50.762,90",
+    "reach": 53.096,
+    "percentage": "521%"
   },
   {
-    "municipality": "La Vila Joiosa / Villajoyosa",
-    "region": "Marina Baixa",
-    "population": 35199,
-    "DkWh": "1395,53",
-    "EGWh": "74,5",
-    "PMWp": "36436,8",
-    "reach": 53385,
-    "factor": "1,52"
+    "municipality": "Alcocer de Planes",
+    "population": 226,
+    "DkWh": "1.680,08",
+    "EGWh": "6,20",
+    "PMWp": "3.918,30",
+    "reach": 3.69,
+    "percentage": "1.633%"
   },
   {
-    "municipality": "La Nucia",
-    "region": "Marina Baixa",
-    "population": 18163,
-    "DkWh": "1395,53",
-    "EGWh": "75,7",
-    "PMWp": "47678,8",
-    "reach": 54245,
-    "factor": "2,99"
+    "municipality": "Alcoi / Alcoy",
+    "population": 59.354,
+    "DkWh": "1.742,28",
+    "EGWh": "225,20",
+    "PMWp": "125.500,20",
+    "reach": 129.256,
+    "percentage": "218%"
   },
   {
-    "municipality": "Finestrat",
-    "region": "Marina Baixa",
-    "population": 7103,
-    "DkWh": "1395,53",
-    "EGWh": "51,6",
-    "PMWp": "32406,6",
-    "reach": 36975,
-    "factor": "5,21"
+    "municipality": "Alcoleja",
+    "population": 177,
+    "DkWh": "1.680,08",
+    "EGWh": "0,70",
+    "PMWp": "608,20",
+    "reach": 417,
+    "percentage": "235%"
   },
   {
-    "municipality": "Callosa d'En Sarrià",
-    "region": "Marina Baixa",
-    "population": 7522,
-    "DkWh": "1395,53",
-    "EGWh": "19,9",
-    "PMWp": "12820,4",
-    "reach": 14260,
-    "factor": "1,90"
+    "municipality": "Alcublas",
+    "population": 611,
+    "DkWh": "1.659,76",
+    "EGWh": "7,90",
+    "PMWp": "4.945,40",
+    "reach": 4.76,
+    "percentage": "779%"
   },
   {
-    "municipality": "Benidorm",
-    "region": "Marina Baixa",
-    "population": 70450,
-    "DkWh": "1395,53",
-    "EGWh": 95,
-    "PMWp": "43455,6",
-    "reach": 68075,
-    "factor": "0,97"
+    "municipality": "Alcudia de Veo",
+    "population": 188,
+    "DkWh": "1.892,28",
+    "EGWh": "0,90",
+    "PMWp": "806,40",
+    "reach": 476,
+    "percentage": "253%"
+  },
+  {
+    "municipality": "Aldaia",
+    "population": 32.204,
+    "DkWh": "1.453,25",
+    "EGWh": "179,60",
+    "PMWp": "112.954,80",
+    "reach": 123.585,
+    "percentage": "384%"
+  },
+  {
+    "municipality": "Alfafar",
+    "population": 21.395,
+    "DkWh": "1.514,23",
+    "EGWh": "43,00",
+    "PMWp": "26.681,10",
+    "reach": 28.397,
+    "percentage": "133%"
+  },
+  {
+    "municipality": "Alfafara",
+    "population": 406,
+    "DkWh": "1.680,08",
+    "EGWh": "6,50",
+    "PMWp": "4.438,20",
+    "reach": 3.869,
+    "percentage": "953%"
+  },
+  {
+    "municipality": "Alfara de la Baronia",
+    "population": 569,
+    "DkWh": "1.456,91",
+    "EGWh": "5,20",
+    "PMWp": "3.300,50",
+    "reach": 3.569,
+    "percentage": "627%"
+  },
+  {
+    "municipality": "Alfara del Patriarca",
+    "population": 3.282,
+    "DkWh": "1.452,85",
+    "EGWh": "10,10",
+    "PMWp": "6.208,70",
+    "reach": 6.952,
+    "percentage": "212%"
+  },
+  {
+    "municipality": "Alfarp",
+    "population": 1.571,
+    "DkWh": "1.605,28",
+    "EGWh": "24,80",
+    "PMWp": "15.696,60",
+    "reach": 15.449,
+    "percentage": "983%"
+  },
+  {
+    "municipality": "Alfarrasí",
+    "population": 1.219,
+    "DkWh": "1.576,42",
+    "EGWh": "20,40",
+    "PMWp": "12.845,90",
+    "reach": 12.941,
+    "percentage": "1.062%"
+  },
+  {
+    "municipality": "Alfauir",
+    "population": 449,
+    "DkWh": "1.422,36",
+    "EGWh": "2,00",
+    "PMWp": "1.306,70",
+    "reach": 1.406,
+    "percentage": "313%"
+  },
+  {
+    "municipality": "Alfondeguilla",
+    "population": 862,
+    "DkWh": "1.892,28",
+    "EGWh": "1,50",
+    "PMWp": "963,80",
+    "reach": 793,
+    "percentage": "92%"
+  },
+  {
+    "municipality": "Algar de Palancia",
+    "population": 491,
+    "DkWh": "1.456,91",
+    "EGWh": "6,20",
+    "PMWp": "3.917,30",
+    "reach": 4.256,
+    "percentage": "867%"
+  },
+  {
+    "municipality": "Algemesí",
+    "population": 27.43,
+    "DkWh": "1.605,28",
+    "EGWh": "129,30",
+    "PMWp": "81.776,10",
+    "reach": 80.546,
+    "percentage": "294%"
+  },
+  {
+    "municipality": "Algimia de Alfara",
+    "population": 1.019,
+    "DkWh": "1.456,91",
+    "EGWh": "6,50",
+    "PMWp": "4.101,30",
+    "reach": 4.461,
+    "percentage": "438%"
+  },
+  {
+    "municipality": "Algimia de Almonacid",
+    "population": 262,
+    "DkWh": "2.242,28",
+    "EGWh": "2,20",
+    "PMWp": "1.659,20",
+    "reach": 981,
+    "percentage": "374%"
+  },
+  {
+    "municipality": "Alginet",
+    "population": 13.827,
+    "DkWh": "1.605,28",
+    "EGWh": "98,00",
+    "PMWp": "61.592,60",
+    "reach": 61.048,
+    "percentage": "442%"
+  },
+  {
+    "municipality": "Algorfa",
+    "population": 3.125,
+    "DkWh": "1.216,26",
+    "EGWh": "12,80",
+    "PMWp": "8.994,40",
+    "reach": 10.524,
+    "percentage": "337%"
+  },
+  {
+    "municipality": "Algueña",
+    "population": 1.326,
+    "DkWh": "1.600,00",
+    "EGWh": "19,80",
+    "PMWp": "12.647,10",
+    "reach": 12.375,
+    "percentage": "933%"
+  },
+  {
+    "municipality": "Almàssera",
+    "population": 7.438,
+    "DkWh": "1.452,85",
+    "EGWh": "21,40",
+    "PMWp": "13.239,40",
+    "reach": 14.73,
+    "percentage": "198%"
+  },
+  {
+    "municipality": "Almassora / Almazora",
+    "population": 26.742,
+    "DkWh": "1.830,89",
+    "EGWh": "255,70",
+    "PMWp": "158.734,50",
+    "reach": 139.659,
+    "percentage": "522%"
+  },
+  {
+    "municipality": "Almedíjar",
+    "population": 244,
+    "DkWh": "2.242,28",
+    "EGWh": "1,70",
+    "PMWp": "1.366,50",
+    "reach": 758,
+    "percentage": "311%"
+  },
+  {
+    "municipality": "Almenara",
+    "population": 6.09,
+    "DkWh": "1.892,28",
+    "EGWh": "36,30",
+    "PMWp": "22.889,80",
+    "reach": 19.183,
+    "percentage": "315%"
+  },
+  {
+    "municipality": "Almiserà",
+    "population": 265,
+    "DkWh": "1.422,36",
+    "EGWh": "1,90",
+    "PMWp": "1.207,50",
+    "reach": 1.336,
+    "percentage": "504%"
+  },
+  {
+    "municipality": "Almoines",
+    "population": 2.477,
+    "DkWh": "1.422,36",
+    "EGWh": "14,70",
+    "PMWp": "9.341,00",
+    "reach": 10.335,
+    "percentage": "417%"
+  },
+  {
+    "municipality": "Almoradí",
+    "population": 21.208,
+    "DkWh": "1.216,26",
+    "EGWh": "77,00",
+    "PMWp": "43.713,40",
+    "reach": 63.309,
+    "percentage": "299%"
+  },
+  {
+    "municipality": "Almudaina",
+    "population": 109,
+    "DkWh": "1.680,08",
+    "EGWh": "1,20",
+    "PMWp": "964,50",
+    "reach": 714,
+    "percentage": "655%"
+  },
+  {
+    "municipality": "Almussafes",
+    "population": 8.979,
+    "DkWh": "1.535,77",
+    "EGWh": "216,60",
+    "PMWp": "137.207,00",
+    "reach": 141.037,
+    "percentage": "1.571%"
+  },
+  {
+    "municipality": "Alpuente",
+    "population": 635,
+    "DkWh": "1.659,76",
+    "EGWh": "12,30",
+    "PMWp": "7.528,20",
+    "reach": 7.411,
+    "percentage": "1.167%"
   },
   {
     "municipality": "Altea",
-    "region": "Marina Baixa",
-    "population": 22558,
-    "DkWh": "1395,53",
-    "EGWh": "81,6",
-    "PMWp": "41012,2",
-    "reach": 58472,
-    "factor": "2,59"
+    "population": 22.558,
+    "DkWh": "1.395,53",
+    "EGWh": "81,60",
+    "PMWp": "41.012,20",
+    "reach": 58.472,
+    "percentage": "259%"
   },
   {
-    "municipality": "Polop",
-    "region": "Marina Baixa",
-    "population": 5064,
-    "DkWh": "1395,53",
-    "EGWh": "21,1",
-    "PMWp": "13615,5",
-    "reach": 15120,
-    "factor": "2,99"
+    "municipality": "Altura",
+    "population": 3.601,
+    "DkWh": "2.242,28",
+    "EGWh": "13,00",
+    "PMWp": "9.019,60",
+    "reach": 5.798,
+    "percentage": "161%"
   },
   {
-    "municipality": "L'Alfàs del Pi",
-    "region": "Marina Baixa",
-    "population": 20042,
-    "DkWh": "1395,53",
-    "EGWh": "54,3",
-    "PMWp": "29231,1",
-    "reach": 38910,
-    "factor": "1,94"
+    "municipality": "Alzira",
+    "population": 44.938,
+    "DkWh": "1.605,28",
+    "EGWh": "188,90",
+    "PMWp": "119.544,10",
+    "reach": 117.674,
+    "percentage": "262%"
   },
   {
-    "municipality": "Relleu",
-    "region": "Marina Baixa",
-    "population": 1148,
-    "DkWh": "1395,53",
-    "EGWh": "9,2",
-    "PMWp": "6536,4",
-    "reach": 6592,
-    "factor": "5,74"
+    "municipality": "Andilla",
+    "population": 308,
+    "DkWh": "1.659,76",
+    "EGWh": "5,10",
+    "PMWp": "3.243,80",
+    "reach": 3.073,
+    "percentage": "998%"
   },
   {
-    "municipality": "Tàrbena",
-    "region": "Marina Baixa",
-    "population": 623,
-    "DkWh": "1395,53",
-    "EGWh": "3,1",
-    "PMWp": "2678,3",
-    "reach": 2221,
-    "factor": "3,57"
+    "municipality": "Anna",
+    "population": 2.615,
+    "DkWh": "1.717,07",
+    "EGWh": "21,00",
+    "PMWp": "13.287,70",
+    "reach": 12.23,
+    "percentage": "468%"
   },
   {
-    "municipality": "Confrides",
-    "region": "Marina Baixa",
-    "population": 261,
-    "DkWh": "1395,53",
-    "EGWh": "3,8",
-    "PMWp": "2458,1",
-    "reach": 2723,
-    "factor": "10,43"
+    "municipality": "Antella",
+    "population": 1.157,
+    "DkWh": "1.605,28",
+    "EGWh": "6,20",
+    "PMWp": "3.872,30",
+    "reach": 3.862,
+    "percentage": "334%"
   },
   {
-    "municipality": "El Castell de Guadalest",
-    "region": "Marina Baixa",
-    "population": 224,
-    "DkWh": "1395,53",
-    "EGWh": "1,2",
-    "PMWp": "869,9",
-    "reach": 860,
-    "factor": "3,84"
+    "municipality": "Arañuel",
+    "population": 151,
+    "DkWh": "1.986,99",
+    "EGWh": "1,10",
+    "PMWp": "920,70",
+    "reach": 554,
+    "percentage": "367%"
   },
   {
-    "municipality": "Benimantell",
-    "region": "Marina Baixa",
-    "population": 497,
-    "DkWh": "1395,53",
-    "EGWh": "2,1",
-    "PMWp": "1382,2",
-    "reach": 1505,
-    "factor": "3,03"
+    "municipality": "Aras de los Olmos",
+    "population": 359,
+    "DkWh": "1.659,76",
+    "EGWh": "8,00",
+    "PMWp": "4.954,70",
+    "reach": 4.82,
+    "percentage": "1.343%"
   },
   {
-    "municipality": "Orxeta",
-    "region": "Marina Baixa",
-    "population": 784,
-    "DkWh": "1395,53",
-    "EGWh": "3,3",
-    "PMWp": "2086,1",
-    "reach": 2365,
-    "factor": "3,02"
+    "municipality": "Ares del Maestrat",
+    "population": 184,
+    "DkWh": "2.689,84",
+    "EGWh": "1,10",
+    "PMWp": "986,50",
+    "reach": 409,
+    "percentage": "222%"
   },
   {
-    "municipality": "Benifato",
-    "region": "Marina Baixa",
-    "population": 136,
-    "DkWh": "1395,53",
-    "EGWh": "0,6",
-    "PMWp": "472,9",
-    "reach": 430,
-    "factor": "3,16"
+    "municipality": "Argelita",
+    "population": 126,
+    "DkWh": "1.986,99",
+    "EGWh": "0,70",
+    "PMWp": "574,90",
+    "reach": 352,
+    "percentage": "280%"
+  },
+  {
+    "municipality": "Artana",
+    "population": 1.955,
+    "DkWh": "1.892,28",
+    "EGWh": "8,60",
+    "PMWp": "6.231,50",
+    "reach": 4.545,
+    "percentage": "232%"
+  },
+  {
+    "municipality": "Aspe",
+    "population": 20.804,
+    "DkWh": "1.600,00",
+    "EGWh": "87,70",
+    "PMWp": "53.591,00",
+    "reach": 54.813,
+    "percentage": "263%"
+  },
+  {
+    "municipality": "Atzeneta d'Albaida",
+    "population": 1.162,
+    "DkWh": "1.576,42",
+    "EGWh": "27,20",
+    "PMWp": "17.348,30",
+    "reach": 17.254,
+    "percentage": "1.485%"
+  },
+  {
+    "municipality": "Atzeneta del Maestrat",
+    "population": 1.304,
+    "DkWh": "1.922,36",
+    "EGWh": "13,00",
+    "PMWp": "9.112,70",
+    "reach": 6.763,
+    "percentage": "519%"
+  },
+  {
+    "municipality": "Ayódar",
+    "population": 153,
+    "DkWh": "1.986,99",
+    "EGWh": "0,60",
+    "PMWp": "533,10",
+    "reach": 302,
+    "percentage": "197%"
+  },
+  {
+    "municipality": "Ayora",
+    "population": 5.283,
+    "DkWh": "1.650,81",
+    "EGWh": "41,70",
+    "PMWp": "25.805,60",
+    "reach": 25.26,
+    "percentage": "478%"
+  },
+  {
+    "municipality": "Azuébar",
+    "population": 310,
+    "DkWh": "2.242,28",
+    "EGWh": "1,70",
+    "PMWp": "1.386,80",
+    "reach": 758,
+    "percentage": "245%"
+  },
+  {
+    "municipality": "Balones",
+    "population": 128,
+    "DkWh": "1.680,08",
+    "EGWh": "1,40",
+    "PMWp": "1.092,00",
+    "reach": 833,
+    "percentage": "651%"
+  },
+  {
+    "municipality": "Banyeres de Mariola",
+    "population": 7.09,
+    "DkWh": "1.742,28",
+    "EGWh": "99,80",
+    "PMWp": "60.436,50",
+    "reach": 57.281,
+    "percentage": "808%"
+  },
+  {
+    "municipality": "Barracas",
+    "population": 168,
+    "DkWh": "2.242,28",
+    "EGWh": "3,20",
+    "PMWp": "2.205,10",
+    "reach": 1.427,
+    "percentage": "849%"
+  },
+  {
+    "municipality": "Barx",
+    "population": 1.303,
+    "DkWh": "1.422,36",
+    "EGWh": "9,60",
+    "PMWp": "6.219,60",
+    "reach": 6.749,
+    "percentage": "518%"
+  },
+  {
+    "municipality": "Barxeta",
+    "population": 1.586,
+    "DkWh": "1.572,36",
+    "EGWh": "10,10",
+    "PMWp": "6.459,60",
+    "reach": 6.423,
+    "percentage": "405%"
+  },
+  {
+    "municipality": "Bejís",
+    "population": 371,
+    "DkWh": "2.242,28",
+    "EGWh": "2,90",
+    "PMWp": "2.219,80",
+    "reach": 1.293,
+    "percentage": "349%"
+  },
+  {
+    "municipality": "Bèlgida",
+    "population": 679,
+    "DkWh": "1.576,42",
+    "EGWh": "7,40",
+    "PMWp": "4.635,60",
+    "reach": 4.694,
+    "percentage": "691%"
+  },
+  {
+    "municipality": "Bellreguard",
+    "population": 4.618,
+    "DkWh": "1.422,36",
+    "EGWh": "25,30",
+    "PMWp": "15.979,80",
+    "reach": 17.787,
+    "percentage": "385%"
+  },
+  {
+    "municipality": "Bellús",
+    "population": 299,
+    "DkWh": "1.576,42",
+    "EGWh": "3,50",
+    "PMWp": "2.215,00",
+    "reach": 2.22,
+    "percentage": "743%"
+  },
+  {
+    "municipality": "Benafer",
+    "population": 164,
+    "DkWh": "2.242,28",
+    "EGWh": "0,80",
+    "PMWp": "679,70",
+    "reach": 357,
+    "percentage": "218%"
+  },
+  {
+    "municipality": "Benafigos",
+    "population": 138,
+    "DkWh": "1.922,36",
+    "EGWh": "0,60",
+    "PMWp": "572,60",
+    "reach": 312,
+    "percentage": "226%"
+  },
+  {
+    "municipality": "Benagéber",
+    "population": 180,
+    "DkWh": "1.659,76",
+    "EGWh": "1,60",
+    "PMWp": "984,50",
+    "reach": 964,
+    "percentage": "536%"
+  },
+  {
+    "municipality": "Benaguasil",
+    "population": 11.256,
+    "DkWh": "1.328,86",
+    "EGWh": "52,20",
+    "PMWp": "32.408,50",
+    "reach": 39.282,
+    "percentage": "349%"
+  },
+  {
+    "municipality": "Benasau",
+    "population": 156,
+    "DkWh": "1.680,08",
+    "EGWh": "1,80",
+    "PMWp": "1.335,10",
+    "reach": 1.071,
+    "percentage": "687%"
+  },
+  {
+    "municipality": "Benassal",
+    "population": 1.063,
+    "DkWh": "2.689,84",
+    "EGWh": "9,00",
+    "PMWp": "6.452,80",
+    "reach": 3.346,
+    "percentage": "315%"
+  },
+  {
+    "municipality": "Benavites",
+    "population": 638,
+    "DkWh": "1.456,91",
+    "EGWh": "3,70",
+    "PMWp": "2.308,80",
+    "reach": 2.54,
+    "percentage": "398%"
+  },
+  {
+    "municipality": "Beneixama",
+    "population": 1.69,
+    "DkWh": "1.647,15",
+    "EGWh": "29,90",
+    "PMWp": "19.383,80",
+    "reach": 18.153,
+    "percentage": "1.074%"
+  },
+  {
+    "municipality": "Beneixida",
+    "population": 627,
+    "DkWh": "1.605,28",
+    "EGWh": "13,60",
+    "PMWp": "8.600,80",
+    "reach": 8.472,
+    "percentage": "1.351%"
+  },
+  {
+    "municipality": "Benejúzar",
+    "population": 5.435,
+    "DkWh": "1.216,26",
+    "EGWh": "21,90",
+    "PMWp": "13.314,60",
+    "reach": 18.006,
+    "percentage": "331%"
+  },
+  {
+    "municipality": "Benetússer",
+    "population": 15,
+    "DkWh": "1.514,23",
+    "EGWh": "21,00",
+    "PMWp": "12.985,90",
+    "reach": 13.868,
+    "percentage": "92%"
+  },
+  {
+    "municipality": "Benferri",
+    "population": 1.965,
+    "DkWh": "1.216,26",
+    "EGWh": "10,60",
+    "PMWp": "6.344,30",
+    "reach": 8.715,
+    "percentage": "444%"
+  },
+  {
+    "municipality": "Beniarbeig",
+    "population": 2.159,
+    "DkWh": "1.396,34",
+    "EGWh": "10,50",
+    "PMWp": "7.363,80",
+    "reach": 7.52,
+    "percentage": "348%"
   },
   {
     "municipality": "Beniardá",
-    "region": "Marina Baixa",
     "population": 200,
-    "DkWh": "1395,53",
-    "EGWh": "0,5",
-    "PMWp": "394,6",
+    "DkWh": "1.395,53",
+    "EGWh": "0,50",
+    "PMWp": "394,60",
     "reach": 358,
-    "factor": "1,79"
+    "percentage": "179%"
   },
   {
-    "municipality": "Sella",
-    "region": "Marina Baixa",
-    "population": 577,
-    "DkWh": "1395,53",
-    "EGWh": "0,9",
-    "PMWp": "752,4",
-    "reach": 645,
-    "factor": "1,12"
+    "municipality": "Beniarjó",
+    "population": 1.767,
+    "DkWh": "1.422,36",
+    "EGWh": "11,00",
+    "PMWp": "7.023,90",
+    "reach": 7.734,
+    "percentage": "438%"
+  },
+  {
+    "municipality": "Beniarrés",
+    "population": 1.099,
+    "DkWh": "1.680,08",
+    "EGWh": "6,60",
+    "PMWp": "4.097,00",
+    "reach": 3.928,
+    "percentage": "357%"
+  },
+  {
+    "municipality": "Beniatjar",
+    "population": 219,
+    "DkWh": "1.576,42",
+    "EGWh": "2,50",
+    "PMWp": "1.605,00",
+    "reach": 1.586,
+    "percentage": "724%"
+  },
+  {
+    "municipality": "Benicarló",
+    "population": 27.363,
+    "DkWh": "1.791,87",
+    "EGWh": "135,10",
+    "PMWp": "78.754,80",
+    "reach": 75.396,
+    "percentage": "276%"
+  },
+  {
+    "municipality": "Benicàssim / Benicásim",
+    "population": 18.364,
+    "DkWh": "1.830,89",
+    "EGWh": "63,20",
+    "PMWp": "32.997,00",
+    "reach": 34.519,
+    "percentage": "188%"
+  },
+  {
+    "municipality": "Benicolet",
+    "population": 574,
+    "DkWh": "1.576,42",
+    "EGWh": "6,70",
+    "PMWp": "4.194,00",
+    "reach": 4.25,
+    "percentage": "740%"
+  },
+  {
+    "municipality": "Benicull de Xúquer",
+    "population": 1.048,
+    "DkWh": "1.535,77",
+    "EGWh": "5,90",
+    "PMWp": "3.726,70",
+    "reach": 3.842,
+    "percentage": "367%"
+  },
+  {
+    "municipality": "Benidoleig",
+    "population": 1.078,
+    "DkWh": "1.396,34",
+    "EGWh": "3,70",
+    "PMWp": "2.895,90",
+    "reach": 2.65,
+    "percentage": "246%"
+  },
+  {
+    "municipality": "Benidorm",
+    "population": 70.45,
+    "DkWh": "1.395,53",
+    "EGWh": "95,00",
+    "PMWp": "43.455,60",
+    "reach": 68.075,
+    "percentage": "97%"
+  },
+  {
+    "municipality": "Benifaió",
+    "population": 11.989,
+    "DkWh": "1.605,28",
+    "EGWh": "79,40",
+    "PMWp": "49.931,00",
+    "reach": 49.462,
+    "percentage": "413%"
+  },
+  {
+    "municipality": "Benifairó de la Valldigna",
+    "population": 1.558,
+    "DkWh": "1.422,36",
+    "EGWh": "14,50",
+    "PMWp": "9.309,00",
+    "reach": 10.194,
+    "percentage": "654%"
+  },
+  {
+    "municipality": "Benifairó de les Valls",
+    "population": 2.213,
+    "DkWh": "1.456,91",
+    "EGWh": "7,10",
+    "PMWp": "4.480,50",
+    "reach": 4.873,
+    "percentage": "220%"
+  },
+  {
+    "municipality": "Benifallim",
+    "population": 104,
+    "DkWh": "1.742,28",
+    "EGWh": "0,80",
+    "PMWp": "618,60",
+    "reach": 459,
+    "percentage": "442%"
+  },
+  {
+    "municipality": "Benifato",
+    "population": 136,
+    "DkWh": "1.395,53",
+    "EGWh": "0,60",
+    "PMWp": "472,90",
+    "reach": 430,
+    "percentage": "316%"
+  },
+  {
+    "municipality": "Beniflá",
+    "population": 460,
+    "DkWh": "1.422,36",
+    "EGWh": "10,30",
+    "PMWp": "6.619,50",
+    "reach": 7.241,
+    "percentage": "1.574%"
+  },
+  {
+    "municipality": "Benigánim",
+    "population": 5.779,
+    "DkWh": "1.576,42",
+    "EGWh": "49,50",
+    "PMWp": "31.461,30",
+    "reach": 31.4,
+    "percentage": "543%"
+  },
+  {
+    "municipality": "Benigembla",
+    "population": 443,
+    "DkWh": "1.396,34",
+    "EGWh": "1,30",
+    "PMWp": "1.271,50",
+    "reach": 931,
+    "percentage": "210%"
+  },
+  {
+    "municipality": "Benijófar",
+    "population": 3.293,
+    "DkWh": "1.216,26",
+    "EGWh": "19,30",
+    "PMWp": "11.509,60",
+    "reach": 15.868,
+    "percentage": "482%"
+  },
+  {
+    "municipality": "Benilloba",
+    "population": 726,
+    "DkWh": "1.680,08",
+    "EGWh": "6,40",
+    "PMWp": "4.441,20",
+    "reach": 3.809,
+    "percentage": "525%"
+  },
+  {
+    "municipality": "Benillup",
+    "population": 100,
+    "DkWh": "1.680,08",
+    "EGWh": "0,40",
+    "PMWp": "287,70",
+    "reach": 238,
+    "percentage": "238%"
+  },
+  {
+    "municipality": "Benimantell",
+    "population": 497,
+    "DkWh": "1.395,53",
+    "EGWh": "2,10",
+    "PMWp": "1.382,20",
+    "reach": 1.505,
+    "percentage": "303%"
+  },
+  {
+    "municipality": "Benimarfull",
+    "population": 396,
+    "DkWh": "1.680,08",
+    "EGWh": "8,30",
+    "PMWp": "5.472,30",
+    "reach": 4.94,
+    "percentage": "1.248%"
+  },
+  {
+    "municipality": "Benimassot",
+    "population": 103,
+    "DkWh": "1.680,08",
+    "EGWh": "0,90",
+    "PMWp": "651,50",
+    "reach": 536,
+    "percentage": "520%"
+  },
+  {
+    "municipality": "Benimeli",
+    "population": 429,
+    "DkWh": "1.396,34",
+    "EGWh": "1,40",
+    "PMWp": "1.034,40",
+    "reach": 1.003,
+    "percentage": "234%"
+  },
+  {
+    "municipality": "Benimodo",
+    "population": 2.272,
+    "DkWh": "1.605,28",
+    "EGWh": "21,00",
+    "PMWp": "13.253,50",
+    "reach": 13.082,
+    "percentage": "576%"
+  },
+  {
+    "municipality": "Benimuslem",
+    "population": 667,
+    "DkWh": "1.605,28",
+    "EGWh": "6,70",
+    "PMWp": "4.237,20",
+    "reach": 4.174,
+    "percentage": "626%"
+  },
+  {
+    "municipality": "Beniparrell",
+    "population": 2.015,
+    "DkWh": "1.514,23",
+    "EGWh": "123,30",
+    "PMWp": "77.712,20",
+    "reach": 81.428,
+    "percentage": "4.041%"
+  },
+  {
+    "municipality": "Benirredrà",
+    "population": 1.555,
+    "DkWh": "1.422,36",
+    "EGWh": "3,90",
+    "PMWp": "2.480,00",
+    "reach": 2.742,
+    "percentage": "176%"
+  },
+  {
+    "municipality": "Benisanó",
+    "population": 2.291,
+    "DkWh": "1.328,86",
+    "EGWh": "12,70",
+    "PMWp": "7.884,50",
+    "reach": 9.557,
+    "percentage": "417%"
+  },
+  {
+    "municipality": "Benissa",
+    "population": 11.288,
+    "DkWh": "1.396,34",
+    "EGWh": "101,60",
+    "PMWp": "63.816,00",
+    "reach": 72.762,
+    "percentage": "645%"
+  },
+  {
+    "municipality": "Benissoda",
+    "population": 432,
+    "DkWh": "1.576,42",
+    "EGWh": "6,00",
+    "PMWp": "3.827,40",
+    "reach": 3.806,
+    "percentage": "881%"
+  },
+  {
+    "municipality": "Benissuera",
+    "population": 185,
+    "DkWh": "1.576,42",
+    "EGWh": "1,90",
+    "PMWp": "1.195,40",
+    "reach": 1.205,
+    "percentage": "651%"
+  },
+  {
+    "municipality": "Benlloc",
+    "population": 1.048,
+    "DkWh": "1.830,89",
+    "EGWh": "8,70",
+    "PMWp": "6.180,60",
+    "reach": 4.752,
+    "percentage": "453%"
+  },
+  {
+    "municipality": "Bétera",
+    "population": 24.604,
+    "DkWh": "1.328,86",
+    "EGWh": "93,20",
+    "PMWp": "57.663,90",
+    "reach": 70.135,
+    "percentage": "285%"
+  },
+  {
+    "municipality": "Betxí",
+    "population": 5.618,
+    "DkWh": "1.892,28",
+    "EGWh": "61,80",
+    "PMWp": "39.727,90",
+    "reach": 32.659,
+    "percentage": "581%"
+  },
+  {
+    "municipality": "Biar",
+    "population": 3.655,
+    "DkWh": "1.647,15",
+    "EGWh": "49,10",
+    "PMWp": "30.317,60",
+    "reach": 29.809,
+    "percentage": "816%"
+  },
+  {
+    "municipality": "Bicorp",
+    "population": 529,
+    "DkWh": "1.717,07",
+    "EGWh": "3,60",
+    "PMWp": "2.270,50",
+    "reach": 2.097,
+    "percentage": "396%"
+  },
+  {
+    "municipality": "Bigastro",
+    "population": 6.909,
+    "DkWh": "1.216,26",
+    "EGWh": "33,00",
+    "PMWp": "17.589,70",
+    "reach": 27.132,
+    "percentage": "393%"
+  },
+  {
+    "municipality": "Bocairent",
+    "population": 4.142,
+    "DkWh": "1.576,42",
+    "EGWh": "49,70",
+    "PMWp": "31.522,10",
+    "reach": 31.527,
+    "percentage": "761%"
+  },
+  {
+    "municipality": "Bolbaite",
+    "population": 1.324,
+    "DkWh": "1.717,07",
+    "EGWh": "4,80",
+    "PMWp": "3.038,30",
+    "reach": 2.795,
+    "percentage": "211%"
   },
   {
     "municipality": "Bolulla",
-    "region": "Marina Baixa",
     "population": 417,
-    "DkWh": "1395,53",
-    "EGWh": "0,6",
-    "PMWp": 407,
+    "DkWh": "1.395,53",
+    "EGWh": "0,60",
+    "PMWp": "407,00",
     "reach": 430,
-    "factor": "1,03"
+    "percentage": "103%"
+  },
+  {
+    "municipality": "Bonrepòs i Mirambell",
+    "population": 3.738,
+    "DkWh": "1.452,85",
+    "EGWh": "13,50",
+    "PMWp": "8.417,60",
+    "reach": 9.292,
+    "percentage": "249%"
+  },
+  {
+    "municipality": "Borriana / Burriana",
+    "population": 35.052,
+    "DkWh": "1.892,28",
+    "EGWh": "158,90",
+    "PMWp": "89.199,10",
+    "reach": 83.973,
+    "percentage": "240%"
+  },
+  {
+    "municipality": "Borriol",
+    "population": 5.397,
+    "DkWh": "1.830,89",
+    "EGWh": "33,90",
+    "PMWp": "24.483,40",
+    "reach": 18.516,
+    "percentage": "343%"
+  },
+  {
+    "municipality": "Bufali",
+    "population": 156,
+    "DkWh": "1.576,42",
+    "EGWh": "3,90",
+    "PMWp": "2.474,10",
+    "reach": 2.474,
+    "percentage": "1.586%"
+  },
+  {
+    "municipality": "Bugarra",
+    "population": 739,
+    "DkWh": "1.659,76",
+    "EGWh": "5,90",
+    "PMWp": "3.744,40",
+    "reach": 3.555,
+    "percentage": "481%"
+  },
+  {
+    "municipality": "Buñol",
+    "population": 9.498,
+    "DkWh": "1.570,33",
+    "EGWh": "101,60",
+    "PMWp": "64.347,80",
+    "reach": 64.7,
+    "percentage": "681%"
+  },
+  {
+    "municipality": "Burjassot",
+    "population": 38.632,
+    "DkWh": "1.452,85",
+    "EGWh": "36,80",
+    "PMWp": "22.575,70",
+    "reach": 25.33,
+    "percentage": "66%"
+  },
+  {
+    "municipality": "Busot",
+    "population": 3.075,
+    "DkWh": "1.512,60",
+    "EGWh": "21,90",
+    "PMWp": "13.178,40",
+    "reach": 14.478,
+    "percentage": "471%"
+  },
+  {
+    "municipality": "Cabanes",
+    "population": 2.978,
+    "DkWh": "1.830,89",
+    "EGWh": "48,30",
+    "PMWp": "31.096,30",
+    "reach": 26.381,
+    "percentage": "886%"
+  },
+  {
+    "municipality": "Càlig",
+    "population": 1.961,
+    "DkWh": "1.791,87",
+    "EGWh": "10,60",
+    "PMWp": "7.485,20",
+    "reach": 5.916,
+    "percentage": "302%"
+  },
+  {
+    "municipality": "Calles",
+    "population": 355,
+    "DkWh": "1.659,76",
+    "EGWh": "8,60",
+    "PMWp": "5.313,20",
+    "reach": 5.181,
+    "percentage": "1.460%"
+  },
+  {
+    "municipality": "Callosa d'En Sarrià",
+    "population": 7.522,
+    "DkWh": "1.395,53",
+    "EGWh": "19,90",
+    "PMWp": "12.820,40",
+    "reach": 14.26,
+    "percentage": "190%"
+  },
+  {
+    "municipality": "Callosa de Segura",
+    "population": 19.127,
+    "DkWh": "1.216,26",
+    "EGWh": "93,60",
+    "PMWp": "51.272,20",
+    "reach": 76.957,
+    "percentage": "402%"
+  },
+  {
+    "municipality": "Calp",
+    "population": 23.326,
+    "DkWh": "1.396,34",
+    "EGWh": "96,40",
+    "PMWp": "60.641,80",
+    "reach": 69.038,
+    "percentage": "296%"
+  },
+  {
+    "municipality": "Camporrobles",
+    "population": 1.198,
+    "DkWh": "1.642,28",
+    "EGWh": "15,10",
+    "PMWp": "9.132,60",
+    "reach": 9.195,
+    "percentage": "767%"
+  },
+  {
+    "municipality": "Cañada",
+    "population": 1.208,
+    "DkWh": "1.647,15",
+    "EGWh": "15,20",
+    "PMWp": "10.024,80",
+    "reach": 9.228,
+    "percentage": "764%"
+  },
+  {
+    "municipality": "Canals",
+    "population": 13.516,
+    "DkWh": "1.572,36",
+    "EGWh": "68,10",
+    "PMWp": "43.174,30",
+    "reach": 43.311,
+    "percentage": "320%"
+  },
+  {
+    "municipality": "Canet d'En Berenguer",
+    "population": 6.765,
+    "DkWh": "1.456,91",
+    "EGWh": "24,70",
+    "PMWp": "15.570,80",
+    "reach": 16.954,
+    "percentage": "251%"
+  },
+  {
+    "municipality": "Canet lo Roig",
+    "population": 676,
+    "DkWh": "1.791,87",
+    "EGWh": "4,70",
+    "PMWp": "3.680,70",
+    "reach": 2.623,
+    "percentage": "388%"
+  },
+  {
+    "municipality": "Carcaixent",
+    "population": 20.436,
+    "DkWh": "1.605,28",
+    "EGWh": "70,40",
+    "PMWp": "44.218,20",
+    "reach": 43.855,
+    "percentage": "215%"
+  },
+  {
+    "municipality": "Càrcer",
+    "population": 1.827,
+    "DkWh": "1.605,28",
+    "EGWh": "13,10",
+    "PMWp": "8.274,20",
+    "reach": 8.161,
+    "percentage": "447%"
+  },
+  {
+    "municipality": "Carlet",
+    "population": 15.74,
+    "DkWh": "1.605,28",
+    "EGWh": "115,20",
+    "PMWp": "72.724,60",
+    "reach": 71.763,
+    "percentage": "456%"
+  },
+  {
+    "municipality": "Carrícola",
+    "population": 99,
+    "DkWh": "1.576,42",
+    "EGWh": "0,80",
+    "PMWp": "533,60",
+    "reach": 507,
+    "percentage": "513%"
+  },
+  {
+    "municipality": "Casas Altas",
+    "population": 131,
+    "DkWh": "1.986,99",
+    "EGWh": "1,30",
+    "PMWp": "796,50",
+    "reach": 654,
+    "percentage": "499%"
+  },
+  {
+    "municipality": "Casas Bajas",
+    "population": 163,
+    "DkWh": "1.986,99",
+    "EGWh": "2,30",
+    "PMWp": "1.424,70",
+    "reach": 1.158,
+    "percentage": "710%"
+  },
+  {
+    "municipality": "Casinos",
+    "population": 2.78,
+    "DkWh": "1.328,86",
+    "EGWh": "18,40",
+    "PMWp": "11.304,00",
+    "reach": 13.846,
+    "percentage": "498%"
+  },
+  {
+    "municipality": "Castalla",
+    "population": 10.461,
+    "DkWh": "1.742,28",
+    "EGWh": "124,00",
+    "PMWp": "76.684,20",
+    "reach": 71.171,
+    "percentage": "680%"
+  },
+  {
+    "municipality": "Castell de Cabres",
+    "population": 22,
+    "DkWh": "1.791,87",
+    "EGWh": "0,50",
+    "PMWp": "299,80",
+    "reach": 279,
+    "percentage": "1.268%"
+  },
+  {
+    "municipality": "Castell de Castells",
+    "population": 437,
+    "DkWh": "1.396,34",
+    "EGWh": "2,70",
+    "PMWp": "1.982,10",
+    "reach": 1.934,
+    "percentage": "442%"
+  },
+  {
+    "municipality": "Castellfort",
+    "population": 179,
+    "DkWh": "1.538,62",
+    "EGWh": "1,00",
+    "PMWp": "931,60",
+    "reach": 650,
+    "percentage": "363%"
+  },
+  {
+    "municipality": "Castellnovo",
+    "population": 918,
+    "DkWh": "2.242,28",
+    "EGWh": "5,70",
+    "PMWp": "3.976,40",
+    "reach": 2.542,
+    "percentage": "277%"
+  },
+  {
+    "municipality": "Castelló / Villanueva de Castellón",
+    "population": 7.054,
+    "DkWh": "1.605,28",
+    "EGWh": "40,20",
+    "PMWp": "25.485,10",
+    "reach": 25.042,
+    "percentage": "355%"
+  },
+  {
+    "municipality": "Castelló de la Plana / Castellón de la Plana",
+    "population": 174.264,
+    "DkWh": "1.830,89",
+    "EGWh": "580,30",
+    "PMWp": "366.772,30",
+    "reach": 316.949,
+    "percentage": "182%"
+  },
+  {
+    "municipality": "Castelló de Rugat",
+    "population": 2.298,
+    "DkWh": "1.576,42",
+    "EGWh": "26,30",
+    "PMWp": "16.532,80",
+    "reach": 16.683,
+    "percentage": "726%"
+  },
+  {
+    "municipality": "Castellonet de la Conquesta",
+    "population": 141,
+    "DkWh": "1.422,36",
+    "EGWh": "0,70",
+    "PMWp": "442,00",
+    "reach": 492,
+    "percentage": "349%"
+  },
+  {
+    "municipality": "Castielfabib",
+    "population": 308,
+    "DkWh": "1.986,99",
+    "EGWh": "7,50",
+    "PMWp": "4.665,20",
+    "reach": 3.775,
+    "percentage": "1.226%"
+  },
+  {
+    "municipality": "Castillo de Villamalefa",
+    "population": 101,
+    "DkWh": "1.986,99",
+    "EGWh": "0,80",
+    "PMWp": "632,70",
+    "reach": 403,
+    "percentage": "399%"
+  },
+  {
+    "municipality": "Catadau",
+    "population": 2.804,
+    "DkWh": "1.605,28",
+    "EGWh": "29,20",
+    "PMWp": "18.487,90",
+    "reach": 18.19,
+    "percentage": "649%"
+  },
+  {
+    "municipality": "Catarroja",
+    "population": 28.608,
+    "DkWh": "1.514,23",
+    "EGWh": "103,50",
+    "PMWp": "64.853,10",
+    "reach": 68.352,
+    "percentage": "239%"
+  },
+  {
+    "municipality": "Catí",
+    "population": 714,
+    "DkWh": "2.689,84",
+    "EGWh": "9,10",
+    "PMWp": "6.448,30",
+    "reach": 3.383,
+    "percentage": "474%"
+  },
+  {
+    "municipality": "Catral",
+    "population": 8.898,
+    "DkWh": "1.216,26",
+    "EGWh": "51,40",
+    "PMWp": "31.317,50",
+    "reach": 42.261,
+    "percentage": "475%"
+  },
+  {
+    "municipality": "Caudete de Las Fuentes",
+    "population": 711,
+    "DkWh": "1.642,28",
+    "EGWh": "13,80",
+    "PMWp": "8.351,90",
+    "reach": 8.403,
+    "percentage": "1.182%"
+  },
+  {
+    "municipality": "Caudiel",
+    "population": 659,
+    "DkWh": "2.242,28",
+    "EGWh": "6,90",
+    "PMWp": "4.983,30",
+    "reach": 3.077,
+    "percentage": "467%"
+  },
+  {
+    "municipality": "Cerdà",
+    "population": 331,
+    "DkWh": "1.572,36",
+    "EGWh": "1,10",
+    "PMWp": "715,90",
+    "reach": 700,
+    "percentage": "211%"
+  },
+  {
+    "municipality": "Cervera del Maestre",
+    "population": 557,
+    "DkWh": "1.791,87",
+    "EGWh": "2,60",
+    "PMWp": "2.273,00",
+    "reach": 1.451,
+    "percentage": "261%"
+  },
+  {
+    "municipality": "Chella",
+    "population": 2.472,
+    "DkWh": "1.717,07",
+    "EGWh": "12,50",
+    "PMWp": "7.902,90",
+    "reach": 7.28,
+    "percentage": "294%"
+  },
+  {
+    "municipality": "Chelva",
+    "population": 1.531,
+    "DkWh": "1.659,76",
+    "EGWh": "13,90",
+    "PMWp": "8.504,80",
+    "reach": 8.375,
+    "percentage": "547%"
+  },
+  {
+    "municipality": "Chera",
+    "population": 469,
+    "DkWh": "1.642,28",
+    "EGWh": "4,80",
+    "PMWp": "2.984,50",
+    "reach": 2.923,
+    "percentage": "623%"
+  },
+  {
+    "municipality": "Cheste",
+    "population": 8.735,
+    "DkWh": "1.570,33",
+    "EGWh": "119,30",
+    "PMWp": "74.779,80",
+    "reach": 75.972,
+    "percentage": "870%"
+  },
+  {
+    "municipality": "Chiva",
+    "population": 15.414,
+    "DkWh": "1.570,33",
+    "EGWh": "138,20",
+    "PMWp": "86.845,70",
+    "reach": 88.007,
+    "percentage": "571%"
+  },
+  {
+    "municipality": "Chóvar",
+    "population": 288,
+    "DkWh": "2.242,28",
+    "EGWh": "3,70",
+    "PMWp": "2.582,70",
+    "reach": 1.65,
+    "percentage": "573%"
+  },
+  {
+    "municipality": "Chulilla",
+    "population": 662,
+    "DkWh": "1.659,76",
+    "EGWh": "5,60",
+    "PMWp": "3.527,30",
+    "reach": 3.374,
+    "percentage": "510%"
+  },
+  {
+    "municipality": "Cinctorres",
+    "population": 400,
+    "DkWh": "1.538,62",
+    "EGWh": "2,50",
+    "PMWp": "2.170,10",
+    "reach": 1.625,
+    "percentage": "406%"
+  },
+  {
+    "municipality": "Cirat",
+    "population": 206,
+    "DkWh": "1.986,99",
+    "EGWh": "1,50",
+    "PMWp": "1.235,50",
+    "reach": 755,
+    "percentage": "366%"
+  },
+  {
+    "municipality": "Cocentaina",
+    "population": 11.52,
+    "DkWh": "1.680,08",
+    "EGWh": "120,20",
+    "PMWp": "76.850,60",
+    "reach": 71.544,
+    "percentage": "621%"
+  },
+  {
+    "municipality": "Cofrentes",
+    "population": 1.123,
+    "DkWh": "1.650,81",
+    "EGWh": "6,50",
+    "PMWp": "4.111,50",
+    "reach": 3.937,
+    "percentage": "351%"
+  },
+  {
+    "municipality": "Confrides",
+    "population": 261,
+    "DkWh": "1.395,53",
+    "EGWh": "3,80",
+    "PMWp": "2.458,10",
+    "reach": 2.723,
+    "percentage": "1.043%"
+  },
+  {
+    "municipality": "Corbera",
+    "population": 3.088,
+    "DkWh": "1.535,77",
+    "EGWh": "20,90",
+    "PMWp": "13.487,70",
+    "reach": 13.609,
+    "percentage": "441%"
+  },
+  {
+    "municipality": "Cortes de Arenoso",
+    "population": 300,
+    "DkWh": "1.986,99",
+    "EGWh": "4,00",
+    "PMWp": "2.758,00",
+    "reach": 2.013,
+    "percentage": "671%"
+  },
+  {
+    "municipality": "Cortes de Pallás",
+    "population": 771,
+    "DkWh": "1.650,81",
+    "EGWh": "10,20",
+    "PMWp": "6.570,20",
+    "reach": 6.179,
+    "percentage": "801%"
+  },
+  {
+    "municipality": "Costur",
+    "population": 518,
+    "DkWh": "1.922,36",
+    "EGWh": "1,50",
+    "PMWp": "1.156,20",
+    "reach": 780,
+    "percentage": "151%"
+  },
+  {
+    "municipality": "Cotes",
+    "population": 333,
+    "DkWh": "1.605,28",
+    "EGWh": "2,60",
+    "PMWp": "1.629,70",
+    "reach": 1.62,
+    "percentage": "486%"
+  },
+  {
+    "municipality": "Cox",
+    "population": 7.386,
+    "DkWh": "1.216,26",
+    "EGWh": "65,40",
+    "PMWp": "38.524,70",
+    "reach": 53.771,
+    "percentage": "728%"
+  },
+  {
+    "municipality": "Crevillent",
+    "population": 29.536,
+    "DkWh": "1.443,09",
+    "EGWh": "211,40",
+    "PMWp": "123.464,40",
+    "reach": 146.491,
+    "percentage": "496%"
+  },
+  {
+    "municipality": "Culla",
+    "population": 481,
+    "DkWh": "2.689,84",
+    "EGWh": "2,50",
+    "PMWp": "1.598,30",
+    "reach": 929,
+    "percentage": "193%"
+  },
+  {
+    "municipality": "Cullera",
+    "population": 22.521,
+    "DkWh": "1.535,77",
+    "EGWh": "57,30",
+    "PMWp": "36.176,20",
+    "reach": 37.31,
+    "percentage": "166%"
+  },
+  {
+    "municipality": "Daimús",
+    "population": 3.196,
+    "DkWh": "1.422,36",
+    "EGWh": "22,70",
+    "PMWp": "14.461,20",
+    "reach": 15.959,
+    "percentage": "499%"
+  },
+  {
+    "municipality": "Daya Nueva",
+    "population": 1.733,
+    "DkWh": "1.216,26",
+    "EGWh": "11,30",
+    "PMWp": "7.506,80",
+    "reach": 9.291,
+    "percentage": "536%"
+  },
+  {
+    "municipality": "Daya Vieja",
+    "population": 731,
+    "DkWh": "1.216,26",
+    "EGWh": "3,20",
+    "PMWp": "1.922,60",
+    "reach": 2.631,
+    "percentage": "360%"
+  },
+  {
+    "municipality": "Dénia",
+    "population": 42.827,
+    "DkWh": "1.396,34",
+    "EGWh": "214,10",
+    "PMWp": "136.726,90",
+    "reach": 153.329,
+    "percentage": "358%"
+  },
+  {
+    "municipality": "Dolores",
+    "population": 7.531,
+    "DkWh": "1.216,26",
+    "EGWh": "50,40",
+    "PMWp": "27.880,20",
+    "reach": 41.439,
+    "percentage": "550%"
+  },
+  {
+    "municipality": "Domeño",
+    "population": 673,
+    "DkWh": "1.659,76",
+    "EGWh": "12,10",
+    "PMWp": "7.527,70",
+    "reach": 7.29,
+    "percentage": "1.083%"
+  },
+  {
+    "municipality": "Dos Aguas",
+    "population": 327,
+    "DkWh": "1.570,33",
+    "EGWh": "2,70",
+    "PMWp": "1.736,60",
+    "reach": 1.719,
+    "percentage": "526%"
+  },
+  {
+    "municipality": "El Camp de Mirra / Campo de Mirra",
+    "population": 417,
+    "DkWh": "1.647,15",
+    "EGWh": "5,50",
+    "PMWp": "3.632,70",
+    "reach": 3.339,
+    "percentage": "801%"
+  },
+  {
+    "municipality": "El Campello",
+    "population": 28.93,
+    "DkWh": "1.512,60",
+    "EGWh": "101,90",
+    "PMWp": "49.470,10",
+    "reach": 67.367,
+    "percentage": "233%"
+  },
+  {
+    "municipality": "El Castell de Guadalest",
+    "population": 224,
+    "DkWh": "1.395,53",
+    "EGWh": "1,20",
+    "PMWp": "869,90",
+    "reach": 860,
+    "percentage": "384%"
+  },
+  {
+    "municipality": "El Fondó de les Neus / Hondón de las Nieves",
+    "population": 2.606,
+    "DkWh": "1.600,00",
+    "EGWh": "19,20",
+    "PMWp": "13.039,50",
+    "reach": 12,
+    "percentage": "460%"
+  },
+  {
+    "municipality": "El Genovés",
+    "population": 2.778,
+    "DkWh": "1.572,36",
+    "EGWh": "15,20",
+    "PMWp": "9.660,40",
+    "reach": 9.667,
+    "percentage": "348%"
+  },
+  {
+    "municipality": "El Palomar",
+    "population": 567,
+    "DkWh": "1.576,42",
+    "EGWh": "8,70",
+    "PMWp": "5.466,90",
+    "reach": 5.519,
+    "percentage": "973%"
+  },
+  {
+    "municipality": "El Pinós / Pinoso",
+    "population": 8.025,
+    "DkWh": "1.600,00",
+    "EGWh": "66,10",
+    "PMWp": "39.545,60",
+    "reach": 41.313,
+    "percentage": "515%"
+  },
+  {
+    "municipality": "El Poble Nou de Benitatxell",
+    "population": 4.452,
+    "DkWh": "1.396,34",
+    "EGWh": "21,70",
+    "PMWp": "13.648,20",
+    "reach": 15.541,
+    "percentage": "349%"
+  },
+  {
+    "municipality": "El Puig de Santa Maria",
+    "population": 8.718,
+    "DkWh": "1.452,85",
+    "EGWh": "52,60",
+    "PMWp": "32.926,60",
+    "reach": 36.205,
+    "percentage": "415%"
+  },
+  {
+    "municipality": "El Ràfol d'Almúnia",
+    "population": 648,
+    "DkWh": "1.396,34",
+    "EGWh": "6,40",
+    "PMWp": "4.105,70",
+    "reach": 4.583,
+    "percentage": "707%"
+  },
+  {
+    "municipality": "El Real de Gandia",
+    "population": 2.531,
+    "DkWh": "1.422,36",
+    "EGWh": "41,00",
+    "PMWp": "26.303,20",
+    "reach": 28.825,
+    "percentage": "1.139%"
+  },
+  {
+    "municipality": "El Toro",
+    "population": 241,
+    "DkWh": "2.242,28",
+    "EGWh": "5,00",
+    "PMWp": "3.392,90",
+    "reach": 2.23,
+    "percentage": "925%"
+  },
+  {
+    "municipality": "El Verger",
+    "population": 4.709,
+    "DkWh": "1.396,34",
+    "EGWh": "34,50",
+    "PMWp": "22.038,90",
+    "reach": 24.707,
+    "percentage": "525%"
+  },
+  {
+    "municipality": "Elda",
+    "population": 52.813,
+    "DkWh": "1.600,00",
+    "EGWh": "136,70",
+    "PMWp": "69.821,70",
+    "reach": 85.438,
+    "percentage": "162%"
+  },
+  {
+    "municipality": "Els Poblets",
+    "population": 2.714,
+    "DkWh": "1.396,34",
+    "EGWh": "15,90",
+    "PMWp": "11.623,60",
+    "reach": 11.387,
+    "percentage": "420%"
+  },
+  {
+    "municipality": "Elx / Elche",
+    "population": 234.765,
+    "DkWh": "1.443,09",
+    "EGWh": "769,50",
+    "PMWp": "382.131,40",
+    "reach": 533.231,
+    "percentage": "227%"
+  },
+  {
+    "municipality": "Emperador",
+    "population": 688,
+    "DkWh": "1.452,85",
+    "EGWh": "0,80",
+    "PMWp": "503,30",
+    "reach": 551,
+    "percentage": "80%"
+  },
+  {
+    "municipality": "Enguera",
+    "population": 4.777,
+    "DkWh": "1.717,07",
+    "EGWh": "32,00",
+    "PMWp": "20.360,70",
+    "reach": 18.636,
+    "percentage": "390%"
+  },
+  {
+    "municipality": "Eslida",
+    "population": 725,
+    "DkWh": "1.892,28",
+    "EGWh": "4,70",
+    "PMWp": "3.497,70",
+    "reach": 2.484,
+    "percentage": "343%"
+  },
+  {
+    "municipality": "Espadilla",
+    "population": 69,
+    "DkWh": "1.986,99",
+    "EGWh": "0,60",
+    "PMWp": "488,40",
+    "reach": 302,
+    "percentage": "438%"
+  },
+  {
+    "municipality": "Estivella",
+    "population": 1.441,
+    "DkWh": "1.456,91",
+    "EGWh": "9,10",
+    "PMWp": "5.762,60",
+    "reach": 6.246,
+    "percentage": "433%"
+  },
+  {
+    "municipality": "Estubeny",
+    "population": 125,
+    "DkWh": "1.572,36",
+    "EGWh": "1,20",
+    "PMWp": "768,50",
+    "reach": 763,
+    "percentage": "611%"
+  },
+  {
+    "municipality": "Fageca",
+    "population": 107,
+    "DkWh": "1.680,08",
+    "EGWh": "0,80",
+    "PMWp": "651,60",
+    "reach": 476,
+    "percentage": "445%"
+  },
+  {
+    "municipality": "Famorca",
+    "population": 45,
+    "DkWh": "1.680,08",
+    "EGWh": "0,30",
+    "PMWp": "255,90",
+    "reach": 179,
+    "percentage": "397%"
+  },
+  {
+    "municipality": "Fanzara",
+    "population": 273,
+    "DkWh": "1.986,99",
+    "EGWh": "1,70",
+    "PMWp": "1.316,60",
+    "reach": 856,
+    "percentage": "313%"
+  },
+  {
+    "municipality": "Faura",
+    "population": 3.553,
+    "DkWh": "1.456,91",
+    "EGWh": "9,40",
+    "PMWp": "5.914,90",
+    "reach": 6.452,
+    "percentage": "182%"
+  },
+  {
+    "municipality": "Favara",
+    "population": 2.504,
+    "DkWh": "1.535,77",
+    "EGWh": "13,00",
+    "PMWp": "8.397,40",
+    "reach": 8.465,
+    "percentage": "338%"
+  },
+  {
+    "municipality": "Figueroles",
+    "population": 523,
+    "DkWh": "1.922,36",
+    "EGWh": "8,40",
+    "PMWp": "5.842,50",
+    "reach": 4.37,
+    "percentage": "835%"
+  },
+  {
+    "municipality": "Finestrat",
+    "population": 7.103,
+    "DkWh": "1.395,53",
+    "EGWh": "51,60",
+    "PMWp": "32.406,60",
+    "reach": 36.975,
+    "percentage": "521%"
+  },
+  {
+    "municipality": "Foios",
+    "population": 7.452,
+    "DkWh": "1.452,85",
+    "EGWh": "33,40",
+    "PMWp": "20.800,40",
+    "reach": 22.989,
+    "percentage": "308%"
+  },
+  {
+    "municipality": "Fontanars dels Alforins",
+    "population": 959,
+    "DkWh": "1.576,42",
+    "EGWh": "8,90",
+    "PMWp": "5.526,70",
+    "reach": 5.646,
+    "percentage": "589%"
+  },
+  {
+    "municipality": "Forcall",
+    "population": 456,
+    "DkWh": "1.538,62",
+    "EGWh": "2,80",
+    "PMWp": "2.318,90",
+    "reach": 1.82,
+    "percentage": "399%"
+  },
+  {
+    "municipality": "Formentera del Segura",
+    "population": 4.268,
+    "DkWh": "1.216,26",
+    "EGWh": "18,10",
+    "PMWp": "10.873,20",
+    "reach": 14.882,
+    "percentage": "349%"
+  },
+  {
+    "municipality": "Fortaleny",
+    "population": 1.02,
+    "DkWh": "1.535,77",
+    "EGWh": "4,30",
+    "PMWp": "2.676,40",
+    "reach": 2.8,
+    "percentage": "274%"
+  },
+  {
+    "municipality": "Fuente la Reina",
+    "population": 51,
+    "DkWh": "1.986,99",
+    "EGWh": "0,60",
+    "PMWp": "478,10",
+    "reach": 302,
+    "percentage": "592%"
+  },
+  {
+    "municipality": "Fuenterrobles",
+    "population": 694,
+    "DkWh": "1.642,28",
+    "EGWh": "7,80",
+    "PMWp": "4.677,90",
+    "reach": 4.75,
+    "percentage": "684%"
+  },
+  {
+    "municipality": "Fuentes de Ayódar",
+    "population": 89,
+    "DkWh": "1.986,99",
+    "EGWh": "0,40",
+    "PMWp": "320,20",
+    "reach": 201,
+    "percentage": "226%"
+  },
+  {
+    "municipality": "Gaianes",
+    "population": 479,
+    "DkWh": "1.680,08",
+    "EGWh": "10,20",
+    "PMWp": "6.705,50",
+    "reach": 6.071,
+    "percentage": "1.267%"
+  },
+  {
+    "municipality": "Gaibiel",
+    "population": 181,
+    "DkWh": "2.242,28",
+    "EGWh": "1,60",
+    "PMWp": "1.254,40",
+    "reach": 714,
+    "percentage": "394%"
+  },
+  {
+    "municipality": "Gandia",
+    "population": 75.798,
+    "DkWh": "1.422,36",
+    "EGWh": "137,50",
+    "PMWp": "87.247,90",
+    "reach": 96.67,
+    "percentage": "128%"
+  },
+  {
+    "municipality": "Gata de Gorgos",
+    "population": 6.243,
+    "DkWh": "1.396,34",
+    "EGWh": "35,60",
+    "PMWp": "22.525,60",
+    "reach": 25.495,
+    "percentage": "408%"
+  },
+  {
+    "municipality": "Gátova",
+    "population": 405,
+    "DkWh": "1.328,86",
+    "EGWh": "3,80",
+    "PMWp": "2.429,90",
+    "reach": 2.86,
+    "percentage": "706%"
+  },
+  {
+    "municipality": "Gavarda",
+    "population": 1.042,
+    "DkWh": "1.605,28",
+    "EGWh": "3,10",
+    "PMWp": "1.942,10",
+    "reach": 1.931,
+    "percentage": "185%"
+  },
+  {
+    "municipality": "Geldo",
+    "population": 633,
+    "DkWh": "2.242,28",
+    "EGWh": "1,00",
+    "PMWp": "819,20",
+    "reach": 446,
+    "percentage": "70%"
+  },
+  {
+    "municipality": "Gestalgar",
+    "population": 548,
+    "DkWh": "1.659,76",
+    "EGWh": "4,60",
+    "PMWp": "2.874,50",
+    "reach": 2.771,
+    "percentage": "506%"
+  },
+  {
+    "municipality": "Gilet",
+    "population": 3.404,
+    "DkWh": "1.456,91",
+    "EGWh": "15,20",
+    "PMWp": "9.578,80",
+    "reach": 10.433,
+    "percentage": "306%"
+  },
+  {
+    "municipality": "Godella",
+    "population": 13.131,
+    "DkWh": "1.452,85",
+    "EGWh": "41,70",
+    "PMWp": "25.698,40",
+    "reach": 28.702,
+    "percentage": "219%"
+  },
+  {
+    "municipality": "Godelleta",
+    "population": 3.584,
+    "DkWh": "1.570,33",
+    "EGWh": "37,90",
+    "PMWp": "23.562,40",
+    "reach": 24.135,
+    "percentage": "673%"
+  },
+  {
+    "municipality": "Gorga",
+    "population": 241,
+    "DkWh": "1.680,08",
+    "EGWh": "3,10",
+    "PMWp": "2.201,90",
+    "reach": 1.845,
+    "percentage": "766%"
+  },
+  {
+    "municipality": "Granja de Rocamora",
+    "population": 2.591,
+    "DkWh": "1.216,26",
+    "EGWh": "19,10",
+    "PMWp": "11.613,20",
+    "reach": 15.704,
+    "percentage": "606%"
+  },
+  {
+    "municipality": "Guadasséquies",
+    "population": 456,
+    "DkWh": "1.576,42",
+    "EGWh": "10,00",
+    "PMWp": "6.343,90",
+    "reach": 6.343,
+    "percentage": "1.391%"
+  },
+  {
+    "municipality": "Guadassuar",
+    "population": 5.902,
+    "DkWh": "1.605,28",
+    "EGWh": "66,10",
+    "PMWp": "41.683,50",
+    "reach": 41.177,
+    "percentage": "698%"
+  },
+  {
+    "municipality": "Guardamar de la Safor",
+    "population": 531,
+    "DkWh": "1.422,36",
+    "EGWh": "2,30",
+    "PMWp": "1.436,80",
+    "reach": 1.617,
+    "percentage": "305%"
+  },
+  {
+    "municipality": "Guardamar del Segura",
+    "population": 15.849,
+    "DkWh": "1.216,26",
+    "EGWh": "72,30",
+    "PMWp": "43.923,50",
+    "reach": 59.445,
+    "percentage": "375%"
+  },
+  {
+    "municipality": "Herbés",
+    "population": 44,
+    "DkWh": "1.538,62",
+    "EGWh": "0,60",
+    "PMWp": "453,60",
+    "reach": 390,
+    "percentage": "886%"
+  },
+  {
+    "municipality": "Higueras",
+    "population": 48,
+    "DkWh": "2.242,28",
+    "EGWh": "0,40",
+    "PMWp": "296,10",
+    "reach": 178,
+    "percentage": "372%"
+  },
+  {
+    "municipality": "Higueruelas",
+    "population": 501,
+    "DkWh": "1.659,76",
+    "EGWh": "6,90",
+    "PMWp": "4.314,80",
+    "reach": 4.157,
+    "percentage": "830%"
+  },
+  {
+    "municipality": "Hondón de Los Frailes",
+    "population": 1.242,
+    "DkWh": "1.600,00",
+    "EGWh": "4,60",
+    "PMWp": "3.391,70",
+    "reach": 2.875,
+    "percentage": "231%"
+  },
+  {
+    "municipality": "Ibi",
+    "population": 23.564,
+    "DkWh": "1.742,28",
+    "EGWh": "177,80",
+    "PMWp": "107.198,20",
+    "reach": 102.05,
+    "percentage": "433%"
+  },
+  {
+    "municipality": "Jacarilla",
+    "population": 1.998,
+    "DkWh": "1.216,26",
+    "EGWh": "14,00",
+    "PMWp": "8.457,60",
+    "reach": 11.511,
+    "percentage": "576%"
+  },
+  {
+    "municipality": "Jalance",
+    "population": 834,
+    "DkWh": "1.650,81",
+    "EGWh": "9,20",
+    "PMWp": "5.824,10",
+    "reach": 5.573,
+    "percentage": "668%"
+  },
+  {
+    "municipality": "Jarafuel",
+    "population": 769,
+    "DkWh": "1.650,81",
+    "EGWh": "7,10",
+    "PMWp": "4.421,10",
+    "reach": 4.301,
+    "percentage": "559%"
+  },
+  {
+    "municipality": "Jérica",
+    "population": 1.559,
+    "DkWh": "2.242,28",
+    "EGWh": "9,70",
+    "PMWp": "6.843,90",
+    "reach": 4.326,
+    "percentage": "277%"
+  },
+  {
+    "municipality": "L'Alcora",
+    "population": 10.417,
+    "DkWh": "1.922,36",
+    "EGWh": "288,80",
+    "PMWp": "186.283,80",
+    "reach": 150.232,
+    "percentage": "1.442%"
+  },
+  {
+    "municipality": "L'Alcúdia",
+    "population": 12.107,
+    "DkWh": "1.605,28",
+    "EGWh": "82,90",
+    "PMWp": "52.441,90",
+    "reach": 51.642,
+    "percentage": "427%"
+  },
+  {
+    "municipality": "L'Alcúdia de Crespins",
+    "population": 5.113,
+    "DkWh": "1.572,36",
+    "EGWh": "36,50",
+    "PMWp": "23.223,80",
+    "reach": 23.214,
+    "percentage": "454%"
+  },
+  {
+    "municipality": "L'Alfàs del Pi",
+    "population": 20.042,
+    "DkWh": "1.395,53",
+    "EGWh": "54,30",
+    "PMWp": "29.231,10",
+    "reach": 38.91,
+    "percentage": "194%"
+  },
+  {
+    "municipality": "L'Alqueria d'Asnar",
+    "population": 493,
+    "DkWh": "1.680,08",
+    "EGWh": "11,20",
+    "PMWp": "7.159,90",
+    "reach": 6.666,
+    "percentage": "1.352%"
+  },
+  {
+    "municipality": "L'Alqueria de la Comtessa",
+    "population": 1.496,
+    "DkWh": "1.422,36",
+    "EGWh": "18,60",
+    "PMWp": "11.808,20",
+    "reach": 13.077,
+    "percentage": "874%"
+  },
+  {
+    "municipality": "L'Atzúbia",
+    "population": 611,
+    "DkWh": "1.396,34",
+    "EGWh": "2,30",
+    "PMWp": "1.758,20",
+    "reach": 1.647,
+    "percentage": "270%"
+  },
+  {
+    "municipality": "L'Eliana",
+    "population": 18.362,
+    "DkWh": "1.328,86",
+    "EGWh": "53,90",
+    "PMWp": "33.100,50",
+    "reach": 40.561,
+    "percentage": "221%"
+  },
+  {
+    "municipality": "L'Ènova",
+    "population": 902,
+    "DkWh": "1.605,28",
+    "EGWh": "5,00",
+    "PMWp": "3.152,10",
+    "reach": 3.115,
+    "percentage": "345%"
+  },
+  {
+    "municipality": "L'Olleria",
+    "population": 8.32,
+    "DkWh": "1.576,42",
+    "EGWh": "104,20",
+    "PMWp": "66.348,00",
+    "reach": 66.099,
+    "percentage": "794%"
+  },
+  {
+    "municipality": "L'Orxa / Lorcha",
+    "population": 582,
+    "DkWh": "1.680,08",
+    "EGWh": "5,70",
+    "PMWp": "3.955,10",
+    "reach": 3.393,
+    "percentage": "583%"
+  },
+  {
+    "municipality": "La Font d'En Carròs",
+    "population": 3.778,
+    "DkWh": "1.422,36",
+    "EGWh": "9,50",
+    "PMWp": "6.034,60",
+    "reach": 6.679,
+    "percentage": "177%"
+  },
+  {
+    "municipality": "La Font de la Figuera",
+    "population": 2.027,
+    "DkWh": "1.572,36",
+    "EGWh": "26,60",
+    "PMWp": "16.459,80",
+    "reach": 16.917,
+    "percentage": "835%"
+  },
+  {
+    "municipality": "La Granja de la Costera",
+    "population": 295,
+    "DkWh": "1.572,36",
+    "EGWh": "1,30",
+    "PMWp": "802,80",
+    "reach": 827,
+    "percentage": "280%"
+  },
+  {
+    "municipality": "La Jana",
+    "population": 676,
+    "DkWh": "1.791,87",
+    "EGWh": "2,80",
+    "PMWp": "2.066,10",
+    "reach": 1.563,
+    "percentage": "231%"
+  },
+  {
+    "municipality": "La Llosa",
+    "population": 982,
+    "DkWh": "1.892,28",
+    "EGWh": "9,00",
+    "PMWp": "5.668,80",
+    "reach": 4.756,
+    "percentage": "484%"
+  },
+  {
+    "municipality": "La Llosa de Ranes",
+    "population": 3.642,
+    "DkWh": "1.572,36",
+    "EGWh": "17,40",
+    "PMWp": "11.017,00",
+    "reach": 11.066,
+    "percentage": "304%"
+  },
+  {
+    "municipality": "La Mata de Morella",
+    "population": 160,
+    "DkWh": "1.538,62",
+    "EGWh": "0,70",
+    "PMWp": "617,90",
+    "reach": 455,
+    "percentage": "284%"
+  },
+  {
+    "municipality": "La Nucia",
+    "population": 18.163,
+    "DkWh": "1.395,53",
+    "EGWh": "75,70",
+    "PMWp": "47.678,80",
+    "reach": 54.245,
+    "percentage": "299%"
+  },
+  {
+    "municipality": "La Pobla de Benifassà",
+    "population": 199,
+    "DkWh": "1.791,87",
+    "EGWh": "3,20",
+    "PMWp": "2.724,90",
+    "reach": 1.786,
+    "percentage": "897%"
+  },
+  {
+    "municipality": "La Pobla de Farnals",
+    "population": 8.128,
+    "DkWh": "1.452,85",
+    "EGWh": "24,50",
+    "PMWp": "15.187,90",
+    "reach": 16.863,
+    "percentage": "207%"
+  },
+  {
+    "municipality": "La Pobla de Vallbona",
+    "population": 24.858,
+    "DkWh": "1.328,86",
+    "EGWh": "120,90",
+    "PMWp": "74.935,70",
+    "reach": 90.98,
+    "percentage": "366%"
+  },
+  {
+    "municipality": "La Pobla del Duc",
+    "population": 2.515,
+    "DkWh": "1.576,42",
+    "EGWh": "25,10",
+    "PMWp": "15.716,00",
+    "reach": 15.922,
+    "percentage": "633%"
+  },
+  {
+    "municipality": "La Pobla Llarga",
+    "population": 4.452,
+    "DkWh": "1.605,28",
+    "EGWh": "37,10",
+    "PMWp": "23.428,80",
+    "reach": 23.111,
+    "percentage": "519%"
+  },
+  {
+    "municipality": "La Pobla Tornesa",
+    "population": 1.212,
+    "DkWh": "1.830,89",
+    "EGWh": "28,80",
+    "PMWp": "19.491,70",
+    "reach": 15.73,
+    "percentage": "1.298%"
+  },
+  {
+    "municipality": "La Romana",
+    "population": 2.492,
+    "DkWh": "1.600,00",
+    "EGWh": "23,00",
+    "PMWp": "15.289,80",
+    "reach": 14.375,
+    "percentage": "577%"
+  },
+  {
+    "municipality": "La Salzadella",
+    "population": 700,
+    "DkWh": "1.791,87",
+    "EGWh": "4,40",
+    "PMWp": "3.413,30",
+    "reach": 2.456,
+    "percentage": "351%"
+  },
+  {
+    "municipality": "La Serratella",
+    "population": 95,
+    "DkWh": "1.830,89",
+    "EGWh": "0,90",
+    "PMWp": "736,50",
+    "reach": 492,
+    "percentage": "517%"
+  },
+  {
+    "municipality": "La Torre d'En Besora",
+    "population": 167,
+    "DkWh": "2.689,84",
+    "EGWh": "1,00",
+    "PMWp": "764,10",
+    "reach": 372,
+    "percentage": "223%"
+  },
+  {
+    "municipality": "La Torre d'en Doménec",
+    "population": 162,
+    "DkWh": "1.830,89",
+    "EGWh": "2,30",
+    "PMWp": "1.671,20",
+    "reach": 1.256,
+    "percentage": "775%"
+  },
+  {
+    "municipality": "La Torre de les Maçanes",
+    "population": 636,
+    "DkWh": "1.512,60",
+    "EGWh": "5,50",
+    "PMWp": "4.029,70",
+    "reach": 3.636,
+    "percentage": "572%"
+  },
+  {
+    "municipality": "La Vall d'Alcalà",
+    "population": 160,
+    "DkWh": "1.396,34",
+    "EGWh": "0,90",
+    "PMWp": "806,70",
+    "reach": 645,
+    "percentage": "403%"
+  },
+  {
+    "municipality": "La Vall d'Ebo",
+    "population": 218,
+    "DkWh": "1.396,34",
+    "EGWh": "2,00",
+    "PMWp": "1.489,90",
+    "reach": 1.432,
+    "percentage": "657%"
+  },
+  {
+    "municipality": "La Vall d'Uixó",
+    "population": 31.681,
+    "DkWh": "1.892,28",
+    "EGWh": "156,80",
+    "PMWp": "89.676,00",
+    "reach": 82.863,
+    "percentage": "262%"
+  },
+  {
+    "municipality": "La Vall de Gallinera",
+    "population": 527,
+    "DkWh": "1.396,34",
+    "EGWh": "2,80",
+    "PMWp": "2.293,90",
+    "reach": 2.005,
+    "percentage": "381%"
+  },
+  {
+    "municipality": "La Vall de Laguar",
+    "population": 827,
+    "DkWh": "1.396,34",
+    "EGWh": "1,40",
+    "PMWp": "1.186,30",
+    "reach": 1.003,
+    "percentage": "121%"
+  },
+  {
+    "municipality": "La Vila Joiosa / Villajoyosa",
+    "population": 35.199,
+    "DkWh": "1.395,53",
+    "EGWh": "74,50",
+    "PMWp": "36.436,80",
+    "reach": 53.385,
+    "percentage": "152%"
+  },
+  {
+    "municipality": "La Vilavella",
+    "population": 3.125,
+    "DkWh": "1.892,28",
+    "EGWh": "16,60",
+    "PMWp": "10.728,00",
+    "reach": 8.773,
+    "percentage": "281%"
+  },
+  {
+    "municipality": "La Yesa",
+    "population": 221,
+    "DkWh": "1.659,76",
+    "EGWh": "4,30",
+    "PMWp": "2.660,20",
+    "reach": 2.591,
+    "percentage": "1.172%"
+  },
+  {
+    "municipality": "Les Alqueries / Las Alquerías del Niño Perdido",
+    "population": 4.464,
+    "DkWh": "1.892,28",
+    "EGWh": "28,50",
+    "PMWp": "19.199,90",
+    "reach": 15.061,
+    "percentage": "337%"
+  },
+  {
+    "municipality": "Les Coves de Vinromà",
+    "population": 1.806,
+    "DkWh": "1.830,89",
+    "EGWh": "10,60",
+    "PMWp": "7.570,00",
+    "reach": 5.79,
+    "percentage": "321%"
+  },
+  {
+    "municipality": "Les Useres / Useras",
+    "population": 959,
+    "DkWh": "1.922,36",
+    "EGWh": "9,10",
+    "PMWp": "5.793,50",
+    "reach": 4.734,
+    "percentage": "494%"
+  },
+  {
+    "municipality": "Llanera de Ranes",
+    "population": 1.047,
+    "DkWh": "1.572,36",
+    "EGWh": "9,00",
+    "PMWp": "5.690,40",
+    "reach": 5.724,
+    "percentage": "547%"
+  },
+  {
+    "municipality": "Llaurí",
+    "population": 1.13,
+    "DkWh": "1.535,77",
+    "EGWh": "8,80",
+    "PMWp": "5.713,90",
+    "reach": 5.73,
+    "percentage": "507%"
+  },
+  {
+    "municipality": "Llíber",
+    "population": 830,
+    "DkWh": "1.396,34",
+    "EGWh": "3,20",
+    "PMWp": "2.524,60",
+    "reach": 2.292,
+    "percentage": "276%"
+  },
+  {
+    "municipality": "Llíria",
+    "population": 23.482,
+    "DkWh": "1.328,86",
+    "EGWh": "169,30",
+    "PMWp": "104.902,00",
+    "reach": 127.402,
+    "percentage": "543%"
+  },
+  {
+    "municipality": "Llocnou d'En Fenollet",
+    "population": 916,
+    "DkWh": "1.572,36",
+    "EGWh": "4,50",
+    "PMWp": "2.854,20",
+    "reach": 2.862,
+    "percentage": "312%"
+  },
+  {
+    "municipality": "Llocnou de la Corona",
+    "population": 124,
+    "DkWh": "1.514,23",
+    "EGWh": "0,50",
+    "PMWp": "291,20",
+    "reach": 330,
+    "percentage": "266%"
+  },
+  {
+    "municipality": "Llocnou de Sant Jeroni",
+    "population": 554,
+    "DkWh": "1.422,36",
+    "EGWh": "7,50",
+    "PMWp": "4.836,10",
+    "reach": 5.273,
+    "percentage": "952%"
+  },
+  {
+    "municipality": "Llombai",
+    "population": 2.653,
+    "DkWh": "1.605,28",
+    "EGWh": "23,30",
+    "PMWp": "14.750,60",
+    "reach": 14.515,
+    "percentage": "547%"
+  },
+  {
+    "municipality": "Llucena / Lucena del Cid",
+    "population": 1.516,
+    "DkWh": "1.922,36",
+    "EGWh": "16,30",
+    "PMWp": "11.295,20",
+    "reach": 8.479,
+    "percentage": "559%"
+  },
+  {
+    "municipality": "Llutxent",
+    "population": 2.326,
+    "DkWh": "1.576,42",
+    "EGWh": "16,60",
+    "PMWp": "10.435,20",
+    "reach": 10.53,
+    "percentage": "453%"
+  },
+  {
+    "municipality": "Loriguilla",
+    "population": 2.035,
+    "DkWh": "1.328,86",
+    "EGWh": "14,30",
+    "PMWp": "9.027,10",
+    "reach": 10.761,
+    "percentage": "529%"
+  },
+  {
+    "municipality": "Los Montesinos",
+    "population": 5.061,
+    "DkWh": "1.216,26",
+    "EGWh": "23,80",
+    "PMWp": "14.481,70",
+    "reach": 19.568,
+    "percentage": "387%"
+  },
+  {
+    "municipality": "Losa del Obispo",
+    "population": 505,
+    "DkWh": "1.659,76",
+    "EGWh": "3,50",
+    "PMWp": "2.156,30",
+    "reach": 2.109,
+    "percentage": "418%"
+  },
+  {
+    "municipality": "Ludiente",
+    "population": 149,
+    "DkWh": "1.986,99",
+    "EGWh": "1,30",
+    "PMWp": "1.084,40",
+    "reach": 654,
+    "percentage": "439%"
+  },
+  {
+    "municipality": "Macastre",
+    "population": 1.3,
+    "DkWh": "1.570,33",
+    "EGWh": "7,80",
+    "PMWp": "4.859,00",
+    "reach": 4.967,
+    "percentage": "382%"
+  },
+  {
+    "municipality": "Manises",
+    "population": 31.24,
+    "DkWh": "1.453,25",
+    "EGWh": "183,20",
+    "PMWp": "114.673,70",
+    "reach": 126.062,
+    "percentage": "404%"
+  },
+  {
+    "municipality": "Manuel",
+    "population": 2.436,
+    "DkWh": "1.605,28",
+    "EGWh": "16,70",
+    "PMWp": "10.566,20",
+    "reach": 10.403,
+    "percentage": "427%"
+  },
+  {
+    "municipality": "Marines",
+    "population": 1.848,
+    "DkWh": "1.328,86",
+    "EGWh": "15,90",
+    "PMWp": "9.855,90",
+    "reach": 11.965,
+    "percentage": "647%"
+  },
+  {
+    "municipality": "Massalavés",
+    "population": 1.61,
+    "DkWh": "1.605,28",
+    "EGWh": "27,50",
+    "PMWp": "17.459,60",
+    "reach": 17.131,
+    "percentage": "1.064%"
+  },
+  {
+    "municipality": "Massalfassar",
+    "population": 2.555,
+    "DkWh": "1.452,85",
+    "EGWh": "32,00",
+    "PMWp": "20.232,90",
+    "reach": 22.026,
+    "percentage": "862%"
+  },
+  {
+    "municipality": "Massamagrell",
+    "population": 16.163,
+    "DkWh": "1.452,85",
+    "EGWh": "44,60",
+    "PMWp": "27.684,60",
+    "reach": 30.698,
+    "percentage": "190%"
+  },
+  {
+    "municipality": "Massanassa",
+    "population": 9.782,
+    "DkWh": "1.514,23",
+    "EGWh": "64,80",
+    "PMWp": "40.547,80",
+    "reach": 42.794,
+    "percentage": "437%"
+  },
+  {
+    "municipality": "Matet",
+    "population": 83,
+    "DkWh": "2.242,28",
+    "EGWh": "1,20",
+    "PMWp": "924,30",
+    "reach": 535,
+    "percentage": "645%"
+  },
+  {
+    "municipality": "Meliana",
+    "population": 10.97,
+    "DkWh": "1.452,85",
+    "EGWh": "35,70",
+    "PMWp": "22.146,10",
+    "reach": 24.572,
+    "percentage": "224%"
+  },
+  {
+    "municipality": "Millares",
+    "population": 331,
+    "DkWh": "1.717,07",
+    "EGWh": "6,00",
+    "PMWp": "3.860,20",
+    "reach": 3.494,
+    "percentage": "1.056%"
+  },
+  {
+    "municipality": "Millena",
+    "population": 240,
+    "DkWh": "1.680,08",
+    "EGWh": "1,20",
+    "PMWp": "876,80",
+    "reach": 714,
+    "percentage": "298%"
+  },
+  {
+    "municipality": "Miramar",
+    "population": 2.685,
+    "DkWh": "1.422,36",
+    "EGWh": "14,70",
+    "PMWp": "9.393,10",
+    "reach": 10.335,
+    "percentage": "385%"
+  },
+  {
+    "municipality": "Mislata",
+    "population": 44.32,
+    "DkWh": "1.453,25",
+    "EGWh": "28,70",
+    "PMWp": "17.665,10",
+    "reach": 19.749,
+    "percentage": "45%"
+  },
+  {
+    "municipality": "Moixent / Mogente",
+    "population": 4.307,
+    "DkWh": "1.572,36",
+    "EGWh": "42,70",
+    "PMWp": "27.241,30",
+    "reach": 27.157,
+    "percentage": "631%"
+  },
+  {
+    "municipality": "Moncofa",
+    "population": 6.707,
+    "DkWh": "1.892,28",
+    "EGWh": "57,70",
+    "PMWp": "36.421,90",
+    "reach": 30.492,
+    "percentage": "455%"
+  },
+  {
+    "municipality": "Monforte del Cid",
+    "population": 8.346,
+    "DkWh": "1.600,00",
+    "EGWh": "61,30",
+    "PMWp": "35.271,10",
+    "reach": 38.313,
+    "percentage": "459%"
+  },
+  {
+    "municipality": "Monòver / Monóvar",
+    "population": 12.212,
+    "DkWh": "1.600,00",
+    "EGWh": "89,30",
+    "PMWp": "47.095,70",
+    "reach": 55.813,
+    "percentage": "457%"
+  },
+  {
+    "municipality": "Montán",
+    "population": 368,
+    "DkWh": "1.986,99",
+    "EGWh": "2,70",
+    "PMWp": "2.078,50",
+    "reach": 1.359,
+    "percentage": "369%"
+  },
+  {
+    "municipality": "Montanejos",
+    "population": 564,
+    "DkWh": "1.986,99",
+    "EGWh": "2,80",
+    "PMWp": "2.061,60",
+    "reach": 1.409,
+    "percentage": "250%"
+  },
+  {
+    "municipality": "Montaverner",
+    "population": 1.635,
+    "DkWh": "1.576,42",
+    "EGWh": "34,20",
+    "PMWp": "21.504,80",
+    "reach": 21.695,
+    "percentage": "1.327%"
+  },
+  {
+    "municipality": "Montcada",
+    "population": 22.021,
+    "DkWh": "1.452,85",
+    "EGWh": "79,10",
+    "PMWp": "49.402,40",
+    "reach": 54.445,
+    "percentage": "247%"
+  },
+  {
+    "municipality": "Montesa",
+    "population": 1.155,
+    "DkWh": "1.572,36",
+    "EGWh": "10,00",
+    "PMWp": "6.314,60",
+    "reach": 6.36,
+    "percentage": "551%"
+  },
+  {
+    "municipality": "Montixelvo / Montichelvo",
+    "population": 585,
+    "DkWh": "1.576,42",
+    "EGWh": "4,00",
+    "PMWp": "2.521,10",
+    "reach": 2.537,
+    "percentage": "434%"
+  },
+  {
+    "municipality": "Montroi / Montroy",
+    "population": 2.956,
+    "DkWh": "1.605,28",
+    "EGWh": "25,60",
+    "PMWp": "15.951,40",
+    "reach": 15.947,
+    "percentage": "539%"
+  },
+  {
+    "municipality": "Montserrat",
+    "population": 8.188,
+    "DkWh": "1.605,28",
+    "EGWh": "76,20",
+    "PMWp": "47.596,40",
+    "reach": 47.468,
+    "percentage": "580%"
+  },
+  {
+    "municipality": "Morella",
+    "population": 2.416,
+    "DkWh": "1.538,62",
+    "EGWh": "17,20",
+    "PMWp": "12.055,10",
+    "reach": 11.179,
+    "percentage": "463%"
+  },
+  {
+    "municipality": "Murla",
+    "population": 507,
+    "DkWh": "1.396,34",
+    "EGWh": "1,50",
+    "PMWp": "1.434,80",
+    "reach": 1.074,
+    "percentage": "212%"
+  },
+  {
+    "municipality": "Muro de Alcoi",
+    "population": 9.315,
+    "DkWh": "1.680,08",
+    "EGWh": "76,60",
+    "PMWp": "48.837,60",
+    "reach": 45.593,
+    "percentage": "489%"
+  },
+  {
+    "municipality": "Museros",
+    "population": 6.596,
+    "DkWh": "1.452,85",
+    "EGWh": "60,20",
+    "PMWp": "37.717,90",
+    "reach": 41.436,
+    "percentage": "628%"
+  },
+  {
+    "municipality": "Mutxamel",
+    "population": 25.645,
+    "DkWh": "1.512,60",
+    "EGWh": "85,00",
+    "PMWp": "44.117,80",
+    "reach": 56.195,
+    "percentage": "219%"
+  },
+  {
+    "municipality": "Nàquera",
+    "population": 6.897,
+    "DkWh": "1.328,86",
+    "EGWh": "97,50",
+    "PMWp": "60.994,70",
+    "reach": 73.371,
+    "percentage": "1.064%"
+  },
+  {
+    "municipality": "Navajas",
+    "population": 720,
+    "DkWh": "2.242,28",
+    "EGWh": "5,60",
+    "PMWp": "4.089,70",
+    "reach": 2.497,
+    "percentage": "347%"
+  },
+  {
+    "municipality": "Navarrés",
+    "population": 3.004,
+    "DkWh": "1.717,07",
+    "EGWh": "25,90",
+    "PMWp": "16.342,00",
+    "reach": 15.084,
+    "percentage": "502%"
+  },
+  {
+    "municipality": "Novelda",
+    "population": 25.741,
+    "DkWh": "1.600,00",
+    "EGWh": "166,40",
+    "PMWp": "90.076,70",
+    "reach": 104,
+    "percentage": "404%"
+  },
+  {
+    "municipality": "Novetlè / Novelé",
+    "population": 857,
+    "DkWh": "1.572,36",
+    "EGWh": "9,50",
+    "PMWp": "6.122,60",
+    "reach": 6.042,
+    "percentage": "705%"
+  },
+  {
+    "municipality": "Nules",
+    "population": 13.236,
+    "DkWh": "1.892,28",
+    "EGWh": "144,80",
+    "PMWp": "92.516,10",
+    "reach": 76.522,
+    "percentage": "578%"
+  },
+  {
+    "municipality": "Oliva",
+    "population": 25.224,
+    "DkWh": "1.422,36",
+    "EGWh": "129,00",
+    "PMWp": "82.199,60",
+    "reach": 90.694,
+    "percentage": "360%"
+  },
+  {
+    "municipality": "Olocau",
+    "population": 1.828,
+    "DkWh": "1.328,86",
+    "EGWh": "17,20",
+    "PMWp": "10.632,60",
+    "reach": 12.943,
+    "percentage": "708%"
+  },
+  {
+    "municipality": "Olocau del Rey",
+    "population": 120,
+    "DkWh": "1.538,62",
+    "EGWh": "0,60",
+    "PMWp": "418,80",
+    "reach": 390,
+    "percentage": "325%"
+  },
+  {
+    "municipality": "Onda",
+    "population": 24.98,
+    "DkWh": "1.892,28",
+    "EGWh": "404,80",
+    "PMWp": "253.939,10",
+    "reach": 213.922,
+    "percentage": "856%"
+  },
+  {
+    "municipality": "Ondara",
+    "population": 7.076,
+    "DkWh": "1.396,34",
+    "EGWh": "32,80",
+    "PMWp": "17.870,20",
+    "reach": 23.49,
+    "percentage": "332%"
+  },
+  {
+    "municipality": "Onil",
+    "population": 7.6,
+    "DkWh": "1.742,28",
+    "EGWh": "53,50",
+    "PMWp": "33.474,20",
+    "reach": 30.707,
+    "percentage": "404%"
+  },
+  {
+    "municipality": "Ontinyent",
+    "population": 35.761,
+    "DkWh": "1.576,42",
+    "EGWh": "186,80",
+    "PMWp": "117.416,20",
+    "reach": 118.496,
+    "percentage": "331%"
+  },
+  {
+    "municipality": "Orba",
+    "population": 2.232,
+    "DkWh": "1.396,34",
+    "EGWh": "13,30",
+    "PMWp": "10.271,00",
+    "reach": 9.525,
+    "percentage": "427%"
+  },
+  {
+    "municipality": "Orihuela",
+    "population": 78.505,
+    "DkWh": "1.216,26",
+    "EGWh": "451,20",
+    "PMWp": "273.357,40",
+    "reach": 370.973,
+    "percentage": "473%"
+  },
+  {
+    "municipality": "Orpesa / Oropesa del Mar",
+    "population": 9.339,
+    "DkWh": "1.830,89",
+    "EGWh": "62,00",
+    "PMWp": "39.927,40",
+    "reach": 33.863,
+    "percentage": "363%"
+  },
+  {
+    "municipality": "Orxeta",
+    "population": 784,
+    "DkWh": "1.395,53",
+    "EGWh": "3,30",
+    "PMWp": "2.086,10",
+    "reach": 2.365,
+    "percentage": "302%"
+  },
+  {
+    "municipality": "Otos",
+    "population": 422,
+    "DkWh": "1.576,42",
+    "EGWh": "3,80",
+    "PMWp": "2.383,80",
+    "reach": 2.411,
+    "percentage": "571%"
+  },
+  {
+    "municipality": "Paiporta",
+    "population": 26.514,
+    "DkWh": "1.514,23",
+    "EGWh": "73,30",
+    "PMWp": "45.843,10",
+    "reach": 48.408,
+    "percentage": "183%"
+  },
+  {
+    "municipality": "Palanques",
+    "population": 34,
+    "DkWh": "1.538,62",
+    "EGWh": "0,30",
+    "PMWp": "227,80",
+    "reach": 195,
+    "percentage": "573%"
+  },
+  {
+    "municipality": "Palma de Gandía",
+    "population": 1.709,
+    "DkWh": "1.422,36",
+    "EGWh": "20,60",
+    "PMWp": "13.233,20",
+    "reach": 14.483,
+    "percentage": "847%"
+  },
+  {
+    "municipality": "Palmera",
+    "population": 1.018,
+    "DkWh": "1.422,36",
+    "EGWh": "7,50",
+    "PMWp": "4.753,30",
+    "reach": 5.273,
+    "percentage": "518%"
+  },
+  {
+    "municipality": "Parcent",
+    "population": 967,
+    "DkWh": "1.396,34",
+    "EGWh": "4,10",
+    "PMWp": "3.537,00",
+    "reach": 2.936,
+    "percentage": "304%"
+  },
+  {
+    "municipality": "Paterna",
+    "population": 71.035,
+    "DkWh": "1.453,25",
+    "EGWh": "382,70",
+    "PMWp": "238.964,90",
+    "reach": 263.34,
+    "percentage": "371%"
+  },
+  {
+    "municipality": "Pavías",
+    "population": 68,
+    "DkWh": "2.242,28",
+    "EGWh": "0,50",
+    "PMWp": "390,20",
+    "reach": 223,
+    "percentage": "328%"
+  },
+  {
+    "municipality": "Pedralba",
+    "population": 2.814,
+    "DkWh": "1.659,76",
+    "EGWh": "10,10",
+    "PMWp": "6.261,50",
+    "reach": 6.085,
+    "percentage": "216%"
+  },
+  {
+    "municipality": "Pedreguer",
+    "population": 7.881,
+    "DkWh": "1.396,34",
+    "EGWh": "32,50",
+    "PMWp": "23.203,20",
+    "reach": 23.275,
+    "percentage": "295%"
+  },
+  {
+    "municipality": "Pego",
+    "population": 10.133,
+    "DkWh": "1.396,34",
+    "EGWh": "53,30",
+    "PMWp": "34.513,70",
+    "reach": 38.171,
+    "percentage": "377%"
+  },
+  {
+    "municipality": "Penàguila",
+    "population": 269,
+    "DkWh": "1.742,28",
+    "EGWh": "4,20",
+    "PMWp": "3.238,90",
+    "reach": 2.411,
+    "percentage": "896%"
+  },
+  {
+    "municipality": "Peníscola / Peñíscola",
+    "population": 7.683,
+    "DkWh": "1.791,87",
+    "EGWh": "67,10",
+    "PMWp": "43.308,70",
+    "reach": 37.447,
+    "percentage": "487%"
+  },
+  {
+    "municipality": "Petrer",
+    "population": 34.241,
+    "DkWh": "1.600,00",
+    "EGWh": "123,80",
+    "PMWp": "63.532,10",
+    "reach": 77.375,
+    "percentage": "226%"
+  },
+  {
+    "municipality": "Petrés",
+    "population": 999,
+    "DkWh": "1.456,91",
+    "EGWh": "4,00",
+    "PMWp": "2.496,30",
+    "reach": 2.746,
+    "percentage": "275%"
+  },
+  {
+    "municipality": "Picanya",
+    "population": 11.606,
+    "DkWh": "1.453,25",
+    "EGWh": "58,60",
+    "PMWp": "36.753,50",
+    "reach": 40.323,
+    "percentage": "347%"
+  },
+  {
+    "municipality": "Picassent",
+    "population": 21.263,
+    "DkWh": "1.514,23",
+    "EGWh": "152,40",
+    "PMWp": "96.097,50",
+    "reach": 100.645,
+    "percentage": "473%"
+  },
+  {
+    "municipality": "Pilar de la Horadada",
+    "population": 22.347,
+    "DkWh": "1.216,26",
+    "EGWh": "142,90",
+    "PMWp": "86.325,80",
+    "reach": 117.491,
+    "percentage": "526%"
+  },
+  {
+    "municipality": "Piles",
+    "population": 2.74,
+    "DkWh": "1.422,36",
+    "EGWh": "18,30",
+    "PMWp": "11.668,60",
+    "reach": 12.866,
+    "percentage": "470%"
+  },
+  {
+    "municipality": "Pina de Montalgrao",
+    "population": 110,
+    "DkWh": "2.242,28",
+    "EGWh": "0,60",
+    "PMWp": "506,40",
+    "reach": 268,
+    "percentage": "243%"
+  },
+  {
+    "municipality": "Pinet",
+    "population": 157,
+    "DkWh": "1.576,42",
+    "EGWh": "1,10",
+    "PMWp": "686,80",
+    "reach": 698,
+    "percentage": "444%"
+  },
+  {
+    "municipality": "Planes",
+    "population": 682,
+    "DkWh": "1.680,08",
+    "EGWh": "6,10",
+    "PMWp": "4.439,90",
+    "reach": 3.631,
+    "percentage": "532%"
+  },
+  {
+    "municipality": "Polinyà de Xúquer",
+    "population": 2.503,
+    "DkWh": "1.535,77",
+    "EGWh": "16,10",
+    "PMWp": "10.150,40",
+    "reach": 10.483,
+    "percentage": "419%"
+  },
+  {
+    "municipality": "Polop",
+    "population": 5.064,
+    "DkWh": "1.395,53",
+    "EGWh": "21,10",
+    "PMWp": "13.615,50",
+    "reach": 15.12,
+    "percentage": "299%"
+  },
+  {
+    "municipality": "Portell de Morella",
+    "population": 188,
+    "DkWh": "1.538,62",
+    "EGWh": "1,20",
+    "PMWp": "993,00",
+    "reach": 780,
+    "percentage": "415%"
+  },
+  {
+    "municipality": "Potríes",
+    "population": 1.06,
+    "DkWh": "1.422,36",
+    "EGWh": "9,10",
+    "PMWp": "5.821,30",
+    "reach": 6.398,
+    "percentage": "604%"
+  },
+  {
+    "municipality": "Puçol",
+    "population": 19.737,
+    "DkWh": "1.452,85",
+    "EGWh": "75,80",
+    "PMWp": "47.466,00",
+    "reach": 52.173,
+    "percentage": "264%"
+  },
+  {
+    "municipality": "Puebla de Arenoso",
+    "population": 152,
+    "DkWh": "1.986,99",
+    "EGWh": "2,40",
+    "PMWp": "1.788,60",
+    "reach": 1.208,
+    "percentage": "795%"
+  },
+  {
+    "municipality": "Puebla de San Miguel",
+    "population": 61,
+    "DkWh": "1.986,99",
+    "EGWh": "0,70",
+    "PMWp": "473,30",
+    "reach": 352,
+    "percentage": "578%"
+  },
+  {
+    "municipality": "Quart de les Valls",
+    "population": 1.024,
+    "DkWh": "1.456,91",
+    "EGWh": "3,20",
+    "PMWp": "2.019,00",
+    "reach": 2.196,
+    "percentage": "214%"
+  },
+  {
+    "municipality": "Quart de Poblet",
+    "population": 25.062,
+    "DkWh": "1.453,25",
+    "EGWh": "259,40",
+    "PMWp": "163.120,80",
+    "reach": 178.496,
+    "percentage": "712%"
+  },
+  {
+    "municipality": "Quartell",
+    "population": 1.655,
+    "DkWh": "1.456,91",
+    "EGWh": "23,70",
+    "PMWp": "15.065,40",
+    "reach": 16.267,
+    "percentage": "983%"
+  },
+  {
+    "municipality": "Quatretonda",
+    "population": 2.202,
+    "DkWh": "1.576,42",
+    "EGWh": "20,60",
+    "PMWp": "12.951,20",
+    "reach": 13.068,
+    "percentage": "593%"
+  },
+  {
+    "municipality": "Quatretondeta",
+    "population": 118,
+    "DkWh": "1.680,08",
+    "EGWh": "1,40",
+    "PMWp": "1.086,80",
+    "reach": 833,
+    "percentage": "706%"
+  },
+  {
+    "municipality": "Quesa",
+    "population": 663,
+    "DkWh": "1.717,07",
+    "EGWh": "4,60",
+    "PMWp": "2.921,50",
+    "reach": 2.679,
+    "percentage": "404%"
+  },
+  {
+    "municipality": "Rafal",
+    "population": 4.553,
+    "DkWh": "1.216,26",
+    "EGWh": "15,00",
+    "PMWp": "7.421,10",
+    "reach": 12.333,
+    "percentage": "271%"
+  },
+  {
+    "municipality": "Rafelbunyol / Rafelbuñol",
+    "population": 9.149,
+    "DkWh": "1.452,85",
+    "EGWh": "55,20",
+    "PMWp": "34.500,60",
+    "reach": 37.994,
+    "percentage": "415%"
+  },
+  {
+    "municipality": "Rafelcofer",
+    "population": 1.355,
+    "DkWh": "1.422,36",
+    "EGWh": "7,10",
+    "PMWp": "4.487,10",
+    "reach": 4.992,
+    "percentage": "368%"
+  },
+  {
+    "municipality": "Rafelguaraf",
+    "population": 2.355,
+    "DkWh": "1.605,28",
+    "EGWh": "14,20",
+    "PMWp": "8.930,40",
+    "reach": 8.846,
+    "percentage": "376%"
+  },
+  {
+    "municipality": "Ráfol de Salem",
+    "population": 442,
+    "DkWh": "1.576,42",
+    "EGWh": "5,00",
+    "PMWp": "3.169,20",
+    "reach": 3.172,
+    "percentage": "718%"
+  },
+  {
+    "municipality": "Real",
+    "population": 2.207,
+    "DkWh": "1.605,28",
+    "EGWh": "15,20",
+    "PMWp": "9.597,50",
+    "reach": 9.469,
+    "percentage": "429%"
+  },
+  {
+    "municipality": "Redován",
+    "population": 7.926,
+    "DkWh": "1.216,26",
+    "EGWh": "42,00",
+    "PMWp": "22.508,10",
+    "reach": 34.532,
+    "percentage": "436%"
+  },
+  {
+    "municipality": "Relleu",
+    "population": 1.148,
+    "DkWh": "1.395,53",
+    "EGWh": "9,20",
+    "PMWp": "6.536,40",
+    "reach": 6.592,
+    "percentage": "574%"
+  },
+  {
+    "municipality": "Requena",
+    "population": 20.405,
+    "DkWh": "1.642,28",
+    "EGWh": "196,10",
+    "PMWp": "120.095,70",
+    "reach": 119.407,
+    "percentage": "585%"
+  },
+  {
+    "municipality": "Riba-Roja de Túria",
+    "population": 22.761,
+    "DkWh": "1.328,86",
+    "EGWh": "359,80",
+    "PMWp": "227.180,90",
+    "reach": 270.758,
+    "percentage": "1.190%"
+  },
+  {
+    "municipality": "Ribesalbes",
+    "population": 1.163,
+    "DkWh": "1.892,28",
+    "EGWh": "13,90",
+    "PMWp": "9.046,40",
+    "reach": 7.346,
+    "percentage": "632%"
+  },
+  {
+    "municipality": "Riola",
+    "population": 1.79,
+    "DkWh": "1.535,77",
+    "EGWh": "4,70",
+    "PMWp": "2.951,00",
+    "reach": 3.06,
+    "percentage": "171%"
+  },
+  {
+    "municipality": "Rocafort",
+    "population": 7.314,
+    "DkWh": "1.452,85",
+    "EGWh": "12,50",
+    "PMWp": "7.692,20",
+    "reach": 8.604,
+    "percentage": "118%"
+  },
+  {
+    "municipality": "Rojales",
+    "population": 16.671,
+    "DkWh": "1.216,26",
+    "EGWh": "87,50",
+    "PMWp": "59.754,20",
+    "reach": 71.942,
+    "percentage": "432%"
+  },
+  {
+    "municipality": "Rossell",
+    "population": 912,
+    "DkWh": "1.791,87",
+    "EGWh": "13,30",
+    "PMWp": "9.361,50",
+    "reach": 7.422,
+    "percentage": "814%"
+  },
+  {
+    "municipality": "Rotglà i Corberà",
+    "population": 1.117,
+    "DkWh": "1.572,36",
+    "EGWh": "10,10",
+    "PMWp": "6.375,50",
+    "reach": 6.423,
+    "percentage": "575%"
+  },
+  {
+    "municipality": "Rótova",
+    "population": 1.293,
+    "DkWh": "1.422,36",
+    "EGWh": "10,10",
+    "PMWp": "6.463,20",
+    "reach": 7.101,
+    "percentage": "549%"
+  },
+  {
+    "municipality": "Rugat",
+    "population": 174,
+    "DkWh": "1.576,42",
+    "EGWh": "2,30",
+    "PMWp": "1.450,90",
+    "reach": 1.459,
+    "percentage": "839%"
+  },
+  {
+    "municipality": "Sacañet",
+    "population": 62,
+    "DkWh": "2.242,28",
+    "EGWh": "0,80",
+    "PMWp": "573,10",
+    "reach": 357,
+    "percentage": "575%"
+  },
+  {
+    "municipality": "Sagra",
+    "population": 426,
+    "DkWh": "1.396,34",
+    "EGWh": "2,40",
+    "PMWp": "1.517,40",
+    "reach": 1.719,
+    "percentage": "403%"
+  },
+  {
+    "municipality": "Sagunt / Sagunto",
+    "population": 67.173,
+    "DkWh": "1.456,91",
+    "EGWh": "285,80",
+    "PMWp": "180.276,10",
+    "reach": 196.169,
+    "percentage": "292%"
+  },
+  {
+    "municipality": "Salem",
+    "population": 418,
+    "DkWh": "1.576,42",
+    "EGWh": "8,60",
+    "PMWp": "5.531,10",
+    "reach": 5.455,
+    "percentage": "1.305%"
+  },
+  {
+    "municipality": "Salinas",
+    "population": 1.62,
+    "DkWh": "1.647,15",
+    "EGWh": "25,70",
+    "PMWp": "16.652,20",
+    "reach": 15.603,
+    "percentage": "963%"
+  },
+  {
+    "municipality": "San Antonio de Benagéber",
+    "population": 9.286,
+    "DkWh": "1.328,86",
+    "EGWh": "44,90",
+    "PMWp": "27.728,70",
+    "reach": 33.788,
+    "percentage": "364%"
+  },
+  {
+    "municipality": "San Fulgencio",
+    "population": 8.071,
+    "DkWh": "1.216,26",
+    "EGWh": "39,90",
+    "PMWp": "23.808,60",
+    "reach": 32.805,
+    "percentage": "406%"
+  },
+  {
+    "municipality": "San Isidro",
+    "population": 2.103,
+    "DkWh": "1.216,26",
+    "EGWh": "21,50",
+    "PMWp": "13.096,00",
+    "reach": 17.677,
+    "percentage": "841%"
+  },
+  {
+    "municipality": "San Miguel de Salinas",
+    "population": 6.313,
+    "DkWh": "1.216,26",
+    "EGWh": "35,10",
+    "PMWp": "21.105,40",
+    "reach": 28.859,
+    "percentage": "457%"
+  },
+  {
+    "municipality": "San Rafael del Río",
+    "population": 466,
+    "DkWh": "1.791,87",
+    "EGWh": "4,60",
+    "PMWp": "3.324,40",
+    "reach": 2.567,
+    "percentage": "551%"
+  },
+  {
+    "municipality": "Sanet y Negrals",
+    "population": 690,
+    "DkWh": "1.396,34",
+    "EGWh": "2,90",
+    "PMWp": "2.124,40",
+    "reach": 2.077,
+    "percentage": "301%"
+  },
+  {
+    "municipality": "Sant Joan d'Alacant",
+    "population": 24.367,
+    "DkWh": "1.512,60",
+    "EGWh": "77,70",
+    "PMWp": "38.084,10",
+    "reach": 51.368,
+    "percentage": "211%"
+  },
+  {
+    "municipality": "Sant Joan de Moró",
+    "population": 3.232,
+    "DkWh": "1.830,89",
+    "EGWh": "106,20",
+    "PMWp": "68.260,80",
+    "reach": 58.004,
+    "percentage": "1.795%"
+  },
+  {
+    "municipality": "Sant Joanet",
+    "population": 507,
+    "DkWh": "1.605,28",
+    "EGWh": "6,60",
+    "PMWp": "4.212,50",
+    "reach": 4.111,
+    "percentage": "811%"
+  },
+  {
+    "municipality": "Sant Jordi / San Jorge",
+    "population": 990,
+    "DkWh": "1.791,87",
+    "EGWh": "10,30",
+    "PMWp": "7.540,20",
+    "reach": 5.748,
+    "percentage": "581%"
+  },
+  {
+    "municipality": "Sant Mateu",
+    "population": 1.952,
+    "DkWh": "1.791,87",
+    "EGWh": "20,80",
+    "PMWp": "13.599,40",
+    "reach": 11.608,
+    "percentage": "595%"
+  },
+  {
+    "municipality": "Sant Vicent del Raspeig / San Vicente del Raspeig",
+    "population": 58.978,
+    "DkWh": "1.512,60",
+    "EGWh": "255,30",
+    "PMWp": "133.331,40",
+    "reach": 168.782,
+    "percentage": "286%"
+  },
+  {
+    "municipality": "Santa Magdalena de Pulpis",
+    "population": 754,
+    "DkWh": "1.791,87",
+    "EGWh": "5,50",
+    "PMWp": "4.209,10",
+    "reach": 3.069,
+    "percentage": "407%"
+  },
+  {
+    "municipality": "Santa Pola",
+    "population": 33.303,
+    "DkWh": "1.443,09",
+    "EGWh": "130,80",
+    "PMWp": "79.312,00",
+    "reach": 90.639,
+    "percentage": "272%"
+  },
+  {
+    "municipality": "Sax",
+    "population": 9.859,
+    "DkWh": "1.647,15",
+    "EGWh": "71,40",
+    "PMWp": "43.093,20",
+    "reach": 43.347,
+    "percentage": "440%"
+  },
+  {
+    "municipality": "Sedaví",
+    "population": 10.391,
+    "DkWh": "1.514,23",
+    "EGWh": "29,80",
+    "PMWp": "18.542,20",
+    "reach": 19.68,
+    "percentage": "189%"
+  },
+  {
+    "municipality": "Segart",
+    "population": 164,
+    "DkWh": "1.456,91",
+    "EGWh": "1,50",
+    "PMWp": "956,60",
+    "reach": 1.03,
+    "percentage": "628%"
+  },
+  {
+    "municipality": "Segorbe",
+    "population": 9.097,
+    "DkWh": "2.242,28",
+    "EGWh": "72,60",
+    "PMWp": "45.641,50",
+    "reach": 32.378,
+    "percentage": "356%"
+  },
+  {
+    "municipality": "Sella",
+    "population": 577,
+    "DkWh": "1.395,53",
+    "EGWh": "0,90",
+    "PMWp": "752,40",
+    "reach": 645,
+    "percentage": "112%"
+  },
+  {
+    "municipality": "Sellent",
+    "population": 384,
+    "DkWh": "1.605,28",
+    "EGWh": "3,20",
+    "PMWp": "2.055,50",
+    "reach": 1.993,
+    "percentage": "519%"
+  },
+  {
+    "municipality": "Sempere",
+    "population": 30,
+    "DkWh": "1.576,42",
+    "EGWh": "0,70",
+    "PMWp": "464,10",
+    "reach": 444,
+    "percentage": "1.480%"
+  },
+  {
+    "municipality": "Senija",
+    "population": 583,
+    "DkWh": "1.396,34",
+    "EGWh": "4,80",
+    "PMWp": "3.302,60",
+    "reach": 3.438,
+    "percentage": "590%"
+  },
+  {
+    "municipality": "Senyera",
+    "population": 1.134,
+    "DkWh": "1.605,28",
+    "EGWh": "11,50",
+    "PMWp": "7.350,50",
+    "reach": 7.164,
+    "percentage": "632%"
+  },
+  {
+    "municipality": "Serra",
+    "population": 3.187,
+    "DkWh": "1.328,86",
+    "EGWh": "22,10",
+    "PMWp": "13.793,50",
+    "reach": 16.631,
+    "percentage": "522%"
+  },
+  {
+    "municipality": "Sierra Engarcerán",
+    "population": 988,
+    "DkWh": "1.830,89",
+    "EGWh": "8,20",
+    "PMWp": "5.880,10",
+    "reach": 4.479,
+    "percentage": "453%"
+  },
+  {
+    "municipality": "Siete Aguas",
+    "population": 1.159,
+    "DkWh": "1.570,33",
+    "EGWh": "11,80",
+    "PMWp": "7.354,50",
+    "reach": 7.514,
+    "percentage": "648%"
+  },
+  {
+    "municipality": "Silla",
+    "population": 19.078,
+    "DkWh": "1.514,23",
+    "EGWh": "188,20",
+    "PMWp": "118.633,20",
+    "reach": 124.288,
+    "percentage": "651%"
+  },
+  {
+    "municipality": "Simat de la Valldigna",
+    "population": 3.297,
+    "DkWh": "1.422,36",
+    "EGWh": "13,50",
+    "PMWp": "8.969,60",
+    "reach": 9.491,
+    "percentage": "288%"
+  },
+  {
+    "municipality": "Sinarcas",
+    "population": 1.105,
+    "DkWh": "1.642,28",
+    "EGWh": "12,80",
+    "PMWp": "7.900,80",
+    "reach": 7.794,
+    "percentage": "705%"
+  },
+  {
+    "municipality": "Sollana",
+    "population": 4.881,
+    "DkWh": "1.535,77",
+    "EGWh": "60,30",
+    "PMWp": "38.173,20",
+    "reach": 39.264,
+    "percentage": "804%"
+  },
+  {
+    "municipality": "Soneja",
+    "population": 1.456,
+    "DkWh": "2.242,28",
+    "EGWh": "12,50",
+    "PMWp": "8.426,60",
+    "reach": 5.575,
+    "percentage": "383%"
+  },
+  {
+    "municipality": "Sot de Chera",
+    "population": 362,
+    "DkWh": "1.659,76",
+    "EGWh": "1,80",
+    "PMWp": "1.161,50",
+    "reach": 1.084,
+    "percentage": "300%"
+  },
+  {
+    "municipality": "Sot de Ferrer",
+    "population": 409,
+    "DkWh": "2.242,28",
+    "EGWh": "3,80",
+    "PMWp": "2.650,40",
+    "reach": 1.695,
+    "percentage": "414%"
+  },
+  {
+    "municipality": "Sueca",
+    "population": 27.566,
+    "DkWh": "1.535,77",
+    "EGWh": "116,60",
+    "PMWp": "73.309,80",
+    "reach": 75.923,
+    "percentage": "275%"
+  },
+  {
+    "municipality": "Suera / Sueras",
+    "population": 524,
+    "DkWh": "1.892,28",
+    "EGWh": "3,10",
+    "PMWp": "2.215,10",
+    "reach": 1.638,
+    "percentage": "313%"
+  },
+  {
+    "municipality": "Sumacàrcer",
+    "population": 1.097,
+    "DkWh": "1.605,28",
+    "EGWh": "7,80",
+    "PMWp": "4.946,10",
+    "reach": 4.859,
+    "percentage": "443%"
+  },
+  {
+    "municipality": "Tales",
+    "population": 801,
+    "DkWh": "1.892,28",
+    "EGWh": "1,40",
+    "PMWp": "1.095,40",
+    "reach": 740,
+    "percentage": "92%"
+  },
+  {
+    "municipality": "Tàrbena",
+    "population": 623,
+    "DkWh": "1.395,53",
+    "EGWh": "3,10",
+    "PMWp": "2.678,30",
+    "reach": 2.221,
+    "percentage": "357%"
+  },
+  {
+    "municipality": "Tavernes Blanques",
+    "population": 9.224,
+    "DkWh": "1.452,85",
+    "EGWh": "15,70",
+    "PMWp": "9.711,20",
+    "reach": 10.806,
+    "percentage": "117%"
+  },
+  {
+    "municipality": "Tavernes de la Valldigna",
+    "population": 17.254,
+    "DkWh": "1.422,36",
+    "EGWh": "68,30",
+    "PMWp": "43.723,20",
+    "reach": 48.019,
+    "percentage": "278%"
+  },
+  {
+    "municipality": "Teresa",
+    "population": 247,
+    "DkWh": "2.242,28",
+    "EGWh": "2,00",
+    "PMWp": "1.491,80",
+    "reach": 892,
+    "percentage": "361%"
+  },
+  {
+    "municipality": "Teresa de Cofrentes",
+    "population": 619,
+    "DkWh": "1.650,81",
+    "EGWh": "5,60",
+    "PMWp": "3.461,80",
+    "reach": 3.392,
+    "percentage": "548%"
+  },
+  {
+    "municipality": "Terrateig",
+    "population": 256,
+    "DkWh": "1.576,42",
+    "EGWh": "5,90",
+    "PMWp": "3.804,00",
+    "reach": 3.743,
+    "percentage": "1.462%"
+  },
+  {
+    "municipality": "Teulada",
+    "population": 11.278,
+    "DkWh": "1.396,34",
+    "EGWh": "99,60",
+    "PMWp": "62.363,70",
+    "reach": 71.329,
+    "percentage": "632%"
+  },
+  {
+    "municipality": "Tibi",
+    "population": 1.662,
+    "DkWh": "1.742,28",
+    "EGWh": "14,30",
+    "PMWp": "10.295,60",
+    "reach": 8.208,
+    "percentage": "494%"
+  },
+  {
+    "municipality": "Tírig",
+    "population": 420,
+    "DkWh": "2.689,84",
+    "EGWh": "4,70",
+    "PMWp": "3.586,80",
+    "reach": 1.747,
+    "percentage": "416%"
+  },
+  {
+    "municipality": "Titaguas",
+    "population": 454,
+    "DkWh": "1.659,76",
+    "EGWh": "5,60",
+    "PMWp": "3.449,10",
+    "reach": 3.374,
+    "percentage": "743%"
+  },
+  {
+    "municipality": "Todolella",
+    "population": 141,
+    "DkWh": "1.538,62",
+    "EGWh": "1,00",
+    "PMWp": "837,40",
+    "reach": 650,
+    "percentage": "461%"
+  },
+  {
+    "municipality": "Toga",
+    "population": 96,
+    "DkWh": "1.986,99",
+    "EGWh": "0,70",
+    "PMWp": "602,60",
+    "reach": 352,
+    "percentage": "367%"
+  },
+  {
+    "municipality": "Tollos",
+    "population": 35,
+    "DkWh": "1.680,08",
+    "EGWh": "0,30",
+    "PMWp": "273,60",
+    "reach": 179,
+    "percentage": "510%"
+  },
+  {
+    "municipality": "Torás",
+    "population": 232,
+    "DkWh": "2.242,28",
+    "EGWh": "2,30",
+    "PMWp": "1.716,40",
+    "reach": 1.026,
+    "percentage": "442%"
+  },
+  {
+    "municipality": "Tormos",
+    "population": 318,
+    "DkWh": "1.396,34",
+    "EGWh": "2,00",
+    "PMWp": "1.444,90",
+    "reach": 1.432,
+    "percentage": "450%"
+  },
+  {
+    "municipality": "Torralba del Pinar",
+    "population": 61,
+    "DkWh": "1.986,99",
+    "EGWh": "0,30",
+    "PMWp": "242,00",
+    "reach": 151,
+    "percentage": "248%"
+  },
+  {
+    "municipality": "Torrebaja",
+    "population": 402,
+    "DkWh": "1.986,99",
+    "EGWh": "6,30",
+    "PMWp": "3.929,80",
+    "reach": 3.171,
+    "percentage": "789%"
+  },
+  {
+    "municipality": "Torreblanca",
+    "population": 5.574,
+    "DkWh": "1.830,89",
+    "EGWh": "26,40",
+    "PMWp": "16.890,60",
+    "reach": 14.419,
+    "percentage": "259%"
+  },
+  {
+    "municipality": "Torrechiva",
+    "population": 89,
+    "DkWh": "1.986,99",
+    "EGWh": "0,30",
+    "PMWp": "292,00",
+    "reach": 151,
+    "percentage": "170%"
+  },
+  {
+    "municipality": "Torrella",
+    "population": 145,
+    "DkWh": "1.572,36",
+    "EGWh": "0,90",
+    "PMWp": "544,20",
+    "reach": 572,
+    "percentage": "395%"
+  },
+  {
+    "municipality": "Torrent",
+    "population": 83.962,
+    "DkWh": "1.453,25",
+    "EGWh": "200,90",
+    "PMWp": "125.681,90",
+    "reach": 138.242,
+    "percentage": "165%"
+  },
+  {
+    "municipality": "Torres Torres",
+    "population": 669,
+    "DkWh": "1.456,91",
+    "EGWh": "7,60",
+    "PMWp": "4.749,20",
+    "reach": 5.217,
+    "percentage": "780%"
+  },
+  {
+    "municipality": "Torrevieja",
+    "population": 84.667,
+    "DkWh": "1.216,26",
+    "EGWh": "277,00",
+    "PMWp": "168.892,20",
+    "reach": 227.747,
+    "percentage": "269%"
+  },
+  {
+    "municipality": "Tous",
+    "population": 1.287,
+    "DkWh": "1.605,28",
+    "EGWh": "8,80",
+    "PMWp": "5.510,50",
+    "reach": 5.482,
+    "percentage": "426%"
+  },
+  {
+    "municipality": "Traiguera",
+    "population": 1.367,
+    "DkWh": "1.791,87",
+    "EGWh": "9,40",
+    "PMWp": "6.546,90",
+    "reach": 5.246,
+    "percentage": "384%"
+  },
+  {
+    "municipality": "Tuéjar",
+    "population": 1.137,
+    "DkWh": "1.659,76",
+    "EGWh": "11,70",
+    "PMWp": "7.254,80",
+    "reach": 7.049,
+    "percentage": "620%"
+  },
+  {
+    "municipality": "Turís",
+    "population": 6.722,
+    "DkWh": "1.605,28",
+    "EGWh": "82,70",
+    "PMWp": "51.676,80",
+    "reach": 51.517,
+    "percentage": "766%"
+  },
+  {
+    "municipality": "Utiel",
+    "population": 11.458,
+    "DkWh": "1.642,28",
+    "EGWh": "109,80",
+    "PMWp": "66.425,20",
+    "reach": 66.858,
+    "percentage": "584%"
   },
   {
     "municipality": "Valencia",
-    "region": "València",
-    "population": 800215,
-    "DkWh": "1453,25",
-    "EGWh": "775,2",
-    "PMWp": "477673,2",
-    "reach": 533424,
-    "factor": "0,67"
+    "population": 800.215,
+    "DkWh": "1.453,25",
+    "EGWh": "775,20",
+    "PMWp": "477.673,20",
+    "reach": 533.424,
+    "percentage": "67%"
+  },
+  {
+    "municipality": "Vall d'Alba",
+    "population": 2.856,
+    "DkWh": "1.830,89",
+    "EGWh": "39,20",
+    "PMWp": "26.390,50",
+    "reach": 21.41,
+    "percentage": "750%"
+  },
+  {
+    "municipality": "Vall de Almonacid",
+    "population": 263,
+    "DkWh": "2.242,28",
+    "EGWh": "1,30",
+    "PMWp": "1.160,10",
+    "reach": 580,
+    "percentage": "220%"
+  },
+  {
+    "municipality": "Vallada",
+    "population": 3.096,
+    "DkWh": "1.572,36",
+    "EGWh": "29,50",
+    "PMWp": "18.900,10",
+    "reach": 18.762,
+    "percentage": "606%"
+  },
+  {
+    "municipality": "Vallanca",
+    "population": 133,
+    "DkWh": "1.986,99",
+    "EGWh": "2,70",
+    "PMWp": "1.693,90",
+    "reach": 1.359,
+    "percentage": "1.022%"
+  },
+  {
+    "municipality": "Vallat",
+    "population": 51,
+    "DkWh": "1.986,99",
+    "EGWh": "0,30",
+    "PMWp": "222,00",
+    "reach": 151,
+    "percentage": "296%"
+  },
+  {
+    "municipality": "Vallés",
+    "population": 154,
+    "DkWh": "1.572,36",
+    "EGWh": "0,60",
+    "PMWp": "386,90",
+    "reach": 382,
+    "percentage": "248%"
+  },
+  {
+    "municipality": "Vallibona",
+    "population": 66,
+    "DkWh": "1.538,62",
+    "EGWh": "0,70",
+    "PMWp": "545,50",
+    "reach": 455,
+    "percentage": "689%"
+  },
+  {
+    "municipality": "Venta del Moro",
+    "population": 1.198,
+    "DkWh": "1.642,28",
+    "EGWh": "20,50",
+    "PMWp": "12.479,40",
+    "reach": 12.483,
+    "percentage": "1.042%"
+  },
+  {
+    "municipality": "Vila-Real / Villarreal",
+    "population": 51.293,
+    "DkWh": "1.892,28",
+    "EGWh": "385,40",
+    "PMWp": "238.664,90",
+    "reach": 203.67,
+    "percentage": "397%"
+  },
+  {
+    "municipality": "Vilafamés",
+    "population": 1.829,
+    "DkWh": "1.830,89",
+    "EGWh": "65,00",
+    "PMWp": "42.257,40",
+    "reach": 35.502,
+    "percentage": "1.941%"
+  },
+  {
+    "municipality": "Vilafranca / Villafranca del Cid",
+    "population": 2.197,
+    "DkWh": "2.689,84",
+    "EGWh": "26,00",
+    "PMWp": "17.715,40",
+    "reach": 9.666,
+    "percentage": "440%"
+  },
+  {
+    "municipality": "Vilallonga / Villalonga",
+    "population": 4.37,
+    "DkWh": "1.422,36",
+    "EGWh": "37,60",
+    "PMWp": "24.606,30",
+    "reach": 26.435,
+    "percentage": "605%"
+  },
+  {
+    "municipality": "Vilamarxant",
+    "population": 9.891,
+    "DkWh": "1.328,86",
+    "EGWh": "61,20",
+    "PMWp": "38.212,20",
+    "reach": 46.054,
+    "percentage": "466%"
+  },
+  {
+    "municipality": "Vilanova d'Alcolea",
+    "population": 569,
+    "DkWh": "1.830,89",
+    "EGWh": "5,50",
+    "PMWp": "4.130,30",
+    "reach": 3.004,
+    "percentage": "528%"
+  },
+  {
+    "municipality": "Vilar de Canes",
+    "population": 169,
+    "DkWh": "2.689,84",
+    "EGWh": "0,80",
+    "PMWp": "601,70",
+    "reach": 297,
+    "percentage": "176%"
+  },
+  {
+    "municipality": "Villahermosa del Rio",
+    "population": 484,
+    "DkWh": "1.986,99",
+    "EGWh": "1,40",
+    "PMWp": "1.113,80",
+    "reach": 705,
+    "percentage": "146%"
+  },
+  {
+    "municipality": "Villamalur",
+    "population": 102,
+    "DkWh": "1.986,99",
+    "EGWh": "0,40",
+    "PMWp": "424,00",
+    "reach": 201,
+    "percentage": "197%"
+  },
+  {
+    "municipality": "Villanueva de Viver",
+    "population": 60,
+    "DkWh": "1.986,99",
+    "EGWh": "0,60",
+    "PMWp": "424,70",
+    "reach": 302,
+    "percentage": "503%"
+  },
+  {
+    "municipality": "Villar del Arzobispo",
+    "population": 3.536,
+    "DkWh": "1.659,76",
+    "EGWh": "33,50",
+    "PMWp": "20.578,80",
+    "reach": 20.184,
+    "percentage": "571%"
+  },
+  {
+    "municipality": "Villargordo del Cabriel",
+    "population": 582,
+    "DkWh": "1.642,28",
+    "EGWh": "11,90",
+    "PMWp": "7.387,30",
+    "reach": 7.246,
+    "percentage": "1.245%"
+  },
+  {
+    "municipality": "Villena",
+    "population": 34.155,
+    "DkWh": "1.647,15",
+    "EGWh": "184,40",
+    "PMWp": "98.731,00",
+    "reach": 111.951,
+    "percentage": "328%"
+  },
+  {
+    "municipality": "Villores",
+    "population": 42,
+    "DkWh": "1.538,62",
+    "EGWh": "0,80",
+    "PMWp": "605,20",
+    "reach": 520,
+    "percentage": "1.238%"
+  },
+  {
+    "municipality": "Vinalesa",
+    "population": 3.412,
+    "DkWh": "1.452,85",
+    "EGWh": "13,40",
+    "PMWp": "8.318,30",
+    "reach": 9.223,
+    "percentage": "270%"
+  },
+  {
+    "municipality": "Vinaròs",
+    "population": 28.833,
+    "DkWh": "1.791,87",
+    "EGWh": "158,20",
+    "PMWp": "102.591,60",
+    "reach": 88.288,
+    "percentage": "306%"
+  },
+  {
+    "municipality": "Vistabella del Maestrat",
+    "population": 333,
+    "DkWh": "1.922,36",
+    "EGWh": "3,10",
+    "PMWp": "2.474,00",
+    "reach": 1.613,
+    "percentage": "484%"
+  },
+  {
+    "municipality": "Viver",
+    "population": 1.572,
+    "DkWh": "2.242,28",
+    "EGWh": "8,80",
+    "PMWp": "6.259,20",
+    "reach": 3.925,
+    "percentage": "250%"
+  },
+  {
+    "municipality": "Xàbia / Jávea",
+    "population": 28.016,
+    "DkWh": "1.396,34",
+    "EGWh": "199,10",
+    "PMWp": "124.846,60",
+    "reach": 142.587,
+    "percentage": "509%"
+  },
+  {
+    "municipality": "Xaló",
+    "population": 2.868,
+    "DkWh": "1.396,34",
+    "EGWh": "22,20",
+    "PMWp": "14.251,60",
+    "reach": 15.899,
+    "percentage": "554%"
+  },
+  {
+    "municipality": "Xàtiva",
+    "population": 29.623,
+    "DkWh": "1.572,36",
+    "EGWh": "121,40",
+    "PMWp": "77.365,80",
+    "reach": 77.209,
+    "percentage": "261%"
+  },
+  {
+    "municipality": "Xeraco",
+    "population": 5.72,
+    "DkWh": "1.422,36",
+    "EGWh": "34,50",
+    "PMWp": "22.175,50",
+    "reach": 24.256,
+    "percentage": "424%"
+  },
+  {
+    "municipality": "Xeresa",
+    "population": 2.197,
+    "DkWh": "1.422,36",
+    "EGWh": "25,10",
+    "PMWp": "16.370,30",
+    "reach": 17.647,
+    "percentage": "803%"
+  },
+  {
+    "municipality": "Xert / Chert",
+    "population": 688,
+    "DkWh": "1.791,87",
+    "EGWh": "8,60",
+    "PMWp": "5.683,60",
+    "reach": 4.799,
+    "percentage": "698%"
+  },
+  {
+    "municipality": "Xilxes / Chilches",
+    "population": 2.714,
+    "DkWh": "1.892,28",
+    "EGWh": "41,90",
+    "PMWp": "27.941,20",
+    "reach": 22.143,
+    "percentage": "816%"
+  },
+  {
+    "municipality": "Xirivella",
+    "population": 30.197,
+    "DkWh": "1.453,25",
+    "EGWh": "67,40",
+    "PMWp": "42.074,20",
+    "reach": 46.379,
+    "percentage": "154%"
+  },
+  {
+    "municipality": "Xixona / Jijona",
+    "population": 6.879,
+    "DkWh": "1.512,60",
+    "EGWh": "66,70",
+    "PMWp": "39.333,50",
+    "reach": 44.096,
+    "percentage": "641%"
+  },
+  {
+    "municipality": "Xodos / Chodos",
+    "population": 106,
+    "DkWh": "1.922,36",
+    "EGWh": "0,80",
+    "PMWp": "738,50",
+    "reach": 416,
+    "percentage": "393%"
+  },
+  {
+    "municipality": "Yátova",
+    "population": 2.079,
+    "DkWh": "1.570,33",
+    "EGWh": "13,80",
+    "PMWp": "8.610,50",
+    "reach": 8.788,
+    "percentage": "423%"
+  },
+  {
+    "municipality": "Zarra",
+    "population": 346,
+    "DkWh": "1.650,81",
+    "EGWh": "3,40",
+    "PMWp": "2.141,20",
+    "reach": 2.06,
+    "percentage": "595%"
+  },
+  {
+    "municipality": "Zorita del Maestrazgo",
+    "population": 111,
+    "DkWh": "1.538,62",
+    "EGWh": "1,00",
+    "PMWp": "869,10",
+    "reach": 650,
+    "percentage": "586%"
+  },
+  {
+    "municipality": "Zucaina",
+    "population": 162,
+    "DkWh": "1.986,99",
+    "EGWh": "1,50",
+    "PMWp": "1.340,90",
+    "reach": 755,
+    "percentage": "466%"
   }
 ]
