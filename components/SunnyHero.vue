@@ -34,7 +34,9 @@ defineProps({
 onMounted(() => {
   const smoother = $ScrollSmoother.create({
     smooth: 0.5,
-    effects: true
+    effects: true,
+    ignoreMobileResize: true,
+    normalizeScroll: true
   })
 
   $gsap.to('#sunny-guy', {
@@ -95,6 +97,12 @@ onMounted(() => {
   height: calc(100vh - var(--marquee-height));
   place-items: center;
   overflow: hidden;
+}
+
+@supports(height: 100svh) {
+  .sunny-hero {
+    height: calc(100svh - var(--marquee-height));
+  }
 }
 
 .night-time {
@@ -187,7 +195,7 @@ onMounted(() => {
   }
 
   .campaign-title {
-    margin-top: -4rem;
+    margin-top: -2vh;
   }
 }
 </style>

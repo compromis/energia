@@ -167,7 +167,8 @@ onMounted(() => {
       height: 2em;
 
       :deep(path) {
-        stroke: white;
+        stroke: var(--white);
+        fill: var(--white);
       }
     }
   }

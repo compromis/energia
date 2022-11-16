@@ -33,13 +33,13 @@
             <div class="details-card-content">
               <div class="details-overview">
                 <div class="details-overview-row">
-                  {{ t.POPULATION }} <span class="spacer"/> <strong>{{ selectedMunicipality.population }}</strong>
+                  {{ t.POPULATION }} <span class="spacer"/> <strong>{{ selectedMunicipality.population.toString() }}</strong>
                 </div>
                 <div class="details-overview-row">
                   {{ t.CONSUMPTION }} <span class="spacer"/> <strong>{{ selectedMunicipality.DkWh }} KWh</strong>
                 </div>
                 <div class="details-overview-row">
-                  {{ t.POWER }} <span class="spacer"/> <strong>{{ selectedMunicipality.PMWp }} MWatt</strong>
+                  {{ t.POWER }}<sup>1</sup> <span class="spacer"/> <strong>{{ selectedMunicipality.PMWp }} MWatt</strong>
                 </div>
               </div>
               <div class="details-energy details-big">
@@ -49,6 +49,9 @@
               <div class="details-population details-big">
                 <strong class="number"><span id="annotatedReach">{{ selectedMunicipality.reach }}</span> <span class="pill">{{ selectedMunicipality.percentage }}% {{ t.OF_POP }}</span></strong>
                 <span class="label">{{ t.PEOPLE_REACHED }}</span>
+              </div>
+              <div class="details-small-text text-muted">
+                <sup>1</sup> Càlculs en base a instal·lació de plaques solars al 40% dels sostres disponibles a la localitat.
               </div>
             </div>
           </article>
@@ -168,6 +171,7 @@ watch(selectedMunicipality, async (newMunicipality) => {
       padding: 0;
       border: 0;
       border-bottom: 2px var(--black) solid;
+      border: 0;
       background: transparent;
       width: 100%;
       margin: 1rem 0;
@@ -217,7 +221,8 @@ watch(selectedMunicipality, async (newMunicipality) => {
       grid-template-columns: 1fr 1fr;
       grid-template-areas:
         "overview overview"
-        "energy population";
+        "energy population"
+        "smalltext smalltext";
       padding: var(--card-padding);
       gap: 1.5rem;
     }
@@ -248,6 +253,12 @@ watch(selectedMunicipality, async (newMunicipality) => {
         border-bottom: 1px dotted var(--black);
         margin: .15em 0;
       }
+
+      sup {
+        font-size: 1rem;
+        position: relative;
+        top: 20%;
+      }
     }
   }
 
@@ -257,6 +268,12 @@ watch(selectedMunicipality, async (newMunicipality) => {
 
   &-population {
     grid-area: population;
+  }
+
+  &-small-text {
+    grid-area: smalltext;
+    line-height: 1.1;
+    font-size: clamp(.85rem, 1vw, 1rem);
   }
 
   &-big {
@@ -295,5 +312,21 @@ watch(selectedMunicipality, async (newMunicipality) => {
     z-index: 5;
     cursor: default;
   }
+}
+
+@include media-breakpoint-down(sm) {
+  .details-card {
+    margin: .75rem;
+
+    &-header {
+      padding: 1rem;
+    }
+
+    &-content {
+      padding: 1rem;
+      grid-template-columns: 1fr;
+      grid-template-areas: "overview" "energy" "population" "smalltext";
+    }
+  } 
 }
 </style>

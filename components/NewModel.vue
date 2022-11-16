@@ -97,14 +97,17 @@ onMounted(() => {
     }
   })
 
-  $gsap.to('#new-model-images', {
-    scrollTrigger: {
-      trigger: '#new-model-images',
-      start: 'top bottom',
-      end: 'bottom top',
-      scrub: 1
-    },
-    x: '-30vw'
+  const mm = $gsap.matchMedia()
+  mm.add("(min-width: 800px)", () => {
+    $gsap.to('#new-model-images', {
+      scrollTrigger: {
+        trigger: '#new-model-images',
+        start: 'top bottom',
+        end: 'bottom top',
+        scrub: 1
+      },
+      x: '-30vw'
+    })
   })
 })
 </script>
@@ -169,11 +172,27 @@ onMounted(() => {
 
 @include media-breakpoint-down(sm) {
   .content {
+    .image-scroller {
+      overflow: auto;
+    }
+
+    .images img {
+      max-height: 20vh;
+    }
+
+    .list {
+      max-width: 100%;
+    }
+
     .text {
       flex-direction: column;
 
       p {
         width: 100%;
+      }
+
+      .first-p {
+        margin-bottom: 2rem;
       }
     }
   }

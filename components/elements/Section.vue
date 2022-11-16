@@ -72,6 +72,10 @@ onMounted(() => {
 @include media-breakpoint-down(sm) {
   .card {
     --card-padding: 1.5rem;
+
+    &-title {
+      margin-bottom: 5vh;
+    }
   }
 }
 </style>

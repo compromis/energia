@@ -38,7 +38,7 @@ onMounted(() => {
       onToggle: () => {
         if (!hasAnnotated.value) {
           const e = document.querySelector(`#${props.id} h3`)
-          const annotation = annotate(e, { type: 'strike-through', multiline: true, color: '#f4520b', strokeWidth: 3 })
+          const annotation = annotate(e, { type: 'crossed-off', multiline: true, color: '#f4520b', strokeWidth: 3 })
           annotation.show()
           hasAnnotated.value = true
         }
@@ -129,9 +129,15 @@ onMounted(() => {
 @include media-breakpoint-down(sm) {
   .drawer {
     &-header {
+      padding: 1rem;
+
       .toggle {
         flex-shrink: 0;
       }
+    }
+
+    &-content {
+      padding: 1rem;
     }
   }
 }

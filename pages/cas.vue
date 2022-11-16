@@ -13,10 +13,39 @@
 </template>
 
 <script setup>
+useHead({
+  title: 'Con la energía, empezamos por el tejado - Compromís',
+  htmlAttrs: { lang: 'ca' },
+  meta: [
+  { charset: 'utf-8' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { hid: 'description', name: 'description', content: 'Imagínate una energía sostenible y democrática, barata y aprovechando espacios y recursos existentes sin destruir el territorio' },
+    { hid: 'keywords', name: 'keywords', content: 'energia, placas solares, fotovoltaicas, renovables, energia climática, política, verdes, compromis' },
+    { hid: 'robots', name: 'robots', content: 'index, follow' },
+    { hid: 'og:locale', property: 'og:locale', content: 'ca' },
+    { hid: 'og:type', property: 'og:type', content: 'website' },
+    { hid: 'og:description', property: 'og:description', content: 'Imagínate una energía sostenible y democrática, barata y aprovechando espacios y recursos existentes sin destruir el territorio' },
+    { hid: 'og:image', property: 'og:image', content: '/images/ogimage.png' },
+    { hid: 'og:url', property: 'og:url', content: 'https://comencempelsostre.com' },
+    { hid: 'twitter:site', property: 'twitter:site', content: '@compromis' },
+    { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
+    { hid: 'twitter:title', property: 'twitter:title', content: 'Con la energía, empezamos por el tejado - Compromís' },
+    { hid: 'twitter:description', property: 'twitter:description', content: 'Imagínate una energía sostenible y democrática, barata y aprovechando espacios y recursos existentes sin destruir el territorio' },
+    { hid: 'twitter:image', property: 'twitter:image', content: '/images/ogimage.png' },
+    { hid: 'twitter:url', property: 'twitter:url', content: 'https://comencempelsostre.com' }
+  ],
+  link: [
+      { rel: 'icon', type: 'image/x-icon', href: 'https://compromis.net/sub/icons/favicon.ico' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: 'https://compromis.net/sub/icons/favicon32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '192x192', href: 'https://compromis.net/sub/icons/favicon192.png' },
+      { rel: 'stylesheet', href: 'https://compromis.net/sub/fonts/manrope.css?variable' },
+    ],
+})
+
 // Translations
 const sunnyHero = {
   OVERTITLE: 'Con la energía',
-  TITLE: `Empezamos<br>por el techo`,
+  TITLE: `Empezamos<br>por el tejado`,
   MARQUEE: 'Un nuevo model energético' 
 }
 

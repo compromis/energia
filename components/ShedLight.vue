@@ -38,7 +38,7 @@ defineProps({
   }
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(lg) {
   .fake-items {
     flex-direction: column;
     gap: 0;
