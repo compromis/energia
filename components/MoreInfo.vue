@@ -5,20 +5,14 @@
     </template>
 
     <h3>{{ t.TODAY }}</h3>
-    <ul>
+    <ul class="docs">
       <li v-for="(item, i) in t.TODAY_ITEMS" :key="i">
-        <a :href="item.LINK" target="_blank" rel="noopener noreferer">{{ item.TEXT }}</a>
+        <a :href="item.LINK" target="_blank" rel="noopener noreferer">
+          <IconsDocument />
+          {{ item.TEXT }}
+        </a>
       </li>
     </ul>
-
-    <h3>{{ t.PROPOSED }}</h3>
-    <ul>
-      <li v-for="(item, i) in t.PROPOSED_ITEMS" :key="i">
-        <a :href="item.LINK" target="_blank" rel="noopener noreferer">{{ item.TEXT }}</a>
-      </li>
-    </ul>
-
-    <h3>{{ t.PROPOSAL }}</h3>
   </ElementsSection>
 </template>
 
@@ -30,3 +24,25 @@ defineProps({
   }
 })
 </script>
+
+<style lang="scss" scoped>
+.docs {
+  margin: 0;
+  padding: 0;
+  margin-top: 1rem;
+  
+  li {
+    display: flex;
+    font-size: 1.25rem;
+  }
+
+  a {
+    color: var(--black);
+  }
+
+  svg {
+    height: 1em;
+    width: 1em;
+  }
+}
+</style>

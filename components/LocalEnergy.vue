@@ -171,7 +171,7 @@ watch(selectedMunicipality, async (newMunicipality) => {
       padding: 0;
       border: 0;
       border-bottom: 2px var(--black) solid;
-      border: 0;
+      border-radius: 0;
       background: transparent;
       width: 100%;
       margin: 1rem 0;

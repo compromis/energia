@@ -13,7 +13,7 @@
     "sass-loader": "^13.1.0"
   },
   "dependencies": {
-    "@compromis/blobby": "^1.1.8",
+    "@compromis/blobby": "^1.1.9",
     "gsap": "npm:@gsap/shockingly",
     "lottie-web": "^5.9.6",
     "rough-notation": "^0.5.1",

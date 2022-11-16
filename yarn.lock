@@ -274,10 +274,10 @@
   dependencies:
     mime "^3.0.0"
 
-"@compromis/blobby@^1.1.8":
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/@compromis/blobby/-/blobby-1.1.8.tgz#333f31afdc84a5ecef9877337d597e429070bf24"
-  integrity sha512-L3CiEFbTfc1qiVM5qiRilCGBcPpNHxsOUlxF/OldX8n8IhtSMMW5HyYJGFnruEBCEJsoQ2C+EGAeHnvVwzBwMA==
+"@compromis/blobby@^1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@compromis/blobby/-/blobby-1.1.9.tgz#5b5b41d649e279ea7e3e522b8caf9f5af7a42688"
+  integrity sha512-2esmUBRAZGNvidIOpOh0xE7uwrAN4vrxRSQeuGQruYcviDdmMWnzxU4RD0kp/QwAPgRZ3+/pL3gudAiRPWVpYQ==
   dependencies:
     bootstrap "^5.2.2"
     clipboard "^2.0.8"

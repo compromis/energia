@@ -33,13 +33,7 @@ useHead({
     { hid: 'twitter:description', property: 'twitter:description', content: 'Imagina’t una energia sostenible i democràtica, barata i aprofitant espais i recursos existents sense destruir el territori' },
     { hid: 'twitter:image', property: 'twitter:image', content: '/images/ogimage.png' },
     { hid: 'twitter:url', property: 'twitter:url', content: 'https://comencempelsostre.com' }
-  ],
-  link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'https://compromis.net/sub/icons/favicon.ico' },
-      { rel: 'icon', type: 'image/png', sizes: '32x32', href: 'https://compromis.net/sub/icons/favicon32.png' },
-      { rel: 'icon', type: 'image/png', sizes: '192x192', href: 'https://compromis.net/sub/icons/favicon192.png' },
-      { rel: 'stylesheet', href: 'https://compromis.net/sub/fonts/manrope.css?variable' },
-    ],
+  ]
 })
 
 // Translations
@@ -147,17 +141,21 @@ const moreInfo = {
   TODAY: 'Ajudes que pots demanar hui mateix',
   TODAY_ITEMS: [
     {
-      TEXT: 'fdsf',
-      LINK: 'fdsfsd'
-    }
-  ],
-  PROPOSED: 'Ajudes que proposem',
-  PROPOSED_ITEMS: [
+      TEXT: 'Instal·lacions d’autoconsum en l’àmbit domèstic: deducció fiscal.',
+      LINK: 'https://www.gva.es/es/inicio/procedimientos?id_proc=19476'
+    },
     {
-      TEXT: 'fsdf',
-      LINK: 'sdfds'
+      TEXT: 'Autoconsum per a ajuntaments',
+      LINK: 'https://www.gva.es/va/inicio/procedimientos?id_proc=21988'
+    },
+    {
+      TEXT: 'Comunitats Energètiques Locals i autoconsum',
+      LINK: 'https://www.gva.es/va/inicio/procedimientos?id_proc=21988'
+    },
+    {
+      TEXT: 'Programa Autoconsum i Emmagatzematge darrere del comptador',
+      LINK: 'https://dogv.gva.es/datos/2021/10/04/pdf/2021_9892.pdf'
     }
   ],
-  PROPOSAL: 'Proposta detallada'
 }
 </script>

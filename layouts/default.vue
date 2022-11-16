@@ -5,14 +5,16 @@
         <nuxt-link to="/">Energia</nuxt-link>
       </template>
 
-      <li class="nav-menu-item d-md-none">
-        <nuxt-link to="/" v-if="route.name === 'cas'">VAL</nuxt-link>
-        <nuxt-link to="/cas" v-else>CAS</nuxt-link>
-      </li>
-      <li class="nav-menu-item d-none d-md-flex">
-        <nuxt-link to="/" v-if="route.name === 'cas'">En valencià</nuxt-link>
-        <nuxt-link to="/cas" v-else>En castellano</nuxt-link>
-      </li>
+      <template #basic-nav>
+        <li class="nav-menu-item d-md-none">
+          <nuxt-link to="/" v-if="route.name === 'cas'">VAL</nuxt-link>
+          <nuxt-link to="/cas" v-else>CAS</nuxt-link>
+        </li>
+        <li class="nav-menu-item d-none d-md-flex">
+          <nuxt-link to="/" v-if="route.name === 'cas'">En valencià</nuxt-link>
+          <nuxt-link to="/cas" v-else>En castellano</nuxt-link>
+        </li>
+      </template>
     </b-nav>
     <div id="smooth-wrapper">
       <div id="smooth-content">

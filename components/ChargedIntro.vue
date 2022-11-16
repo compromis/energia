@@ -6,15 +6,15 @@
     </h2>
 
     <ul class="things-to-imagine">
-      <li class="first" data-speed="0.5" data-lag="0.25">
+      <li class="intro-card first" data-speed="0.5" data-lag="0.25">
         <div id="energy" class="icon"></div>
         {{ t.BLOCK1 }}
       </li>
-      <li class="second" data-speed="0.7" data-lag="0.25">
+      <li class="intro-card second" data-speed="0.7" data-lag="0.25">
         <div id="invoice" class="icon"></div>
         {{ t.BLOCK2 }}
       </li>
-      <li class="third" data-speed="0.9" data-lag="0.25">
+      <li class="intro-card third" data-speed="0.9" data-lag="0.25">
         <div id="home" class="icon"></div>
         {{ t.BLOCK3 }}
       </li>
@@ -80,34 +80,34 @@ onMounted(() => {
     opacity: 1
   })
 
-  $gsap.from('.first', {
-    scrollTrigger: {
-      trigger: '.first',
-      start: 'top 85%',
-      end: '+=400',
-      scrub: true
-    },
-    opacity: 0
+  const mm = $gsap.matchMedia()
+  mm.add("(min-width: 800px)", () => {
+    const cards = document.getElementsByClassName('intro-card')
+    Object.values(cards).forEach(card => {
+      $gsap.from(card, {
+        scrollTrigger: {
+          trigger: card,
+          start: 'top 85%',
+          end: '+=400',
+          scrub: true
+        },
+        opacity: 0
+      })
+    })
   })
 
-  $gsap.from('.second', {
-    scrollTrigger: {
-      trigger: '.second',
-      start: 'top 85%',
-      end: '+=400',
-      scrub: true
-    },
-    opacity: 0
-  })
-
-  $gsap.from('.third', {
-    scrollTrigger: {
-      trigger: '.third',
-      start: 'top 85%',
-      end: '+=400',
-      scrub: true
-    },
-    opacity: 0
+  mm.add("(max-width: 799px)", () => {    
+    $gsap.from('.first', {
+      scrollTrigger: {
+        trigger: '.first',
+        start: 'top 85%',
+        end: '+=400',
+        scrub: true
+      },
+      x: '-100vw',
+      rotate: '45deg',
+      opacity: 0
+    })
   })
 })
 </script>
@@ -149,7 +149,7 @@ onMounted(() => {
   gap: 2rem;
   align-items: flex-start;
 
-  li {
+  .intro-card {
     display: flex;
     flex-direction: column;
     border: var(--border-width) var(--white) solid;
@@ -175,10 +175,15 @@ onMounted(() => {
 }
 
 @include media-breakpoint-down(sm) {
+  .imagine {
+    margin-top: -25vh;
+    margin-bottom: 25vh;
+  }
+
   .things-to-imagine {
     flex-direction: column;
 
-    li {
+    .intro-card {
       width: 100%;
     }
   }
