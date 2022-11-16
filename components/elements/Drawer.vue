@@ -33,7 +33,7 @@ onMounted(() => {
   $gsap.to(`#${props.id}`, {
     scrollTrigger: {
       trigger: `#${props.id}`,
-      start: 'center 80%',
+      start: 'top center',
       toggleClass: 'active',
       onToggle: () => {
         if (!hasAnnotated.value) {

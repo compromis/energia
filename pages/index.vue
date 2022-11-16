@@ -138,7 +138,7 @@ const shedLight = {
 
 const moreInfo = {
   TITLE: 'Més informació...',
-  TODAY: 'Ajudes que pots demanar hui mateix',
+  TODAY: 'Ajudes a les fotovoltaiques',
   TODAY_ITEMS: [
     {
       TEXT: 'Instal·lacions d’autoconsum en l’àmbit domèstic: deducció fiscal.',
