@@ -28,6 +28,10 @@ button {
   color: inherit;
 }
 
+.rough-annotation path {
+  mix-blend-mode: multiply;
+}
+
 @include media-breakpoint-down(sm) {
   main {
     --main-padding: 1.5rem;

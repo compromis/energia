@@ -47,7 +47,7 @@
                 <span class="label">{{ t.ENERGY_PRODUCED }}</span>
               </div>
               <div class="details-population details-big">
-                <strong class="number"><span id="annotatedReach">{{ selectedMunicipality.reach }}</span> <span class="pill">{{ selectedMunicipality.percentage }}% {{ t.OF_POP }}</span></strong>
+                <strong class="number"><span id="annotatedReach">{{ selectedMunicipality.reach }}</span> <span class="pill">{{ selectedMunicipality.percentage }} {{ t.OF_POP }}</span></strong>
                 <span class="label">{{ t.PEOPLE_REACHED }}</span>
               </div>
               <div class="details-small-text text-muted">
@@ -287,7 +287,7 @@ watch(selectedMunicipality, async (newMunicipality) => {
         background: rgba(0, 0, 0, 0.1);
         padding: .25em .75em;
         border-radius: 2rem;
-        font-size: .25em;
+        font-size: .3em;
         position: relative;
         top: -.3em;
         margin-left: .5rem;

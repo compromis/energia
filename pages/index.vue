@@ -17,7 +17,7 @@ useHead({
   title: 'Amb l\'energia, comencem pel sostre - Compromís',
   htmlAttrs: { lang: 'ca' },
   meta: [
-  { charset: 'utf-8' },
+    { charset: 'utf-8' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     { hid: 'description', name: 'description', content: 'Imagina’t una energia sostenible i democràtica, barata i aprofitant espais i recursos existents sense destruir el territori' },
     { hid: 'keywords', name: 'keywords', content: 'energia, plaques solars, fotovoltaiques, renovables, emergencia climàtica, política, verds, compromis' },
