@@ -1,18 +1,18 @@
 <template>
   <ElementsSection id="shed-light" class="shed-light" color="yellow">
     <template #title>
-      <span v-html="t.TITLE" />
+      <span v-html="$t('LIGHT.TITLE')" />
     </template>
 
-    <div class="fake-items">
+    <div class="fake-items multiply-annotations">
       <div class="col first" data-lag="0.5">
-        <ElementsDrawer v-for="item in t.COL1" :key="item.ID" :id="item.ID" :title="item.TITLE"> 
-          <div v-html="item.CONTENT" />
+        <ElementsDrawer v-for="i in 4" :key="i" :id="`FAKE-1-${i}`" :title="$t(`LIGHT.COL1.FAKE${i}.TITLE`)"> 
+          <div v-html="$t(`LIGHT.COL1.FAKE${i}.CONTENT`)" />
         </ElementsDrawer>
       </div>
       <div class="col second" data-lag="0.25">
-        <ElementsDrawer v-for="item in t.COL2" :key="item.ID" :id="item.ID" :title="item.TITLE"> 
-          <div v-html="item.CONTENT" />
+        <ElementsDrawer v-for="i in 3" :key="i" :id="`FAKE-2-${i}`" :title="$t(`LIGHT.COL2.FAKE${i}.TITLE`)"> 
+          <div v-html="$t(`LIGHT.COL2.FAKE${i}.CONTENT`)" />
         </ElementsDrawer>
       </div>
     </div>
@@ -20,12 +20,6 @@
 </template>
 
 <script setup>
-defineProps({
-  t: {
-    type: Object,
-    required: true
-  }
-})
 </script>
 
 <style lang="scss" scoped>

@@ -3,13 +3,13 @@
     <div class="cloudy-storm" data-speed="0.5" data-lag="0.25">
       <GuysEvilGuy class="evil-guy" data-lag="0.2" />
       <div class="cloudy-quote" data-lag="0.05">
-        <p class="cloudy-quote-text">{{ t.QUOTE }}</p>
-        <span class="cloudy-quote-author">&mdash; {{ t.AUTHOR }}</span>
+        <p class="cloudy-quote-text">{{ $t('RAIN.QUOTE') }}</p>
+        <span class="cloudy-quote-author">&mdash; {{ $t('RAIN.AUTHOR') }}</span>
       </div>
     </div>
   </section>
   <Teleport to="body">
-    <video aria-hidden="true" class="rain" width="100%" loop autoplay playsinline muted>
+    <video aria-hidden="true" class="rain d-none d-md-block" width="100%" loop autoplay playsinline muted>
       <source src="/video/rain.mp4" type="video/mp4">
     </video>
   </Teleport>
@@ -18,13 +18,6 @@
 <script setup>
 const { $gsap } = useNuxtApp()
 
-defineProps({
-  t: {
-    type: Object,
-    required: true
-  }
-})
-
 onMounted(() => {
   const mm = $gsap.matchMedia()
   mm.add("(min-width: 800px)", () => {
@@ -32,7 +25,7 @@ onMounted(() => {
       scrollTrigger: {
         trigger: ".cloudy-storm",
         start: "top 70%",
-        end: "+=1500",
+        end: "+=1200",
         scrub: 1,
         snap: {
           snapTo: "labels",
@@ -54,7 +47,7 @@ onMounted(() => {
       scrollTrigger: {
         trigger: ".cloudy-storm",
         start: "top 70%",
-        end: "+=1500",
+        end: "+=1000",
         scrub: 1,
         toggleClass: { targets: ".rain", className: "active" }
       }

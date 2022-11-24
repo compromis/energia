@@ -14,8 +14,10 @@
   },
   "dependencies": {
     "@compromis/blobby": "^1.1.9",
+    "@nuxtjs/i18n": "^8.0.0-beta.4",
     "gsap": "npm:@gsap/shockingly",
     "lottie-web": "^5.9.6",
+    "mitt": "^3.0.0",
     "rough-notation": "^0.5.1",
     "vue-marquee-text-component": "^2.0.1"
   }

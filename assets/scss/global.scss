@@ -28,13 +28,30 @@ button {
   color: inherit;
 }
 
-.rough-annotation path {
+.multiply-annotations .rough-annotation path {
   mix-blend-mode: multiply;
+}
+
+.text {
+  max-width: 60ch;
+  font-size: clamp(1.25rem, 3vw, 2.25rem);
+
+  h3 {
+    font-size: inherit;
+    margin-bottom: .5em;
+    margin-top: 1.25em;
+  }
+
+  p {
+    line-height: 1.25;
+    margin-bottom: .5em;
+    font-size: inherit;
+  }
 }
 
 @include media-breakpoint-down(sm) {
   main {
-    --main-padding: 1.5rem;
+    --main-padding: 1rem .75em;
   }
 
   br.optional {

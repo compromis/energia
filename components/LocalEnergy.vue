@@ -1,12 +1,12 @@
 <template>
   <ElementsSection id="local" class="local" color="blue">
     <template #title>
-      <span v-html="t.TITLE" />
+      <span v-html="$t('LOCAL.TITLE')" />
     </template>
 
     <div :class="['local-selector', { expanded: expanded || filter }]" key="search">
       <div class="local-search">
-        <input type="search" v-model="filter" :placeholder="t.PLACEHOLDER" />
+        <input type="search" v-model="filter" :placeholder="$t('LOCAL.PLACEHOLDER')" />
       </div>
       <ul class="local-list">
         <li v-for="municipality in municipalities" :key="municipality.municipality" class="local-list-item">
@@ -16,7 +16,7 @@
         </li>
       </ul>
       <button class="expand" @click="expanded = !expanded">
-        <span class="visually-hidden">{{ t.EXPAND }}</span>
+        <span class="visually-hidden">{{ $t('LOCAL.EXPAND') }}</span>
       </button>
     </div>
     <Teleport to="body">
@@ -33,22 +33,22 @@
             <div class="details-card-content">
               <div class="details-overview">
                 <div class="details-overview-row">
-                  {{ t.POPULATION }} <span class="spacer"/> <strong>{{ selectedMunicipality.population.toString() }}</strong>
+                  {{ $t('LOCAL.POPULATION') }} <span class="spacer"/> <strong>{{ selectedMunicipality.population.toString() }}</strong>
                 </div>
                 <div class="details-overview-row">
-                  {{ t.CONSUMPTION }} <span class="spacer"/> <strong>{{ selectedMunicipality.DkWh }} KWh</strong>
+                  {{ $t('LOCAL.CONSUMPTION') }} <span class="spacer"/> <strong>{{ selectedMunicipality.DkWh }} KWh</strong>
                 </div>
                 <div class="details-overview-row">
-                  {{ t.POWER }}<sup>1</sup> <span class="spacer"/> <strong>{{ selectedMunicipality.PMWp }} MWatt</strong>
+                  {{ $t('LOCAL.POWER') }}<sup>1</sup> <span class="spacer"/> <strong>{{ selectedMunicipality.PMWp }} MWatt</strong>
                 </div>
               </div>
               <div class="details-energy details-big">
                 <strong class="number"><span id="annotatedEnergy">{{ selectedMunicipality.EGWh }} GWh</span></strong>
-                <span class="label">{{ t.ENERGY_PRODUCED }}</span>
+                <span class="label">{{ $t('LOCAL.ENERGY_PRODUCED') }}</span>
               </div>
               <div class="details-population details-big">
-                <strong class="number"><span id="annotatedReach">{{ selectedMunicipality.reach }}</span> <span class="pill">{{ selectedMunicipality.percentage }} {{ t.OF_POP }}</span></strong>
-                <span class="label">{{ t.PEOPLE_REACHED }}</span>
+                <strong class="number"><span id="annotatedReach">{{ selectedMunicipality.reach }}</span> <span class="pill">{{ selectedMunicipality.percentage }} {{ $t('LOCAL.OF_POP') }}</span></strong>
+                <span class="label">{{ $t('LOCAL.PEOPLE_REACHED') }}</span>
               </div>
               <div class="details-small-text text-muted">
                 <sup>1</sup> Càlculs en base a instal·lació de plaques solars al 40% dels sostres disponibles a la localitat.
@@ -66,13 +66,6 @@
 import { ref, computed, watch } from 'vue'
 import { annotate } from 'rough-notation'
 import localData from '../content/local'
-
-defineProps({
-  t: {
-    type: Object,
-    required: true
-  }
-})
 
 const selectedMunicipality = ref(null)
 const filter = ref('')
@@ -95,7 +88,7 @@ watch(selectedMunicipality, async (newMunicipality) => {
 
     setTimeout(() => {
       const e = document.querySelector('#annotatedEnergy')
-      const annotation = annotate(e, { type: 'circle' })
+      const annotation = annotate(e, { type: 'circle', strokeWidth: 4 })
       annotation.show()
     }, 500)
   }

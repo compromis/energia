@@ -17,6 +17,23 @@ export default defineNuxtConfig({
     },
   },
 
+  modules: [
+    '@nuxtjs/i18n',
+  ],
+
+  i18n: {
+    locales: [
+      { code: 'val', name: 'Valencià', file: 'val.json' },
+      { code: 'cas', name: 'Castellano', file: 'cas.json' }
+    ],
+    lazy: true,
+    langDir: 'lang',
+    defaultLocale: 'val',
+    vueI18n: {
+      legacy: false,
+    }
+  },
+
   vite: {
     css: {
         preprocessorOptions: {

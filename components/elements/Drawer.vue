@@ -33,7 +33,7 @@ onMounted(() => {
   $gsap.to(`#${props.id}`, {
     scrollTrigger: {
       trigger: `#${props.id}`,
-      start: 'top center',
+      start: 'top center+=100',
       toggleClass: 'active',
       onToggle: () => {
         if (!hasAnnotated.value) {
@@ -75,6 +75,7 @@ onMounted(() => {
       background: var(--black);
       margin-left: auto;
       border-radius: 2em;
+      flex-shrink: 0;
 
       &::before {
         position: absolute;

@@ -1,22 +1,22 @@
 <template>
   <section id="intro" class="intro">
     <h2 class="imagine" data-speed="0.22" data-lag="0.25">
-      <span v-html="t.TITLE" />
+      <span v-html="$t('INTRO.TITLE')" />
       <span class="hide" />
     </h2>
 
     <ul class="things-to-imagine">
       <li class="intro-card first" data-speed="0.5" data-lag="0.25">
         <div id="energy" class="icon"></div>
-        {{ t.BLOCK1 }}
+        {{ $t('INTRO.BLOCK1') }}
       </li>
       <li class="intro-card second" data-speed="0.7" data-lag="0.25">
         <div id="invoice" class="icon"></div>
-        {{ t.BLOCK2 }}
+        {{ $t('INTRO.BLOCK2') }}
       </li>
       <li class="intro-card third" data-speed="0.9" data-lag="0.25">
         <div id="home" class="icon"></div>
-        {{ t.BLOCK3 }}
+        {{ $t('INTRO.BLOCK3') }}
       </li>
     </ul>   
   </section>
@@ -26,13 +26,6 @@
 import lottie from 'lottie-web'
 
 const { $gsap } = useNuxtApp()
-
-defineProps({
-  t: {
-    type: Object,
-    required: true
-  }
-})
 
 onMounted(() => {
   lottie.loadAnimation({
@@ -155,7 +148,7 @@ onMounted(() => {
     border: var(--border-width) var(--white) solid;
     border-radius: 2rem;
     padding: 2rem;
-    font-size: var(--text-xl);
+    font-size: var(--text-lg);
     line-height: 1;
     width: 33%;
     aspect-ratio: 1/1;
@@ -174,7 +167,7 @@ onMounted(() => {
   }
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(lg) {
   .imagine {
     margin-top: -25vh;
     margin-bottom: 25vh;

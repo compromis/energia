@@ -1,13 +1,51 @@
 <template>
   <main>
-    <SunnyHero :t="sunnyHero" />
+    <SunnyHero />
     <div class="base-level">
-      <ChargedIntro :t="chargedIntro" />
-      <RainOnParade :t="rainOnParade" />
-      <NewModel :t="newModel" />
-      <LocalEnergy :t="localEnergy" />
-      <ShedLight :t="shedLight" />
-      <MoreInfo :t="moreInfo" />
+      <ChargedIntro />
+      <RainOnParade />
+      <BeenDoing>
+        <ElementsPoint title="Què estem fent" class="pb-0">
+          <p>Estem <ElementsAnnotated id="BD1" type="highlight">instal·lant plaques solars</ElementsAnnotated> en centres educatius, edificis públics i cementeris, aprofitant els sostres per a generar energia que baixe la factura de la llum del veïnat.</p>
+          <p>Estem impulsant les <ElementsAnnotated id="BD3" type="highlight" :delay=".5">comunitats energètiques locals</ElementsAnnotated>, perquè la instal·lació de fotovoltàica en sostres i en els pobles siga democràtica i amb una participació de la ciutadania.</p>
+          <p>Estem proposant mesures perquè la <ElementsAnnotated id="BD4" type="highlight" :delay="1">transició energètica</ElementsAnnotated> siga respectuosa amb el mediambient i prioritze els interessos de les persones front als de les multinacionals.</p>
+        </ElementsPoint>
+      </BeenDoing>
+      <NewModel>
+        <ElementsPoint number="1" title="Comencem pel sostre">
+          <template #positive>
+            <ElementsAnnotated id="M1">Instal·lar plaques solars</ElementsAnnotated> als sostres de les cases, finques i indústries per al nostre autoconsum.
+            Els nostres sostres són el millor espai per fer-ho sense afectar a a cap ecosistema.
+            Només posant plaques en el <ElementsAnnotated id="M2" type="circle" :delay=".5">40%</ElementsAnnotated> dels sostres, la majoria dels pobles podrien generar més llum de
+            la que consumeix la seua població actual. <a href="#local" @click.prevent="scrollToLocals">Mira ací el potencial del teu poble.</a>
+          </template>
+          <template #negative>
+            Que es construisquen <abbr title="Línies de molta alta tensió">MATs</abbr>, <ElementsAnnotated id="M5" type="strike-through"  :delay="1">autopistes electriques</ElementsAnnotated> insostenibles que depreden el territori.
+          </template>
+        </ElementsPoint>
+        <ElementsPoint number="2" title="Plantes sostenibles, pròximes i democràtiques">
+          <template #positive>
+            Si s'ha d'instal·lar una planta solar degut a la demanda elèctrica industrial, <ElementsAnnotated id="M3">s'ha d'ubicar en solars urbans i industrials</ElementsAnnotated>, o en sòls sense valor agricola o ambiental.
+            Tot amb la participació i el control democràtic d'ajuntaments i la ciutadania de cada municipi.
+          </template>
+          <template #negative>
+            <ElementsAnnotated id="M6" type="crossed-off" :delay=".5">Macroplantes</ElementsAnnotated> que depreden el territori i es fan d'esquenes als pobles. Prioritzem plantes xicotetes i democràtiques.
+          </template>
+        </ElementsPoint>
+        <ElementsPoint number="3" title="Una energètica pública">
+          <template #positive>
+            Posar en marxa una <ElementsAnnotated id="M4" type="box">Agència Valenciana de l'Energia</ElementsAnnotated>, per accelerar la instal·lació de plaques per a autoconsum en sostres,
+            i per a participar en la producció i distribució d'energia. Una companyia elèctria pública, controlada per la ciutadania,
+            que no especule i que abaixe el preu de la factura de la llum
+          </template>
+          <template #negative>
+            Un model energètic on les <ElementsAnnotated id="M7" type="strike-through" :delay=".5">multinacionals elèctiques</ElementsAnnotated> especulen amb el preu de la llum.
+          </template>
+        </ElementsPoint>
+      </NewModel>
+      <LocalEnergy />
+      <ShedLight />
+      <MoreInfo />
     </div>
   </main>
 </template>
@@ -36,126 +74,10 @@ useHead({
   ]
 })
 
-// Translations
-const sunnyHero = {
-  OVERTITLE: 'Amb l\'energia',
-  TITLE: `Comencem<br>pel sostre`,
-  MARQUEE: 'Un nou model energètic' 
-}
+const { $emitter } = useNuxtApp()
 
-const chargedIntro = {
-  TITLE: `Imagina’t<br>una energia...`,
-  BLOCK1: 'Sostenible i democràtica',
-  BLOCK2: 'Amb una factura barata',
-  BLOCK3: 'Aprofitant espais i recursos existents sense destruir el territori'
-}
-
-const rainOnParade = {
-  QUOTE: '“Impossible!”',
-  AUTHOR: 'Every Multinacional Energètica'
-}
-
-const newModel = {
-  TITLE: 'Doncs ja estem començant a fer-ho a...',
-  ITEM1: `Sostres d'instituts`,
-  ITEM2: `Cementeris`,
-  ITEM3: `Embassaments`,
-  ITEM4: `Aparcaments`,
-  P1: `
-    La nostra proposta és fer-ho també
-    <span id="new-model-annotate-1">a tots els sostres</span>,
-    de cases, finques i indústries. A tots els municipis.
-  `,
-  P2: `
-    Utilitzant el <span id="new-model-annotate-2">40%</span> dels sostres
-    ja construits podem aconseguir abastir d’energia a
-    <span id="new-model-annotate-3">tota la població</span>
-    sense dependre de les multinacionals energètiques
-  `,
-  ALT1: `Plaques solars al sostre d'un institut`,
-  ALT2: `Plaques solars al sostre del cementeri de València`,
-  ALT3: `Plaques solars al sostre de les places d'un aparcament a l'aire lliure`,
-  ALT4: `Plaques solars damunt d'un canal d'aigua`,
-  ALT5: `Plaques solars al sostre d'un edifici de Paiporta`,
-  ALT6: `Més plaques solars al sostre d'un institut`,
-  ALT7: `Plaques solars damunt d'un embasament`,
-}
-
-const localEnergy = {
-  TITLE: `Calcula l’energia que es pot<br>generar al sostres del teu muncipi.`,
-  PLACEHOLDER: 'Escriu el teu municipi...',
-  EXPAND: 'Expandir llista',
-  POPULATION: 'Població',
-  CONSUMPTION: 'Consum per habitatge',
-  POWER: 'Potència instal·lable',
-  ENERGY_PRODUCED: 'Energia produïble en un any',
-  PEOPLE_REACHED: 'Persones que podrien ser suministrades',
-  OF_POP: 'de la població'
-}
-
-const shedLight = {
-  TITLE: `Anem a posar llum sobre algunes cosetes <br class="optional" /> que es diuen per ahí...`,
-  COL1: [
-    {
-      ID: 'Fake1',
-      TITLE: 'L’energia solar només funciona en zones amb molta llum',
-      CONTENT: `<p>El nostre territori és un dels que més potencial fotovoltaic té de tota la península ibèrica, on ja de per si és rendible i funciona a la perfecció. Quan el cel está núvol, la radiació solar que arriba als panells no és tan potent com la que arriba amb el cel despejat, però continua tenint un bon rendiment.</p>`
-    },
-    {
-      ID: 'Fake2',
-      TITLE: 'L’energia solar no funciona quan és de nit',
-      CONTENT: `<p>De nit no es pot generar electricitat mitjançant l’energia solar, però amb la generada al llarg del dia i emmagatzemada a les bateries del propi sistema és més que suficient per a tindre electricitat les hores sense llum natural.</p>`
-    },
-    {
-      ID: 'Fake3',
-      TITLE: 'Invertir en energia solar és massa car',
-      CONTENT: `<p>Des del 2010 els preus en la instal·lació i manteniment de plaques solars s’han desplomat i ja és més barat que mai. A això hem de sumar-li totes les ajudes que ja dona la Generalitat Valenciana i les que proposem per fer encara més accessible aquesta energia.</p>`
-    },
-    {
-      ID: 'Fake7',
-      TITLE: 'Les macroplantes solars són més eficients',
-      CONTENT: `<p>A més de la depredació de territori que suposa la seua construcció, afectant a la flora i fauna de la zona, l’energia generada en aquestes macroplantes ha de traslladar-se a municipis a kilómetres de distància mitjançant línies d’alta tensió (MAT) que també afecten al territori. Durant aquest transport, l’energia generada pot tindre pèrdues de fins al 30%, un percentatge prou important.</p>`
-    }
-  ],
-  COL2: [
-    {
-      ID: 'Fake4',
-      TITLE: 'Segueixes depenent de les multinacionals energètiques',
-      CONTENT: `<p>Una vegada instal·les les plaques solars, aquestes només depenen de tu o de la teua comunitat energètica local. De fet, amb aquest model cada Kw generat al teu sostre és un Kw que desapareix de la teua factura de la llum.</p>`
-    },
-    {
-      ID: 'Fake5',
-      TITLE: 'L’energia solar contamina igual que altres',
-      CONTENT: `<p>Les emisions de CO2 de l’energia elèctrica actual són 5 vegades més contaminants que l’energia solar. Només el carbó ja emiteix 20 vegades més CO2 a l’atmòsfera que l’energia solar. Per tant, durant la vida útil d’un panell solar, l’estalvi en emissions de CO2 és molt major al que es consumeix durant la seua construcció.</p>`
-    },
-    {
-      ID: 'Fake6',
-      TITLE: 'Afecta a l’ecosistema',
-      CONTENT: `<p>Aquest model no afecta a l’ecosistema, ja que aprofitem infraestructures ja existents sense necessitat de depredar el territori. De fet en alguns casos la seua instal·lació és beneficiosa, com és el cas dels embassaments de reg, evitant l’evaporació de l’aigua i refrigerant les pròpies plaques solars.</p>`
-    }
-  ]
-}
-
-const moreInfo = {
-  TITLE: 'Més informació...',
-  TODAY: 'Ajudes a les fotovoltaiques',
-  TODAY_ITEMS: [
-    {
-      TEXT: 'Instal·lacions d’autoconsum en l’àmbit domèstic: deducció fiscal.',
-      LINK: 'https://www.gva.es/es/inicio/procedimientos?id_proc=19476'
-    },
-    {
-      TEXT: 'Autoconsum per a ajuntaments',
-      LINK: 'https://www.gva.es/va/inicio/procedimientos?id_proc=21988'
-    },
-    {
-      TEXT: 'Comunitats Energètiques Locals i autoconsum',
-      LINK: 'https://www.gva.es/va/inicio/procedimientos?id_proc=21988'
-    },
-    {
-      TEXT: 'Programa Autoconsum i Emmagatzematge darrere del comptador',
-      LINK: 'https://dogv.gva.es/datos/2021/10/04/pdf/2021_9892.pdf'
-    }
-  ],
+const scrollToLocals = () => {
+  console.log('scroll')
+  $emitter.emit('scrollTo', '#local')
 }
 </script>
