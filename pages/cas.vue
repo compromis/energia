@@ -2,75 +2,73 @@
   <main>
     <SunnyHero />
     <div class="base-level">
-      <ChargedIntro :t="strings.INTRO" />
-      <RainOnParade :t="strings.RAIN" />
-      <BeenDoing :t="strings.DOING">
-        <ElementsPoint title="Què estem fent" class="pb-0">
-          <p>Estem <ElementsAnnotated id="BD1" type="highlight">instal·lant plaques solars</ElementsAnnotated> en centres educatius, edificis públics i cementeris, aprofitant els sostres per a generar energia que baixe la factura de la llum del veïnat.</p>
-          <p>Estem impulsant les <ElementsAnnotated id="BD3" type="highlight" :delay=".5">comunitats energètiques locals</ElementsAnnotated>, perquè la instal·lació de fotovoltàica en sostres i en els pobles siga democràtica i amb una participació de la ciutadania.</p>
-          <p>Estem proposant mesures perquè la <ElementsAnnotated id="BD4" type="highlight" :delay="1">transició energètica</ElementsAnnotated> siga respectuosa amb el mediambient i prioritze els interessos de les persones front als de les multinacionals.</p>
+      <ChargedIntro />
+      <RainOnParade />
+      <BeenDoing>
+        <ElementsPoint title="Qué estamos haciendo" class="pb-0">
+          <p>Estamos <ElementsAnnotated id="BD1" type="highlight">instalando placas solares</ElementsAnnotated> en centros educativos, edificios públicos y cementerios, aprovechando los tejados para generar energía que baje la factura de la luz del vecindario.</p>
+          <p>Estamos impulsando las <ElementsAnnotated id="BD3" type="highlight" :delay=".5">comunidades energéticas locales</ElementsAnnotated>, porque la instalación de fotovoltaicas en tejados y en los pueblos sea democrática y con una participación de la ciudadanía.</p>
+          <p>Estamos proponiendo medidas para que la <ElementsAnnotated id="BD4" type="highlight" :delay="1">transición energética</ElementsAnnotated> sea respetuosa con el medio ambiente y priorice los intereses de las personas frente a los de las multinacionales.</p>
         </ElementsPoint>
       </BeenDoing>
-      <NewModel :t="strings.MODEL">
-        <ElementsPoint number="1" title="Comencem pel sostre">
+      <NewModel>
+        <ElementsPoint number="1" title="Comencemos por el tejado">
           <template #positive>
-            <ElementsAnnotated id="M1">Instal·lar plaques solars</ElementsAnnotated> als sostres de les cases, finques i indústries per al nostre autoconsum.
-            Els nostres sostres són el millor espai per fer-ho sense afectar a a cap ecosistema.
-            Només posant plaques en el <ElementsAnnotated id="M2" type="circle" :delay=".5">40%</ElementsAnnotated> dels sostres, la majoria dels pobles podrien generar més llum de
-            la que consumeix la seua població actual. <a href="#local" @click.prevent="scrollToLocals">Mira ací el potencial del teu poble.</a>
+            <ElementsAnnotated id="M1">Instalar placas solares</ElementsAnnotated> en los tejados de las casas, fincas e industrias para nuestro modelo de autoconsumo.
+            Nuestros tejados son el mejor espacio para hacerlo sin afectar a ningún ecosistema.
+            Tan sólo poniendo placas en el <ElementsAnnotated id="M2" type="circle" :delay=".5">40%</ElementsAnnotated> de los tejados, la mayoría de los pueblos podrían generar más luz de
+            La que consume su población actual. <a href="#local" @click.prevent="scrollToLocals">Mira aquí el potencial de tu pueblo.</a>
           </template>
           <template #negative>
-            Que es construisquen <abbr title="Línies de molta alta tensió">MATs</abbr>, <ElementsAnnotated id="M5" type="strike-through"  :delay="1">autopistes electriques</ElementsAnnotated> insostenibles que depreden el territori.
+            Que se construyan <abbr title="Líneas de muy alta tensión">MATs</abbr>, <ElementsAnnotated id="M5" type="strike-through"  :delay="1">autopistas eléctricas</ElementsAnnotated> insostenibles que depredan el territorio.
           </template>
         </ElementsPoint>
-        <ElementsPoint number="2" title="Plantes sostenibles, pròximes i democràtiques">
+        <ElementsPoint number="2" title="Plantas sostenibles, próximas y democráticas">
           <template #positive>
-            Si s'ha d'instal·lar una planta solar degut a la demanda elèctrica industrial, <ElementsAnnotated id="M3">s'ha d'ubicar en solars urbans i industrials</ElementsAnnotated>, o en sòls sense valor agricola o ambiental.
-            Tot amb la participació i el control democràtic d'ajuntaments i la ciutadania de cada municipi.
+            Si se tiene que instalar una planta solar debido a la demanda eléctrica industrial, <ElementsAnnotated id="M3">se tiene que ubicar en solares urbanos e industriales</ElementsAnnotated>, o en suelos sin valor agrícola o ambiental.
+            Todo con la participación y el control democrático de ayuntamientos y la ciudadanía de cada municipio.
           </template>
           <template #negative>
-            <ElementsAnnotated id="M6" type="crossed-off" :delay=".5">Macroplantes</ElementsAnnotated> que depreden el territori i es fan d'esquenes als pobles. Prioritzem plantes xicotetes i democràtiques.
+            <ElementsAnnotated id="M6" type="crossed-off" :delay=".5">Macroplantas</ElementsAnnotated> que depredan el territorio y se hacen de espaldas a los pueblos. Prioricemos plantas pequeñas y democráticas.
           </template>
         </ElementsPoint>
-        <ElementsPoint number="3" title="Una energètica pública">
+        <ElementsPoint number="3" title="Una energética pública">
           <template #positive>
-            Posar en marxa una <ElementsAnnotated id="M4" type="box">Agència Valenciana de l'Energia</ElementsAnnotated>, per accelerar la instal·lació de plaques per a autoconsum en sostres,
-            i per a participar en la producció i distribució d'energia. Una companyia elèctria pública, controlada per la ciutadania,
-            que no especule i que abaixe el preu de la factura de la llum.
+            Poner en marcha una <ElementsAnnotated id="M4" type="box">Agencia Valenciana de la Energía</ElementsAnnotated>, para acelerar la instalación de placas solares para autoconsumo en tejados,
+            Y para participar en la producción y distribución de energía. Una compañía eléctrica pública, controlada por la ciudadanía,
+            que no especule y que baje el precio de la factura de la luz.
           </template>
           <template #negative>
-            Un model energètic on les <ElementsAnnotated id="M7" type="strike-through" :delay=".5">multinacionals elèctriques</ElementsAnnotated> especulen amb el preu de la llum.
+            Un modelo energético donde las <ElementsAnnotated id="M7" type="strike-through" :delay=".5">multinacionales eléctricas</ElementsAnnotated> especulen con el precio de la luz.
           </template>
         </ElementsPoint>
       </NewModel>
-      <LocalEnergy :t="strings.LOCAL" />
-      <ShedLight :t="strings.LIGHT" />
-      <MoreInfo :t="strings.INFO" />
+      <LocalEnergy />
+      <ShedLight />
+      <MoreInfo />
     </div>
   </main>
 </template>
 
 <script setup>
-import val from '../lang/val'
-
 useHead({
-  title: 'Amb l\'energia, comencem pel sostre - Compromís',
+  title: 'Con la energía, comencemos por el tejado - Compromís',
   htmlAttrs: { lang: 'ca' },
   meta: [
     { charset: 'utf-8' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    { hid: 'description', name: 'description', content: 'Imagina’t una energia sostenible i democràtica, barata i aprofitant espais i recursos existents sense destruir el territori' },
-    { hid: 'keywords', name: 'keywords', content: 'energia, plaques solars, fotovoltaiques, renovables, emergencia climàtica, política, verds, compromis' },
+    { hid: 'description', name: 'description', content: 'Imagina una energía sostenible y democrática, barata y aprovechando espacios y recursos existentes sin destruir el territorio' },
+    { hid: 'keywords', name: 'keywords', content: 'energía, placas solares, fotovoltaicas, renovables, emergencia climática, política, verdes, compromis' },
     { hid: 'robots', name: 'robots', content: 'index, follow' },
     { hid: 'og:locale', property: 'og:locale', content: 'ca' },
     { hid: 'og:type', property: 'og:type', content: 'website' },
-    { hid: 'og:description', property: 'og:description', content: 'Imagina’t una energia sostenible i democràtica, barata i aprofitant espais i recursos existents sense destruir el territori' },
+    { hid: 'og:description', property: 'og:description', content: 'Imagina una energía sostenible y democrática, barata y aprovechando espacios y recursos ya existentes sin destruir el territorio' },
     { hid: 'og:image', property: 'og:image', content: '/images/ogimage.png' },
     { hid: 'og:url', property: 'og:url', content: 'https://comencempelsostre.com' },
     { hid: 'twitter:site', property: 'twitter:site', content: '@compromis' },
     { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
-    { hid: 'twitter:title', property: 'twitter:title', content: 'Amb l\'energia, comencem pel sostre - Compromís' },
-    { hid: 'twitter:description', property: 'twitter:description', content: 'Imagina’t una energia sostenible i democràtica, barata i aprofitant espais i recursos existents sense destruir el territori' },
+    { hid: 'twitter:title', property: 'twitter:title', content: 'Con la energía, comencemos por el tejado - Compromís' },
+    { hid: 'twitter:description', property: 'twitter:description', content: 'Imagina una energía sostenible y democrática, barata y aprovechando espacios y recursos existentes sin destruir el territorio' },
     { hid: 'twitter:image', property: 'twitter:image', content: '/images/ogimage.png' },
     { hid: 'twitter:url', property: 'twitter:url', content: 'https://comencempelsostre.com' }
   ]
@@ -82,6 +80,4 @@ const scrollToLocals = () => {
   console.log('scroll')
   $emitter.emit('scrollTo', '#local')
 }
-
-const strings = val
 </script>

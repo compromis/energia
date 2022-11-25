@@ -40,14 +40,14 @@ export default {
   },
   
   "LOCAL": {
-    "TITLE": "Calcula l’energia que es pot<br>generar al sostres del teu muncipi.",
+    "TITLE": "Calcula l’energia que es pot<br class='optional'>generar al sostres del teu muncipi.",
     "PLACEHOLDER": "Escriu el teu municipi...",
     "EXPAND": "Expandir llista",
     "POPULATION": "Població",
     "CONSUMPTION": "Consum per habitatge",
     "POWER": "Potència instal·lable",
     "ENERGY_PRODUCED": "Energia produïble en un any",
-    "PEOPLE_REACHED": "Persones que podrien ser suministrades",
+    "PEOPLE_REACHED": "Persones que podrien ser subministrades",
     "OF_POP": "de la població"
   },
 
@@ -68,7 +68,7 @@ export default {
       },
       "FAKE4": {
         "TITLE": "Les macroplantes solars són més eficients",
-        "CONTENT": "<p>A més de la depredació de territori que suposa la seua construcció, afectant a la flora i fauna de la zona, l’energia generada en aquestes macroplantes ha de traslladar-se a municipis a kilómetres de distància mitjançant línies d’alta tensió (MAT) que també afecten al territori. Durant aquest transport, l’energia generada pot tindre pèrdues de fins al 30%, un percentatge prou important.</p>"
+        "CONTENT": "<p>A més de la depredació de territori que suposa la seua construcció, afectant a la flora i fauna de la zona, l’energia generada en aquestes macroplantes ha de traslladar-se a municipis a quilòmetres de distància mitjançant línies d’alta tensió (MAT) que també afecten al territori. Durant aquest transport, l’energia generada pot tindre pèrdues de fins al 30%, un percentatge prou important.</p>"
       }
     },
     "COL2": {

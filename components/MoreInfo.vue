@@ -1,17 +1,50 @@
 <template>
   <ElementsSection id="more-info" class="more-info" color="blue">
     <template #title>
-      {{ $t('INFO.TITLE') }}
+      Fes difusió
     </template>
 
-    <a href="/" class="bigass-button">
-      <IconsDocument />
-      <span>
-        Descarrega el <strong>Document explicatiu</strong>
-      </span>
-    </a>
+    <div class="share">
+      <a href="https://twitter.com/intent/tweet/?text=&url=https://comencempelsostre.com&hashtags=ComencemPelSostre" class="bigass-button">
+        <IconsTwitter />
+        <span>
+          Fes un <strong>Tweet</strong>
+        </span>
+      </a>
 
-    <h3>{{ $t('INFO.TODAY') }}</h3>
+      <a href="whatsapp://send?text=https://comencempelsostre.com" class="bigass-button">
+        <IconsWhatsApp />
+        <span>
+          Passa-ho per <strong>WhatsApp</strong>
+        </span>
+      </a>
+
+      <a href="https://t.me/share/url?url=https://comencempelsostre.com&text=" class="bigass-button">
+        <IconsTelegram />
+        <span>
+          Passa-ho per <strong>Telegram</strong>
+        </span>
+      </a>
+
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://comencempelsostre.com" class="bigass-button">
+        <IconsFacebook />
+        <span>
+          Comparteix-ho a <strong>Facebook</strong>
+        </span>
+      </a>
+    </div>
+
+    <h3 class="separate">Més informació</h3>
+    <ul class="docs">
+      <li>
+        <a href="/" target="_blank" rel="noopener noreferer">
+          <IconsDocument />
+          Document explicatiu
+        </a>
+      </li>
+    </ul>
+
+    <h3 class="mt-5">{{ $t('INFO.TODAY') }}</h3>
     <ul class="docs">
       <li v-for="(item, i) in todayDocs" :key="i">
         <a :href="item.url" target="_blank" rel="noopener noreferer">
@@ -74,6 +107,17 @@ const todayDocs = [
   }
 }
 
+.separate {
+  margin-top: 10vh;
+  margin-bottom: 1rem;
+}
+
+.share {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
 .bigass-button {
   border: 3px var(--black) solid;
   background: var(--white);
@@ -84,7 +128,6 @@ const todayDocs = [
   width: fit-content;
   color: var(--black);
   border-radius: 10em;
-  margin: 3rem 0;
   padding: .5em 1.5em;
   line-height: 1;
   transition: .5s ease;
@@ -104,6 +147,12 @@ const todayDocs = [
     text-decoration: none;
     box-shadow: -.25em .25em 0 #000;
     transform: translate(.25em, -.25em);
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .bigass-button {
+    width: 100%;
   }
 }
 </style>

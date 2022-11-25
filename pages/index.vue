@@ -15,7 +15,7 @@
         <ElementsPoint number="1" title="Comencem pel sostre">
           <template #positive>
             <ElementsAnnotated id="M1">Instal·lar plaques solars</ElementsAnnotated> als sostres de les cases, finques i indústries per al nostre autoconsum.
-            Els nostres sostres són el millor espai per fer-ho sense afectar a a cap ecosistema.
+            Els nostres sostres són el millor espai per fer-ho sense afectar a cap ecosistema.
             Només posant plaques en el <ElementsAnnotated id="M2" type="circle" :delay=".5">40%</ElementsAnnotated> dels sostres, la majoria dels pobles podrien generar més llum de
             la que consumeix la seua població actual. <a href="#local" @click.prevent="scrollToLocals">Mira ací el potencial del teu poble.</a>
           </template>

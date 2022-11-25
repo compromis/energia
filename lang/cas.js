@@ -1,92 +1,94 @@
 export default {
   "SUNNY": {
-    "OVERTITLE": "Con l'energia",
-    "TITLE": "Comencem<br>pel sostre",
-    "MARQUEE": "Un nou model energètic"
+    "OVERTITLE": "Con la energía",
+    "TITLE": "Empecemos<br>por el tejado",
+    "MARQUEE": "Un nuevo modelo energético"
   },
   
   "INTRO": {
-    "TITLE": "Imagina’t<br>una energia...",
-    "BLOCK1": "Sostenible i democràtica",
-    "BLOCK2": "Amb una factura barata",
-    "BLOCK3": "Aprofitant espais i recursos existents sense destruir el territori"
+    "TITLE": "Imagina<br>una energía...",
+    "BLOCK1": "Sostenible y democrática",
+    "BLOCK2": "Con una factura barata",
+    "BLOCK3": "Aprovechando espacios y recursos existentes sin destruir el territorio"
   },
   
   "RAIN": {
-    "QUOTE": "“Impossible!”",
-    "AUTHOR": "Every Multinacional Energètica"
+    "QUOTE": "“¡Imposible!”",
+    "AUTHOR": "Every Multinacional Energética"
   },
   
   "DOING": {
-    "TITLE": "Doncs ja ho estem fent a...",
-    "ITEM1": "Sostres d'instituts",
-    "ITEM2": "Cementeris",
-    "ITEM3": "Embassaments",
-    "ITEM4": "Aparcaments",
-    "ALT1": "Plaques solars al sostre d'un institut",
-    "ALT2": "Plaques solars al sostre del cementeri de València",
-    "ALT3": "Plaques solars al sostre de les places d'un aparcament a l'aire lliure",
-    "ALT4": "Plaques solars damunt d'un canal d'aigua",
-    "ALT5": "Plaques solars al sostre d'un edifici de Paiporta",
-    "ALT6": "Més plaques solars al sostre d'un institut",
-    "ALT7": "Plaques solars damunt d'un embasament"
+    "TITLE": "Pues ya lo estamos haciendo en...",
+    "ITEM1": "Techos de institutos",
+    "ITEM2": "Cementerios",
+    "ITEM3": "Embalses",
+    "ITEM4": "Aparcamientos",
+    "ALT1": "Placas solares en el tejado de un instituto",
+    "ALT2": "Placas solares en el tejado del cementerio de València",
+    "ALT3": "Placas solares en el tejado de las placas de aparcamiento al aire libre",
+    "ALT4": "Placas solares encima de un canal de agua",
+    "ALT5": "Placas solares en el tejado de un edificio de Paiporta",
+    "ALT6": "Más placas solares en el tejado de un instituto",
+    "ALT7": "Placas solares encima de un embalse"
   },
   
   "MODEL": {
-    "TITLE": "Un nou model energètic",
-    "INTRO": "Ara, volem anar més enllà. Per això proposem un nou model energètic més sostenible, democràtic i econòmic basat en tres principis:"
+    "TITLE": "Un nuevo modelo energético",
+    "INTRO": "Ahora, queremos ir más allá. Por eso proponemos un nuevo modelo energético más sostenible, democrático y económico basado en tres principios:",
+    "POSITIVE": "QUEREMOS",
+    "NEGATIVE": "NO QUEREMOS"
   },
   
   "LOCAL": {
-    "TITLE": "Calcula l’energia que es pot<br>generar al sostres del teu muncipi.",
-    "PLACEHOLDER": "Escriu el teu municipi...",
-    "EXPAND": "Expandir llista",
-    "POPULATION": "Població",
-    "CONSUMPTION": "Consum per habitatge",
-    "POWER": "Potència instal·lable",
-    "ENERGY_PRODUCED": "Energia produïble en un any",
-    "PEOPLE_REACHED": "Persones que podrien ser suministrades",
-    "OF_POP": "de la població"
+    "TITLE": "Calcula la energía que se puede<br>generar en los tejados de tu municipio.",
+    "PLACEHOLDER": "Escribe tu municipio...",
+    "EXPAND": "Expandir lista",
+    "POPULATION": "Población",
+    "CONSUMPTION": "Consumo por vivienda",
+    "POWER": "Potencia instalable",
+    "ENERGY_PRODUCED": "Energía producible en un año",
+    "PEOPLE_REACHED": "Personas que podrían ser suministradas",
+    "OF_POP": "de la población"
   },
 
   "LIGHT": {
-    "TITLE": "Anem a posar llum sobre algunes cosetes <br class='optional' /> que es diuen per ahí...",
+    "TITLE": "Vamos a poner luz sobre algunas cositas <br class='optional' /> que se dicen por ahí...",
     "COL1": {
       "FAKE1": {
-        "TITLE": "L’energia solar només funciona en zones amb molta llum",
-        "CONTENT": "<p>El nostre territori és un dels que més potencial fotovoltaic té de tota la península ibèrica, on ja de per si és rendible i funciona a la perfecció. Quan el cel está núvol, la radiació solar que arriba als panells no és tan potent com la que arriba amb el cel despejat, però continua tenint un bon rendiment.</p>"
+        "TITLE": "La energía solar sólo funciona en zonas con mucha luz",
+        "CONTENT": "<p>Nuestro territorio es uno de los que más potencial fotovoltaico tiene de toda la península ibérica, donde ya de por sí es rentable y funciona a la perfección. Cuando está nublado, la radiación solar que llega a los paneles no es tan potente como la que llega con el cielo despejado, pero continúa teniendo un buen rendimiento.</p>"
       },
       "FAKE2": {
-        "TITLE": "L’energia solar no funciona quan és de nit",
-        "CONTENT": "<p>De nit no es pot generar electricitat mitjançant l’energia solar, però amb la generada al llarg del dia i emmagatzemada a les bateries del propi sistema és més que suficient per a tindre electricitat les hores sense llum natural.</p>"
+        "TITLE": "La energía solar no funciona cuando es de noche",
+        "CONTENT": "<p>De noche no se puede generar electricidad mediante la energía solar, pero con la generada a lo largo del día y almacenada en las baterías del propio sistema es más que suficiente para tener electricidad las horas sin luz natural.</p>"
       },
       "FAKE3": {
-        "TITLE": "Invertir en energia solar és massa car",
-        "CONTENT": "<p>Des del 2010 els preus en la instal·lació i manteniment de plaques solars s’han desplomat i ja és més barat que mai. A això hem de sumar-li totes les ajudes que ja dona la Generalitat Valenciana i les que proposem per fer encara més accessible aquesta energia.</p>"
+        "TITLE": "Invertir en energía solar es demasiado caro",
+        "CONTENT": "<p>Desde 2010 los precios en la instalación y mantenimiento de placas solares se han desplomado y ya es más barata que nunca. A eso tenemos que sumarle todas las ayudas que ya da la Generalitat Valenciana y las que proponemos para hacer todavía más accesible esta energía.</p>"
       },
       "FAKE4": {
-        "TITLE": "Les macroplantes solars són més eficients",
-        "CONTENT": "<p>A més de la depredació de territori que suposa la seua construcció, afectant a la flora i fauna de la zona, l’energia generada en aquestes macroplantes ha de traslladar-se a municipis a kilómetres de distància mitjançant línies d’alta tensió (MAT) que també afecten al territori. Durant aquest transport, l’energia generada pot tindre pèrdues de fins al 30%, un percentatge prou important.</p>"
+        "TITLE": "Las macroplantas solares son más eficientes",
+        "CONTENT": "<p>Además de la depredación del territorio que supone su construcción, afectando a la flora y la fauna de la zona, la energía generada en estas macroplantas tiene que trasladarse a municipios a kilómetros de distancia mediante líneas de alta tensión (MAT) que también afectan al territorio. Durante este transporte, la energía generada puede tener pérdidas de hasta el 30%, un porcentaje bastante importante.</p>"
       }
     },
     "COL2": {
       "FAKE1": {
-        "TITLE": "Segueixes depenent de les multinacionals energètiques",
-        "CONTENT": "<p>Una vegada instal·les les plaques solars, aquestes només depenen de tu o de la teua comunitat energètica local. De fet, amb aquest model cada Kw generat al teu sostre és un Kw que desapareix de la teua factura de la llum.</p>"
+        "TITLE": "Sigues dependiendo de las multinacionales energéticas",
+        "CONTENT": "<p>Una vez instaladas las placas solares, estas sólo dependen de ti o de tu comunidad energética local. De hecho, con este modelo cada Kw generado en tu tejado es un Kw que desaparece de tu factura de la luz.</p>"
       },
       "FAKE2": {
-        "TITLE": "L’energia solar contamina igual que altres",
-        "CONTENT": "<p>Les emisions de CO2 de l’energia elèctrica actual són 5 vegades més contaminants que l’energia solar. Només el carbó ja emiteix 20 vegades més CO2 a l’atmòsfera que l’energia solar. Per tant, durant la vida útil d’un panell solar, l’estalvi en emissions de CO2 és molt major al que es consumeix durant la seua construcció.</p>"
+        "TITLE": "La energía solar contamina igual que las otras",
+        "CONTENT": "<p>Las emisiones de CO2 de la energía eléctrica actual son 5 veces más contaminantes que la energía solar. Sólo el carbón ya emite 20 veces más CO2 a la atmósfera que la energía solar. Por tanto, durante la vida útil de un panel solar, el ahorro en emisiones de CO2 es mucho mayor al que se consume durante su construcción.</p>"
       },
       "FAKE3": {
-        "TITLE": "Afecta a l’ecosistema",
-        "CONTENT": "<p>Aquest model no afecta a l’ecosistema, ja que aprofitem infraestructures ja existents sense necessitat de depredar el territori. De fet en alguns casos la seua instal·lació és beneficiosa, com és el cas dels embassaments de reg, evitant l’evaporació de l’aigua i refrigerant les pròpies plaques solars.</p>"
+        "TITLE": "Afecta al ecosistema",
+        "CONTENT": "<p>Este modelo no afecta al ecosistema, ya que aprovechamos infraestructuras ya existentes sin necesidad de depredar el territorio. De hecho, en algunos casos su instalación es beneficiosa, como es el caso de los embalses de riego, evitando la evaporación del agua y refrigerando las propias placas solares.</p>"
       }
     }
   },
 
   "INFO": {
-    "TITLE": "Més informació...",
-    "TODAY": "Ajudes a les fotovoltaiques"
+    "TITLE": "Más información...",
+    "TODAY": "Ayudas a las fotovoltaicas"
   }
 }

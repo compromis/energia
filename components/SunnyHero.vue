@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-const { $gsap, $ScrollSmoother, $emitter } = useNuxtApp()
+const { $gsap, $ScrollSmoother, $emitter, $t } = useNuxtApp()
 
 onMounted(() => {
   const smoother = $ScrollSmoother.create({

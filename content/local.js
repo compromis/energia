@@ -432,7 +432,7 @@ export default [
     "percentage": "198%"
   },
   {
-    "municipality": "Almassora / Almazora",
+    "municipality": "Almassora",
     "population": "26.742",
     "DkWh": "1.830,89",
     "EGWh": "255,70",
@@ -909,7 +909,7 @@ export default [
     "percentage": "276%"
   },
   {
-    "municipality": "Benicàssim / Benicásim",
+    "municipality": "Benicàssim",
     "population": "18.364",
     "DkWh": "1.830,89",
     "EGWh": "63,20",
@@ -1251,7 +1251,7 @@ export default [
     "percentage": "249%"
   },
   {
-    "municipality": "Borriana / Burriana",
+    "municipality": "Borriana",
     "population": "35.052",
     "DkWh": "1.892,28",
     "EGWh": "158,90",
@@ -1521,7 +1521,7 @@ export default [
     "percentage": "277%"
   },
   {
-    "municipality": "Castelló / Villanueva de Castellón",
+    "municipality": "Castelló ",
     "population": "7.054",
     "DkWh": "1.605,28",
     "EGWh": "40,20",
@@ -1530,7 +1530,7 @@ export default [
     "percentage": "355%"
   },
   {
-    "municipality": "Castelló de la Plana / Castellón de la Plana",
+    "municipality": "Castelló de la Plana",
     "population": "174.264",
     "DkWh": "1.830,89",
     "EGWh": "580,30",
@@ -1899,7 +1899,7 @@ export default [
     "percentage": "526%"
   },
   {
-    "municipality": "El Camp de Mirra / Campo de Mirra",
+    "municipality": "El Camp de Mirra",
     "population": "417",
     "DkWh": "1.647,15",
     "EGWh": "5,50",
@@ -1953,7 +1953,7 @@ export default [
     "percentage": "973%"
   },
   {
-    "municipality": "El Pinós / Pinoso",
+    "municipality": "El Pinós",
     "population": "8.025",
     "DkWh": "1.600,00",
     "EGWh": "66,10",

@@ -5,13 +5,13 @@
     <div class="content">
       <div class="image-scroller">
         <div id="been-doing-images" class="images">
-          <div class="d-none d-md-block"><img src="../assets/images/paiporta.jpeg" :alt="$t('DOING.ALT1')" /></div>
+          <div class="d-none d-md-block"><img src="../assets/images/paiporta.jpeg" :alt="$t('DOING.ALT5')" /></div>
           <div class="image image-1">
-            <img src="../assets/images/solar.jpg" :alt="$t('DOING.ALT2')" />
+            <img src="../assets/images/solar.jpg" :alt="$t('DOING.ALT1')" />
             <span class="tag">{{ $t('DOING.ITEM1') }} <GuysSparkle aria-hidden="true" /></span>
           </div>
           <div class="image image-2">
-            <img src="../assets/images/cementeri.jpeg" :alt="$t('DOING.ALT3')" />
+            <img src="../assets/images/cementeri.jpeg" :alt="$t('DOING.ALT2')" />
             <span class="tag">{{ $t('DOING.ITEM2') }} <GuysSparkle aria-hidden="true" /></span>
           </div>
           <div class="image image-3">
@@ -19,7 +19,7 @@
             <span class="tag">{{ $t('DOING.ITEM3') }} <GuysSparkle aria-hidden="true" /></span>
           </div>
           <div class="image image-4">
-            <img src="../assets/images/parking.webp" :alt="$t('DOING.ALT5')" />
+            <img src="../assets/images/parking.webp" :alt="$t('DOING.ALT3')" />
             <span class="tag">{{ $t('DOING.ITEM4') }} <GuysSparkle aria-hidden="true" /></span>
           </div>
           <div>

@@ -18,6 +18,8 @@
 </template>
 
 <script setup>
+const { $t } = useNuxtApp()
+
 defineProps({
   title: {
     type: String,
