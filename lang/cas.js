@@ -1,6 +1,6 @@
-{
+export default {
   "SUNNY": {
-    "OVERTITLE": "Amb l'energia",
+    "OVERTITLE": "Con l'energia",
     "TITLE": "Comencem<br>pel sostre",
     "MARQUEE": "Un nou model energètic"
   },
@@ -34,9 +34,7 @@
   
   "MODEL": {
     "TITLE": "Un nou model energètic",
-    "INTRO": "Ara, volem anar més enllà. Per això proposem un nou model energètic més sostenible, democràtic i econòmic basat en tres principis:",
-    "POSITIVE": "Volem",
-    "NEGATIVE": "No volem"
+    "INTRO": "Ara, volem anar més enllà. Per això proposem un nou model energètic més sostenible, democràtic i econòmic basat en tres principis:"
   },
   
   "LOCAL": {

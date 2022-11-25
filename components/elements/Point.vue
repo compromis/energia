@@ -25,7 +25,7 @@ defineProps({
   },
   number: {
     type: String,
-    default: false
+    default: null
   }
 })
 </script>

@@ -6,13 +6,13 @@
 
     <div class="fake-items multiply-annotations">
       <div class="col first" data-lag="0.5">
-        <ElementsDrawer v-for="i in 4" :key="i" :id="`FAKE-1-${i}`" :title="$t(`LIGHT.COL1.FAKE${i}.TITLE`)"> 
-          <div v-html="$t(`LIGHT.COL1.FAKE${i}.CONTENT`)" />
+        <ElementsDrawer v-for="item, i in Object.values($t('LIGHT.COL1'))" :key="i" :id="`FAKE-1-${i}`" :title="item.TITLE"> 
+          <div v-html="item.CONTENT" />
         </ElementsDrawer>
       </div>
       <div class="col second" data-lag="0.25">
-        <ElementsDrawer v-for="i in 3" :key="i" :id="`FAKE-2-${i}`" :title="$t(`LIGHT.COL2.FAKE${i}.TITLE`)"> 
-          <div v-html="$t(`LIGHT.COL2.FAKE${i}.CONTENT`)" />
+        <ElementsDrawer v-for="item, i in Object.values($t('LIGHT.COL2'))" :key="i" :id="`FAKE-2-${i}`" :title="item.TITLE"> 
+          <div v-html="item.CONTENT" />
         </ElementsDrawer>
       </div>
     </div>

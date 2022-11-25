@@ -2,16 +2,16 @@
   <main>
     <SunnyHero />
     <div class="base-level">
-      <ChargedIntro />
-      <RainOnParade />
-      <BeenDoing>
+      <ChargedIntro :t="strings.INTRO" />
+      <RainOnParade :t="strings.RAIN" />
+      <BeenDoing :t="strings.DOING">
         <ElementsPoint title="Què estem fent" class="pb-0">
           <p>Estem <ElementsAnnotated id="BD1" type="highlight">instal·lant plaques solars</ElementsAnnotated> en centres educatius, edificis públics i cementeris, aprofitant els sostres per a generar energia que baixe la factura de la llum del veïnat.</p>
           <p>Estem impulsant les <ElementsAnnotated id="BD3" type="highlight" :delay=".5">comunitats energètiques locals</ElementsAnnotated>, perquè la instal·lació de fotovoltàica en sostres i en els pobles siga democràtica i amb una participació de la ciutadania.</p>
           <p>Estem proposant mesures perquè la <ElementsAnnotated id="BD4" type="highlight" :delay="1">transició energètica</ElementsAnnotated> siga respectuosa amb el mediambient i prioritze els interessos de les persones front als de les multinacionals.</p>
         </ElementsPoint>
       </BeenDoing>
-      <NewModel>
+      <NewModel :t="strings.MODEL">
         <ElementsPoint number="1" title="Comencem pel sostre">
           <template #positive>
             <ElementsAnnotated id="M1">Instal·lar plaques solars</ElementsAnnotated> als sostres de les cases, finques i indústries per al nostre autoconsum.
@@ -43,14 +43,16 @@
           </template>
         </ElementsPoint>
       </NewModel>
-      <LocalEnergy />
-      <ShedLight />
-      <MoreInfo />
+      <LocalEnergy :t="strings.LOCAL" />
+      <ShedLight :t="strings.LIGHT" />
+      <MoreInfo :t="strings.INFO" />
     </div>
   </main>
 </template>
 
 <script setup>
+import val from '../lang/val'
+
 useHead({
   title: 'Amb l\'energia, comencem pel sostre - Compromís',
   htmlAttrs: { lang: 'ca' },
@@ -80,4 +82,6 @@ const scrollToLocals = () => {
   console.log('scroll')
   $emitter.emit('scrollTo', '#local')
 }
+
+const strings = val
 </script>
