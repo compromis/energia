@@ -47,14 +47,6 @@
             Un model energètic on les <ElementsAnnotated id="M7" type="strike-through" :delay=".5">multinacionals elèctriques</ElementsAnnotated> especulen amb el preu de la llum.
           </template>
         </ElementsPoint>
-        <ElementsPoint number="4" title="Energia que fa poble">
-          <template #positive>
-            Impulsar encara més les comunitats energètiques locals, perquè la gent, l’ajuntament i les empreses del poble compartisquen l’energia que produeixen, participant activament en totes les decisions de producció i consum, generant lligams i sentit de poble
-          </template>
-          <template #negative>
-            Ser consumidors passius, subjectes als capritxos de les multinacionals elèctriques per engruixar les seues butxaques
-          </template>
-        </ElementsPoint>
       </NewModel>
       <LocalEnergy />
       <ShedLight />
