@@ -37,7 +37,7 @@
     <h3 class="separate">Més informació</h3>
     <ul class="docs">
       <li>
-        <a href="/" target="_blank" rel="noopener noreferer">
+        <a href="/docs/Model-Energetic.pdf">
           <IconsDocument />
           Document explicatiu
         </a>
