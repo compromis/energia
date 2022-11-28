@@ -21,7 +21,7 @@ export default {
     "TITLE": "Doncs ja ho estem fent a...",
     "ITEM1": "Sostres d'instituts",
     "ITEM2": "Cementeris",
-    "ITEM3": "Embassaments",
+    "ITEM3": "Canals de reg",
     "ITEM4": "Aparcaments",
     "ALT1": "Plaques solars al sostre d'un institut",
     "ALT2": "Plaques solars al sostre del cementeri de València",
@@ -40,7 +40,7 @@ export default {
   },
   
   "LOCAL": {
-    "TITLE": "Calcula l’energia que es pot<br class='optional'>generar al sostres del teu muncipi.",
+    "TITLE": "Calcula l’energia que es pot <br class='optional'> generar al sostres del teu muncipi.",
     "PLACEHOLDER": "Escriu el teu municipi...",
     "EXPAND": "Expandir llista",
     "POPULATION": "Població",
@@ -64,7 +64,7 @@ export default {
       },
       "FAKE3": {
         "TITLE": "Invertir en energia solar és massa car",
-        "CONTENT": "<p>Des del 2010 els preus en la instal·lació i manteniment de plaques solars s’han desplomat i ja és més barat que mai. A això hem de sumar-li totes les ajudes que ja dona la Generalitat Valenciana i les que proposem per fer encara més accessible aquesta energia.</p>"
+        "CONTENT": "<p>Des de 2010 els preus de la instal·lació i manteniment de plaques solars s’han desplomat i ara és més barat que mai. A més, hem de sumar-li totes les ajudes que ja dona la Generalitat Valenciana i les que proposem per fer encara més accessible aquesta energia.</p>"
       },
       "FAKE4": {
         "TITLE": "Les macroplantes solars són més eficients",
@@ -72,17 +72,21 @@ export default {
       }
     },
     "COL2": {
-      "FAKE1": {
+      "FAKE5": {
         "TITLE": "Segueixes depenent de les multinacionals energètiques",
-        "CONTENT": "<p>Una vegada instal·les les plaques solars, aquestes només depenen de tu o de la teua comunitat energètica local. De fet, amb aquest model cada Kw generat al teu sostre és un Kw que desapareix de la teua factura de la llum.</p>"
+        "CONTENT": "<p>Una vegada instal·les les plaques solars, aquestes només depenen de tu o de la teua comunitat energètica local. De fet, amb aquest model cada kW generat al teu sostre és un Kw que desapareix de la teua factura de la llum.</p>"
       },
-      "FAKE2": {
+      "FAKE6": {
         "TITLE": "L’energia solar contamina igual que altres",
         "CONTENT": "<p>Les emisions de CO2 de l’energia elèctrica actual són 5 vegades més contaminants que l’energia solar. Només el carbó ja emiteix 20 vegades més CO2 a l’atmòsfera que l’energia solar. Per tant, durant la vida útil d’un panell solar, l’estalvi en emissions de CO2 és molt major al que es consumeix durant la seua construcció.</p>"
       },
-      "FAKE3": {
+      "FAKE7": {
         "TITLE": "Afecta a l’ecosistema",
-        "CONTENT": "<p>Aquest model no afecta a l’ecosistema, ja que aprofitem infraestructures ja existents sense necessitat de depredar el territori. De fet en alguns casos la seua instal·lació és beneficiosa, com és el cas dels embassaments de reg, evitant l’evaporació de l’aigua i refrigerant les pròpies plaques solars.</p>"
+        "CONTENT": "<p>Aquest model distribuït protegeix els ecosistemes, ja que aprofitem cobertes i infraestructures existents sense necessitat de depredar el territori. De fet, en alguns casos la seua instal·lació comporta beneficis afegits, com és el cas de les basses i canals de reg, evitant l’evaporació d’aigua i refrigerant les pròpies plaques solars.</p>"
+      },
+      "FAKE8": {
+        "TITLE": "Amb els sostres no es pot generar energia suficient",
+        "CONTNET": "<p>Segons diferents estudis de l'IVACE, posant plaques solars en el 40% dels sostres residencials ja podriem generar energia suficient per a molt més persones que habitants tenim en el nostre territori. A més, també proposem aprofitar solars urbans i industrials i, com a últim recurs, sol agrícola i forestal sense activitat, sempre que així ho decidisca el municipi afectat.</p>"
       }
     }
   },

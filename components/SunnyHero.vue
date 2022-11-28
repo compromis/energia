@@ -25,11 +25,13 @@
 const { $gsap, $ScrollSmoother, $emitter, $t } = useNuxtApp()
 
 onMounted(() => {
-  const smoother = $ScrollSmoother.create({
-    smooth: 0.5,
-    effects: true,
-    normalizeScroll: true
-  })
+  if (!$ScrollSmoother.isTouch) {
+    const smoother = $ScrollSmoother.create({
+      smooth: 0.5,
+      effects: true,
+      normalizeScroll: true
+    })
+  }
 
   $emitter.on('scrollTo', (tag) => {
     smoother.scrollTo(tag, true, "top 100px")

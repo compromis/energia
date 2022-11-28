@@ -65,7 +65,8 @@ onMounted(() => {
 
   .image-scroller {
     overflow: hidden;
-    margin: 5vh calc(var(--card-padding) * -1);
+    margin: 0 calc(var(--card-padding) * -1);
+    padding: 5vh 0;
   }
 
   .images {
@@ -93,6 +94,7 @@ onMounted(() => {
         padding: .5rem 1rem;
         line-height: 1;
         font-size: var(--text-md);
+        width: fit-content;
       }
 
       svg {
