@@ -86,7 +86,7 @@ export default {
       },
       "FAKE8": {
         "TITLE": "Con los tejados no se puede generar energía suficiente",
-        "CONTNET": "<p>Según diferentes estudios del IVACE, poniendo placas solares en el 40% de los tejados residenciales ya podríamos generar energía suficiente para mucho más personas que habitantes tenemos en nuestro territorio. Además, también proponemos aprovechar solares urbanos e industriales y, como último recurso, suelo agrícola y forestal sin actividad, siempre que así lo decida el municipio afectado.</p>"
+        "CONTENT": "<p>Según diferentes estudios del IVACE, poniendo placas solares en el 40% de los tejados residenciales ya podríamos generar energía suficiente para mucho más personas que habitantes tenemos en nuestro territorio. Además, también proponemos aprovechar solares urbanos e industriales y, como último recurso, suelo agrícola y forestal sin actividad, siempre que así lo decida el municipio afectado.</p>"
       }
     }
   },

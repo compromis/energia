@@ -40,7 +40,7 @@ export default {
   },
   
   "LOCAL": {
-    "TITLE": "Calcula l’energia que es pot <br class='optional'> generar al sostres del teu muncipi.",
+    "TITLE": "Calcula l’energia que es pot <br class='optional'> generar als sostres del teu municipi.",
     "PLACEHOLDER": "Escriu el teu municipi...",
     "EXPAND": "Expandir llista",
     "POPULATION": "Població",
@@ -86,7 +86,7 @@ export default {
       },
       "FAKE8": {
         "TITLE": "Amb els sostres no es pot generar energia suficient",
-        "CONTNET": "<p>Segons diferents estudis de l'IVACE, posant plaques solars en el 40% dels sostres residencials ja podriem generar energia suficient per a molt més persones que habitants tenim en el nostre territori. A més, també proposem aprofitar solars urbans i industrials i, com a últim recurs, sol agrícola i forestal sense activitat, sempre que així ho decidisca el municipi afectat.</p>"
+        "CONTENT": "<p>Segons diferents estudis de l'IVACE, posant plaques solars en el 40% dels sostres residencials ja podriem generar energia suficient per a molt més persones que habitants tenim en el nostre territori. A més, també proposem aprofitar solars urbans i industrials i, com a últim recurs, sol agrícola i forestal sense activitat, sempre que així ho decidisca el municipi afectat.</p>"
       }
     }
   },
