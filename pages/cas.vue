@@ -25,8 +25,13 @@
         </ElementsPoint>
         <ElementsPoint number="2" title="Plantas sostenibles, próximas y democráticas">
           <template #positive>
-            Si se tiene que instalar una planta solar debido a la demanda eléctrica industrial, <ElementsAnnotated id="M3">se tiene que ubicar en solares urbanos e industriales</ElementsAnnotated>, o en suelos sin valor agrícola o ambiental.
-            Todo con la participación y el control democrático de ayuntamientos y la ciudadanía de cada municipio.
+            <p>
+              Si se tiene que instalar una planta solar debido a la demanda eléctrica industrial, <ElementsAnnotated id="M3">se tiene que ubicar en solares urbanos e industriales</ElementsAnnotated>, o en suelos sin valor agrícola o ambiental.
+              Todo con la participación y el control democrático de ayuntamientos y la ciudadanía de cada municipio.
+            </p>
+            <p>
+              Con los 51,7 millones de m<sup>2</sup> disponibles en polígonos industriales y en solares urbanos sin edificar, llegaríamos a los 2590WM de potencia, el 43% del objetivo marcado por la UE para el territorio valenciano para 2030
+            </p>
           </template>
           <template #negative>
             <ElementsAnnotated id="M6" type="crossed-off" :delay=".5">Macroplantas</ElementsAnnotated> que depredan el territorio y se hacen de espaldas a los pueblos. Prioricemos plantas pequeñas y democráticas.

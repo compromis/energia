@@ -38,7 +38,6 @@ export default {
     "POSITIVE": "QUEREMOS",
     "NEGATIVE": "NO QUEREMOS"
   },
-  
   "LOCAL": {
     "TITLE": "Calcula la energía que se puede <br class='optional' /> generar en los tejados de tu municipio.",
     "PLACEHOLDER": "Escribe tu municipio...",

@@ -25,8 +25,13 @@
         </ElementsPoint>
         <ElementsPoint number="2" title="Plantes sostenibles, pròximes i democràtiques">
           <template #positive>
-            Si s'ha d'instal·lar una planta solar degut a la demanda elèctrica industrial, <ElementsAnnotated id="M3">s'ha d'ubicar en solars urbans i industrials</ElementsAnnotated>, o en sòls sense valor agricola o ambiental.
-            Tot amb la participació i el control democràtic d'ajuntaments i la ciutadania de cada municipi.
+            <p>
+              Si s'ha d'instal·lar una planta solar degut a la demanda elèctrica industrial, <ElementsAnnotated id="M3">s'ha d'ubicar en solars urbans i industrials</ElementsAnnotated>, o en sòls sense valor agricola o ambiental.
+              Tot amb la participació i el control democràtic d'ajuntaments i la ciutadania de cada municipi.
+            </p>
+            <p>
+              Amb els 51,7 milions de m<sup>2</sup> disponibles en polígons industrials i en solars urbans sense edificar, arribariem als 2590WM de potència, el 43% de l’objectiu marcat per la UE per al territori valencià per a 2030
+            </p>
           </template>
           <template #negative>
             <ElementsAnnotated id="M6" type="crossed-off" :delay=".5">Macroplantes</ElementsAnnotated> que depreden el territori i es fan d'esquenes als pobles. Prioritzem plantes xicotetes i democràtiques.
