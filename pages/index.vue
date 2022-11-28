@@ -35,7 +35,7 @@
         <ElementsPoint number="3" title="Una energètica pública">
           <template #positive>
             Posar en marxa una <ElementsAnnotated id="M4" type="box">Agència Valenciana de l'Energia</ElementsAnnotated>, per accelerar la instal·lació de plaques per a autoconsum en sostres,
-            i per a participar en la producció i distribució d'energia. Una companyia elèctria pública, controlada per la ciutadania,
+            i per a participar en la producció i distribució d'energia. Una companyia elèctrica pública, transparent, al servei de la ciutadania,
             que no especule i que abaixe el preu de la factura de la llum.
           </template>
           <template #negative>

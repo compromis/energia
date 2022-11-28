@@ -39,7 +39,7 @@
                   {{ $t('LOCAL.CONSUMPTION') }} <span class="spacer"/> <strong>{{ selectedMunicipality.DkWh }} KWh</strong>
                 </div>
                 <div class="details-overview-row">
-                  {{ $t('LOCAL.POWER') }}<sup>1</sup> <span class="spacer"/> <strong>{{ selectedMunicipality.PMWp }} MWatt</strong>
+                  {{ $t('LOCAL.POWER') }}<sup>1</sup> <span class="spacer"/> <strong>{{ selectedMunicipality.PMWp }} kWp</strong>
                 </div>
               </div>
               <div class="details-energy details-big">
@@ -51,7 +51,7 @@
                 <span class="label">{{ $t('LOCAL.PEOPLE_REACHED') }}</span>
               </div>
               <div class="details-small-text text-muted">
-                <sup>1</sup> Càlculs en base a instal·lació de plaques solars al 40% dels sostres disponibles a la localitat.
+                <sup>1</sup> Càlculs en base a instal·lació de plaques solars al 40% dels sostres disponibles a la localitat. Font: IVACE (2022) “<a href="https://www.ivace.es/index.php/es/documentos/descargas/func-startdown/6326/lang,es-es/">Aprovechamiento fotovoltaico en la Comunitat Valenciana</a>”
               </div>
             </div>
           </article>

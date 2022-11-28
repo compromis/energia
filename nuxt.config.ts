@@ -13,23 +13,23 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', sizes: '192x192', href: 'https://compromis.net/sub/icons/favicon192.png' },
         { rel: 'stylesheet', href: 'https://compromis.net/sub/fonts/manrope.css?variable' },
         { rel: 'prefetch', href: '/video/rain.mp4', as: 'document' }
-      ],
-    },
+      ]
+    }
   },
 
   vite: {
     css: {
-        preprocessorOptions: {
-            scss: {
-                additionalData: `
-                  @import "@compromis/blobby/scss/variables";
-                  @import "bootstrap/scss/functions";
-                  @import "bootstrap/scss/variables";
-                  @import "bootstrap/scss/maps";
-                  @import "bootstrap/scss/mixins";
-                `,
-            },
-        },
-    },
-},
+      preprocessorOptions: {
+        scss: {
+          additionalData: `
+            @import "@compromis/blobby/scss/variables";
+            @import "bootstrap/scss/functions";
+            @import "bootstrap/scss/variables";
+            @import "bootstrap/scss/maps";
+            @import "bootstrap/scss/mixins";
+          `
+        }
+      }
+    }
+  }
 })

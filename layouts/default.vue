@@ -1,27 +1,27 @@
 <template>
   <div>
-    <b-nav no-spacer collapse-at="lg">
+    <BNav no-spacer collapse-at="lg">
       <template #logo-append>
-        <nuxt-link to="/">Energia</nuxt-link>
+        <NuxtLink to="/">Energia</NuxtLink>
       </template>
 
       <template #basic-nav>
         <li class="nav-menu-item d-md-none">
-          <nuxt-link to="/" v-if="route.name === 'cas'">VAL</nuxt-link>
-          <nuxt-link to="/cas" v-else>CAS</nuxt-link>
+          <NuxtLink to="/" v-if="route.name === 'cas'">VAL</NuxtLink>
+          <NuxtLink to="/cas" v-else>CAS</NuxtLink>
         </li>
         <li class="nav-menu-item d-none d-md-flex">
-          <nuxt-link to="/" v-if="route.name === 'cas'">En valencià</nuxt-link>
-          <nuxt-link to="/cas" v-else>En castellano</nuxt-link>
+          <NuxtLink to="/" v-if="route.name === 'cas'">En valencià</NuxtLink>
+          <NuxtLink to="/cas" v-else>En castellano</NuxtLink>
         </li>
       </template>
-    </b-nav>
+    </BNav>
     <div id="smooth-wrapper">
       <div id="smooth-content">
-        <nuxt-page />
+        <NuxtPage />
         <div class="footer-wrapper">
           <div class="container">
-            <b-footer variant="light" />
+            <BFooter variant="light" />
           </div>
         </div>
       </div>

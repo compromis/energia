@@ -21,7 +21,7 @@ export default {
     "TITLE": "Pues ya lo estamos haciendo en...",
     "ITEM1": "Techos de institutos",
     "ITEM2": "Cementerios",
-    "ITEM3": "Embalses",
+    "ITEM3": "Canal hidràulic",
     "ITEM4": "Aparcamientos",
     "ALT1": "Placas solares en el tejado de un instituto",
     "ALT2": "Placas solares en el tejado del cementerio de València",
@@ -40,7 +40,7 @@ export default {
   },
   
   "LOCAL": {
-    "TITLE": "Calcula la energía que se puede<br>generar en los tejados de tu municipio.",
+    "TITLE": "Calcula la energía que se puede <br class='optional' /> generar en los tejados de tu municipio.",
     "PLACEHOLDER": "Escribe tu municipio...",
     "EXPAND": "Expandir lista",
     "POPULATION": "Población",
@@ -64,7 +64,7 @@ export default {
       },
       "FAKE3": {
         "TITLE": "Invertir en energía solar es demasiado caro",
-        "CONTENT": "<p>Desde 2010 los precios en la instalación y mantenimiento de placas solares se han desplomado y ya es más barata que nunca. A eso tenemos que sumarle todas las ayudas que ya da la Generalitat Valenciana y las que proponemos para hacer todavía más accesible esta energía.</p>"
+        "CONTENT": "<p>Desde 2010, los precios de la instalación y mantenimiento de placas solares se han desplomado y ahora es más barato que nunca. Además, debemos sumarle todas las ayudas que ya da la Generalitat Valenciana y las que proponemos para hacer aún más accesible esta energía.</p>"
       },
       "FAKE4": {
         "TITLE": "Las macroplantas solares son más eficientes",
@@ -72,17 +72,21 @@ export default {
       }
     },
     "COL2": {
-      "FAKE1": {
+      "FAKE5": {
         "TITLE": "Sigues dependiendo de las multinacionales energéticas",
-        "CONTENT": "<p>Una vez instaladas las placas solares, estas sólo dependen de ti o de tu comunidad energética local. De hecho, con este modelo cada Kw generado en tu tejado es un Kw que desaparece de tu factura de la luz.</p>"
+        "CONTENT": "<p>Una vez instaladas las placas solares, estas sólo dependen de ti o de tu comunidad energética local. De hecho, con este modelo cada kW generado en tu tejado es un Kw que desaparece de tu factura de la luz.</p>"
       },
-      "FAKE2": {
+      "FAKE6": {
         "TITLE": "La energía solar contamina igual que las otras",
         "CONTENT": "<p>Las emisiones de CO2 de la energía eléctrica actual son 5 veces más contaminantes que la energía solar. Sólo el carbón ya emite 20 veces más CO2 a la atmósfera que la energía solar. Por tanto, durante la vida útil de un panel solar, el ahorro en emisiones de CO2 es mucho mayor al que se consume durante su construcción.</p>"
       },
-      "FAKE3": {
+      "FAKE7": {
         "TITLE": "Afecta al ecosistema",
-        "CONTENT": "<p>Este modelo no afecta al ecosistema, ya que aprovechamos infraestructuras ya existentes sin necesidad de depredar el territorio. De hecho, en algunos casos su instalación es beneficiosa, como es el caso de los embalses de riego, evitando la evaporación del agua y refrigerando las propias placas solares.</p>"
+        "CONTENT": "<p>Este modelo distribuido protege a los ecosistemas, ya que aprovechamos cubiertas e infraestructuras existentes sin necesidad de depredar el territorio. De hecho, en algunos casos su instalación conlleva beneficios añadidos, como es el caso de las balsas y canales de riego, evitando la evaporación de agua y refrigerando las propias placas solares.</p>"
+      },
+      "FAKE8": {
+        "TITLE": "Con los tejados no se puede generar energía suficiente",
+        "CONTNET": "<p>Según diferentes estudios del IVACE, poniendo placas solares en el 40% de los tejados residenciales ya podríamos generar energía suficiente para mucho más personas que habitantes tenemos en nuestro territorio. Además, también proponemos aprovechar solares urbanos e industriales y, como último recurso, suelo agrícola y forestal sin actividad, siempre que así lo decida el municipio afectado.</p>"
       }
     }
   },
