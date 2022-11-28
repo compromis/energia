@@ -91,7 +91,13 @@ export default {
   },
 
   "INFO": {
-    "TITLE": "Más información...",
-    "TODAY": "Ayudas a las fotovoltaicas"
+    "TITLE": "Sé un sol y haz difusión",
+    "MORE": "Más información",
+    "DOC": "Documento explicativo",
+    "TODAY": "Ayudas a las fotovoltaicas",
+    "REPORTS": "Informes",
+    "BTN1": "Haz un",
+    "BTN2": "Pásalo por",
+    "BTN3": "Compártelo en"
   }
 }

@@ -92,7 +92,13 @@ export default {
   },
 
   "INFO": {
-    "TITLE": "Més informació...",
-    "TODAY": "Ajudes a les fotovoltaiques"
+    "TITLE": "Sigues un sol i fes difussió",
+    "MORE": "Més informació",
+    "DOC": "Document explicatiu",
+    "TODAY": "Ajudes a les fotovoltaiques",
+    "REPORTS": "Informes",
+    "BTN1": "Fes un",
+    "BTN2": "Passa-ho per",
+    "BTN3": "Comparteix-ho a"
   }
 }

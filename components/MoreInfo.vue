@@ -1,45 +1,45 @@
 <template>
   <ElementsSection id="more-info" class="more-info" color="blue">
     <template #title>
-      Fes difusió
+      {{ $t('INFO.TITLE') }}
     </template>
 
     <div class="share">
       <a href="https://twitter.com/intent/tweet/?text=&url=https://comencempelsostre.com&hashtags=ComencemPelSostre" class="bigass-button">
         <IconsTwitter />
         <span>
-          Fes un <strong>Tweet</strong>
+          {{ $t('INFO.BTN1') }} <strong>Tweet</strong>
         </span>
       </a>
 
       <a href="whatsapp://send?text=https://comencempelsostre.com" class="bigass-button">
         <IconsWhatsApp />
         <span>
-          Passa-ho per <strong>WhatsApp</strong>
+          {{ $t('INFO.BTN2') }} <strong>WhatsApp</strong>
         </span>
       </a>
 
       <a href="https://t.me/share/url?url=https://comencempelsostre.com&text=" class="bigass-button">
         <IconsTelegram />
         <span>
-          Passa-ho per <strong>Telegram</strong>
+          {{ $t('INFO.BTN2') }} <strong>Telegram</strong>
         </span>
       </a>
 
       <a href="https://www.facebook.com/sharer/sharer.php?u=https://comencempelsostre.com" class="bigass-button">
         <IconsFacebook />
         <span>
-          Comparteix-ho a <strong>Facebook</strong>
+          {{ $t('INFO.BTN3') }} <strong>Facebook</strong>
         </span>
       </a>
     </div>
 
-    <h3 class="separate">Més informació</h3>
+    <h3 class="separate">{{ $t('INFO.MORE') }}</h3>
     <ul class="docs">
       <li>
         <a href="/docs/Model-Energetic.pdf">
           <IconsDocument />
-          Document explicatiu
+          {{ $t('INFO.DOC') }}
         </a>
       </li>
     </ul>
