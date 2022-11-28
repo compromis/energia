@@ -17,7 +17,7 @@
             <ElementsAnnotated id="M1">Instal·lar plaques solars</ElementsAnnotated> als sostres de les cases, finques i indústries per al nostre autoconsum.
             Els nostres sostres són el millor espai per fer-ho sense afectar a cap ecosistema.
             Només posant plaques en el <ElementsAnnotated id="M2" type="circle" :delay=".5">40%</ElementsAnnotated> dels sostres, la majoria dels pobles podrien generar més llum de
-            la que consumeix la seua població actual. <a href="#local" @click.prevent="scrollToLocals">Mira ací el potencial del teu poble.</a>
+            la que consumeix la seua població actual. <a href="#local" @click.prevent="scrollToLocals" class="d-none d-md-inline">Mira ací el potencial del teu poble.</a>
           </template>
           <template #negative>
             Que es construisquen <abbr title="Línies de molta alta tensió">MATs</abbr>, <ElementsAnnotated id="M5" type="strike-through"  :delay="1">autopistes elèctriques</ElementsAnnotated> insostenibles que depreden el territori.

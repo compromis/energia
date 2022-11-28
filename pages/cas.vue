@@ -17,7 +17,7 @@
             <ElementsAnnotated id="M1">Instalar placas solares</ElementsAnnotated> en los tejados de las casas, fincas e industrias para nuestro modelo de autoconsumo.
             Nuestros tejados son el mejor espacio para hacerlo sin afectar a ningún ecosistema.
             Tan sólo poniendo placas en el <ElementsAnnotated id="M2" type="circle" :delay=".5">40%</ElementsAnnotated> de los tejados, la mayoría de los pueblos podrían generar más luz de
-            La que consume su población actual. <a href="#local" @click.prevent="scrollToLocals">Mira aquí el potencial de tu pueblo.</a>
+            La que consume su población actual. <a href="#local" @click.prevent="scrollToLocals" class="d-none d-md-inline">Mira aquí el potencial de tu pueblo.</a>
           </template>
           <template #negative>
             Que se construyan <abbr title="Líneas de muy alta tensión">MATs</abbr>, <ElementsAnnotated id="M5" type="strike-through"  :delay="1">autopistas eléctricas</ElementsAnnotated> insostenibles que depredan el territorio.

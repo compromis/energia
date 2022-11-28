@@ -25,8 +25,9 @@
 const { $gsap, $ScrollSmoother, $emitter, $t } = useNuxtApp()
 
 onMounted(() => {
+  let smoother
   if (!$ScrollSmoother.isTouch) {
-    const smoother = $ScrollSmoother.create({
+    smoother = $ScrollSmoother.create({
       smooth: 0.5,
       effects: true,
       normalizeScroll: true
