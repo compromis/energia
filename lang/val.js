@@ -56,7 +56,7 @@ export default {
     "COL1": {
       "FAKE1": {
         "TITLE": "L’energia solar només funciona en zones amb molta llum",
-        "CONTENT": "<p>El nostre territori és un dels que més potencial fotovoltaic té de tota la península ibèrica, on ja de per si és rendible i funciona a la perfecció. Quan el cel está núvol, la radiació solar que arriba als panells no és tan potent com la que arriba amb el cel despejat, però continua tenint un bon rendiment.</p>"
+        "CONTENT": "<p>El nostre territori és un dels que més potencial fotovoltaic té de tota la península ibèrica, on ja de per si és rendible i funciona a la perfecció. Quan el cel està núvol, la radiació solar que arriba als panells no és tan potent com la que arriba amb el cel clar, però continua tenint un bon rendiment.</p>"
       },
       "FAKE2": {
         "TITLE": "L’energia solar no funciona quan és de nit",
@@ -78,7 +78,7 @@ export default {
       },
       "FAKE6": {
         "TITLE": "L’energia solar contamina igual que altres",
-        "CONTENT": "<p>Les emisions de CO2 de l’energia elèctrica actual són 5 vegades més contaminants que l’energia solar. Només el carbó ja emiteix 20 vegades més CO2 a l’atmòsfera que l’energia solar. Per tant, durant la vida útil d’un panell solar, l’estalvi en emissions de CO2 és molt major al que es consumeix durant la seua construcció.</p>"
+        "CONTENT": "<p>Les emisions de CO2 de l’energia elèctrica actual són 5 vegades més contaminants que l’energia solar. Només el carbó ja emiteix 20 vegades més CO2 a l’atmosfera que l’energia solar. Per tant, durant la vida útil d’un panell solar, l’estalvi en emissions de CO2 és molt major al que es consumeix durant la seua construcció.</p>"
       },
       "FAKE7": {
         "TITLE": "Afecta a l’ecosistema",
@@ -86,7 +86,7 @@ export default {
       },
       "FAKE8": {
         "TITLE": "Amb els sostres no es pot generar energia suficient",
-        "CONTENT": "<p>Segons diferents estudis de l'IVACE, posant plaques solars en el 40% dels sostres residencials ja podriem generar energia suficient per a molt més persones que habitants tenim en el nostre territori. A més, també proposem aprofitar solars urbans i industrials i, com a últim recurs, sol agrícola i forestal sense activitat, sempre que així ho decidisca el municipi afectat.</p>"
+        "CONTENT": "<p>Segons diferents estudis de l'IVACE, posant plaques solars en el 40% dels sostres residencials ja podríem generar energia suficient per a molt més persones que habitants tenim en el nostre territori. A més, també proposem aprofitar solars urbans i industrials i, com a últim recurs, sol agrícola i forestal sense activitat, sempre que així ho decidisca el municipi afectat.</p>"
       }
     }
   },

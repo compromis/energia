@@ -20,17 +20,17 @@
             la que consumeix la seua població actual. <a href="#local" @click.prevent="scrollToLocals">Mira ací el potencial del teu poble.</a>
           </template>
           <template #negative>
-            Que es construisquen <abbr title="Línies de molta alta tensió">MATs</abbr>, <ElementsAnnotated id="M5" type="strike-through"  :delay="1">autopistes electriques</ElementsAnnotated> insostenibles que depreden el territori.
+            Que es construisquen <abbr title="Línies de molta alta tensió">MATs</abbr>, <ElementsAnnotated id="M5" type="strike-through"  :delay="1">autopistes elèctriques</ElementsAnnotated> insostenibles que depreden el territori.
           </template>
         </ElementsPoint>
         <ElementsPoint number="2" title="Plantes sostenibles, pròximes i democràtiques">
           <template #positive>
             <p>
-              Si s'ha d'instal·lar una planta solar degut a la demanda elèctrica industrial, <ElementsAnnotated id="M3">s'ha d'ubicar en solars urbans i industrials</ElementsAnnotated>, o en sòls sense valor agricola o ambiental.
+              Si s'ha d'instal·lar una planta solar degut a la demanda elèctrica industrial, <ElementsAnnotated id="M3">s'ha d'ubicar en solars urbans i industrials</ElementsAnnotated>, o en sòls sense valor agrícola o ambiental.
               Tot amb la participació i el control democràtic d'ajuntaments i la ciutadania de cada municipi.
             </p>
             <p>
-              Amb els 51,7 milions de m<sup>2</sup> disponibles en polígons industrials i en solars urbans sense edificar, arribariem als 2590WM de potència, el 43% de l’objectiu marcat per la UE per al territori valencià per a 2030
+              Amb els 51,7 milions de m<sup>2</sup> disponibles en polígons industrials i en solars urbans sense edificar, arribaríem als 2590WM de potència, el 43% de l’objectiu marcat per la UE per al territori valencià per a 2030
             </p>
           </template>
           <template #negative>
@@ -45,6 +45,14 @@
           </template>
           <template #negative>
             Un model energètic on les <ElementsAnnotated id="M7" type="strike-through" :delay=".5">multinacionals elèctriques</ElementsAnnotated> especulen amb el preu de la llum.
+          </template>
+        </ElementsPoint>
+        <ElementsPoint number="4" title="Energia que fa poble">
+          <template #positive>
+            Impulsar encara més les comunitats energètiques locals, perquè la gent, l’ajuntament i les empreses del poble compartisquen l’energia que produeixen, participant activament en totes les decisions de producció i consum, generant lligams i sentit de poble
+          </template>
+          <template #negative>
+            Ser consumidors passius, subjectes als capritxos de les multinacionals elèctriques per engruixar les seues butxaques
           </template>
         </ElementsPoint>
       </NewModel>

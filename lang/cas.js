@@ -21,7 +21,7 @@ export default {
     "TITLE": "Pues ya lo estamos haciendo en...",
     "ITEM1": "Techos de institutos",
     "ITEM2": "Cementerios",
-    "ITEM3": "Canal hidràulic",
+    "ITEM3": "Canal hidráulico",
     "ITEM4": "Aparcamientos",
     "ALT1": "Placas solares en el tejado de un instituto",
     "ALT2": "Placas solares en el tejado del cementerio de València",
@@ -54,7 +54,7 @@ export default {
     "TITLE": "Vamos a poner luz sobre algunas cositas <br class='optional' /> que se dicen por ahí...",
     "COL1": {
       "FAKE1": {
-        "TITLE": "La energía solar sólo funciona en zonas con mucha luz",
+        "TITLE": "La energía solar solo funciona en zonas con mucha luz",
         "CONTENT": "<p>Nuestro territorio es uno de los que más potencial fotovoltaico tiene de toda la península ibérica, donde ya de por sí es rentable y funciona a la perfección. Cuando está nublado, la radiación solar que llega a los paneles no es tan potente como la que llega con el cielo despejado, pero continúa teniendo un buen rendimiento.</p>"
       },
       "FAKE2": {
@@ -73,7 +73,7 @@ export default {
     "COL2": {
       "FAKE5": {
         "TITLE": "Sigues dependiendo de las multinacionales energéticas",
-        "CONTENT": "<p>Una vez instaladas las placas solares, estas sólo dependen de ti o de tu comunidad energética local. De hecho, con este modelo cada kW generado en tu tejado es un Kw que desaparece de tu factura de la luz.</p>"
+        "CONTENT": "<p>Una vez instaladas las placas solares, estas sólo dependen de ti o de tu comunidad energética local. De hecho, con este modelo, cada kW generado en tu tejado es un Kw que desaparece de tu factura de la luz.</p>"
       },
       "FAKE6": {
         "TITLE": "La energía solar contamina igual que las otras",
@@ -81,7 +81,7 @@ export default {
       },
       "FAKE7": {
         "TITLE": "Afecta al ecosistema",
-        "CONTENT": "<p>Este modelo distribuido protege a los ecosistemas, ya que aprovechamos cubiertas e infraestructuras existentes sin necesidad de depredar el territorio. De hecho, en algunos casos su instalación conlleva beneficios añadidos, como es el caso de las balsas y canales de riego, evitando la evaporación de agua y refrigerando las propias placas solares.</p>"
+        "CONTENT": "<p>Este modelo distribuido protege a los ecosistemas, ya que aprovechamos cubiertas e infraestructuras existentes sin necesidad de depredar el territorio. De hecho, en algunos casos, su instalación conlleva beneficios añadidos, como es el caso de las balsas y canales de riego, evitando la evaporación de agua y refrigerando las propias placas solares.</p>"
       },
       "FAKE8": {
         "TITLE": "Con los tejados no se puede generar energía suficiente",

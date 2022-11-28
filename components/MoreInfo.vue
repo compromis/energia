@@ -99,6 +99,9 @@ const todayDocs = [
 
   a {
     color: var(--black);
+    display: flex;
+    align-items: center;
+    gap: .25rem;
   }
 
   svg {
