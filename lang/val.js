@@ -1,7 +1,7 @@
 export default {
   "SUNNY": {
     "OVERTITLE": "Amb l'energia",
-    "TITLE": "Comencem<br>pel sostre",
+    "TITLE": "Comencem<br>per la teulada",
     "MARQUEE": "Un nou model energètic"
   },
   

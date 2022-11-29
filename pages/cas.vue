@@ -68,14 +68,14 @@ useHead({
     { hid: 'og:locale', property: 'og:locale', content: 'ca' },
     { hid: 'og:type', property: 'og:type', content: 'website' },
     { hid: 'og:description', property: 'og:description', content: 'Imagina una energía sostenible y democrática, barata y aprovechando espacios y recursos ya existentes sin destruir el territorio' },
-    { hid: 'og:image', property: 'og:image', content: '/images/ogimage.png' },
-    { hid: 'og:url', property: 'og:url', content: 'https://comencempelsostre.com' },
+    { hid: 'og:image', property: 'og:image', content: 'https://comencemperlateulada.com/images/ogimage.png' },
+    { hid: 'og:url', property: 'og:url', content: 'https://comencemperlateulada.com/cas' },
     { hid: 'twitter:site', property: 'twitter:site', content: '@compromis' },
     { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
     { hid: 'twitter:title', property: 'twitter:title', content: 'Con la energía, comencemos por el tejado - Compromís' },
     { hid: 'twitter:description', property: 'twitter:description', content: 'Imagina una energía sostenible y democrática, barata y aprovechando espacios y recursos existentes sin destruir el territorio' },
-    { hid: 'twitter:image', property: 'twitter:image', content: '/images/ogimage.png' },
-    { hid: 'twitter:url', property: 'twitter:url', content: 'https://comencempelsostre.com' }
+    { hid: 'twitter:image', property: 'twitter:image', content: 'https://comencemperlateulada.com/images/ogimage.png' },
+    { hid: 'twitter:url', property: 'twitter:url', content: 'https://comencemperlateulada.com/cas' }
   ]
 })
 

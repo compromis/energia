@@ -5,28 +5,28 @@
     </template>
 
     <div class="share">
-      <a href="https://twitter.com/intent/tweet/?text=&url=https://comencempelsostre.com&hashtags=ComencemPelSostre" class="bigass-button">
+      <a href="https://twitter.com/intent/tweet/?text=&url=https://comencemperlateulada.com&hashtags=ComencemPerLaTeulada" class="bigass-button">
         <IconsTwitter />
         <span>
           {{ $t('INFO.BTN1') }} <strong>Tweet</strong>
         </span>
       </a>
 
-      <a href="whatsapp://send?text=https://comencempelsostre.com" class="bigass-button">
+      <a href="whatsapp://send?text=https://comencemperlateulada.com" class="bigass-button">
         <IconsWhatsApp />
         <span>
           {{ $t('INFO.BTN2') }} <strong>WhatsApp</strong>
         </span>
       </a>
 
-      <a href="https://t.me/share/url?url=https://comencempelsostre.com&text=" class="bigass-button">
+      <a href="https://t.me/share/url?url=https://comencemperlateulada.com&text=" class="bigass-button">
         <IconsTelegram />
         <span>
           {{ $t('INFO.BTN2') }} <strong>Telegram</strong>
         </span>
       </a>
 
-      <a href="https://www.facebook.com/sharer/sharer.php?u=https://comencempelsostre.com" class="bigass-button">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://comencemperlateulada.com" class="bigass-button">
         <IconsFacebook />
         <span>
           {{ $t('INFO.BTN3') }} <strong>Facebook</strong>
