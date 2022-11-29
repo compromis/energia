@@ -6,27 +6,27 @@
       <RainOnParade />
       <BeenDoing>
         <ElementsPoint title="Qué estamos haciendo" class="pb-0">
-          <p>Estamos <ElementsAnnotated id="BD1" type="highlight">instalando placas solares</ElementsAnnotated> en centros educativos, edificios públicos y cementerios, aprovechando los tejados para generar energía que baje la factura de la luz del vecindario.</p>
-          <p>Estamos impulsando las <ElementsAnnotated id="BD3" type="highlight" :delay=".5">comunidades energéticas locales</ElementsAnnotated>, porque la instalación de fotovoltaicas en tejados y en los pueblos sea democrática y con una participación de la ciudadanía.</p>
-          <p>Estamos proponiendo medidas para que la <ElementsAnnotated id="BD4" type="highlight" :delay="1">transición energética</ElementsAnnotated> sea respetuosa con el medio ambiente y priorice los intereses de las personas frente a los de las multinacionales.</p>
+          <p>Estamos <ElementsAnnotated type="highlight">instalando placas solares</ElementsAnnotated> en centros educativos, edificios públicos y cementerios, aprovechando los tejados para generar energía que baje la factura de la luz del vecindario.</p>
+          <p>Estamos impulsando las <ElementsAnnotated type="highlight" :delay=".5">comunidades energéticas locales</ElementsAnnotated>, porque la instalación de fotovoltaicas en tejados y en los pueblos sea democrática y con una participación de la ciudadanía.</p>
+          <p>Estamos proponiendo medidas para que la <ElementsAnnotated type="highlight" :delay="1">transición energética</ElementsAnnotated> sea respetuosa con el medio ambiente y priorice los intereses de las personas frente a los de las multinacionales.</p>
         </ElementsPoint>
       </BeenDoing>
       <NewModel>
         <ElementsPoint number="1" title="Comencemos por el tejado">
           <template #positive>
-            <ElementsAnnotated id="M1">Instalar placas solares</ElementsAnnotated> en los tejados de las casas, fincas e industrias para nuestro modelo de autoconsumo.
+            <ElementsAnnotated>Instalar placas solares</ElementsAnnotated> en los tejados de las casas, fincas e industrias para nuestro modelo de autoconsumo.
             Nuestros tejados son el mejor espacio para hacerlo sin afectar a ningún ecosistema.
-            Tan sólo poniendo placas en el <ElementsAnnotated id="M2" type="circle" :delay=".5">40%</ElementsAnnotated> de los tejados, la mayoría de los pueblos podrían generar más luz de
+            Tan sólo poniendo placas en el <ElementsAnnotated type="circle" :delay=".5">40%</ElementsAnnotated> de los tejados, la mayoría de los pueblos podrían generar más luz de
             La que consume su población actual. <a href="#local" @click.prevent="scrollToLocals" class="d-none d-md-inline">Mira aquí el potencial de tu pueblo.</a>
           </template>
           <template #negative>
-            Que se construyan <abbr title="Líneas de muy alta tensión">MATs</abbr>, <ElementsAnnotated id="M5" type="strike-through"  :delay="1">autopistas eléctricas</ElementsAnnotated> insostenibles que depredan el territorio.
+            Que se construyan <abbr title="Líneas de muy alta tensión">MATs</abbr>, <ElementsAnnotated type="strike-through"  :delay="1">autopistas eléctricas</ElementsAnnotated> insostenibles que depredan el territorio.
           </template>
         </ElementsPoint>
         <ElementsPoint number="2" title="Plantas sostenibles, próximas y democráticas">
           <template #positive>
             <p>
-              Si se tiene que instalar una planta solar debido a la demanda eléctrica industrial, <ElementsAnnotated id="M3">se tiene que ubicar en solares urbanos e industriales</ElementsAnnotated>, o en suelos sin valor agrícola o ambiental.
+              Si se tiene que instalar una planta solar debido a la demanda eléctrica industrial, <ElementsAnnotated>se tiene que ubicar en solares urbanos e industriales</ElementsAnnotated>, o en suelos sin valor agrícola o ambiental.
               Todo con la participación y el control democrático de ayuntamientos y la ciudadanía de cada municipio.
             </p>
             <p>
@@ -34,17 +34,17 @@
             </p>
           </template>
           <template #negative>
-            <ElementsAnnotated id="M6" type="crossed-off" :delay=".5">Macroplantas</ElementsAnnotated> que depredan el territorio y se hacen de espaldas a los pueblos. Prioricemos plantas pequeñas y democráticas.
+            <ElementsAnnotated type="crossed-off" :delay=".5">Macroplantas</ElementsAnnotated> que depredan el territorio y se hacen de espaldas a los pueblos. Prioricemos plantas pequeñas y democráticas.
           </template>
         </ElementsPoint>
         <ElementsPoint number="3" title="Una energética pública">
           <template #positive>
-            Poner en marcha una <ElementsAnnotated id="M4" type="box">Agencia Valenciana de la Energía</ElementsAnnotated>, para acelerar la instalación de placas solares para autoconsumo en tejados,
+            Poner en marcha una <ElementsAnnotated type="box">Agencia Valenciana de la Energía</ElementsAnnotated>, para acelerar la instalación de placas solares para autoconsumo en tejados,
             Y para participar en la producción y distribución de energía. Una compañía eléctrica pública, controlada por la ciudadanía,
             que no especule y que baje el precio de la factura de la luz.
           </template>
           <template #negative>
-            Un modelo energético donde las <ElementsAnnotated id="M7" type="strike-through" :delay=".5">multinacionales eléctricas</ElementsAnnotated> especulen con el precio de la luz.
+            Un modelo energético donde las <ElementsAnnotated type="strike-through" :delay=".5">multinacionales eléctricas</ElementsAnnotated> especulen con el precio de la luz.
           </template>
         </ElementsPoint>
       </NewModel>
