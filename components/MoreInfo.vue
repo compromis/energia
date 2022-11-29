@@ -107,6 +107,7 @@ const todayDocs = [
   svg {
     height: 1em;
     width: 1em;
+    flex-shrink: 0;
   }
 }
 

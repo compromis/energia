@@ -4590,7 +4590,7 @@ export default [
     "percentage": "1042%"
   },
   {
-    "municipality": "Vila-Real / Villarreal",
+    "municipality": "Vila-Real",
     "population": "51.293",
     "DkWh": "1.892,28",
     "EGWh": "385,40",
