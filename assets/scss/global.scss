@@ -2,6 +2,10 @@
 @import 'fonts';
 @import 'transitions';
 
+:root {
+  color-scheme: only light;
+}
+
 main {
   color: var(--black);
   background: var(--black);

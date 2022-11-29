@@ -88,7 +88,7 @@ watch(selectedMunicipality, async (newMunicipality) => {
 
     setTimeout(() => {
       const e = document.querySelector('#annotatedEnergy')
-      const annotation = annotate(e, { type: 'circle', strokeWidth: 4 })
+      const annotation = annotate(e, { type: 'circle', strokeWidth: 4, padding: 10 })
       annotation.show()
     }, 500)
   }
