@@ -68,13 +68,13 @@ useHead({
     { hid: 'og:locale', property: 'og:locale', content: 'ca' },
     { hid: 'og:type', property: 'og:type', content: 'website' },
     { hid: 'og:description', property: 'og:description', content: 'Imagina’t una energia sostenible i democràtica, barata i aprofitant espais i recursos existents sense destruir el territori' },
-    { hid: 'og:image', property: 'og:image', content: '/images/ogimage.png' },
+    { hid: 'og:image', property: 'og:image', content: 'https://comencempelsostre.com/images/ogimage.png' },
     { hid: 'og:url', property: 'og:url', content: 'https://comencempelsostre.com' },
     { hid: 'twitter:site', property: 'twitter:site', content: '@compromis' },
     { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
     { hid: 'twitter:title', property: 'twitter:title', content: 'Amb l\'energia, comencem pel sostre - Compromís' },
     { hid: 'twitter:description', property: 'twitter:description', content: 'Imagina’t una energia sostenible i democràtica, barata i aprofitant espais i recursos existents sense destruir el territori' },
-    { hid: 'twitter:image', property: 'twitter:image', content: '/images/ogimage.png' },
+    { hid: 'twitter:image', property: 'twitter:image', content: 'https://comencempelsostre.com/images/ogimage.png' },
     { hid: 'twitter:url', property: 'twitter:url', content: 'https://comencempelsostre.com' }
   ]
 })
