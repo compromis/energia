@@ -29,7 +29,7 @@ onMounted(() => {
   $gsap.to(annotated.value, {
     scrollTrigger: {
       trigger: annotated.value,
-      start: 'top 80%',
+      start: 'top 70%',
       end: '+=200',
       onToggle: () => {
         if (!hasAnimated.value) {
