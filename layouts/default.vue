@@ -35,6 +35,18 @@ import BNavItem from '@compromis/blobby/components/nav/BNavItem.vue'
 import BFooter from '@compromis/blobby/components/footer/BFooter.vue'
 
 const route = useRoute()
+const router = useRouter()
+const { $ScrollTrigger } = useNuxtApp()
+router.afterEach(() => {
+  $ScrollTrigger.getAll().forEach(t => t.kill())
+})
+
+onMounted(() => {
+  const originalTitle = document.title;
+  document.addEventListener('visibilitychange', () => {
+    document.title = document.hidden ? 'Energia' : originalTitle
+  })
+})
 </script>
 
 <style lang="scss" scoped>

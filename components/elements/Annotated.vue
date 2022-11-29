@@ -8,6 +8,7 @@ import { annotate } from 'rough-notation'
 const { $gsap } = useNuxtApp()
 const hasAnimated = ref(false)
 const annotated = ref(null)
+const animation = ref(null)
 
 const props = defineProps({
   type: {
@@ -34,12 +35,16 @@ onMounted(() => {
         if (!hasAnimated.value) {
           const color = props.color === 'blue' ? '#cee8ef' : props.type === 'highlight' ? '#f3b955' : '#f4520b'
           const highlighted = ['highlight', 'crossed-off', 'strike-through'].includes(props.type) ? { color } : {}
-          const animation = annotate(annotated.value, { type: props.type, strokeWidth: 4, multiline: true, ...highlighted })
-          setTimeout(() => { animation.show() }, props.delay * 1000)
+          animation.value = annotate(annotated.value, { type: props.type, strokeWidth: 4, multiline: true, ...highlighted })
+          setTimeout(() => { animation.value.show() }, props.delay * 1000)
         }
         hasAnimated.value = true
       }
     }
   })
+})
+
+onBeforeUnmount(() => {
+  animation.value && animation.value.remove()
 })
 </script>
