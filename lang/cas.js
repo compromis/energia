@@ -19,7 +19,7 @@ export default {
   
   "DOING": {
     "TITLE": "Pues ya lo estamos haciendo en...",
-    "ITEM1": "Techos de institutos",
+    "ITEM1": "Tejados de institutos",
     "ITEM2": "Cementerios",
     "ITEM3": "Canal hidráulico",
     "ITEM4": "Aparcamientos",

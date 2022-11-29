@@ -6,17 +6,17 @@
       <RainOnParade />
       <BeenDoing>
         <ElementsPoint title="Què estem fent" class="pb-0">
-          <p>Estem <ElementsAnnotated type="highlight">instal·lant plaques solars</ElementsAnnotated> en centres educatius, edificis públics i cementeris, aprofitant els sostres per a generar energia que baixe la factura de la llum del veïnat.</p>
-          <p>Estem impulsant les <ElementsAnnotated type="highlight" :delay=".5">comunitats energètiques locals</ElementsAnnotated>, perquè la instal·lació de fotovoltàica en sostres i en els pobles siga democràtica i amb una participació de la ciutadania.</p>
+          <p>Estem <ElementsAnnotated type="highlight">instal·lant plaques solars</ElementsAnnotated> en centres educatius, edificis públics i cementeris, aprofitant les teulades per a generar energia que baixe la factura de la llum del veïnat.</p>
+          <p>Estem impulsant les <ElementsAnnotated type="highlight" :delay=".5">comunitats energètiques locals</ElementsAnnotated>, perquè la instal·lació de fotovoltàica en teulades i en els pobles siga democràtica i amb una participació de la ciutadania.</p>
           <p>Estem proposant mesures perquè la <ElementsAnnotated type="highlight" :delay="1">transició energètica</ElementsAnnotated> siga respectuosa amb el mediambient i prioritze els interessos de les persones front als de les multinacionals.</p>
         </ElementsPoint>
       </BeenDoing>
       <NewModel>
-        <ElementsPoint number="1" title="Comencem pel sostre">
+        <ElementsPoint number="1" title="Comencem per la teulada">
           <template #positive>
-            <ElementsAnnotated>Instal·lar plaques solars</ElementsAnnotated> als sostres de les cases, finques i indústries per al nostre autoconsum.
-            Els nostres sostres són el millor espai per fer-ho sense afectar a cap ecosistema.
-            Només posant plaques en el <ElementsAnnotated type="circle" :delay=".5">40%</ElementsAnnotated> dels sostres, la majoria dels pobles podrien generar més llum de
+            <ElementsAnnotated>Instal·lar plaques solars</ElementsAnnotated> a les teulades de les cases, finques i indústries per al nostre autoconsum.
+            Les nostres teulades són el millor espai per fer-ho sense afectar a cap ecosistema.
+            Només posant plaques en el <ElementsAnnotated type="circle" :delay=".5">40%</ElementsAnnotated> de les teulades, la majoria dels pobles podrien generar més llum de
             la que consumeix la seua població actual. <a href="#local" @click.prevent="scrollToLocals" class="d-none d-md-inline">Mira ací el potencial del teu poble.</a>
           </template>
           <template #negative>
@@ -39,7 +39,7 @@
         </ElementsPoint>
         <ElementsPoint number="3" title="Una energètica pública">
           <template #positive>
-            Posar en marxa una <ElementsAnnotated type="box">Agència Valenciana de l'Energia</ElementsAnnotated>, per accelerar la instal·lació de plaques per a autoconsum en sostres,
+            Posar en marxa una <ElementsAnnotated type="box">Agència Valenciana de l'Energia</ElementsAnnotated>, per accelerar la instal·lació de plaques per a autoconsum en teulades,
             i per a participar en la producció i distribució d'energia. Una companyia elèctrica pública, transparent, al servei de la ciutadania,
             que no especule i que abaixe el preu de la factura de la llum.
           </template>

@@ -51,7 +51,7 @@
                 <span class="label">{{ $t('LOCAL.PEOPLE_REACHED') }}</span>
               </div>
               <div class="details-small-text text-muted">
-                <sup>1</sup> Càlculs en base a instal·lació de plaques solars al 40% dels sostres disponibles a la localitat. Font: IVACE (2022) “<a href="https://www.ivace.es/index.php/es/documentos/descargas/func-startdown/6326/lang,es-es/">Aprovechamiento fotovoltaico en la Comunitat Valenciana</a>”
+                <sup>1</sup> Càlculs en base a instal·lació de plaques solars al 40% de les teulades disponibles a la localitat. Font: IVACE (2022) “<a href="https://www.ivace.es/index.php/es/documentos/descargas/func-startdown/6326/lang,es-es/">Aprovechamiento fotovoltaico en la Comunitat Valenciana</a>”
               </div>
             </div>
           </article>

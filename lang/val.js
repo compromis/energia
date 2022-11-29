@@ -19,16 +19,16 @@ export default {
   
   "DOING": {
     "TITLE": "Doncs ja ho estem fent a...",
-    "ITEM1": "Sostres d'instituts",
+    "ITEM1": "Teulats d'instituts",
     "ITEM2": "Cementeris",
     "ITEM3": "Canals de reg",
     "ITEM4": "Aparcaments",
-    "ALT1": "Plaques solars al sostre d'un institut",
-    "ALT2": "Plaques solars al sostre del cementeri de València",
-    "ALT3": "Plaques solars al sostre de les places d'un aparcament a l'aire lliure",
+    "ALT1": "Plaques solars al teulat d'un institut",
+    "ALT2": "Plaques solars als teulats del cementeri de València",
+    "ALT3": "Plaques solars als teulats de les places d'un aparcament a l'aire lliure",
     "ALT4": "Plaques solars damunt d'un canal d'aigua",
-    "ALT5": "Plaques solars al sostre d'un edifici de Paiporta",
-    "ALT6": "Més plaques solars al sostre d'un institut",
+    "ALT5": "Plaques solars al teulat d'un edifici de Paiporta",
+    "ALT6": "Més plaques solars al teulat d'un institut",
     "ALT7": "Plaques solars damunt d'un embasament"
   },
   
@@ -40,7 +40,7 @@ export default {
   },
   
   "LOCAL": {
-    "TITLE": "Calcula l’energia que es pot <br class='optional'> generar als sostres del teu municipi.",
+    "TITLE": "Calcula l’energia que es pot <br class='optional'> generar a les teulades del teu municipi.",
     "PLACEHOLDER": "Escriu el teu municipi...",
     "EXPAND": "Expandir llista",
     "POPULATION": "Població",
@@ -74,7 +74,7 @@ export default {
     "COL2": {
       "FAKE5": {
         "TITLE": "Segueixes depenent de les multinacionals energètiques",
-        "CONTENT": "<p>Una vegada instal·les les plaques solars, aquestes només depenen de tu o de la teua comunitat energètica local. De fet, amb aquest model cada kW generat al teu sostre és un Kw que desapareix de la teua factura de la llum.</p>"
+        "CONTENT": "<p>Una vegada instal·les les plaques solars, aquestes només depenen de tu o de la teua comunitat energètica local. De fet, amb aquest model cada kW generat a la teua teulada és un Kw que desapareix de la teua factura de la llum.</p>"
       },
       "FAKE6": {
         "TITLE": "L’energia solar contamina igual que altres",
@@ -85,8 +85,8 @@ export default {
         "CONTENT": "<p>Aquest model distribuït protegeix els ecosistemes, ja que aprofitem cobertes i infraestructures existents sense necessitat de depredar el territori. De fet, en alguns casos la seua instal·lació comporta beneficis afegits, com és el cas de les basses i canals de reg, evitant l’evaporació d’aigua i refrigerant les pròpies plaques solars.</p>"
       },
       "FAKE8": {
-        "TITLE": "Amb els sostres no es pot generar energia suficient",
-        "CONTENT": "<p>Segons diferents estudis de l'IVACE, posant plaques solars en el 40% dels sostres residencials ja podríem generar energia suficient per a molt més persones que habitants tenim en el nostre territori. A més, també proposem aprofitar solars urbans i industrials i, com a últim recurs, sol agrícola i forestal sense activitat, sempre que així ho decidisca el municipi afectat.</p>"
+        "TITLE": "Amb les teulades no es pot generar energia suficient",
+        "CONTENT": "<p>Segons diferents estudis de l'IVACE, posant plaques solars en el 40% de les teulades residencials ja podríem generar energia suficient per a molt més persones que habitants tenim en el nostre territori. A més, també proposem aprofitar solars urbans i industrials i, com a últim recurs, sol agrícola i forestal sense activitat, sempre que així ho decidisca el municipi afectat.</p>"
       }
     }
   },
